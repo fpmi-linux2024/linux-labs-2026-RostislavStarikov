@@ -1,0 +1,18 @@
+Script started on 2026-02-23 19:40:35+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="230" LINES="55"]
+]666;vte.shell.postexec=0\]7;file://user/home/user/lab1\]0;user@user:~/lab1\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/lab1[01;32muser@user[00m:[01;34m~/lab1[00m$ gcc OS.c ..[K[K[K -o OS
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/lab1\]0;user@user:~/lab1\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/lab1[01;32muser@user[00m:[01;34m~/lab1[00m$ OS
+[?2004l]133;C\]666;vte.shell.preexec!\OS: команда не найдена
+]666;vte.shell.postexec=127\]7;file://user/home/user/lab1\]0;user@user:~/lab1\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/lab1[01;32muser@user[00m:[01;34m~/lab1[00m$ ./[K[K./OS 
+[?2004l]133;C\]666;vte.shell.preexec!\Operating System: Linux
+Kernel: Linux 6.17.0-14-generic
+Kernel version: #14-Ubuntu SMP PREEMPT_DYNAMIC Fri Jan  9 17:01:16 UTC 2026
+Architecture: x86_64
+Hostname: user
+Distribution: Ubuntu 25.10
+Processor: AMD Ryzen 5 7640HS w/ Radeon 760M Graphics
+CPU cores: 6
+RAM: 7.25 GB
+]666;vte.shell.postexec=0\]7;file://user/home/user/lab1\]0;user@user:~/lab1\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/lab1[01;32muser@user[00m:[01;34m~/lab1[00m$ exit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+
+Script done on 2026-02-23 19:41:01+03:00 [COMMAND_EXIT_CODE="0"]
