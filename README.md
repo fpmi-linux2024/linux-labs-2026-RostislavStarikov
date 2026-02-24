@@ -4,7 +4,7 @@
 
 ## Лабораторная работа 1
 Результаты выполнения лабораторной работы 1 находятся в каталоге [lab1](lab1/)  
-Отчёт по выполненной работе: [Ссылка на отчёт](главное_не_забыть)
+Отчёт по выполненной работе: [Ссылка на отчёт](https://disk.yandex.by/i/tMUP7dqMbq8akg)
 ### Связанные репозитории
 - [lab1-intro](https://github.com/RostislavStarikov/lab1-intro) - введение в лабораторные работы
 - [lab1-markdown-syntax](https://github.com/RostislavStarikov/lab1-markdown-syntax) - синтаксис Markdown
