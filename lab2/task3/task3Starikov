@@ -1,0 +1,213 @@
+Script started on 2026-03-14 12:43:49+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="114" LINES="55"]
+Good Day, user!
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab2/task3\]0;user@user:~/linux-labs/lab2/task3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab2/task3[01;32muser@user[00m:[01;34m~/linux-labs/lab2/task3[00m$ last revoot | head -1
+[?2004l]133;C\]666;vte.shell.preexec!\
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab2/task3\]0;user@user:~/linux-labs/lab2/task3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab2/task3[01;32muser@user[00m:[01;34m~/linux-labs/lab2/task3[00m$ last revoot | head -1[1P[1@b
+[?2004l]133;C\]666;vte.shell.preexec!\reboot   system boot  6.17.0-14-generi Sat Mar 14 11:43 - still running
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab2/task3\]0;user@user:~/linux-labs/lab2/task3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab2/task3[01;32muser@user[00m:[01;34m~/linux-labs/lab2/task3[00m$ last -s ""2" "w"e"e"k"s" "a"g"o"
+[?2004l]133;C\]666;vte.shell.preexec!\Invalid time value '2 weeks ago'
+]666;vte.shell.postexec=1\]7;file://user/home/user/linux-labs/lab2/task3\]0;user@user:~/linux-labs/lab2/task3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab2/task3[01;32muser@user[00m:[01;34m~/linux-labs/lab2/task3[00m$ last -s "2 weeks ago"[K[K[K[K[K[K[K[K[K[K[K[K[K2026-02-28
+[?2004l]133;C\]666;vte.shell.preexec!\user     tty2                          Sat Mar 14 11:43 - still logged in
+reboot   system boot  6.17.0-14-generi Sat Mar 14 11:43 - still running
+gdm-gree tty1                          Wed Mar 11 17:02 - crash 
+user     tty2                          Wed Mar 11 14:01 - 17:02  (03:01)
+reboot   system boot  6.17.0-14-generi Wed Mar 11 14:00 - 17:02  (03:01)
+gdm-gree tty1                          Sun Mar  8 01:15 - crash 
+user     tty2         tty2             Sun Mar  8 00:26 - crash 
+user     seat0        login screen     Sun Mar  8 00:26 - crash 
+user     tty2         tty2             Sat Mar  7 20:37 - crash 
+user     seat0        login screen     Sat Mar  7 20:37 - crash 
+user     tty2         tty2             Sat Mar  7 14:05 - crash 
+user     seat0        login screen     Sat Mar  7 14:05 - crash 
+user     tty2         tty2             Wed Mar  4 13:28 - crash 
+user     seat0        login screen     Wed Mar  4 13:28 - crash 
+user     tty2         tty2             Wed Mar  4 12:54 - crash 
+user     seat0        login screen     Wed Mar  4 12:54 - crash 
+user     tty2         tty2             Mon Mar  2 19:19 - crash 
+user     seat0        login screen     Mon Mar  2 19:19 - crash 
+
+wtmpdb begins Thu Feb 19 18:30:23 2026
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab2/task3\]0;user@user:~/linux-labs/lab2/task3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab2/task3[01;32muser@user[00m:[01;34m~/linux-labs/lab2/task3[00m$ last
+[?2004l]133;C\]666;vte.shell.preexec!\user     tty2                          Sat Mar 14 11:43 - still logged in
+reboot   system boot  6.17.0-14-generi Sat Mar 14 11:43 - still running
+gdm-gree tty1                          Wed Mar 11 17:02 - crash 
+user     tty2                          Wed Mar 11 14:01 - 17:02  (03:01)
+reboot   system boot  6.17.0-14-generi Wed Mar 11 14:00 - 17:02  (03:01)
+gdm-gree tty1                          Sun Mar  8 01:15 - crash 
+user     tty2         tty2             Sun Mar  8 00:26 - crash 
+user     seat0        login screen     Sun Mar  8 00:26 - crash 
+user     tty2         tty2             Sat Mar  7 20:37 - crash 
+user     seat0        login screen     Sat Mar  7 20:37 - crash 
+user     tty2         tty2             Sat Mar  7 14:05 - crash 
+user     seat0        login screen     Sat Mar  7 14:05 - crash 
+user     tty2         tty2             Wed Mar  4 13:28 - crash 
+user     seat0        login screen     Wed Mar  4 13:28 - crash 
+user     tty2         tty2             Wed Mar  4 12:54 - crash 
+user     seat0        login screen     Wed Mar  4 12:54 - crash 
+user     tty2         tty2             Mon Mar  2 19:19 - crash 
+user     seat0        login screen     Mon Mar  2 19:19 - crash 
+user     tty2         tty2             Wed Feb 25 16:22 - 17:18  (00:56)
+user     seat0        login screen     Wed Feb 25 16:22 - crash 
+user     tty2         tty2             Tue Feb 24 21:13 - crash 
+user     seat0        login screen     Tue Feb 24 21:13 - crash 
+user     tty2         tty2             Tue Feb 24 08:54 - crash 
+user     seat0        login screen     Tue Feb 24 08:54 - crash 
+user     tty2         tty2             Mon Feb 23 19:31 - 00:45  (05:14)
+user     seat0        login screen     Mon Feb 23 19:31 - crash 
+user     tty2         tty2             Mon Feb 23 19:07 - crash 
+user     seat0        login screen     Mon Feb 23 19:07 - crash 
+user     tty2         tty2             Sun Feb 22 18:56 - crash 
+user     seat0        login screen     Sun Feb 22 18:56 - crash 
+user     tty2         tty2             Sun Feb 22 18:52 - 19:06  (00:13)
+user     seat0        login screen     Sun Feb 22 18:52 - crash 
+user     tty2         tty2             Sun Feb 22 18:13 - 18:56  (00:43)
+user     seat0        login screen     Sun Feb 22 18:13 - crash 
+user     tty2         tty2             Sun Feb 22 17:41 - crash 
+user     seat0        login screen     Sun Feb 22 17:41 - crash 
+user     tty2         tty2             Sat Feb 21 15:40 - 16:24  (00:44)
+user     seat0        login screen     Sat Feb 21 15:40 - crash 
+user     tty2         tty2             Thu Feb 19 18:30 - 18:31  (00:01)
+user     seat0        login screen     Thu Feb 19 18:30 - crash 
+
+wtmpdb begins Thu Feb 19 18:30:23 2026
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab2/task3\]0;user@user:~/linux-labs/lab2/task3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab2/task3[01;32muser@user[00m:[01;34m~/linux-labs/lab2/task3[00m$ lastlog
+[?2004l]133;C\]666;vte.shell.preexec!\Команда «lastlog» не найдена. Возможно, вы имели в виду:
+  команда 'lastlog2' из deb-пакета lastlog2 (2.41-4ubuntu4.1)
+Попробуйте: sudo apt install <имя_deb-пакета>
+]666;vte.shell.postexec=127\]7;file://user/home/user/linux-labs/lab2/task3\]0;user@user:~/linux-labs/lab2/task3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab2/task3[01;32muser@user[00m:[01;34m~/linux-labs/lab2/task3[00m$ lastlog[K[K[K[K[K[K[Ksudo apt install lastlog2
+[?2004l]133;C\]666;vte.shell.preexec!\[sudo: authenticate] Password: 
+Чтение списков пакетов… 0%Чтение списков пакетов… 100%                                                   Построение дерева зависимостей… 0%Построение дерева зависимостей… 0%Построение дерева зависимостей… 50%Построение дерева зависимостей… 50%                                                                  Чтение информации о состоянии… 0%Чтение информации о состоянии… 0%                                                              Разрешение зависимостей… 0%Разрешение зависимостей… 10%                                                     Установка:
+[32m  lastlog2
+[0m
+Установка зависимостей:
+[32m  libpam-lastlog2
+[0m
+Сводка:
+  Обновление: 0, Установка: 2, Удаление: 0, Пропуск обновления: 115
+  Объём загрузки: 71,0 kB
+  Требуемое пространство: 175 kB / 10,4 GB доступно
+
+Продолжить? [Д/н] Д
+[33m0% [Обработка][0m[33m0% [Обработка][0m[33m0% [Обработка][0m[33m0% [Обработка][0m[33m0% [Обработка][0m[33m0% [Обработка][0m[33m0% [Обработка][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0mx[33m0% [Соединение с archive.ubuntu.com (91.189.92.23)][0m                                                              Ошб:1 http://archive.ubuntu.com/ubuntu questing-updates/universe amd64 lastlog2 amd64 2.41-4ubuntu4.1
+  404  Not Found [IP: 91.189.92.23 80]
+[33m                                                              0% [Обработка][0m                       Ошб:2 http://archive.ubuntu.com/ubuntu questing-updates/universe amd64 libpam-lastlog2 amd64 2.41-4ubuntu4.1
+  404  Not Found [IP: 91.189.92.23 80]
+[33m0% [Обработка][0m                       [1;31mОшибка: [0m[1mНе удалось получить http://archive.ubuntu.com/ubuntu/pool/universe/u/util-linux/lastlog2_2.41-4ubuntu4.1_amd64.deb  404  Not Found [IP: 91.189.92.23 80][0m
+[1;31mОшибка: [0m[1mНе удалось получить http://archive.ubuntu.com/ubuntu/pool/universe/u/util-linux/libpam-lastlog2_2.41-4ubuntu4.1_amd64.deb  404  Not Found [IP: 91.189.92.23 80][0m
+[1;31mОшибка: [0m[1mНе удалось получить некоторые архивы; возможно, нужно запустить apt update или попытаться повторить запуск с ключом --fix-missing?[0m
+]666;vte.shell.postexec=100\]7;file://user/home/user/linux-labs/lab2/task3\]0;user@user:~/linux-labs/lab2/task3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab2/task3[01;32muser@user[00m:[01;34m~/linux-labs/lab2/task3[00m$ sudo apt install lastlog2[Kgrep ""s"e"s"s"i"o"m"[1P"n" "i"[1P"o"p"e"n"e"d"[C \var[K[K[K[K/var/log/auth.log
+[?2004l]133;C\]666;vte.shell.preexec!\2026-03-08T00:29:57.851854+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:30:53.800946+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:31:13.598824+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:32:07.934612+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:33:07.985524+03:00 user su[3152]: pam_unix(su-l:session): [01;31m[Ksession opened[m[K for user friend(uid=1003) by user(uid=1000)
+2026-03-08T00:33:08.026112+03:00 user (systemd): pam_unix(systemd-user:session): [01;31m[Ksession opened[m[K for user friend(uid=1003) by friend(uid=0)
+2026-03-08T00:34:51.419612+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:35:06.457203+03:00 user CRON[3380]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-08T00:35:17.944994+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:35:48.368785+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:38:32.057080+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:39:26.682476+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:40:40.915386+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:40:55.009482+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:41:20.004108+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:41:34.577450+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:41:48.917202+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:42:03.670149+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:42:20.674051+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:42:55.528900+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:43:08.796567+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:43:28.674816+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:43:53.460980+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:44:06.786120+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:45:01.883354+03:00 user CRON[3579]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-08T00:45:22.043661+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:49:19.940523+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:49:24.385854+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:49:44.365815+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:50:07.277921+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:50:25.150875+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:51:22.182592+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:51:38.961537+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:51:50.494167+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:51:59.455319+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:52:34.517514+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:52:43.784123+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:53:06.691696+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:53:27.886063+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:53:35.597404+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:53:50.519414+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:53:51.271310+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:54:02.324720+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:54:05.211881+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:54:32.088402+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:54:58.360019+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:55:01.032827+03:00 user CRON[3779]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-08T00:55:15.947598+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T00:56:25.402379+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T01:00:09.102459+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T01:02:08.523562+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T01:02:28.177181+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T01:02:45.000855+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T01:03:35.672876+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T01:05:01.098164+03:00 user CRON[4009]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-08T01:05:31.944848+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T01:06:48.593019+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T01:09:11.087192+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T01:11:29.355622+03:00 user pkexec: pam_unix(polkit-1:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-08T01:15:01.195803+03:00 user CRON[6112]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-08T01:15:12.650261+03:00 user gdm-launch-environment]: pam_unix(gdm-launch-environment:session): [01;31m[Ksession opened[m[K for user gdm-greeter(uid=60578) by (uid=0)
+2026-03-08T01:15:12.682702+03:00 user (systemd): pam_unix(systemd-user:session): [01;31m[Ksession opened[m[K for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-03-11T14:01:02.656672+03:00 user gdm-autologin]: pam_unix(gdm-autologin:session): [01;31m[Ksession opened[m[K for user user(uid=1000) by user(uid=0)
+2026-03-11T14:01:02.743748+03:00 user (systemd): pam_unix(systemd-user:session): [01;31m[Ksession opened[m[K for user user(uid=1000) by user(uid=0)
+2026-03-11T14:01:10.026557+03:00 user pkexec: pam_unix(polkit-1:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-11T14:05:01.744314+03:00 user CRON[3272]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-11T14:15:01.771555+03:00 user CRON[3812]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-11T14:17:01.791272+03:00 user CRON[3816]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-11T14:25:01.829077+03:00 user CRON[3999]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-11T14:30:01.852836+03:00 user CRON[4011]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-11T14:35:01.870159+03:00 user CRON[4214]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-11T14:45:01.898660+03:00 user CRON[5407]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-11T14:55:01.918054+03:00 user CRON[5495]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-11T15:05:01.936772+03:00 user CRON[5807]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-11T15:10:28.895595+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-11T15:10:42.356688+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-11T15:10:44.085716+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-11T15:10:52.780732+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-11T15:15:01.956513+03:00 user CRON[6222]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-11T15:17:01.971973+03:00 user CRON[6317]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-11T15:25:01.990950+03:00 user CRON[6525]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-11T15:30:02.010749+03:00 user CRON[6558]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-11T15:35:01.036145+03:00 user CRON[6628]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-11T15:45:01.055057+03:00 user CRON[7827]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-11T15:55:01.070093+03:00 user CRON[10100]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-11T16:05:01.093646+03:00 user CRON[10564]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-11T16:15:01.132570+03:00 user CRON[10809]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-11T16:17:01.150778+03:00 user CRON[10931]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-11T16:25:01.181940+03:00 user CRON[11175]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-11T16:30:01.199567+03:00 user CRON[11305]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-11T16:35:01.218034+03:00 user CRON[11440]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-11T16:45:01.244492+03:00 user CRON[11781]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-11T16:55:01.270363+03:00 user CRON[12022]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-11T16:56:43.514934+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-11T16:57:02.808004+03:00 user pkexec: pam_unix(polkit-1:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-11T17:02:22.408138+03:00 user gdm-launch-environment]: pam_unix(gdm-launch-environment:session): [01;31m[Ksession opened[m[K for user gdm-greeter(uid=60578) by (uid=0)
+2026-03-11T17:02:22.473964+03:00 user (systemd): pam_unix(systemd-user:session): [01;31m[Ksession opened[m[K for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-03-14T11:43:48.355260+03:00 user gdm-autologin]: pam_unix(gdm-autologin:session): [01;31m[Ksession opened[m[K for user user(uid=1000) by user(uid=0)
+2026-03-14T11:43:48.451748+03:00 user (systemd): pam_unix(systemd-user:session): [01;31m[Ksession opened[m[K for user user(uid=1000) by user(uid=0)
+2026-03-14T11:43:54.170470+03:00 user pkexec: pam_unix(polkit-1:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-14T11:45:01.687474+03:00 user CRON[4134]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-14T11:55:01.610850+03:00 user CRON[4714]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-14T11:57:05.728508+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+2026-03-14T12:05:01.950124+03:00 user CRON[5242]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-14T12:15:01.074639+03:00 user CRON[5430]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-14T12:17:01.088685+03:00 user CRON[5655]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-14T12:25:01.298072+03:00 user CRON[5865]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-14T12:30:01.807718+03:00 user CRON[6058]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-14T12:35:02.083323+03:00 user CRON[6174]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-14T12:45:01.530886+03:00 user CRON[6605]: pam_unix(cron:session): [01;31m[Ksession opened[m[K for user root(uid=0) by root(uid=0)
+2026-03-14T12:45:33.730247+03:00 user sudo: pam_unix(sudo:session): [01;31m[Ksession opened[m[K for user root(uid=0) by user(uid=1000)
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab2/task3\]0;user@user:~/linux-labs/lab2/task3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab2/task3[01;32muser@user[00m:[01;34m~/linux-labs/lab2/task3[00m$ exit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+
+Script done on 2026-03-14 12:47:04+03:00 [COMMAND_EXIT_CODE="0"]
