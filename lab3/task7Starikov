@@ -1,0 +1,24 @@
+Script started on 2026-04-04 14:24:34+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="114" LINES="55"]
+Good Day, user!
+]666;vte.shell.postexec=0\]7;file://user/home/user\]0;user@user:~\]666;vte.shell.precmd!\[?2004h]0;user@user: ~[01;32muser@user[00m:[01;34m~[00m$ cd ;[Klinux-labs/ [Klab3
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab3\]0;user@user:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab3[01;32muser@user[00m:[01;34m~/linux-labs/lab3[00m$ mkdor[K[Kot[K[Kit [K[Kr /tmp/;l[K[Klabrabota3
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab3\]0;user@user:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab3[01;32muser@user[00m:[01;34m~/linux-labs/lab3[00m$ cd /tmp/labrabota3/
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/tmp/labrabota3\]0;user@user:/tmp/labrabota3\]666;vte.shell.precmd!\[?2004h]0;user@user: /tmp/labrabota3[01;32muser@user[00m:[01;34m/tmp/labrabota3[00m$ ls ~/ > task7/[K.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/tmp/labrabota3\]0;user@user:/tmp/labrabota3\]666;vte.shell.precmd!\[?2004h]0;user@user: /tmp/labrabota3[01;32muser@user[00m:[01;34m/tmp/labrabota3[00m$ sudo chattr +i task7.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\[sudo: authenticate] Password: 
+]666;vte.shell.postexec=0\]7;file://user/tmp/labrabota3\]0;user@user:/tmp/labrabota3\]666;vte.shell.precmd!\[?2004h]0;user@user: /tmp/labrabota3[01;32muser@user[00m:[01;34m/tmp/labrabota3[00m$ ;sa[K[K[Klsattr task7.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\----i----------------- task7.txt
+]666;vte.shell.postexec=0\]7;file://user/tmp/labrabota3\]0;user@user:/tmp/labrabota3\]666;vte.shell.precmd!\[?2004h]0;user@user: /tmp/labrabota3[01;32muser@user[00m:[01;34m/tmp/labrabota3[00m$ echo >[K"test" >> task7.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\bash: task7.txt: Операция не позволена
+]666;vte.shell.postexec=1\]7;file://user/tmp/labrabota3\]0;user@user:/tmp/labrabota3\]666;vte.shell.precmd!\[?2004h]0;user@user: /tmp/labrabota3[01;32muser@user[00m:[01;34m/tmp/labrabota3[00m$ mv task7.txt task7.txt [C[1@_[1@n[1@e[1@w
+[?2004l]133;C\]666;vte.shell.preexec!\mv: невозможно переместить 'task7.txt' в 'task7_new.txt': Операция не позволена
+]666;vte.shell.postexec=1\]7;file://user/tmp/labrabota3\]0;user@user:/tmp/labrabota3\]666;vte.shell.precmd!\[?2004h]0;user@user: /tmp/labrabota3[01;32muser@user[00m:[01;34m/tmp/labrabota3[00m$ rm task7.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\rm: невозможно удалить 'task7.txt': Операция не позволена
+]666;vte.shell.postexec=1\]7;file://user/tmp/labrabota3\]0;user@user:/tmp/labrabota3\]666;vte.shell.precmd!\[?2004h]0;user@user: /tmp/labrabota3[01;32muser@user[00m:[01;34m/tmp/labrabota3[00m$ rm task7.txt [14@mv task7.txt task7_new[C[C[C[C[C[2Pecho "test" >> task7[C[C[C[C[C[8Plsattr[C[C[C[C[C[C[C[C[C[C[C[8@sudo chattr +i[C[C[C[C[C[C[C[C[C[C[C[1P[1@-
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/tmp/labrabota3\]0;user@user:/tmp/labrabota3\]666;vte.shell.precmd!\[?2004h]0;user@user: /tmp/labrabota3[01;32muser@user[00m:[01;34m/tmp/labrabota3[00m$ sudo chattr -i task7.txt [12Prm[C[C[C[C[C[C[C[C[C[C[C[12@sudo chattr -i[C[C[C[C[C[C[C[C[C[C[C[12Prm[C[C[C[C[C[C[C[C[C[C[C[14@mv task7.txt task7_new[C[C[C[C[C[2Pecho "test" >> task7[C[C[C[C[C[8Plsattr[C[C[C[C[C[C[C[C[C[C[C
+[?2004l]133;C\]666;vte.shell.preexec!\---------------------- task7.txt
+]666;vte.shell.postexec=0\]7;file://user/tmp/labrabota3\]0;user@user:/tmp/labrabota3\]666;vte.shell.precmd!\[?2004h]0;user@user: /tmp/labrabota3[01;32muser@user[00m:[01;34m/tmp/labrabota3[00m$ lsattr task7.txt [8@sudo chattr -i[C[C[C[C[C[C[C[C[C[C[C[12Prm[C[C[C[C[C[C[C[C[C[C[C
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/tmp/labrabota3\]0;user@user:/tmp/labrabota3\]666;vte.shell.precmd!\[?2004h]0;user@user: /tmp/labrabota3[01;32muser@user[00m:[01;34m/tmp/labrabota3[00m$ exit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+
+Script done on 2026-04-04 14:26:39+03:00 [COMMAND_EXIT_CODE="0"]
