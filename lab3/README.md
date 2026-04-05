@@ -80,15 +80,15 @@ setcap cap_net_raw+ep /usr/bin/traceroute
 
 ## Структура каталога
 
-
+```
 linux-labs/lab3/
-├── task*.Starikov           # протоколы
-├── timelog*.Starikov        # метки времени
-└── workdir/                 # рабочий каталог
-    ├── big.txt
-    ├── request.bak
-    └── request.txt
-
+├── task.Starikov # протоколы
+├── timelog.Starikov # метки времени
+└── workdir/ # рабочий каталог
+├── big.txt
+├── request.bak
+└── request.txt
+```
 
 ---
 
