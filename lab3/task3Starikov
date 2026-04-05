@@ -1,0 +1,45 @@
+Script started on 2026-04-04 12:50:44+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="114" LINES="55"]
+Good Day, user!
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab3\]0;user@user:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab3[01;32muser@user[00m:[01;34m~/linux-labs/lab3[00m$ mkdir workdir
+[?2004l]133;C\]666;vte.shell.preexec!\mkdir: workdir: File exists
+]666;vte.shell.postexec=1\]7;file://user/home/user/linux-labs/lab3\]0;user@user:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab3[01;32muser@user[00m:[01;34m~/linux-labs/lab3[00m$ cp request.txt workdir/
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab3\]0;user@user:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab3[01;32muser@user[00m:[01;34m~/linux-labs/lab3[00m$ ls -l workdir/
+[?2004l]133;C\]666;vte.shell.preexec!\total 4
+-rw-rw-r-- 1 user user 215 Apr  4 12:51 request.txt
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab3\]0;user@user:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab3[01;32muser@user[00m:[01;34m~/linux-labs/lab3[00m$ cd [K[Kp request.txt workdir/.request
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab3\]0;user@user:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab3[01;32muser@user[00m:[01;34m~/linux-labs/lab3[00m$ cp request.txt workdir/.request[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pls -l workdir/
+[?2004l]133;C\]666;vte.shell.preexec!\total 4
+-rw-rw-r-- 1 user user 215 Apr  4 12:51 request.txt
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab3\]0;user@user:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab3[01;32muser@user[00m:[01;34m~/linux-labs/lab3[00m$ ls -l workdir/cp request.txt workdir/.request[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pls -l workdir/[Ca workdir/
+[?2004l]133;C\]666;vte.shell.preexec!\total 16
+drwxrwxr-x 2 user user 4096 Apr  4 12:51 [0m[01;34m.[0m
+drwxrwxr-x 3 user user 4096 Apr  4 12:50 [01;34m..[0m
+-rw-rw-r-- 1 user user  215 Apr  4 12:51 .request
+-rw-rw-r-- 1 user user  215 Apr  4 12:51 request.txt
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab3\]0;user@user:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab3[01;32muser@user[00m:[01;34m~/linux-labs/lab3[00m$ r[Kmv request.txt request.txt [K[K[K[Kbak
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab3\]0;user@user:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab3[01;32muser@user[00m:[01;34m~/linux-labs/lab3[00m$ ls -l
+[?2004l]133;C\]666;vte.shell.preexec!\total 40
+-rw-rw-r-- 1 user user   215 Apr  1 16:26 [0m[38;5;8mrequest.bak[0m
+-rw-rw-r-- 1 user user 16603 Apr  1 16:28 task1Starikov
+-rw-rw-r-- 1 user user  2949 Apr  1 16:34 task2Starikov
+-rw-rw-r-- 1 user user     0 Apr  4 12:50 task3Starikov
+-rw-rw-r-- 1 user user  4026 Apr  1 16:28 timelog1Starikov
+-rw-rw-r-- 1 user user   808 Apr  1 16:34 timelog2Starikov
+-rw-rw-r-- 1 user user     0 Apr  4 12:50 timelog3Starikov
+drwxrwxr-x 2 user user  4096 Apr  4 12:51 [01;34mworkdir[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab3\]0;user@user:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab3[01;32muser@user[00m:[01;34m~/linux-labs/lab3[00m$ mv request.bak workdir/
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab3\]0;user@user:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab3[01;32muser@user[00m:[01;34m~/linux-labs/lab3[00m$ ls -l workdir/
+[?2004l]133;C\]666;vte.shell.preexec!\total 8
+-rw-rw-r-- 1 user user 215 Apr  1 16:26 [0m[38;5;8mrequest.bak[0m
+-rw-rw-r-- 1 user user 215 Apr  4 12:51 request.txt
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab3\]0;user@user:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab3[01;32muser@user[00m:[01;34m~/linux-labs/lab3[00m$ ls -lai workdir
+[?2004l]133;C\]666;vte.shell.preexec!\total 20
+931868 drwxrwxr-x 2 user user 4096 Apr  4 12:52 [0m[01;34m.[0m
+922629 drwxrwxr-x 3 user user 4096 Apr  4 12:52 [01;34m..[0m
+931537 -rw-rw-r-- 1 user user  215 Apr  4 12:51 .request
+931594 -rw-rw-r-- 1 user user  215 Apr  1 16:26 [38;5;8mrequest.bak[0m
+931521 -rw-rw-r-- 1 user user  215 Apr  4 12:51 request.txt
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab3\]0;user@user:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab3[01;32muser@user[00m:[01;34m~/linux-labs/lab3[00m$ exit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+
+Script done on 2026-04-04 12:52:32+03:00 [COMMAND_EXIT_CODE="0"]
