@@ -1,0 +1,275 @@
+Script started on 2026-04-04 14:05:23+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="114" LINES="55"]
+Good Day, user!
+]666;vte.shell.postexec=0\]7;file://user/home/user\]0;user@user:~\]666;vte.shell.precmd!\[?2004h]0;user@user: ~[01;32muser@user[00m:[01;34m~[00m$ sudi[Ko -i
+[?2004l]133;C\]666;vte.shell.preexec!\[sudo: authenticate] Password: 
+[?2004h]0;root@user: ~root@user:~# cd /tmp/labrabota3
+[?2004l-bash: cd: /tmp/labrabota3: Нет такого файла или каталога
+[?2004h]0;root@user: ~root@user:~# cd /tmp/labrabota3[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexitls -la /tmp/labrabota3exit[K[Kexitls -la /tmp/labrabota3[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmkdor [K[K[Kir /tmp/labrabota3
+[?2004l[?2004h]0;root@user: ~root@user:~# mkdir /tmp/labrabota3[C[C[C[C[C[C[C[C[C[C[C[C[C[Kexitls -la /tmp/labrabota3[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K[Kmkdir /tmp/labrabota3[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcd /tmp/;[Klabrabota3/
+[?2004l[?2004h]0;root@user: /tmp/labrabota3root@user:/tmp/labrabota3# mkdor w[Kexample-acl
+[?2004lКоманда «mkdor» не найдена. Возможно, вы имели в виду:
+  команда 'mkdoc' из deb-пакета tcllib (2.0+dfsg-4)
+  команда 'mkdir' из deb-пакета coreutils-from-gnu (0.0.0~ubuntu24)
+  команда 'mkdir' из deb-пакета coreutils-from-uutils (0.0.0~ubuntu24)
+  команда 'mkdir' из deb-пакета coreutils-from-busybox (0.0.0~ubuntu24)
+  команда 'mkdir' из deb-пакета coreutils-from-toybox (0.0.0~ubuntu24)
+Попробуйте: apt install <имя_deb-пакета>
+[?2004h]0;root@user: /tmp/labrabota3root@user:/tmp/labrabota3# ls -la /etc > examkdor example-acl[C[1P[1@i
+[?2004l[?2004h]0;root@user: /tmp/labrabota3root@user:/tmp/labrabota3# mkdir example-acl[K;s[K[Kols[K[K[Kls - [Kla /ettc [K[K[K[Ktc > ecx[K[Kxample-acl/file1.txt
+[?2004l[?2004h]0;root@user: /tmp/labrabota3root@user:/tmp/labrabota3# setfacl -m u:su[Kti[Kudent:rw example-acl/file1.txt 
+[?2004l[?2004h]0;root@user: /tmp/labrabota3root@user:/tmp/labrabota3# setfacl -m u:student:rw example-acl/file1.txt [1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P
+[?2004lИспользование: setfacl [-bkndRLP] { -m|-M|-x|-X ... } file ...
+Попробуйте `setfacl --help' для дополнительной информации.
+[?2004h]0;root@user: /tmp/labrabota3root@user:/tmp/labrabota3# setfacl example-acl/file1.txt [C[C[1P[1@g
+[?2004l# file: example-acl/file1.txt
+# owner: root
+# group: root
+user::rw-
+user:student:rw-
+group::r--
+mask::rw-
+other::r--
+
+[?2004h]0;root@user: /tmp/labrabota3root@user:/tmp/labrabota3# su - sr[Ktudent
+[?2004l[?2004h]0;student@user: ~[01;32mstudent@user[00m:[01;34m~[00m$ vi /tmp//[Klabrabota3//[Kexample-acl/file1.txt 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;55r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[55;1H"/tmp/labrabota3/example-acl/file1.txt" 248 lines, 21367 bytes[1;1Htotal 1224
+drwxr-xr-x 145 root[17Croot[17C12288 Apr  4 13:27 .
+drwxr-xr-x  20 root[17Croot[18C4096 Feb 19 18:19 ..
+-rw-------   1 root[17Croot[21C0 Oct  7 05:33 .pwd.lock
+-rw-r--r--   1 root[17Croot[19C862 Oct  7 05:32 .resolv.conf.systemd-resolved.bak
+-rw-r--r--   1 root[17Croot[19C208 Oct  7 05:32 .updated
+drwxr-xr-x   5 root[17Croot[18C4096 Oct  7 05:35 ModemManager
+drwxr-xr-x   8 root[17Croot[18C4096 Oct  7 05:35 NetworkManager
+drwxr-xr-x   2 root[17Croot[18C4096 Oct  7 05:38 PackageKit
+drwxr-xr-x   2 root[17Croot[18C4096 Oct  7 05:36 UPower
+drwxr-xr-x  11 root[17Croot[18C4096 Oct  7 05:38 X11
+-rw-r--r--   1 root[17Croot[18C4027 May 23  2025 adduser.conf
+-rw-r--r--   1 root[17Croot[20C51 Feb 23 23:58 aliases
+-rw-r--r--   1 root[17Croot[17C12288 Feb 23 23:59 aliases.db
+drwxr-xr-x   3 root[17Croot[18C4096 Oct  7 05:34 alsa
+drwxr-xr-x   2 root[17Croot[18C4096 Feb 23 23:59 alternatives
+-rw-r--r--   1 root[17Croot[19C394 Jun 12  2025 anacrontab
+drwxr-xr-x   5 root[17Croot[18C4096 Oct  7 05:34 apm
+drwxr-xr-x   2 root[17Croot[18C4096 Oct  7 05:34 apparmor
+drwxr-xr-x   9 root[17Croot[18C4096 Feb 25 16:54 apparmor.d
+drwxr-xr-x   3 root[17Croot[18C4096 Oct  7 05:36 apport
+drwxr-xr-x   9 root[17Croot[18C4096 Feb 23 19:31 apt
+drwxr-xr-x   3 root[17Croot[18C4096 Feb 19 18:27 avahi
+-rw-r--r--   1 root[17Croot[18C3718 Sep  8  2025 bash.bashrc
+-rw-r--r--   1 root[17Croot[20C45 Jan 12  2025 bash_completion
+drwxr-xr-x   2 root[17Croot[18C4096 Feb 23 19:48 bash_completion.d
+-rw-r--r--   1 root[17Croot[19C367 Aug  5  2025 bindresvport.blacklist
+drwxr-xr-x   2 root[17Croot[18C4096 Sep 25  2025 binfmt.d
+drwxr-xr-x   2 root[17Croot[18C4096 Oct  7 05:36 bluetooth
+-rw-r-----   1 root[17Croot[20C33 Oct  7 05:38 brlapi.key
+drwxr-xr-x   7 root[17Croot[18C4096 Oct  7 05:35 brltty
+-rw-r--r--   1 root[17Croot[17C30761 Mar  4  2025 brltty.conf
+drwxr-xr-x   3 root[17Croot[18C4096 Oct  7 05:33 ca-certificates
+-rw-r--r--   1 root[17Croot[18C6422 Oct  7 05:33 ca-certificates.conf
+drwxr-s---   2 root[17Cdip[19C4096 Oct  7 05:36 chatscripts
+drwxr-xr-x   4 root[17Croot[18C4096 Oct  7 05:33 chrony
+drwxr-xr-x   5 root[17Croot[18C4096 Feb 19 18:30 cloud
+drwxr-xr-x   2 colord[15Ccolord[16C4096 Feb 19 18:30 colord
+drwxr-xr-x   2 root[17Croot[18C4096 Feb 19 18:22 console-setup
+drwxr-xr-x   2 root[17Croot[18C4096 Oct  7 05:36 cracklib
+drwx------   2 root[17Croot[18C4096 Sep 25  2025 credstore
+drwx------   2 root[17Croot[18C4096 Sep 25  2025 credstore.encrypted
+drwxr-xr-x   2 root[17Croot[18C4096 Oct  7 05:35 cron.d
+drwxr-xr-x   2 root[17Croot[18C4096 Oct  7 05:36 cron.daily
+drwxr-xr-x   2 root[17Croot[18C4096 Oct  7 05:33 cron.hourly
+drwxr-xr-x   2 root[17Croot[18C4096 Oct  7 05:35 cron.monthly
+drwxr-xr-x   2 root[17Croot[18C4096 Oct  7 05:36 cron.weekly
+drwxr-xr-x   2 root[17Croot[18C4096 Oct  7 05:35 cron.yearly
+-rw-r--r--   1 root[17Croot[18C1136 Sep  3  2025 crontab
+drwxr-xr-x   5 root[17Clp[20C4096 Apr  4 13:41 cups
+drwxr-xr-x   2 root[17Croot[18C4096 Oct  7 05:36 cupshelpers
+drwxr-xr-x   4 root[17Croot[18C4096 Oct  7 05:33 dbus-1
+drwxr-xr-x   4 root[17Croot[18C4096 Oct  7 05:35 dconf
+-rw-r--r--   1 root[17Croot[18C2967 Mar 10  2025 debconf.conf[1;1H[?25h[?4m[?2004l[>4;m[?25lТ[1;2Htotal 1224[1;2H[?25h[?25lutotal 1224[1;3H[?25h[?25lutotal 1224[1;4H[?25h[?2004h[>4;2m[?4m[?25l[55;1H1 change; before #1  4 seconds ago[55;35H[K[1;1Htotal 1224[1;11H[K[1;1H[?25h[?2004l[>4;m[?25lС[1;2Htotal 1224[1;2H[?25h[?25lт[1;3Htotal 1224[1;3H[?25h[?25lа[1;4Htotal 1224[1;4H[?25h[?25lр[1;5Htotal 1224[1;5H[?25h[?25lи[1;6Htotal 1224[1;6H[?25h[?25lк[1;7Htotal 1224[1;7H[?25h[?25lо[1;8Htotal 1224[1;8H[?25h[?25lв[1;9Htotal 1224[1;9H[?25h[?25l total 1224[1;10H[?25h[?25lР[1;11Htotal 1224[1;11H[?25h[?25lо[1;12Htotal 1224[1;12H[?25h[?25lс[1;13Htotal 1224[1;13H[?25h[?25lт[1;14Htotal 1224[1;14H[?25h[?25lи[1;15Htotal 1224[1;15H[?25h[?25lс[1;16Htotal 1224[1;16H[?25h[?25lл[1;17Htotal 1224[1;17H[?25h[?25lа[1;18Htotal 1224[1;18H[?25h[?25lв[1;19Htotal 1224[1;19H[?25h[?25l[2;54r[2;1H[L[1;55r[1;19H[K[2;1Htotal 1224[55;1H[K[2;1H[?25h[?2004h[>4;2m[?4m
+
+[?2004l[>4;m[?25l[5;54r[5;1H[L[1;55r[5;1H[?25h[?25lс[5;2H[?25h[?25lт[5;3H[?25h[?25lа[5;4H[?25h[?25lр[5;5H[?25h[?25lи[5;6H[?25h[?25lк[5;7H[?25h[?2004h[>4;2m[?4m[?25l[5;54r[54;1H
+[1;55r[54;1Hdrwxr-xr-x   4 root[17Croot[18C4096 Oct  7 05:35 dconf[5;1H[?25h[4;1H[?2004l[>4;m[?25l[5;54r[5;1H[L[1;55r[5;1H[?25h[?25lС[5;2H[?25h[?25lт[5;3H[?25h[?25lа[5;4H[?25h[?25lр[5;5H[?25h[?25lи[5;6H[?25h[?25lк[5;7H[?25h[?25lо[5;8H[?25h[?25lв[5;9H[?25h[?25l [?25h[?25lР[5;11H[?25h[?25lо[5;12H[?25h[?25lс[5;13H[?25h[?25lт[5;14H[?25h[?25lи[5;15H[?25h[?25lс[5;16H[?25h[?25lл[5;17H[?25h[?25lа[5;18H[?25h[?25lв[5;19H[?25h[?2004h[>4;2m[?4m[?25l[55;1H:[?25hwq[?25l[?2004l[>4;m"/tmp/labrabota3/example-acl/file1.txt" 250 lines, 21439 bytes written[23;2t[23;1t
+[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m[?2004h]0;student@user: ~[01;32mstudent@user[00m:[01;34m~[00m$ ls /usr/d[Kbin/ [K[K > ec[K[Kx[Kexaple-acl/file2/[K.txt
+[?2004l-bash: exaple-acl/file2.txt: Нет такого файла или каталога
+[?2004h]0;student@user: ~[01;32mstudent@user[00m:[01;34m~[00m$ ls /usr/bin > exaple-acl/file2.txtmple-acl/file2.txt
+[?2004l-bash: example-acl/file2.txt: Нет такого файла или каталога
+[?2004h]0;student@user: ~[01;32mstudent@user[00m:[01;34m~[00m$ cd tme[K[K[Ktms[K[K[K/tmp/labrabota3/
+[?2004l[?2004h]0;student@user: /tmp/labrabota3[01;32mstudent@user[00m:[01;34m/tmp/labrabota3[00m$ cd /tmp/labrabota3/ls /usr/bin > example-acl/file2.txt
+[?2004l-bash: example-acl/file2.txt: Отказано в доступе
+[?2004h]0;student@user: /tmp/labrabota3[01;32mstudent@user[00m:[01;34m/tmp/labrabota3[00m$ exit
+[?2004lвыход
+[?2004h]0;root@user: /tmp/labrabota3root@user:/tmp/labrabota3# ls u[K/usr/bin/ >example-acl/ example-acl/[C[C[C[C[C[C[C[C[C[C[C[Cfile1.txt [1P[1@2
+[?2004l[?2004h]0;root@user: /tmp/labrabota3root@user:/tmp/labrabota3# getfacl example-acl/file1.txt | service [K[K[K[K[K[K[Ketfacl --det-d[Kfile [K=- example-acl/file2.txt 
+[?2004lИспользование: setfacl [-bkndRLP] { -m|-M|-x|-X ... } file ...
+Попробуйте `setfacl --help' для дополнительной информации.
+[?2004h]0;root@user: /tmp/labrabota3root@user:/tmp/labrabota3# getfacl example-acl/file1.txt | setfacl --det-file=- example-acl/file2.txt ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@user: /tmp/labrabota3root@user:/tmp/labrabota3# ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@user: /tmp/labrabota3root@user:/tmp/labrabota3# getfacl example-acl/file1.txt | setfacl --det-file=- example-acl/file2.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgetfacl example-acl/file1.txt | setfacl --det-file=- example-acl/file2.txt [1P[1@d[1P[1@s
+[?2004l[?2004h]0;root@user: /tmp/labrabota3root@user:/tmp/labrabota3# getfacl example-acl/file1.txt | setfacl --set-file=- example-acl/file2.txt [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ke2.txt 
+[?2004l# file: example-acl/file2.txt
+# owner: root
+# group: root
+user::rw-
+user:student:rw-
+group::r--
+mask::rw-
+other::r--
+
+[?2004h]0;root@user: /tmp/labrabota3root@user:/tmp/labrabota3# cp --preserve=all example-acl/file3[K2.txt r[Kexample-acl/file3.txt
+[?2004l[?2004h]0;root@user: /tmp/labrabota3root@user:/tmp/labrabota3# getfacl example-acl/file3.txt 
+[?2004l# file: example-acl/file3.txt
+# owner: root
+# group: root
+user::rw-
+user:student:rw-
+group::r--
+mask::rw-
+other::r--
+
+[?2004h]0;root@user: /tmp/labrabota3root@user:/tmp/labrabota3# getfacl example-acl/file3.txt [C[C[1P[1@1
+[?2004l# file: example-acl/file1.txt
+# owner: root
+# group: root
+user::rw-
+user:student:rw-
+group::r--
+mask::rw-
+other::r--
+
+[?2004h]0;root@user: /tmp/labrabota3root@user:/tmp/labrabota3# getfacl example-acl/file1.txt [1P[1@2
+[?2004l# file: example-acl/file2.txt
+# owner: root
+# group: root
+user::rw-
+user:student:rw-
+group::r--
+mask::rw-
+other::r--
+
+[?2004h]0;root@user: /tmp/labrabota3root@user:/tmp/labrabota3# getfacl example-acl/file2.txt [1P[1@3
+[?2004l# file: example-acl/file3.txt
+# owner: root
+# group: root
+user::rw-
+user:student:rw-
+group::r--
+mask::rw-
+other::r--
+
+[?2004h]0;root@user: /tmp/labrabota3root@user:/tmp/labrabota3# setfacl example-acl/[K
+[?2004lИспользование: setfacl [-bkndRLP] { -m|-M|-x|-X ... } file ...
+Попробуйте `setfacl --help' для дополнительной информации.
+[?2004h]0;root@user: /tmp/labrabota3root@user:/tmp/labrabota3# setfacl example-acl[Ksetfacl example-acl[K[K[K[K[K[K[K[K[K[K[K[K -m g:visitors:rwx example-acl/
+[?2004l[?2004h]0;root@user: /tmp/labrabota3root@user:/tmp/labrabota3# setfacl -m g:visitors:rwx example-acl/[19Pexample-acl/[K[1P[1@g
+[?2004l# file: example-acl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+group:visitors:rwx
+mask::rwx
+other::r-x
+
+[?2004h]0;root@user: /tmp/labrabota3root@user:/tmp/labrabota3# su [K[Ku - student
+[?2004l[?2004h]0;student@user: ~[01;32mstudent@user[00m:[01;34m~[00m$ newgrp visitors
+[?2004l[?2004h]0;student@user: ~[01;32mstudent@user[00m:[01;34m~[00m$ cat /tmp/labrabota3/letter/txt[K[K[K[K.txt
+[?2004lcat: /tmp/labrabota3/letter.txt: No such file or directory (os error 2)
+[?2004h]0;student@user: ~[01;32mstudent@user[00m:[01;34m~[00m$ cat /tmp/labrabota3/letter.txt[C[C[C[C[1P /tmp/labrabota3/letter.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /tmp/labrabota3/letter.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /tmp/labrabota3/letter.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct /tmp/labrabota3/letter.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co /tmp/labrabota3/letter.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu /tmp/labrabota3/letter.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc /tmp/labrabota3/letter.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ch /tmp/labrabota3/letter.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /tmp/labrabota3/letter.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004ltouch: cannot touch '/tmp/labrabota3/letter.txt': Permission denied
+[?2004h]0;student@user: ~[01;32mstudent@user[00m:[01;34m~[00m$ exit[K[K[K[Kecit[K[Kxit[K[K[K[Kxi[Kit
+[?2004lexit
+[?2004h]0;student@user: ~[01;32mstudent@user[00m:[01;34m~[00m$ newgrp visitorsexit[K
+[?2004lвыход
+[?2004h]0;root@user: /tmp/labrabota3root@user:/tmp/labrabota3# [7mtouch  /tmp/labrabota3/letter.txt[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch  /tmp/labrabota3/letter.txt
+[A
+[?2004l[?2004h]0;root@user: /tmp/labrabota3root@user:/tmp/labrabota3# vitouch  /tmp/labrabota3/letter.txt[1P[1P[1P[1P[1P[1@v[1@i
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;55r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[55;1H"/tmp/labrabota3/letter.txt" 0 lines, 0 bytes[2;1H[94m~                                                                                                                 [3;1H~                                                                                                                 [4;1H~                                                                                                                 [5;1H~                                                                                                                 [6;1H~                                                                                                                 [7;1H~                                                                                                                 [8;1H~                                                                                                                 [9;1H~                                                                                                                 [10;1H~                                                                                                                 [11;1H~                                                                                                                 [12;1H~                                                                                                                 [13;1H~                                                                                                                 [14;1H~                                                                                                                 [15;1H~                                                                                                                 [16;1H~                                                                                                                 [17;1H~                                                                                                                 [18;1H~                                                                                                                 [19;1H~                                                                                                                 [20;1H~                                                                                                                 [21;1H~                                                                                                                 [22;1H~                                                                                                                 [23;1H~                                                                                                                 [24;1H~                                                                                                                 [25;1H~                                                                                                                 [26;1H~                                                                                                                 [27;1H~                                                                                                                 [28;1H~                                                                                                                 [29;1H~                                                                                                                 [30;1H~                                                                                                                 [31;1H~                                                                                                                 [32;1H~                                                                                                                 [33;1H~                                                                                                                 [34;1H~                                                                                                                 [35;1H~                                                                                                                 [36;1H~                                                                                                                 [37;1H~                                                                                                                 [38;1H~                                                                                                                 [39;1H~                                                                                                                 [40;1H~                                                                                                                 [41;1H~                                                                                                                 [42;1H~                                                                                                                 [43;1H~                                                                                                                 [44;1H~                                                                                                                 [45;1H~                                                                                                                 [46;1H~                                                                                                                 [47;1H~                                                                                                                 [48;1H~                                                                                                                 [49;1H~                                                                                                                 [50;1H~                                                                                                                 [51;1H~                                                                                                                 [52;1H~                                                                                                                 [53;1H~                                                                                                                 [54;1H~                                                                                                                 [1;1H[?25h[?4m[?2004l[>4;m[?25l[m[2;1H[K[2;1H[?25h[?25l [?25h[?25l[?25h[?25lL[?25h[?25le[?25h[?25lt[?25h[?25lt[?25h[?25le[?25h[?25lr[?25h[?2004h[>4;2m[?4m[?25l[55;1H[K[55;1H:[?25hwq[?25l[?2004l[>4;m"letter.txt" 2 lines, 8 bytes written[23;2t[23;1t
+[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m[?2004h]0;root@user: /tmp/labrabota3root@user:/tmp/labrabota3# vi  /tmp/labrabota3/letter.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@touch[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Psu - student
+[?2004l[?2004h]0;student@user: ~[01;32mstudent@user[00m:[01;34m~[00m$ exitnewgrp visitorsexit[Knewgrp visitorsexit[K[K^C[?2004l[?2004h[?2004l
+[?2004h]0;student@user: ~[01;32mstudent@user[00m:[01;34m~[00m$ ^[[200~cat /tmp/labrabota3/letter.txt
+[?2004l[200~cat: команда не найдена
+[?2004h]0;student@user: ~[01;32mstudent@user[00m:[01;34m~[00m$ ~[K[7mcat /tmp/labrabota3/letter.txt[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat /tmp/labrabota3/letter.txt
+[A
+[?2004l
+Letter
+[?2004h]0;student@user: ~[01;32mstudent@user[00m:[01;34m~[00m$ cat /tmp/labrabota3/letter.txt > /tmp/labrabota3/example-acl/file5.txt
+[?2004l[?2004h]0;student@user: ~[01;32mstudent@user[00m:[01;34m~[00m$ stat [K \[K/tmp/labrabota3/example-acl/file5.txt 
+[?2004l  File: /tmp/labrabota3/example-acl/file5.txt
+  size: 8         	Blocks: 8          IO Block: 4096   regular file
+Device: 21h/33d	Inode: 155         Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1006/ student)   Gid: ( 1006/ student)
+Access: 2026-04-04 14:16:35.409065264 +0300
+Modify: 2026-04-04 14:16:35.412065287 +0300
+Change: 2026-04-04 14:16:35.412065287 +0300
+ Birth: 2026-04-04 14:16:35.409065264 +0300
+[?2004h]0;student@user: ~[01;32mstudent@user[00m:[01;34m~[00m$ exit
+[?2004lвыход
+[?2004h]0;root@user: /tmp/labrabota3root@user:/tmp/labrabota3# su - student[K[K[K[K[K[K[K[K[K[K[K[Kgetfacl example-acl/file1.txt 
+[?2004l# file: example-acl/file1.txt
+# owner: root
+# group: root
+user::rw-
+user:student:rw-
+group::r--
+mask::rw-
+other::r--
+
+[?2004h]0;root@user: /tmp/labrabota3root@user:/tmp/labrabota3# getfacl example-acl/file1.txt [1P[1@2
+[?2004l# file: example-acl/file2.txt
+# owner: root
+# group: root
+user::rw-
+user:student:rw-
+group::r--
+mask::rw-
+other::r--
+
+[?2004h]0;root@user: /tmp/labrabota3root@user:/tmp/labrabota3# getfacl example-acl/file2.txt [C[1P[1@3
+[?2004l# file: example-acl/file3.txt
+# owner: root
+# group: root
+user::rw-
+user:student:rw-
+group::r--
+mask::rw-
+other::r--
+
+[?2004h]0;root@user: /tmp/labrabota3root@user:/tmp/labrabota3# getfacl example-acl/file3.txt [C[1P[1@5
+[?2004l# file: example-acl/file5.txt
+# owner: student
+# group: student
+user::rw-
+group::rw-
+other::r--
+
+[?2004h]0;root@user: /tmp/labrabota3root@user:/tmp/labrabota3# cd /
+[?2004l[?2004h]0;root@user: /root@user:/# rm -rf /tmp/labrabota3/
+[?2004l[?2004h]0;root@user: /root@user:/# ls -ls [K[Ka /tmp/
+[?2004ltotal 12
+drwxrwxrwt 17 root root  380 Apr  4 14:17 [0m[30;42m.[0m
+drwxr-xr-x 20 root root 4096 Feb 19 18:19 [01;34m..[0m
+drwxrwxrwt  2 root root   40 Apr  4 12:43 [30;42m.ICE-unix[0m
+-r--r--r--  1 user user   11 Apr  4 12:43 .X0-lock
+-r--r--r--  1 user user   11 Apr  4 12:43 .X1-lock
+drwxrwxrwt  2 root root   80 Apr  4 12:43 [30;42m.X11-unix[0m
+drwxrwxrwt  2 root root   40 Apr  4 12:43 [30;42m.XIM-unix[0m
+drwxrwxrwt  2 root root   40 Apr  4 12:43 [30;42m.font-unix[0m
+drwx------  5 root root  100 Apr  4 12:43 [01;34msnap-private-tmp[0m
+drwx------  3 root root   60 Apr  4 12:43 [01;34msystemd-private-807e624c34ec4f22b1e972d436260f0d-ModemManager.service-QLII8I[0m[K
+drwx------  3 root root   60 Apr  4 12:43 [01;34msystemd-private-807e624c34ec4f22b1e972d436260f0d-chrony.service-1f0nCa[0m
+drwx------  3 root root   60 Apr  4 12:43 [01;34msystemd-private-807e624c34ec4f22b1e972d436260f0d-colord.service-CcPhi5[0m
+drwx------  3 root root   60 Apr  4 13:38 [01;34msystemd-private-807e624c34ec4f22b1e972d436260f0d-fwupd.service-ISPofd[0m
+drwx------  3 root root   60 Apr  4 12:43 [01;34msystemd-private-807e624c34ec4f22b1e972d436260f0d-polkit.service-KPAv1e[0m
+drwx------  3 root root   60 Apr  4 12:42 [01;34msystemd-private-807e624c34ec4f22b1e972d436260f0d-power-profiles-daemon.service-jLhtzG[0m[K
+drwx------  3 root root   60 Apr  4 12:43 [01;34msystemd-private-807e624c34ec4f22b1e972d436260f0d-switcheroo-control.service-L9iL6F[0m[K
+drwx------  3 root root   60 Apr  4 12:43 [01;34msystemd-private-807e624c34ec4f22b1e972d436260f0d-systemd-logind.service-pVLMpG[0m[K
+drwx------  3 user user   60 Apr  4 12:50 [01;34msystemd-private-807e624c34ec4f22b1e972d436260f0d-ubuntu-insights-upload.service-Dc9VzB[0m[K
+drwx------  3 root root   60 Apr  4 12:43 [01;34msystemd-private-807e624c34ec4f22b1e972d436260f0d-upower.service-xYy7Bv[0m
+[?2004h]0;root@user: /root@user:/# exu[Kit
+[?2004lвыход
+]666;vte.shell.postexec=0\]7;file://user/home/user\]0;user@user:~\]666;vte.shell.precmd!\[?2004h]0;user@user: ~[01;32muser@user[00m:[01;34m~[00m$ sudo -i[3Pexitsudo -exit[6Pexit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+
+Script done on 2026-04-04 14:17:57+03:00 [COMMAND_EXIT_CODE="0"]

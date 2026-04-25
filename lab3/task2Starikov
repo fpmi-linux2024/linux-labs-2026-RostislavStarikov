@@ -1,0 +1,34 @@
+Script started on 2026-04-01 16:33:12+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="114" LINES="55"]
+Good Day, user!
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab3\]0;user@user:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab3[01;32muser@user[00m:[01;34m~/linux-labs/lab3[00m$ mkdir workdir
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab3\]0;user@user:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab3[01;32muser@user[00m:[01;34m~/linux-labs/lab3[00m$ ls -l
+[?2004l]133;C\]666;vte.shell.preexec!\total 32
+-rw-rw-r-- 1 user user   215 Apr  1 16:26 request.txt
+-rw-rw-r-- 1 user user 16603 Apr  1 16:28 task1Starikov
+-rw-rw-r-- 1 user user     0 Apr  1 16:33 task2Starikov
+-rw-rw-r-- 1 user user  4026 Apr  1 16:28 timelog1Starikov
+-rw-rw-r-- 1 user user     0 Apr  1 16:33 timelog2Starikov
+drwxrwxr-x 2 user user  4096 Apr  1 16:33 [0m[01;34mworkdir[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab3\]0;user@user:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab3[01;32muser@user[00m:[01;34m~/linux-labs/lab3[00m$ ls -lr[Ktr
+[?2004l]133;C\]666;vte.shell.preexec!\total 32
+-rw-rw-r-- 1 user user   215 Apr  1 16:26 request.txt
+-rw-rw-r-- 1 user user  4026 Apr  1 16:28 timelog1Starikov
+-rw-rw-r-- 1 user user 16603 Apr  1 16:28 task1Starikov
+-rw-rw-r-- 1 user user     0 Apr  1 16:33 task2Starikov
+-rw-rw-r-- 1 user user     0 Apr  1 16:33 timelog2Starikov
+drwxrwxr-x 2 user user  4096 Apr  1 16:33 [0m[01;34mworkdir[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab3\]0;user@user:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab3[01;32muser@user[00m:[01;34m~/linux-labs/lab3[00m$ ls -lai
+[?2004l]133;C\]666;vte.shell.preexec!\total 52
+922629 drwxrwxr-x 3 user user  4096 Apr  1 16:33 [0m[01;34m.[0m
+925976 drwxrwxr-x 6 user user  4096 Apr  1 16:05 [01;34m..[0m
+931806 -rw-r--r-- 1 user user 12288 Apr  1 16:23 [38;5;8m.request.txt.swp[0m
+931594 -rw-rw-r-- 1 user user   215 Apr  1 16:26 request.txt
+931591 -rw-rw-r-- 1 user user 16603 Apr  1 16:28 task1Starikov
+931864 -rw-rw-r-- 1 user user     0 Apr  1 16:33 task2Starikov
+931592 -rw-rw-r-- 1 user user  4026 Apr  1 16:28 timelog1Starikov
+931865 -rw-rw-r-- 1 user user     0 Apr  1 16:33 timelog2Starikov
+931868 drwxrwxr-x 2 user user  4096 Apr  1 16:33 [01;34mworkdir[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab3\]0;user@user:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab3[01;32muser@user[00m:[01;34m~/linux-labs/lab3[00m$ exit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+
+Script done on 2026-04-01 16:34:29+03:00 [COMMAND_EXIT_CODE="0"]

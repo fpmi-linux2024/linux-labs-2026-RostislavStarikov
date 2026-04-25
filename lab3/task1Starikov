@@ -1,0 +1,191 @@
+Script started on 2026-04-01 16:23:46+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="114" LINES="55"]
+Good Day, user!
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab3\]0;user@user:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab3[01;32muser@user[00m:[01;34m~/linux-labs/lab3[00m$ tous[Kch request.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab3\]0;user@user:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab3[01;32muser@user[00m:[01;34m~/linux-labs/lab3[00m$ vi request.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;55r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[55;1H[97m[41mE325: ATTENTION[m
+Found a swap file by the name ".request.txt.swp"
+[10Cowned by: user   dated: С[55;36Hр[55;38Hа[55;39Hп[55;40Hр[55;42H01 16:23:44 2026
+[9Cfile name: ~user/linux-labs/lab3/request.txt
+[10Cmodified: YES
+[9Cuser name: user   host name: user
+[8Cprocess ID: 5210
+While opening file "request.txt"
+[13Cdated: С[55;22Hр[55;24Hа[55;25Hп[55;26Hр[55;28H01 16:23:56 2026
+      NEWER than swap file!
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r request.txt"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".request.txt.swp"
+    to avoid this message.
+
+"request.txt"[54;1H"request.txt" 0 lines, 0 bytes[55;1H[K[55;1H[32mPress ENTER or type command to continue[?25h[m[1;1H[20L[?25l[2;1H[94m~                                                                                                                 [3;1H~                                                                                                                 [4;1H~                                                                                                                 [5;1H~                                                                                                                 [6;1H~                                                                                                                 [7;1H~                                                                                                                 [8;1H~                                                                                                                 [9;1H~                                                                                                                 [10;1H~                                                                                                                 [11;1H~                                                                                                                 [12;1H~                                                                                                                 [13;1H~                                                                                                                 [14;1H~                                                                                                                 [15;1H~                                                                                                                 [16;1H~                                                                                                                 [17;1H~                                                                                                                 [18;1H~                                                                                                                 [19;1H~                                                                                                                 [20;1H~                                                                                                                 [21;1H~                                                                                                                 [22;1H~                                                                                                                 [23;1H~                                                                                                                 [24;1H~                                                                                                                 [25;1H~                                                                                                                 [26;1H~                                                                                                                 [27;1H~                                                                                                                 [28;1H~                                                                                                                 [29;1H~                                                                                                                 [30;1H~                                                                                                                 [31;1H~                                                                                                                 [32;1H~                                                                                                                 [33;1H~                                                                                                                 [34;1H~                                                                                                                 [35;1H~                                                                                                                 [36;1H~                                                                                                                 [37;1H~                                                                                                                 [38;1H~                                                                                                                 [39;1H~                                                                                                                 [40;1H~                                                                                                                 [41;1H~                                                                                                                 [42;1H~                                                                                                                 [43;1H~                                                                                                                 [44;1H~                                                                                                                 [45;1H~                                                                                                                 [46;1H~                                                                                                                 [47;1H~                                                                                                                 [48;1H~                                                                                                                 [49;1H~                                                                                                                 [50;1H~                                                                                                                 [51;1H~                                                                                                                 [52;1H~                                                                                                                 [53;1H~                                                                                                                 [54;1H~                                                                                                                 [m[55;1H[K[1;1H[?25h[?4m[?2004l[>4;m[?25lМ[1;2H[?25h[?25lи[1;3H[?25h[?25lн[1;4H[?25h[?25lс[1;5H[?25h[?25lк[1;6H[?25h[?25l[2;1H[K[2;1H[?25h[?25lГ[2;2H[?25h[?25lо[2;3H[?25h[?25lм[2;4H[?25h[?25lе[2;5H[?25h[?25lл[2;6H[?25h[?25lь[2;7H[?25h[?25l[3;1H[K[3;1H[?25h[?25lМ[3;2H[?25h[?25lо[3;3H[?25h[?25lг[3;4H[?25h[?25lи[3;5H[?25h[?25lл[3;6H[?25h[?25lе[3;7H[?25h[?25lв[3;8H[?25h[?25l[4;1H[K[4;1H[?25h[?25lВ[4;2H[?25h[?25lи[4;3H[?25h[?25lт[4;4H[?25h[?25lе[4;5H[?25h[?25lб[4;6H[?25h[?25lс[4;7H[?25h[?25lк[4;8H[?25h[?25l[5;1H[K[5;1H[?25h[?25lГ[5;2H[?25h[?25lр[5;3H[?25h[?25lо[5;4H[?25h[?25lд[5;5H[?25h[?25lн[5;6H[?25h[?25lо[5;7H[?25h[?25l[6;1H[K[6;1H[?25h[?25lБ[6;2H[?25h[?25lр[6;3H[?25h[?25lе[6;4H[?25h[?25lс[6;5H[?25h[?25lт[6;6H[?25h[?25l[7;1H[K[7;1H[?25h[?25l[8;1H[K[8;1H[?25h[?25l[9;1H[K[9;1H[?25h[?25l[10;1H[K[10;1H[?25h[?25lБ[10;2H[?25h[?25lо[10;3H[?25h[?25lб[10;4H[?25h[?25lр[10;5H[?25h[?25lу[10;6H[?25h[?25lй[10;7H[?25h[?25lс[10;8H[?25h[?25lк[10;9H[?25h[?25l[11;1H[K[11;1H[?25h[?25lБ[11;2H[?25h[?25lа[11;3H[?25h[?25lр[11;4H[?25h[?25lа[11;5H[?25h[?25lн[11;6H[?25h[?25lо[11;7H[?25h[?25lв[11;8H[?25h[?25lи[11;9H[?25h[?25lч[11;10H[?25h[?25lи[11;11H[?25h[?25l[12;1H[K[12;1H[?25h[?25lП[12;2H[?25h[?25lи[12;3H[?25h[?25lн[12;4H[?25h[?25lс[12;5H[?25h[?25lк[12;6H[?25h[?25l[13;1H[K[13;1H[?25h[?25lО[13;2H[?25h[?25lр[13;3H[?25h[?25lр[13;4H[?25h[?25lш[13;5H[?25h[?25lа[13;6H[?25h[?25l[14;1H[K[14;1H[?25h[?25lМ[14;2H[?25h[?25lо[14;3H[?25h[?25lз[14;4H[?25h[?25lы[14;5H[?25h[?25lр[14;6H[?25h[?25lь[14;7H[?25h[?25l[15;1H[K[15;1H[?25h[?25lС[15;2H[?25h[?25lо[15;3H[?25h[?25lл[15;4H[?25h[?25lи[15;5H[?25h[?25lг[15;6H[?25h[?25lо[15;7H[?25h[?25lр[15;8H[?25h[?25lс[15;9H[?25h[?25lк[15;10H[?25h[?25l[16;1H[K[16;1H[?25h[?25lН[16;2H[?25h[?25lо[16;3H[?25h[?25lв[16;4H[?25h[?25lо[16;5H[?25h[?25lп[16;6H[?25h[?25lо[16;7H[?25h[?25lл[16;8H[?25h[?25lо[16;9H[?25h[?25lц[16;10H[?25h[?25lк[16;11H[?25h[?25l[17;1H[K[17;1H[?25h[?25lЛ[17;2H[?25h[?25lи[17;3H[?25h[?25lд[17;4H[?25h[?25lа[17;5H[?25h[?25l [?25h[?25l[18;1H[K[18;1H[?25h[?25lС[18;2H[?25h[?25lл[18;3H[?25h[?25lу[18;4H[?25h[?25lц[18;5H[?25h[?25lк[18;6H[?25h[?2004h[>4;2m[?4m[?25l[55;1H:[?25hwq![?25l[?2004l[>4;m"request.txt" 18 lines, 215 bytes written[23;2t[23;1t
+[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab3\]0;user@user:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab3[01;32muser@user[00m:[01;34m~/linux-labs/lab3[00m$ cat request.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\Минск
+Гомель
+Могилев
+Витебск
+Гродно
+Брест
+
+
+
+Бобруйск
+Барановичи
+Пинск
+Оррша
+Мозырь
+Солигорск
+Новополоцк
+Лида 
+Слуцк
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab3\]0;user@user:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab3[01;32muser@user[00m:[01;34m~/linux-labs/lab3[00m$ tac request.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\Слуцк
+Лида 
+Новополоцк
+Солигорск
+Мозырь
+Оррша
+Пинск
+Барановичи
+Бобруйск
+
+
+
+Брест
+Гродно
+Витебск
+Могилев
+Гомель
+Минск
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab3\]0;user@user:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab3[01;32muser@user[00m:[01;34m~/linux-labs/lab3[00m$ cat -n request.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\     1	Минск
+     2	Гомель
+     3	Могилев
+     4	Витебск
+     5	Гродно
+     6	Брест
+     7	
+     8	
+     9	
+    10	Бобруйск
+    11	Барановичи
+    12	Пинск
+    13	Оррша
+    14	Мозырь
+    15	Солигорск
+    16	Новополоцк
+    17	Лида 
+    18	Слуцк
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab3\]0;user@user:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab3[01;32muser@user[00m:[01;34m~/linux-labs/lab3[00m$ Ec=[K[K[Knl request.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\     1	Минск
+     2	Гомель
+     3	Могилев
+     4	Витебск
+     5	Гродно
+     6	Брест
+       
+       
+       
+     7	Бобруйск
+     8	Барановичи
+     9	Пинск
+    10	Оррша
+    11	Мозырь
+    12	Солигорск
+    13	Новополоцк
+    14	Лида 
+    15	Слуцк
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab3\]0;user@user:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab3[01;32muser@user[00m:[01;34m~/linux-labs/lab3[00m$ cat -s request.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\Минск
+Гомель
+Могилев
+Витебск
+Гродно
+Брест
+
+Бобруйск
+Барановичи
+Пинск
+Оррша
+Мозырь
+Солигорск
+Новополоцк
+Лида 
+Слуцк
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab3\]0;user@user:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab3[01;32muser@user[00m:[01;34m~/linux-labs/lab3[00m$ sed ''/'^'$'/'d'[C request.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\Минск
+Гомель
+Могилев
+Витебск
+Гродно
+Брест
+Бобруйск
+Барановичи
+Пинск
+Оррша
+Мозырь
+Солигорск
+Новополоцк
+Лида 
+Слуцк
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab3\]0;user@user:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab3[01;32muser@user[00m:[01;34m~/linux-labs/lab3[00m$ head -7 request.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\Минск
+Гомель
+Могилев
+Витебск
+Гродно
+Брест
+
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab3\]0;user@user:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab3[01;32muser@user[00m:[01;34m~/linux-labs/lab3[00m$ tail -6 request.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\Оррша
+Мозырь
+Солигорск
+Новополоцк
+Лида 
+Слуцк
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab3\]0;user@user:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab3[01;32muser@user[00m:[01;34m~/linux-labs/lab3[00m$ sort request.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\
+
+
+Барановичи
+Бобруйск
+Брест
+Витебск
+Гомель
+Гродно
+Лида 
+Минск
+Могилев
+Мозырь
+Новополоцк
+Оррша
+Пинск
+Слуцк
+Солигорск
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab3\]0;user@user:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab3[01;32muser@user[00m:[01;34m~/linux-labs/lab3[00m$ sort -r request.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\Солигорск
+Слуцк
+Пинск
+Оррша
+Новополоцк
+Мозырь
+Могилев
+Минск
+Лида 
+Гродно
+Гомель
+Витебск
+Брест
+Бобруйск
+Барановичи
+
+
+
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab3\]0;user@user:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab3[01;32muser@user[00m:[01;34m~/linux-labs/lab3[00m$ exit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+
+Script done on 2026-04-01 16:28:57+03:00 [COMMAND_EXIT_CODE="0"]

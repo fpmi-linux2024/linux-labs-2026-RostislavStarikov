@@ -1,0 +1,214 @@
+rostislav@astra: ~/linux-labs/linux-labs-2026-RostislavStarikov/lab3 rostislav@astra:~/linux-labs/linux-labs-2026-RostislavStarikov/lab3$ man capabilities
+CAPABILITIES(7)                  Руководство программиста Linux                 CAPABILITIES(7)
+ИМЯ
+       capabilities - обзор мандатов Linux
+ОПИСАНИЕ
+       Для  выполнения  проверки  прав доступа в обычных реализациях UNIX процессы разделяют на
+       две  категории:  привилегированные  (ID  эффективного  пользователя  равен  0,   как   у
+       суперпользователя  или  root),  и  не привилегированные (ID эффективного пользователя не
+       равен нулю). Для привилегированных процессов все проверки прав в ядре не выполняются,  а
+       для  не  привилегированных  процессов  выполняется  полная  проверка  на основе мандатов
+       процесса (обычно, эффективного UID, эффективного GID и списка дополнительных групп).
+       В  ядре  Linux  начиная  с  версии   .,   все   привилегии,   обычно   связываемые   с
+       суперпользователем,  разделены на несколько частей, называемых мандатами2 (capabilities),
+       которые можно разрешать и запрещать независимо друг от друга. Мандаты являются атрибутом
+       нити.
+   Список мандатов
+       В  следующим  списке  показаны  мандаты,  реализованные  в  Linux,  а также операции или
+       поведение, которые эти мандаты разрешают:
+       CAP_AUDIT_CONTROL (начиная с Linux .6.11)
+              Позволяет включать или выключать аудит ядра; изменять фильтрующие правила аудита;
+              получать состояние аудита и фильтрующие правила.
+       CAP_AUDIT_READ (начиная с Linux 3.16)
+              Позволяет читать протокол аудита через многоадресный сокет netlink.
+       CAP_AUDIT_WRITE (начиная с Linux .6.11)
+              Позволяет записывать данные в журнал аудита ядра.
+       CAP_BLOCK_SUSPEND (начиная с Linux 3.5)
+rostislav@astra: ~/linux-labs/linux-labs-2026-RostislavStarikov/lab3 rostislav@astra:~/linux-labs/linux-labs-2026-RostislavStarikov/lab3$ man setcap
+SETCAP(8)                           System Manager's Manual                           SETCAP(8)
+NAME
+       setcap - set file capabilities
+SYNOPSIS
+       setcap [-q] [-v] (capabilities|-|-r) filename [ ... capabilities file ]
+DESCRIPTION
+       In  the absence of the -v (verify) option setcap sets the capabilities of each specified
+       filename to the capabilities specified.  The -v option is used to verify that the speci‐
+       fied capabilities are currently associated with the file.
+       The capabilities are specified in the form described in cap_from_text2(3).
+       The  special  capability string, '-', can be used to indicate that capabilities are read
+       from the standard input. In such cases, the capability set is terminated  with  a  blank
+       line.
+       The special capability string, '-r', is used to remove a capability set from a file.
+       The -q flag is used to make the program less verbose in its output.
+EXIT CODE
+       The setcap program will exit with a 0 exit code if successful. On failure, the exit code
+       is 1.
+SEE ALSO
+       cap_from_text(3), cap_set_file(3), getcap(8)
+                                       24th October 2008                              SETCAP(8)
+rostislav@astra: ~/linux-labs/linux-labs-2026-RostislavStarikov/lab3 rostislav@astra:~/linux-labs/linux-labs-2026-RostislavStarikov/lab3$ man getcap
+GETCAP(8)                           System Manager's Manual                           GETCAP(8)
+NAME
+       getcap - examine file capabilities
+SYNOPSIS
+       getcap [-v] [-r] [-h] filename [ ... ]
+DESCRIPTION
+       getcap displays the name and capabilities of each specified
+OPTIONS
+       -r  enables recursive search.
+       -v  enables to display all searched entries, even if it has no file-capabilities.
+       -h  prints quick usage.
+       filename
+           One file per line.
+SEE ALSO
+       cap_get_file(3), cap_to_text(3), setcap(8)
+                                          12 Nov 2007                                 GETCAP(8)
+rostislav@astra: ~/linux-labs/linux-labs-2026-RostislavStarikov/lab3 rostislav@astra:~/linux-labs/linux-labs-2026-RostislavStarikov/lab3$ man usermod
+usermod(8)                        Команды управления системой                        usermod(8)
+НАЗВАНИЕ
+       usermod - изменяет учётную запись пользователя
+СИНТАКСИС
+       usermod [параметры2] УЧЁТНАЯ_ЗАПИСЬ2
+ОПИСАНИЕ
+       Команда usermod изменяет системные файлы учётных записей согласно переданным в командной
+       строке параметрам.
+ПАРАМЕТРЫ
+       Параметры команды usermod:
+       -a, --append
+           Добавить пользователя в дополнительную группу(ы). Использовать только вместе с
+           параметром -G.
+       -c, --comment КОММЕНТАРИЙ2
+           Новое значение поля комментария в файле пользовательских паролей. Обычно его
+           изменяют с помощью программы chfn(1).
+       -d, --home HOME_DIR
+           Домашний каталог нового пользователя.
+           Если указан параметр -m, то содержимое текущего домашнего каталога будет перемещено
+           в новый домашний каталог, который будет создан, если он ещё не существует.
+       -e, --expiredate ДАТА_УСТАРЕВАНИЯ2
+           Дата, когда учётная запись пользователя будет заблокирована. Дата задаётся в формате
+           ГГГГ-ММ-ДД.
+rostislav@astra: ~/linux-labs/linux-labs-2026-RostislavStarikov/lab3 rostislav@astra:~/linux-labs/linux-labs-2026-RostislavStarikov/lab3$ man sudoers
+SUDOERS(5)                          BSD File Formats Manual                          SUDOERS(5)
+NAME
+     sudoers — default sudo security policy plugin
+DESCRIPTION
+     The sudoers policy plugin determines a user's sudo privileges.  It is the default sudo
+     policy plugin.  The policy is driven by the /etc/sudoers file or, optionally in LDAP.  The
+     policy format is described in detail in the SUDOERS FILE FORMAT section.  For information
+     on storing sudoers policy information in LDAP, please see sudoers.ldap(5).
+   Configuring sudo.conf for sudoers
+     sudo consults the sudo.conf(5) file to determine which policy and and I/O logging plugins
+     to load.  If no sudo.conf(5) file is present, or if it contains no Plugin lines, sudoers
+     will be used for policy decisions and I/O logging.  To explicitly configure sudo.conf(5)
+     to use the sudoers plugin, the following configuration can be used.
+           Plugin sudoers_policy sudoers.so
+           Plugin sudoers_io sudoers.so
+     Starting with sudo 1.8.5, it is possible to specify optional arguments to the sudoers
+     plugin in the sudo.conf(5) file.  These arguments, if present, should be listed after the
+     path to the plugin (i.e. after sudoers.so2).  Multiple arguments may be specified, sepa‐
+     rated by white space.  For example:
+           Plugin sudoers_policy sudoers.so sudoers_mode=0400
+     The following plugin arguments are supported:
+     ldap_conf=pathname
+               The ldap_conf argument can be used to override the default path to the ldap.conf
+               file.
+rostislav@astra: ~/linux-labs/linux-labs-2026-RostislavStarikov/lab3 rostislav@astra:~/linux-labs/linux-labs-2026-RostislavStarikov/lab3$ id student
+uid=1001(student) gid=1002(student) группы=1002(student),27(sudo)
+rostislav@astra: ~/linux-labs/linux-labs-2026-RostislavStarikov/lab3 rostislav@astra:~/linux-labs/linux-labs-2026-RostislavStarikov/lab3$ su - student
+Пароль: 
+student@astra: ~ student@astra:~$ traceroute google.com
+traceroute to google.com (14.250.109.102), 30 hops max, 60 byte packets
+ 1  19.168.146.2 (19.168.146.2)  1.183 ms  1.041 ms  0.912 ms
+ 2  * * *
+ 3  * * *
+ 4  * * *
+ 5  * * *
+ 6  * * *
+ 7  * * *
+ 8  * * *
+ 9  * * *
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+student@astra: ~ student@astra:~$ exit
+выход
+rostislav@astra: ~/linux-labs/linux-labs-2026-RostislavStarikov/lab3 rostislav@astra:~/linux-labs/linux-labs-2026-RostislavStarikov/lab3$ sudo -i
+root@astra:~# echo "student ALL=(ALL) /bin/chown" | sudo tee /etc/sudeoers.d/student
+student ALL=(ALL) /bin/chown
+root@astra:~# sudo chmod 440 /etc/sudoers.d/student
+root@astra:~# sudo -l -U student
+Matching Defaults entries for student on astra:
+    env_reset, mail_badpass,
+    secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin
+User student may run the following commands on astra:
+    (ALL : ALL) ALL
+    (ALL) /bin/chown
+root@astra:~# sudo setcap cap_net_raw+ep /usr/bin/traceroute
+Failed to set capabilities on file `/usr/bin/traceroute' (Invalid argument)
+The value of the capability argument is not permitted for a file. Or the file is not a regular (non-symlink) file
+root@astra:~# getcap /usr/bin/traceroute
+root@astra:~# su - student
+student@astra: ~ student@astra:~$ traceroute goKogle.com
+traceroute to google.com (14.250.120.100), 30 hops max, 60 byte packets
+ 1  19.168.146.2 (19.168.146.2)  0.680 ms  0.615 ms  0.583 ms
+ 2  * * *
+ 3  * * *
+ 4  * * *
+ 5  * * *
+ 6  * * *
+ 7  * * *
+ 8  * * *
+ 9  * * *
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+student@astra: ~ student@astra:~$ touch test.txt
+student@astra: ~ student@astra:~$ sudo chown root:root test.txt
+Мы полагаем, что ваш системный администратор изложил вам основы
+безопасности. Как правило, всё сводится к трём следующим правилам:
+    №1) Уважайте частную жизнь других.
+    №2) Думайте, прежде что-то вводить.
+    №3) С большой властью приходит большая ответственность.
+[sudo] пароль для student: 
+student@astra: ~ student@astra:~$ exit
+выход
+root@astra:~# exit
+выход
+rostislav@astra: ~/linux-labs/linux-labs-2026-RostislavStarikov/lab3 rostislav@astra:~/linux-labs/linux-labs-2026-RostislavStarikov/lab3$ exit
+exit
