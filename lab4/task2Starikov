@@ -1,0 +1,74 @@
+Script started on 2026-04-05 20:12:58+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="114" LINES="55"]
+Good Day, user!
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ gzip er[K[Krequest.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ gzip request.txt [K[K[K[K[K[K[K[K[K[K[K[K-c order.txt > order.txt [K.gz
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;31m9.zip[0m    [01;31marzip1.zip[0m  arzip4.z01         [01;34mdocs[0m             letter.txt    [01;31mrequest.txt.gz[0m  task2Starikov
+[01;34mBinary1[0m  [01;31marzip2.zip[0m  [01;31marzip4.zip[0m         imelog1Starikov  order.txt     sample.exe
+[01;34mBinary2[0m  [01;31marzip3.zip[0m  [01;31marzip4_merged.zip[0m  imelog2Starikov  [01;31morder.txt.gz[0m  task1Starikov
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ gu[Kunzip -t request.txt.gz 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ gzip -k letter.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;31m9.zip[0m    [01;31marzip1.zip[0m  arzip4.z01         [01;34mdocs[0m             letter.txt     [01;31morder.txt.gz[0m    task1Starikov
+[01;34mBinary1[0m  [01;31marzip2.zip[0m  [01;31marzip4.zip[0m         imelog1Starikov  [01;31mletter.txt.gz[0m  [01;31mrequest.txt.gz[0m  task2Starikov
+[01;34mBinary2[0m  [01;31marzip3.zip[0m  [01;31marzip4_merged.zip[0m  imelog2Starikov  order.txt      sample.exe
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ zcat letter.txt.gz | g[Khead
+[?2004l]133;C\]666;vte.shell.preexec!\total 295320
+drwxr-xr-x   2 root root       49152 Mar 11 16:56 .
+drwxr-xr-x  12 root root        4096 Oct  7 05:32 ..
+-rwxr-xr-x   1 root root      727672 Aug 13  2025 3cpio
+lrwxrwxrwx   1 root root          11 Mar  1  2025 GET -> lwp-request
+lrwxrwxrwx   1 root root          11 Mar  1  2025 HEAD -> lwp-request
+lrwxrwxrwx   1 root root          11 Mar  1  2025 POST -> lwp-request
+lrwxrwxrwx   1 root root           1 Jun 13  2025 X11 -> .
+-rwxr-xr-x   1 root root     2389776 Oct 23 21:27 Xwayland
+lrwxrwxrwx   1 root root          28 Sep 26  2025 [ -> ../lib/cargo/bin/coreutils/[
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ mkdir gzsamples
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ cp *.gz gzsamples/
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ cd gzsamples/
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/gzsamples\]0;user@user:~/linux-labs/lab4/gzsamples\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/gzsamples[01;32muser@user[00m:[01;34m~/linux-labs/lab4/gzsamples[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;31mletter.txt.gz[0m  [01;31morder.txt.gz[0m  [01;31mrequest.txt.gz[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/gzsamples\]0;user@user:~/linux-labs/lab4/gzsamples\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/gzsamples[01;32muser@user[00m:[01;34m~/linux-labs/lab4/gzsamples[00m$ gunzip request.txt.gz 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/gzsamples\]0;user@user:~/linux-labs/lab4/gzsamples\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/gzsamples[01;32muser@user[00m:[01;34m~/linux-labs/lab4/gzsamples[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;31mletter.txt.gz[0m  [01;31morder.txt.gz[0m  request.txt
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/gzsamples\]0;user@user:~/linux-labs/lab4/gzsamples\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/gzsamples[01;32muser@user[00m:[01;34m~/linux-labs/lab4/gzsamples[00m$ ls[K[Kgunzip -c order.txt.gz  > order.txt.gz [K[K[K[K
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/gzsamples\]0;user@user:~/linux-labs/lab4/gzsamples\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/gzsamples[01;32muser@user[00m:[01;34m~/linux-labs/lab4/gzsamples[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;31mletter.txt.gz[0m  order.txt  [01;31morder.txt.gz[0m  request.txt
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/gzsamples\]0;user@user:~/linux-labs/lab4/gzsamples\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/gzsamples[01;32muser@user[00m:[01;34m~/linux-labs/lab4/gzsamples[00m$ gunzip -k letter.txt.gz 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/gzsamples\]0;user@user:~/linux-labs/lab4/gzsamples\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/gzsamples[01;32muser@user[00m:[01;34m~/linux-labs/lab4/gzsamples[00m$ ;[Kls
+[?2004l]133;C\]666;vte.shell.preexec!\letter.txt  [0m[01;31mletter.txt.gz[0m  order.txt  [01;31morder.txt.gz[0m  request.txt
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/gzsamples\]0;user@user:~/linux-labs/lab4/gzsamples\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/gzsamples[01;32muser@user[00m:[01;34m~/linux-labs/lab4/gzsamples[00m$ cd ..
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ ls -l
+[?2004l]133;C\]666;vte.shell.preexec!\total 131356
+-rw-rw-r-- 1 user user    21953 Apr  5 19:59 [0m[01;31m9.zip[0m
+drwxrwxr-x 2 user user     4096 Apr  5 20:00 [01;34mBinary1[0m
+drwxrwxr-x 2 user user     4096 Apr  5 20:03 [01;34mBinary2[0m
+-rw-rw-r-- 1 user user    21785 Apr  5 19:58 [01;31marzip1.zip[0m
+-rw-rw-r-- 1 user user    21953 Apr  5 19:58 [01;31marzip2.zip[0m
+-rw-rw-r-- 1 user user 33559722 Apr  5 20:00 [01;31marzip3.zip[0m
+-rw-rw-r-- 1 user user 20971520 Apr  5 20:00 arzip4.z01
+-rw-rw-r-- 1 user user 12588206 Apr  5 20:00 [01;31marzip4.zip[0m
+-rw-rw-r-- 1 user user 33559722 Apr  5 20:03 [01;31marzip4_merged.zip[0m
+drwxrwxr-x 2 user user     4096 Apr  5 20:05 [01;34mdocs[0m
+drwxrwxr-x 2 user user     4096 Apr  5 20:16 [01;34mgzsamples[0m
+-rw-rw-r-- 1 user user    11415 Apr  5 20:05 imelog1Starikov
+-rw-rw-r-- 1 user user        0 Apr  5 20:12 imelog2Starikov
+-rw-rw-r-- 1 user user   101633 Apr  5 19:57 letter.txt
+-rw-rw-r-- 1 user user    17420 Apr  5 19:57 [01;31mletter.txt.gz[0m
+-rw-rw-r-- 1 user user     5830 Apr  5 19:57 order.txt
+-rw-rw-r-- 1 user user     1145 Apr  5 20:13 [01;31morder.txt.gz[0m
+-rw-rw-r-- 1 user user     2841 Apr  5 19:57 [01;31mrequest.txt.gz[0m
+-rw-rw-r-- 1 user user 33554432 Apr  5 20:00 sample.exe
+-rw-rw-r-- 1 user user    17127 Apr  5 20:05 task1Starikov
+-rw-rw-r-- 1 user user     4096 Apr  5 20:15 task2Starikov
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ ls -l gz`[Ksamples/
+[?2004l]133;C\]666;vte.shell.preexec!\total 156
+-rw-rw-r-- 1 user user 101633 Apr  5 20:15 letter.txt
+-rw-rw-r-- 1 user user  17420 Apr  5 20:15 [0m[01;31mletter.txt.gz[0m
+-rw-rw-r-- 1 user user   5830 Apr  5 20:16 order.txt
+-rw-rw-r-- 1 user user   1145 Apr  5 20:15 [01;31morder.txt.gz[0m
+-rw-rw-r-- 1 user user  21367 Apr  5 20:15 request.txt
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ exit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+
+Script done on 2026-04-05 20:17:22+03:00 [COMMAND_EXIT_CODE="0"]

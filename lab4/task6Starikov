@@ -1,0 +1,29 @@
+Script started on 2026-04-25 12:12:55+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="114" LINES="55"]
+Good Day, user!
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ mkdir  rsync_work
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ cd rsync_work/
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/rsync_work\]0;user@user:~/linux-labs/lab4/rsync_work\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/rsync_work[01;32muser@user[00m:[01;34m~/linux-labs/lab4/rsync_work[00m$ mkdir rsync-backup te,p[K[Kmp
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/rsync_work\]0;user@user:~/linux-labs/lab4/rsync_work\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/rsync_work[01;32muser@user[00m:[01;34m~/linux-labs/lab4/rsync_work[00m$ cp ../request.txt ../t[Kle`[Ktter.txt ../order.txt rsync-backup/ 2.[K>dev/n/dev/n[C[C[C[C[Cull
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=1\]7;file://user/home/user/linux-labs/lab4/rsync_work\]0;user@user:~/linux-labs/lab4/rsync_work\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/rsync_work[01;32muser@user[00m:[01;34m~/linux-labs/lab4/rsync_work[00m$ rsync -av rsync-backup/ temp/
+[?2004l]133;C\]666;vte.shell.preexec!\sending incremental file list
+./
+letter.txt
+order.txt
+
+sent 107.674 bytes  received 57 bytes  215.462,00 bytes/sec
+total size is 107.463  speedup is 1,00
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/rsync_work\]0;user@user:~/linux-labs/lab4/rsync_work\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/rsync_work[01;32muser@user[00m:[01;34m~/linux-labs/lab4/rsync_work[00m$ echo ""u"p"d"a"t"e"[C >> rsync-backup/rea[Kquest,[K.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/rsync_work\]0;user@user:~/linux-labs/lab4/rsync_work\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/rsync_work[01;32muser@user[00m:[01;34m~/linux-labs/lab4/rsync_work[00m$ rsync -af[Kv rsync-backup/ temp/
+[?2004l]133;C\]666;vte.shell.preexec!\sending incremental file list
+./
+request.txt
+
+sent 185 bytes  received 38 bytes  446,00 bytes/sec
+total size is 107.470  speedup is 481,93
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/rsync_work\]0;user@user:~/linux-labs/lab4/rsync_work\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/rsync_work[01;32muser@user[00m:[01;34m~/linux-labs/lab4/rsync_work[00m$ diff rsi[Kync-backup/request.txt temp/t[Krequest.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/rsync_work\]0;user@user:~/linux-labs/lab4/rsync_work\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/rsync_work[01;32muser@user[00m:[01;34m~/linux-labs/lab4/rsync_work[00m$ учше[K[K[K[Kls
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;34mrsync-backup[0m  [01;34mtemp[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/rsync_work\]0;user@user:~/linux-labs/lab4/rsync_work\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/rsync_work[01;32muser@user[00m:[01;34m~/linux-labs/lab4/rsync_work[00m$ exit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+
+Script done on 2026-04-25 12:16:20+03:00 [COMMAND_EXIT_CODE="0"]

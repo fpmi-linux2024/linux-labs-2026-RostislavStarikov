@@ -1,0 +1,190 @@
+Script started on 2026-04-25 12:17:16+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="114" LINES="55"]
+Good Day, user!
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ mkdir task2
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ cd task2
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ tar -xzf [K[K[K[Kxvf ../tar_w[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd ..
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;31m9.zip[0m           [01;31marzip3.zip[0m         letter1.txt   [01;31mrequest.txt.gz[0m  task1Starikov       timelog4Starikov
+[01;34mBinary1[0m         arzip4.z01         letter2.txt   request1.txt    [01;34mtask2[0m               timelog4astraStarikov
+[01;34mBinary2[0m         [01;31marzip4.zip[0m         letter3.txt   request2.txt    task2Starikov       timelog5Starikov
+[01;31martar1.tar[0m      [01;31marzip4_merged.zip[0m  letter4.txt   [01;32mrequest3.txt[0m    task3Starikov       timelog6Starikov
+[01;31martar2.tar[0m      [01;34mdocs[0m               order.txt     request4.txt    task4Starikov       timelog7Starikov
+[01;31martar3.tar[0m      [01;34mgzsamples[0m          [01;31morder.txt.gz[0m  [01;34mrsync_work[0m      task4astraStarikov  [01;34mxz_work[0m
+[01;31martar4.tar.gz[0m   imelog1Starikov    order1.txt    sample.exe      task5Starikov
+[01;31martar4.tar.zip[0m  imelog2Starikov    order2.txt    [01;34mtar_dir[0m         task6Starikov
+[01;31marzip1.zip[0m      letter.txt         [01;32morder3.txt[0m    [01;34mtar_dir2[0m        task7Starikov
+[01;31marzip2.zip[0m      [01;31mletter.txt.gz[0m      order4.txt    [01;34mtar_gzip_work[0m   timelog3Starikov
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ cd task2
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ tar -xvd[Kf ../[K[K[K[K[K[K[K[K[K[K[K[Kcp ../tar_ro[K[Kwoe[Kr[K[K[K[K[K[K[K[K[K[K[K[K[Kсв ю[K[K[K[Kcp ../ra[K[Ktar_dir/[K[K[K[K[K[K[K[K[K[K[K.///[K[K[K./artar1.tar -C ./
+[?2004l]133;C\]666;vte.shell.preexec!\cp: неверный ключ — «C»
+По команде «cp --help» можно получить дополнительную информацию.
+]666;vte.shell.postexec=1\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ cp ../artar1.tar -C ./[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ktar -xvf ../artar1.tar -C ./
+[?2004l]133;C\]666;vte.shell.preexec!\request1.txt
+letter1.txt
+order1.txt
+request1.txt
+letter1.txt
+request2.txt
+letter2.txt
+order2.txt
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ echo ""e"x"t"r"a"[C > extra.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ tar -rvf ../artar1.tar extra.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\extra.txt
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ toucj[Kh a.txt v.doc[K[K[K[K[Kb.com[K[K[Kfo[Kd[K[Kdoc c.docx d.jpg
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ tra[K[Kar -cvf example.tar *.txt *.doc *.docx *.jpg
+[?2004l]133;C\]666;vte.shell.preexec!\a.txt
+extra.txt
+letter1.txt
+letter2.txt
+order1.txt
+order2.txt
+request1.txt
+request2.txt
+b.doc
+c.docx
+d.jpg
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ t[Ktar -xvf example.tar --wildcards ''*'.'d'o'c'
+[?2004l]133;C\]666;vte.shell.preexec!\b.doc
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ tar --delete -f example.tar ''*'.'t'x't'
+[?2004l]133;C\]666;vte.shell.preexec!\tar: В именах файлов используются символы подстановки
+tar: Используйте --wildcards, чтобы задействовать эти символы, или --no-wildcards, чтобы убрать это предупреждение
+tar: *.txt: Не найден в архиве
+tar: Завершение работы с состоянием неисправности из-за возникших ошибок
+]666;vte.shell.postexec=2\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ tar --delete -f example.tar '*.txt'[1P[1P[1P
+[?2004l]133;C\]666;vte.shell.preexec!\tar: Отказ чтения содержимого архива с терминала (пропущен параметр -f?)
+tar: Error is not recoverable: exiting now
+]666;vte.shell.postexec=2\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ tar --delete example.tar '*.txt'[3@-f [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l]133;C\]666;vte.shell.preexec!\tar: В именах файлов используются символы подстановки
+tar: Используйте --wildcards, чтобы задействовать эти символы, или --no-wildcards, чтобы убрать это предупреждение
+tar: *.txt: Не найден в архиве
+tar: Завершение работы с состоянием неисправности из-за возникших ошибок
+]666;vte.shell.postexec=2\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ tar --delete -f example.tar '*.txt'[1@ [1@-[1@-[Ktar --delet --e -f example.tar '*.txt'[6Pe[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6@ --e -f[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pe[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6@ --e -f[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pe[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@-f [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@=[1@=[1P[C[1P[C[1@ [1@-[1@-[C[1@ [1@e[1@i[1@l[1P[1P[1P[1@w[1@i[1@l[6@dcards[C[1P
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ tar -tvf ecx[K[Kxample.tar 
+[?2004l]133;C\]666;vte.shell.preexec!\-rw-rw-r-- user/user         0 2026-04-25 12:22 b.doc
+-rw-rw-r-- user/user         0 2026-04-25 12:22 c.docx
+-rw-rw-r-- user/user         0 2026-04-25 12:22 d.jpg
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ ls ~ > example1.tz[Kxt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ ls /etc > example2.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ cat exa,m[K[Kmple1.txt example2.txt " gx[K[K[K[K| gzipk[K[Kp > output.txt.gx[Kz
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ xcat[K[K[K[Kzxa[K[Kcat output.txt.gz | head -5
+[?2004l]133;C\]666;vte.shell.preexec!\Laboratory Task
+Starikov
+dead.letter
+linux-labs
+mbox
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ gunzip -c output.txt.gz | head -5
+[?2004l]133;C\]666;vte.shell.preexec!\Laboratory Task
+Starikov
+dead.letter
+linux-labs
+mbox
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ d d[K[Kd if=/dev/urandom of=large.iso bs=1M count=10 2> [K/dev/null
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ tar -czf - large [K.iso | split -b 5B[K<[KM - large [K.iso [K.tar,[K.gx[Kz.
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ tar -czf - large.iso | split -b 5M - large.iso.tar.gz.[1P.[1P.x.z.
+[?2004l]133;C\]666;vte.shell.preexec!\\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ \[Ktar -czf - large.iso | split -b 5M - large.iso.tar.xz.gz.xz.[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[?2004l]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ tar -czf - large.iso | split -b 5M - large.iso.tar.xz.
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ ls -lh ka[K[Klarge.iso.tar.gz.*
+[?2004l]133;C\]666;vte.shell.preexec!\-rw-rw-r-- 1 user user 5.0M Apr 25 12:28 large.iso.tar.gz.aa
+-rw-rw-r-- 1 user user 5.0M Apr 25 12:28 large.iso.tar.gz.ab
+-rw-rw-r-- 1 user user 1.8K Apr 25 12:28 large.iso.tar.gz.ac
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ ls -lh large.iso.tar.gz.*[1P.*[1P.*x.*z.*
+[?2004l]133;C\]666;vte.shell.preexec!\-rw-rw-r-- 1 user user 5.0M Apr 25 12:29 large.iso.tar.xz.aa
+-rw-rw-r-- 1 user user 5.0M Apr 25 12:29 large.iso.tar.xz.ab
+-rw-rw-r-- 1 user user 1.8K Apr 25 12:29 large.iso.tar.xz.ac
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ cat large.iso.tar.gx[Kz.* | tar -xzf -
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ sl[K[Kls -lh large.iso
+[?2004l]133;C\]666;vte.shell.preexec!\-rw-rw-r-- 1 user user 10M Apr 25 12:28 large.iso
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ 7z a -v5M archo[Kive[Ke.7z large.iso
+[?2004l]133;C\]666;vte.shell.preexec!\Команда «7z» не найдена, но может быть установлена с помощью:
+sudo apt install 7zip
+]666;vte.shell.postexec=127\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ audo apt instarl[K[Kll 7zip
+[?2004l]133;C\]666;vte.shell.preexec!\Команда «audo» не найдена. Возможно, вы имели в виду:
+  команда 'aldo' из snap-пакета aldo (0.7.7)
+  команда 'ludo' из snap-пакета ludo (0.17.1)
+  команда 'udo' из deb-пакета udo (6.4.1-8)
+  команда 'sudo' из deb-пакета sudo-rs (0.2.8-1ubuntu5.3)
+  команда 'sudo' из deb-пакета sudo (1.9.17p2-1ubuntu1)
+  команда 'aldo' из deb-пакета aldo (0.7.8-2)
+См. 'snap info <имя_snap-пакета>', чтобы просмотреть дополнительные версии.
+]666;vte.shell.postexec=127\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ audo apt install 7zip[Kaudo apt install 7zip[1P[1@s
+[?2004l]133;C\]666;vte.shell.preexec!\[sudo: authenticate] Password: 
+Чтение списков пакетов… 0%Чтение списков пакетов… 100%                                                   Построение дерева зависимостей… 0%Построение дерева зависимостей… 0%Построение дерева зависимостей… 50%Построение дерева зависимостей… 50%                                                                  Чтение информации о состоянии… 0%Чтение информации о состоянии… 0%                                                              Разрешение зависимостей… 0%Разрешение зависимостей… 10%                                                     Установка:
+[32m  7zip
+[0m
+Предлагаемые пакеты:
+  7zip-standalone  7zip-rar
+
+Сводка:
+  Обновление: 0, Установка: 1, Удаление: 0, Пропуск обновления: 115
+  Объём загрузки: 2 119 kB
+  Требуемое пространство: 7 256 kB / 8 550 MB доступно
+
+[33m0% [Обработка][0m                       Пол:1 http://archive.ubuntu.com/ubuntu questing/universe amd64 7zip amd64 25.01+dfsg-2 [2 119 kB]
+[33m0% [1 7zip 1 158 B/2 119 kB 0%][0m[33m                                   31% [1 7zip 822 kB/2 119 kB 39%][0m[33m                                  100% [Обработка][0m                         Получено 2 119 kB за 1с (2 207 kB/s)
+
+7[0;54r8[1AВыбор ранее не выбранного пакета 7zip.
+(Чтение базы данных … (Чтение базы данных … 5%(Чтение базы данных … 10%(Чтение базы данных … 15%(Чтение базы данных … 20%(Чтение базы данных … 25%(Чтение базы данных … 30%(Чтение базы данных … 35%(Чтение базы данных … 40%(Чтение базы данных … 45%(Чтение базы данных … 50%(Чтение базы данных … 55%(Чтение базы данных … 60%(Чтение базы данных … 65%(Чтение базы данных … 70%(Чтение базы данных … 75%(Чтение базы данных … 80%(Чтение базы данных … 85%(Чтение базы данных … 90%(Чтение базы данных … 95%(Чтение базы данных … 100%(Чтение базы данных … на данный момент установлено 151517 файлов и каталогов.)
+Подготовка к распаковке …/7zip_25.01+dfsg-2_amd64.deb …
+7[55;0f[42m[30mХод выполнения: [  0%][49m[39m [                                                                                      ] 87[55;0f[42m[30mХод выполнения: [ 20%][49m[39m [█████████████████▏                                                                    ] 8Распаковывается 7zip (25.01+dfsg-2) …
+7[55;0f[42m[30mХод выполнения: [ 40%][49m[39m [██████████████████████████████████▍                                                   ] 8Настраивается пакет 7zip (25.01+dfsg-2) …
+7[55;0f[42m[30mХод выполнения: [ 60%][49m[39m [███████████████████████████████████████████████████▌                                  ] 87[55;0f[42m[30mХод выполнения: [ 80%][49m[39m [████████████████████████████████████████████████████████████████████▊                 ] 8Обрабатываются триггеры для man-db (2.13.1-1) …
+
+7[0;55r8[1A[J]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ sudo apt install 7zipa[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C7z a -v5M archive.7z large.iso
+[?2004l]133;C\]666;vte.shell.preexec!\
+7-Zip 25.01 (x64) : Copyright (c) 1999-2025 Igor Pavlov : 2025-08-03
+ 64-bit locale=ru_RU.UTF-8 Threads:6 OPEN_MAX:1024, ASM
+
+Scanning the drive:
+  0M Scan           1 file, 10485760 bytes (10 MiB)
+
+Creating archive: archive.7z
+
+Add new data to archive: 1 file, 10485760 bytes (10 MiB)
+
+  0%     38% + large.iso                 79% + large.iso                
+Files read from disk: 1
+Archive size: 10486534 bytes (11 MiB)
+Volumes: 3
+Everything is Ok
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ ls -lh archive.7z.00[K[K*
+[?2004l]133;C\]666;vte.shell.preexec!\-rw-rw-r-- 1 user user 5.0M Apr 25 12:30 archive.7z.001
+-rw-rw-r-- 1 user user 5.0M Apr 25 12:30 archive.7z.002
+-rw-rw-r-- 1 user user  774 Apr 25 12:30 archive.7z.003
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ sudo apt install ssh=[K[K[Kharutils
+[?2004l]133;C\]666;vte.shell.preexec!\Чтение списков пакетов… 0%Чтение списков пакетов… 100%                                                   Построение дерева зависимостей… 0%Построение дерева зависимостей… 0%Построение дерева зависимостей… 50%Построение дерева зависимостей… 50%                                                                  Чтение информации о состоянии… 0%Чтение информации о состоянии… 0%                                                              Разрешение зависимостей… 0%Разрешение зависимостей… 10%                                                     Установка:
+[32m  sharutils
+[0m
+Предлагаемые пакеты:
+  sharutils-doc
+
+Сводка:
+  Обновление: 0, Установка: 1, Удаление: 0, Пропуск обновления: 115
+  Объём загрузки: 261 kB
+  Требуемое пространство: 1 285 kB / 8 532 MB доступно
+
+[33m0% [Обработка][0m                       Пол:1 http://archive.ubuntu.com/ubuntu questing/universe amd64 sharutils amd64 1:4.15.2-12 [261 kB]
+[33m4% [1 sharutils 14,2 kB/261 kB 5%][0m[33m77% [1 sharutils 249 kB/261 kB 96%][0m[33m                                   100% [Обработка][0m                         Получено 261 kB за 1с (369 kB/s)
+
+7[0;54r8[1AВыбор ранее не выбранного пакета sharutils.
+(Чтение базы данных … (Чтение базы данных … 5%(Чтение базы данных … 10%(Чтение базы данных … 15%(Чтение базы данных … 20%(Чтение базы данных … 25%(Чтение базы данных … 30%(Чтение базы данных … 35%(Чтение базы данных … 40%(Чтение базы данных … 45%(Чтение базы данных … 50%(Чтение базы данных … 55%(Чтение базы данных … 60%(Чтение базы данных … 65%(Чтение базы данных … 70%(Чтение базы данных … 75%(Чтение базы данных … 80%(Чтение базы данных … 85%(Чтение базы данных … 90%(Чтение базы данных … 95%(Чтение базы данных … 100%(Чтение базы данных … на данный момент установлен 151541 файл и каталог.)
+Подготовка к распаковке …/sharutils_1%3a4.15.2-12_amd64.deb …
+7[55;0f[42m[30mХод выполнения: [  0%][49m[39m [                                                                                      ] 87[55;0f[42m[30mХод выполнения: [ 20%][49m[39m [█████████████████▏                                                                    ] 8Распаковывается sharutils (1:4.15.2-12) …
+7[55;0f[42m[30mХод выполнения: [ 40%][49m[39m [██████████████████████████████████▍                                                   ] 8Настраивается пакет sharutils (1:4.15.2-12) …
+7[55;0f[42m[30mХод выполнения: [ 60%][49m[39m [███████████████████████████████████████████████████▌                                  ] 87[55;0f[42m[30mХод выполнения: [ 80%][49m[39m [████████████████████████████████████████████████████████████████████▊                 ] 8Обрабатываются триггеры для install-info (7.1.1-1ubuntu1) …
+Обрабатываются триггеры для man-db (2.13.1-1) …
+
+7[0;55r8[1A[J]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ echo ""h"e"l"l"o" "s"h"a"r"[C > hello.txt4[K
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ shat[Kr hello.txt > hello.txt [K[K[K[Ksh
+[?2004l]133;C\]666;vte.shell.preexec!\shar: Сохраняется hello.txt (текстовый)
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ chmof[Kd +h hello.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\chmod: неверный режим: «+h»
+По команде «chmod --help» можно получить дополнительную информацию.
+]666;vte.shell.postexec=1\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ chmod +h hello.sh [1P[1@x
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ ./hello.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\x - created lock directory _sh08262.
+x - SKIPPING hello.txt (file already exists)
+x - removed lock directory _sh08262.
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/task2\]0;user@user:~/linux-labs/lab4/task2\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/task2[01;32muser@user[00m:[01;34m~/linux-labs/lab4/task2[00m$ exit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+
+Script done on 2026-04-25 12:32:24+03:00 [COMMAND_EXIT_CODE="0"]
