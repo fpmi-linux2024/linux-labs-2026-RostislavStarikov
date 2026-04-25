@@ -1,0 +1,181 @@
+Script started on 2026-04-25 11:02:43+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="230" LINES="55"]
+Good Day, user!
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ echo ""D[Kr"e"q"u"e"s"t" "[1P"[C > reau[K[Kquest1.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ echo "request" > request1.txt[C[1P1.txt[1P1.txt[1P1.txt[1P1.txt[1P1.txt[1P1.txt[1P1.txtl1.txte1.txtt1.txtt1.txte1.txtr1.txt[1P[1P[1P[1P[1P[1P[1P[1@l[1@e[1@t[1@t[1@e[1@r
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ echo "letter" > letter1.txt[1Per1.txt[1Per1.txt[1Pr1.txt[1Per1.txtoer1.txtrer1.txtder1.txt[1P[1P[1P[1P[1@o[1@r[1@d
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ [K]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ [K]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ tar -cf artar1.tar request1.txt letter1.txt  [Korder2[K1.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ tar -tvf artar1.tar 
+[?2004l]133;C\]666;vte.shell.preexec!\-rw-rw-r-- user/user         8 2026-04-25 11:03 request1.txt
+-rw-rw-r-- user/user         7 2026-04-25 11:03 letter1.txt
+-rw-rw-r-- user/user         6 2026-04-25 11:03 order1.txt
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ tar -tvf artar1.tar [35@cf artar1.tar request1.txt letter1.txt order1.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Pecho "order" > order1.txtletter" > letter1.txtrequest" > request1.txt[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1@n[1@e[1@q[1@ [1P[1P[1@w[1@ [1@l[1@i[1@n[1@r[1P[1@1[1P[1@2[1P[1@t[1P[1@e[1@ [1@1
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ echo "new line 1" > request1.txt[1P[1@2
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ echo "new line 2" > request1.txt[1P[1@3
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ echo "new line 3" > request1.txt2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Ptar -tvf artar1.tar echo "new line 1" > request1.txt[1P1.txt[1P1.txt[1P1.txt[1P1.txt[1P1.txt[1P1.txt[1P1.txtl1.txte1.txtt1.txtt1.txte1.txtr1.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ echo "new line 1" > letter1.txt[1P[1@2
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ echo "new line 2" > letter1.txt[1P[1@3
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ tar -uf artar1.tar request1.txt letter1.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ tar[K[K[Ktar -uf artar1.tar request1.txt letter1.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pecho "new line 3" > letter1.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctar -uf artar1.tar request1.txt letter1.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kecho ""s"e"c"o"n"d" "r"e"q"u"e"s"t"[C > request2.tar[K[Kxrt[K[Kt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ echo "second request" > request2.txt[C[1P2.txt[1P2.txt[1P2.txt[1P2.txt[1P2.txt[1P2.txt[1P2.txto2.txtr2.txtd2.txte2.txtr2.txt[1P[C[1P[1P[1P[1P[1P[1P[1@o[1@r[1@d[1@e[1@r
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ echo "second order" > order2.txt[K[Ct[1P2.txt[1P2.txt[1P2.txt[1P2.txt[1P2.txtl2.txte2.txtt2.txtt2.txte2.txtr2.txt[C[C[C[1P[1P[1P[1@l[C[1@e[1@t[1@t
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ ra[K[Ktar -cf artar2.tar rwe[K[Kequest3[K2.txt letter2.txt order2.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ tar -tvr[Kf [K[K[K[K[K-Af artar1.tar artar2.tar 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ tar -tvf at[Krtar1`[K.tar 
+[?2004l]133;C\]666;vte.shell.preexec!\-rw-rw-r-- user/user         8 2026-04-25 11:03 request1.txt
+-rw-rw-r-- user/user         7 2026-04-25 11:03 letter1.txt
+-rw-rw-r-- user/user         6 2026-04-25 11:03 order1.txt
+-rw-rw-r-- user/user        11 2026-04-25 11:04 request1.txt
+-rw-rw-r-- user/user        11 2026-04-25 11:05 letter1.txt
+-rw-rw-r-- user/user        15 2026-04-25 11:06 request2.txt
+-rw-rw-r-- user/user        14 2026-04-25 11:06 letter2.txt
+-rw-rw-r-- user/user        13 2026-04-25 11:06 order2.txt
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ tar -tvf artar1.tar [10@Af artar1.tar artar2[C[C[C[C[C[25@cf artar2.tar request2.txt letter2.txt order2.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Pecho "second letter" > letter2.txt[1P[1P[1P[1P[1P[C[1P[1@2[1P[1@3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.txt3.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ echo "3 letter" > letter3.txt[9Ptar -tvf artar1.tar [10@Af artar1.tar artar2[C[C[C[C[C[25@cf artar2.tar request2.txt letter2.txt order2.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25PAf artar1.tar artar2.tar[C[10Ptvf artar1[C[C[C[C[Cecho "3 letter" > letter3.txt[C[1P3.txt[1P3.txt[1P3.txt[1P3.txt[1P3.txt[1P3.txto3.txtr3.txtf3.txt[1P3.txtd3.txte3.txtr3.txt[C[1P[1P[1P[1P[1P[C[1P[1@o[1@r[1@d[1@e[1@r
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ echo "3 order" > order3.txt[1P3.txt[1P3.txt[1P3.txt[1P3.txt[1P3.txtr3.txte3.txtq3.txtu3.txte3.txts3.txtr3.txt[1P3.txtt3.txt[1P[1P[1P[1P[1P[1@r[1@e[1@q[1@u[1@e[1@s[1@t
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ chmod  [K750 request3.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ chmod 750 request3.txt [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [K[1P [1P [1P 6 4 0 [C l e tter 3 .txt 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ chmod o[K755 order3.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ tar -cpd[Kf artar3.tat [K[Kr request3.txt  letter3.txt order3.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ сф[K[Kcar \[K/etc/passwd
+[?2004l]133;C\]666;vte.shell.preexec!\Команда «car» не найдена, но может быть установлена с помощью:
+sudo apt install ucommon-utils
+]666;vte.shell.postexec=127\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ car /etc/passwd[C[1P /etc/passwdt /etc/passwd
+[?2004l]133;C\]666;vte.shell.preexec!\root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+_apt:x:42:65534::/nonexistent:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:998:998:systemd Network Management:/:/usr/sbin/nologin
+dhcpcd:x:100:65534:DHCP Client Daemon:/usr/lib/dhcpcd:/bin/false
+messagebus:x:996:996:System Message Bus:/nonexistent:/usr/sbin/nologin
+syslog:x:101:101::/nonexistent:/usr/sbin/nologin
+systemd-resolve:x:990:990:systemd Resolver:/:/usr/sbin/nologin
+_chrony:x:102:102:Chrony daemon:/var/lib/chrony:/usr/sbin/nologin
+tss:x:103:105:TPM software stack:/var/lib/tpm:/bin/false
+uuidd:x:104:107::/run/uuidd:/usr/sbin/nologin
+systemd-oom:x:989:989:systemd Userspace OOM Killer:/:/usr/sbin/nologin
+whoopsie:x:105:110::/nonexistent:/bin/false
+dnsmasq:x:999:65534:dnsmasq:/var/lib/misc:/usr/sbin/nologin
+avahi:x:106:112:Avahi mDNS daemon:/run/avahi-daemon:/usr/sbin/nologin
+nm-openvpn:x:107:113:NetworkManager OpenVPN:/var/lib/openvpn/chroot:/usr/sbin/nologin
+tcpdump:x:108:114::/nonexistent:/usr/sbin/nologin
+sssd:x:109:115:SSSD system user:/var/lib/sss:/usr/sbin/nologin
+speech-dispatcher:x:110:29:Speech Dispatcher:/run/speech-dispatcher:/bin/false
+usbmux:x:111:46:usbmux daemon:/var/lib/usbmux:/usr/sbin/nologin
+cups-pk-helper:x:112:116:user for cups-pk-helper service:/nonexistent:/usr/sbin/nologin
+fwupd-refresh:x:988:988:Firmware update daemon:/var/lib/fwupd:/usr/sbin/nologin
+saned:x:113:117::/var/lib/saned:/usr/sbin/nologin
+geoclue:x:114:118::/var/lib/geoclue:/usr/sbin/nologin
+cups-browsed:x:115:116::/nonexistent:/usr/sbin/nologin
+pipewire:x:987:987:system user for pipewire:/nonexistent:/usr/sbin/nologin
+hplip:x:116:7:HPLIP system user:/run/hplip:/bin/false
+gnome-remote-desktop:x:986:986:GNOME Remote Desktop:/var/lib/gnome-remote-desktop:/usr/sbin/nologin
+polkitd:x:985:985:User for polkitd:/:/usr/sbin/nologin
+rtkit:x:117:119:RealtimeKit:/proc:/usr/sbin/nologin
+colord:x:118:120:colord colour management daemon:/var/lib/colord:/usr/sbin/nologin
+gnome-initial-setup:x:119:65534::/run/gnome-initial-setup/:/bin/false
+gdm:x:984:984:Gnome Display Manager:/var/lib/gdm3:/bin/false
+user:x:1000:1000:User:/home/user:/bin/bash
+postfix:x:120:122:Postfix MTA:/var/spool/postfix:/usr/sbin/nologin
+temp:x:1001:1001::/home/temp:/bin/sh
+taskuser:x:1002:1002::/home/taskuser:/bin/sh
+visitor:x:1004:1004:Visitor,,,:/home/visitor:/bin/bash
+student:x:1006:1006:,,,:/home/student:/bin/bash
+test1:x:2000:2000::/home/nouser:/sbin/nologin
+test4:x:2002:2002::/home/test4:/bin/sh
+student1:x:2003:2004::/home/student1:/bin/sh
+backupadm:x:2004:2005::/home/backupadm:/bin/sh
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ su 0 [K[K- taskuser
+[?2004l]133;C\]666;vte.shell.preexec!\Пароль: 
+su: Сбой при проверке подлинности
+]666;vte.shell.postexec=1\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ su - taskuser
+[?2004l]133;C\]666;vte.shell.preexec!\Пароль: 
+su: Сбой при проверке подлинности
+]666;vte.shell.postexec=1\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ su - taskuser[K[K[K[K[K[K[K[Kstudent1
+[?2004l]133;C\]666;vte.shell.preexec!\Пароль: 
+su: Сбой при проверке подлинности
+]666;vte.shell.postexec=1\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ su - student1[K[K[K[K[K[K[K[Ktest4
+[?2004l]133;C\]666;vte.shell.preexec!\Пароль: 
+su: Сбой при проверке подлинности
+]666;vte.shell.postexec=1\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ sudo useradd -m testi[Kuser
+[?2004l]133;C\]666;vte.shell.preexec!\[sudo: authenticate] Password: 
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ k[Ksudo cp artar3.tar /tmp/
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ sudo -u testuser tar -xpf /tmp/artar3.tar /[K-C /tvp[K[Kmp/
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ ls pl [K[K[K-l /t[Ky[Ktmp//[Krequest3.txt /[K/tmp//[Kol[Krder3.txt /t,[Kmp//[Kletter3.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\-rw-r----- 1 testuser testuser  9 Apr 25 11:07 /tmp/letter3.txt
+-rwxr-xr-x 1 testuser testuser  8 Apr 25 11:07 [0m[01;32m/tmp/order3.txt[0m
+-rwxr-x--- 1 testuser testuser 10 Apr 25 11:07 [01;32m/tmp/request3.txt[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ еф[K[Kуспщ[K[K[K[Ktouch [K[K[K[K[K[Kecho ""D[C[Kc"o"m"p"r"e"s"s" "r"e"[1P"[1P"[1P"[C > request4/[K.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ echo "compress" > request4.txt[1P4.txt[1P4.txt[1P4.txt[1P4.txt[1P4.txt[1P4.txt[1P4.txtl4.txte4.txtt4.txtt4.txte4.txtr4.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ echo "compress" > letter4.txt[1Per4.txt[1Per4.txt[1Pr4.txt[1Per4.txtoer4.txtrer4.txtder4.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ tar -cx[Kzzg[K[Kf artar4.tar.zip request4.txt letter4.txt l[Korder4.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ mkdo=[K[Kir tar_dir
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ cp artar4.tar.zip t
+tar_dir/          task1Starikov     task2Starikov     task3Starikov     timelog3Starikov  
+]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ cp artar4.tar.zip tar_dir/
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ tar =t[K[K-tvzf art4[Kta[K[Kar[Kr4[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kl[Kcd ar[K[K[K[K[Kls
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;31m9.zip[0m       [01;31martar4.tar.zip[0m  [01;31marzip4_merged.zip[0m  [01;31mletter.txt.gz[0m  [01;31morder.txt.gz[0m    request1.txt  task1Starikov
+[01;34mBinary1[0m     [01;31marzip1.zip[0m      [01;34mdocs[0m               letter1.txt    order1.txt      request2.txt  task2Starikov
+[01;34mBinary2[0m     [01;31marzip2.zip[0m      [01;34mgzsamples[0m          letter2.txt    order2.txt      [01;32mrequest3.txt[0m  task3Starikov
+[01;31martar1.tar[0m  [01;31marzip3.zip[0m      imelog1Starikov    letter3.txt    [01;32morder3.txt[0m      request4.txt  timelog3Starikov
+[01;31martar2.tar[0m  arzip4.z01      imelog2Starikov    letter4.txt    order4.txt      sample.exe
+[01;31martar3.tar[0m  [01;31marzip4.zip[0m      letter.txt         order.txt      [01;31mrequest.txt.gz[0m  [01;34mtar_dir[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ sf[Kd [K[K[Kcd tar_dir/
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/tar_dir\]0;user@user:~/linux-labs/lab4/tar_dir\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/tar_dir[01;32muser@user[00m:[01;34m~/linux-labs/lab4/tar_dir[00m$ tar =t[K[K-ta[Kcd tar_dir/ls[Kcp artar4.tar.zip tar_dir/[13Pmkdir tar_dircp artar4.tar.zip tar_dir/ls[Kcd tar_dir/[5Ptar -t[Ktvxf t[Kart[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;31martar4.tar.zip[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/tar_dir\]0;user@user:~/linux-labs/lab4/tar_dir\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/tar_dir[01;32muser@user[00m:[01;34m~/linux-labs/lab4/tar_dir[00m$ tar -tvzf artar4.tar.gz
+[?2004l]133;C\]666;vte.shell.preexec!\tar (child): artar4.tar.gz: Функция open завершилась с ошибкой: Нет такого файла или каталога
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+]666;vte.shell.postexec=2\]7;file://user/home/user/linux-labs/lab4/tar_dir\]0;user@user:~/linux-labs/lab4/tar_dir\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/tar_dir[01;32muser@user[00m:[01;34m~/linux-labs/lab4/tar_dir[00m$ A[Kcd  [K..
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ r,[Km [K[K[Kcd[K[Kcd tr[K\ar_dir/
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/tar_dir\]0;user@user:~/linux-labs/lab4/tar_dir\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/tar_dir[01;32muser@user[00m:[01;34m~/linux-labs/lab4/tar_dir[00m$ rm aaa[K[Krtar4.tar.zip 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/tar_dir\]0;user@user:~/linux-labs/lab4/tar_dir\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/tar_dir[01;32muser@user[00m:[01;34m~/linux-labs/lab4/tar_dir[00m$ cd ..
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ cd ..rm artar4.tar.zip [7Pcd tar_dir/..[Ktar -tvzf artar4.tar.gzcd ..[Ktar -tvzf artar4.tar.gzls[Kcd tar_dir/ls[Kcp artar4.tar.zip tar_dir/[13Pmkdir tar_dirtar -czf artar4.tar.zip request4.txt letter4.txt order4.txt [C[1P[1P[1@g
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ cp at[Krtar4.tar.gz tar_dir/
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ cdta[K[K rat[K[K[Kra[K[Ktar_dir/
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/tar_dir\]0;user@user:~/linux-labs/lab4/tar_dir\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/tar_dir[01;32muser@user[00m:[01;34m~/linux-labs/lab4/tar_dir[00m$ cd tar_dir/[14@p artar4.tar.gz[C[C[C[C[C[C[C[C[Ctar -czf artar4.tar.gz request4.txt letter4.txt order4.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Krm artar4.tar.zip cd ..[Ktar -czf artar4.tar.gz request4.txt letter4.txt order4.txt cd ..[Krm artar4.tar.zip [7Pcd tar_dir/..[Ktar -tvzf artar4.tar.gzls[Kcd tar_dir/ls[Kcp artar4.tar.zip tar_dir/[13Pmkdir tar_dirtar -czf artar4.tar.zip request4.txt letter4.txt order4.txt [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ktvzf artar4.tar.gz 
+[?2004l]133;C\]666;vte.shell.preexec!\-rw-rw-r-- user/user         9 2026-04-25 11:14 request4.txt
+-rw-rw-r-- user/user         9 2026-04-25 11:14 letter4.txt
+-rw-rw-r-- user/user         9 2026-04-25 11:14 order4.txt
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/tar_dir\]0;user@user:~/linux-labs/lab4/tar_dir\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/tar_dir[01;32muser@user[00m:[01;34m~/linux-labs/lab4/tar_dir[00m$ tar -xvzf artar4.tar.gz 
+[?2004l]133;C\]666;vte.shell.preexec!\request4.txt
+letter4.txt
+order4.txt
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4/tar_dir\]0;user@user:~/linux-labs/lab4/tar_dir\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4/tar_dir[01;32muser@user[00m:[01;34m~/linux-labs/lab4/tar_dir[00m$ cd ..
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ mkdir tar_dit[Kr2
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ tar -xvzf artar4.tar.gz -C tar_s[Kdir2/
+[?2004l]133;C\]666;vte.shell.preexec!\request4.txt
+letter4.txt
+order4.txt
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ cd ..
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs\]0;user@user:~/linux-labs\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs[01;32muser@user[00m:[01;34m~/linux-labs[00m$ ;s[K[Kls
+[?2004l]133;C\]666;vte.shell.preexec!\README.md  [0m[01;34mlab1[0m  [01;34mlab2[0m  [01;34mlab4[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs\]0;user@user:~/linux-labs\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs[01;32muser@user[00m:[01;34m~/linux-labs[00m$ cd lab
+[?2004l]133;C\]666;vte.shell.preexec!\bash: cd: lab: Нет такого файла или каталога
+]666;vte.shell.postexec=1\]7;file://user/home/user/linux-labs\]0;user@user:~/linux-labs\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs[01;32muser@user[00m:[01;34m~/linux-labs[00m$ cd lab4
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;31m9.zip[0m       [01;31martar4.tar.gz[0m   [01;31marzip4.zip[0m         letter.txt     order.txt     [01;31mrequest.txt.gz[0m  [01;34mtar_dir[0m
+[01;34mBinary1[0m     [01;31martar4.tar.zip[0m  [01;31marzip4_merged.zip[0m  [01;31mletter.txt.gz[0m  [01;31morder.txt.gz[0m  request1.txt    [01;34mtar_dir2[0m
+[01;34mBinary2[0m     [01;31marzip1.zip[0m      [01;34mdocs[0m               letter1.txt    order1.txt    request2.txt    task1Starikov
+[01;31martar1.tar[0m  [01;31marzip2.zip[0m      [01;34mgzsamples[0m          letter2.txt    order2.txt    [01;32mrequest3.txt[0m    task2Starikov
+[01;31martar2.tar[0m  [01;31marzip3.zip[0m      imelog1Starikov    letter3.txt    [01;32morder3.txt[0m    request4.txt    task3Starikov
+[01;31martar3.tar[0m  arzip4.z01      imelog2Starikov    letter4.txt    order4.txt    sample.exe      timelog3Starikov
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ exit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+
+Script done on 2026-04-25 11:20:13+03:00 [COMMAND_EXIT_CODE="0"]

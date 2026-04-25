@@ -1,0 +1,149 @@
+Script started on 2026-04-05 19:57:23+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="114" LINES="55"]
+Good Day, user!
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ ls -la .[K/etc > request.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ ls -la /etc > request.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txtl.txte.txtt.txtt.txte.txtr.txt[1P[1P[1P[1@u[1@s[1@r[1@.[1P[1@/[1@b[1@i[1@n
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ ls -la /usr/bin > letter.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txto.txtr.txtd.txte.txtr.txt[1P[1P[1P[1P[1P[1P[1P[1@v[1@a[1@r[1@/[1@/[1P[1P[1@/[1@l[1@o[1@g
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ zip arzip1 request.txt letter.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\  adding: request.txt (deflated 87%)
+  adding: letter.txt (deflated 83%)
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ zip arzip1.zip order.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\  adding: order.txt (deflated 81%)
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ mkdir so[K[Kdosc[K[Kcs
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ mv letter.txt  [Kr [Kequest.txt order.txt  docs/
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ zip -r arzip1.zip [C[C[1P[1@3[1P[1@3[1P[1@2[1@C[1@C[C[1P[1P[1P[1P[1P[1P [C d o cs/ 
+[?2004l]133;C\]666;vte.shell.preexec!\  adding: docs/ (stored 0%)
+  adding: docs/order.txt (deflated 81%)
+  adding: docs/letter.txt (deflated 83%)
+  adding: docs/request.txt (deflated 87%)
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ zip -r arzip2 docs/ [1@q
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ zip -rq arzip2 docs/ [1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@9[1P[1P[1@r[C[1@ [1@9[C[1@ [1P
+[?2004l]133;C\]666;vte.shell.preexec!\	zip warning: name not matched: arzip2
+  adding: docs/ (stored 0%)
+  adding: docs/order.txt (deflated 81%)
+  adding: docs/letter.txt (deflated 83%)
+  adding: docs/request.txt (deflated 87%)
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ unzip -l arzip1.zip 
+[?2004l]133;C\]666;vte.shell.preexec!\Archive:  arzip1.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+    21367  2026-04-05 19:57   request.txt
+   101633  2026-04-05 19:57   letter.txt
+     5830  2026-04-05 19:57   order.txt
+---------                     -------
+   128830                     3 files
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ unzip -l arzip1.zip [C[1P[1@2
+[?2004l]133;C\]666;vte.shell.preexec!\Archive:  arzip2.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+        0  2026-04-05 19:58   docs/
+     5830  2026-04-05 19:57   docs/order.txt
+   101633  2026-04-05 19:57   docs/letter.txt
+    21367  2026-04-05 19:57   docs/request.txt
+---------                     -------
+   128830                     4 files
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ unxi[K[Kzip -t arzip2.zip 
+[?2004l]133;C\]666;vte.shell.preexec!\Archive:  arzip2.zip
+    testing: docs/                    OK
+    testing: docs/order.txt           OK
+    testing: docs/letter.txt          OK
+    testing: docs/request.txt         OK
+No errors detected in compressed data of arzip2.zip.
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ head -c 32M <>d>e>v>/dev>[C[C[C/>u>r>a>n>d>o>m> >[C sasmle[K[K[K[Kmple/[K.exe
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ zip arzip3 sample.exe 
+[?2004l]133;C\]666;vte.shell.preexec!\  adding: sample.exe (deflated 0%)
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ zip -s 20m arzip4 dad[K[K[Ksample.exe 
+[?2004l]133;C\]666;vte.shell.preexec!\  adding: sample.exe (deflated 0%)
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ mkdir Bo[Kinary1
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ unzip arzip3.zip -d Binary1/
+[?2004l]133;C\]666;vte.shell.preexec!\Archive:  arzip3.zip
+  inflating: Binary1/sample.exe      
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ mkunzip arzip3.zip -d Binary1/[15Pmkdir Binary1[K2
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ unzip arzip4.zip [K[K[K[K[K [K.zip -d Binary2/
+[?2004l]133;C\]666;vte.shell.preexec!\Archive:  arzip4.zip
+warning [arzip4.zip]:  zipfile claims to be last disk of a multi-part archive;
+  attempting to process anyway, assuming all parts have been concatenated
+  together in order.  Expect "errors" and warnings...true multi-part support
+  doesn't exist yet (coming soon).
+file #1:  bad zipfile offset (local header sig):  4
+]666;vte.shell.postexec=2\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ ls -la arzip4.z.[K[K*
+[?2004l]133;C\]666;vte.shell.preexec!\-rw-rw-r-- 1 user user 20971520 Apr  5 20:00 arzip4.z01
+-rw-rw-r-- 1 user user 12588206 Apr  5 20:00 [0m[01;31marzip4.zip[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ zip -F arzip4.zip --i[Kout arzip4_merged.zi[[Kp
+[?2004l]133;C\]666;vte.shell.preexec!\Fix archive (-F) - assume mostly intact archive
+ copying: sample.exe
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ zip -F arzip4.zip --out arzip4_merged.zip[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Pls -la arzip4.*zip -F arzip4.zip --out arzip4_merged.zip[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kunzip arzip-[K4-[K_merged.zip -d Binary3[K2/
+[?2004l]133;C\]666;vte.shell.preexec!\Archive:  arzip4_merged.zip
+  inflating: Binary2/sample.exe      
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ ls -la Binary2/
+[?2004l]133;C\]666;vte.shell.preexec!\total 32776
+drwxrwxr-x 2 user user     4096 Apr  5 20:03 [0m[01;34m.[0m
+drwxrwxr-x 5 user user     4096 Apr  5 20:03 [01;34m..[0m
+-rw-rw-r-- 1 user user 33554432 Apr  5 20:00 sample.exe
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ rm -r [K[Kf requ[K[K[K[K[K[K[K[K[K[Kls
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;31m9.zip[0m    [01;34mBinary2[0m     [01;31marzip2.zip[0m  arzip4.z01  [01;31marzip4_merged.zip[0m  imelog1Starikov  task1Starikov
+[01;34mBinary1[0m  [01;31marzip1.zip[0m  [01;31marzip3.zip[0m  [01;31marzip4.zip[0m  [01;34mdocs[0m               sample.exe
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ ls -la di[Kocs/
+[?2004l]133;C\]666;vte.shell.preexec!\total 140
+drwxrwxr-x 2 user user   4096 Apr  5 19:58 [0m[01;34m.[0m
+drwxrwxr-x 5 user user   4096 Apr  5 20:03 [01;34m..[0m
+-rw-rw-r-- 1 user user 101633 Apr  5 19:57 letter.txt
+-rw-rw-r-- 1 user user   5830 Apr  5 19:57 order.txt
+-rw-rw-r-- 1 user user  21367 Apr  5 19:57 request.txt
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ unzip ar`[Kzip1.zip 
+[?2004l]133;C\]666;vte.shell.preexec!\Archive:  arzip1.zip
+  inflating: request.txt             
+  inflating: letter.txt              
+  inflating: order.txt               
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ unzip arzip1.zip [C[C[1P[1@2
+[?2004l]133;C\]666;vte.shell.preexec!\Archive:  arzip2.zip
+replace docs/order.txt? [y]es, [n]o, [A]ll, [N]one, [r]ename: y
+  inflating: docs/order.txt          
+replace docs/letter.txt? [y]es, [n]o, [A]ll, [N]one, [r]ename: y
+  inflating: docs/letter.txt         
+replace docs/request.txt? [y]es, [n]o, [A]ll, [N]one, [r]ename: y
+  inflating: docs/request.txt        
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ y
+[?2004l]133;C\]666;vte.shell.preexec!\y 
+y: команда не найдена
+]666;vte.shell.postexec=127\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ 
+[?2004l]666;vte.shell.postexec=127\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ ls -la
+[?2004l]133;C\]666;vte.shell.preexec!\total 131340
+drwxrwxr-x 5 user user     4096 Apr  5 20:04 [0m[01;34m.[0m
+drwxrwxr-x 6 user user     4096 Apr  5 19:56 [01;34m..[0m
+-rw-rw-r-- 1 user user    21953 Apr  5 19:59 [01;31m9.zip[0m
+drwxrwxr-x 2 user user     4096 Apr  5 20:00 [01;34mBinary1[0m
+drwxrwxr-x 2 user user     4096 Apr  5 20:03 [01;34mBinary2[0m
+-rw-rw-r-- 1 user user    21785 Apr  5 19:58 [01;31marzip1.zip[0m
+-rw-rw-r-- 1 user user    21953 Apr  5 19:58 [01;31marzip2.zip[0m
+-rw-rw-r-- 1 user user 33559722 Apr  5 20:00 [01;31marzip3.zip[0m
+-rw-rw-r-- 1 user user 20971520 Apr  5 20:00 arzip4.z01
+-rw-rw-r-- 1 user user 12588206 Apr  5 20:00 [01;31marzip4.zip[0m
+-rw-rw-r-- 1 user user 33559722 Apr  5 20:03 [01;31marzip4_merged.zip[0m
+drwxrwxr-x 2 user user     4096 Apr  5 20:05 [01;34mdocs[0m
+-rw-rw-r-- 1 user user     8192 Apr  5 20:03 imelog1Starikov
+-rw-rw-r-- 1 user user   101633 Apr  5 19:57 letter.txt
+-rw-rw-r-- 1 user user     5830 Apr  5 19:57 order.txt
+-rw-rw-r-- 1 user user    21367 Apr  5 19:57 request.txt
+-rw-rw-r-- 1 user user 33554432 Apr  5 20:00 sample.exe
+-rw-rw-r-- 1 user user    12288 Apr  5 20:04 task1Starikov
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ ls -la Binary1
+[?2004l]133;C\]666;vte.shell.preexec!\total 32776
+drwxrwxr-x 2 user user     4096 Apr  5 20:00 [0m[01;34m.[0m
+drwxrwxr-x 5 user user     4096 Apr  5 20:04 [01;34m..[0m
+-rw-rw-r-- 1 user user 33554432 Apr  5 20:00 sample.exe
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ ls -la Binary1[K2
+[?2004l]133;C\]666;vte.shell.preexec!\total 32776
+drwxrwxr-x 2 user user     4096 Apr  5 20:03 [0m[01;34m.[0m
+drwxrwxr-x 5 user user     4096 Apr  5 20:04 [01;34m..[0m
+-rw-rw-r-- 1 user user 33554432 Apr  5 20:00 sample.exe
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ ls -la Binary2[K[K[K[K[K[K[Kdocs/
+[?2004l]133;C\]666;vte.shell.preexec!\total 140
+drwxrwxr-x 2 user user   4096 Apr  5 20:05 [0m[01;34m.[0m
+drwxrwxr-x 5 user user   4096 Apr  5 20:04 [01;34m..[0m
+-rw-rw-r-- 1 user user 101633 Apr  5 19:57 letter.txt
+-rw-rw-r-- 1 user user   5830 Apr  5 19:57 order.txt
+-rw-rw-r-- 1 user user  21367 Apr  5 19:57 request.txt
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab4\]0;user@user:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab4[01;32muser@user[00m:[01;34m~/linux-labs/lab4[00m$ exit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+
+Script done on 2026-04-05 20:05:42+03:00 [COMMAND_EXIT_CODE="0"]

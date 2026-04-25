@@ -1,0 +1,30 @@
+Скрипт запущен Сб 25 апр 2026 11:41:07
+␛]0;administrator@astra: ~␇administrator@astra:~$ mkdir -p docs/guides/mydocs
+␛]0;administrator@astra: ~␇administrator@astra:~$ echo "<html>main todo</html>" > docs/guides/todo.html
+␛]0;administrator@astra: ~␇administrator@astra:~$ echo "some text" > docs/guides/readme.txt
+␛]0;administrator@astra: ~␇administrator@astra:~$ echo "image data" > docs/guides/photo.jpg
+␛]0;administrator@astra: ~␇administrator@astra:~$ dd if=/dev/zero of=docs/guides/data.bin bs=1M count=1 2>/dev/null
+␛]0;administrator@astra: ~␇administrator@astra:~$ echo "<html>sub todo</html>" > docs/guides/mydocs/todo.html
+␛]0;administrator@astra: ~␇administrator@astra:~$ echo "sub info" > docs/guides/mydocs/info.txt
+␛]0;administrator@astra: ~␇administrator@astra:~$ dd if=/dev/zero of=docs/guides/mydocs/extra.bin bs=1M count=1 2>/dev/null
+␛]0;administrator@astra: ~␇administrator@astra:~$ tar -cvf guides.tar --exclude=mydocs docs/guides/
+docs/guides/
+docs/guides/readme.txt
+docs/guides/photo.jpg
+docs/guides/todo.html
+docs/guides/data.bin
+␛]0;administrator@astra: ~␇administrator@astra:~$ gzip guides.tar
+␛]0;administrator@astra: ~␇administrator@astra:~$ tar -czf guides_full.tar.gz docs/guides/
+␛]0;administrator@astra: ~␇administrator@astra:~$ sudo tar -czf secure_backup.tar.gz --acls --xattr docs/guides/
+tar: двусмысленный параметр «--xattr»; возможные варианты: '--xattrs' '--xattrs-exclude' '--xattrs-include'
+Попробуйте «tar --help» или «tar --usage» для
+получения более подробного описания.
+␛]0;administrator@astra: ~␇administrator@astra:~$ sudo tar -czf secure_backup.tar.gz --acls --xattr docs/guides/␈␈␈␈␈␈␈␈␈␈␈␈␈␈␛[Cs docs/guides/␈␈␈␈␈␈␈␈␈␈␈␈␈
+␛]0;administrator@astra: ~␇administrator@astra:~$ exit␈␛[K␈␛[K␈␛[K␈␛[Kls
+␛[0m␛[01;36mDesktop␛[0m   ␛[01;31mguides_full.tar.gz␛[0m  ␛[01;31msecure_backup.tar.gz␛[0m  task8Starikov          timeloge8Starikov  ␛[01;34mЗагрузки␛[0m     ␛[01;34mОбщедоступные␛[0m
+␛[01;34mDesktops␛[0m  ␛[01;31mguides.tar.gz␛[0m       ␛[01;36mSystemWallpapers␛[0m      timelog3astraStarikov  ␛[01;34mВидео␛[0m              ␛[01;34mИзображения␛[0m  ␛[01;34mШаблоны␛[0m
+␛[01;34mdocs␛[0m      log                 task3astraStarikov    timelog8Starikov       ␛[01;34mДокументы␛[0m          ␛[01;34mМузыка␛[0m
+␛]0;administrator@astra: ~␇administrator@astra:~$ cd␈␛[K␈␛[Kexit
+exit
+
+Скрипт выполнен Сб 25 апр 2026 11:42:48
