@@ -1,0 +1,1174 @@
+Script started on 2026-05-15 01:31:02+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="114" LINES="55"]
+Good Day, user!
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo -e ""\"e"["3"3";"4"4"m"/"e"[1P"[1P"\"e"["0"m"[7mForeground in yellow, Background in blue[27m\e[0m"Foreground in yellow, Background in blue\e[0m"
+[?2004l]133;C\]666;vte.shell.preexec!\[33;44mForeground in yellow, Background in blue[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo -e ??[K[K
+[?2004l]133;C\]666;vte.shell.preexec!\
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ 
+[?2004l]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo -e [C " " [1@N[1@o[1@t[1P[1@r[1@m[1@a[1@l[1@ [1@\[1@e[1@[[1@1[1@m[1@B[1@o[1@l[1@f[1P[1@d[1@\[1@e[1@[[1@0[1@m[1@ [1@\[1@e[1@[[1@4[1@m[1@U[1@n[1@d[1@e[1@r[1@l[1@i[1@n[1@e[1@d[1@\[1@e[1@[[1@0[1@m[1@ [1@\[1@e[1@[[1@5[1@m[1@B[1@l[1@i[1@n[1@k[1@\[1@e[1@[[1@0[1@m[1@ [1@N[1@o[1@r[1@m[1@a[1@l
+[?2004l]133;C\]666;vte.shell.preexec!\Normal [1mBold[0m [4mUnderlined[0m [5mBlink[0m Normal
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo -e ""\"e"["4"4"m";"3"3"m"[1P;33m"[C[C[C[CB"l"u"B"g" "Y"e"l"l"o"w"F"g" "\"e"["1"m"B"o"l"d"\"e"["2"2"m" "\"e"["4"m"I"n"d"e"r"[1P"[1P"[1P"[1P"[1P"[1P"m"U"n"d"e"r"l"i"n"e"d"\"e"["2"4"m" "\"e"["5"m"B"l"i"n"k"\"e"[" [A]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2["[A]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C5["m[" ["N["o["r["m["a["l["[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25m Normal["[A]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9PNormal \e[1mBold\e[0m \e[4mUnderlined\e[0m \e[5mBlink\e[0m Normal" 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C\e[44;33mBluBg YellowFg \e[1mBold\e[22m \e[4mUnderlined\e[24m \e[5mBlink\e[25m Normal["[C[1P"\"e"["0"m"
+[?2004l]133;C\]666;vte.shell.preexec!\[44;33mBluBg YellowFg [1mBold[22m [4mUnderlined[24m [5mBlink[25m Normal[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo -e ""H"e"l"l"o"\"W"o"[1P"[1P"n"W"o"r"l"d"
+[?2004l]133;C\]666;vte.shell.preexec!\Hello
+World
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo ''p'[1P'P't'[1P'a't'h':' '\'h'o'm'e'\'u's'e'r'\'$'u'f'[1P'[1P'f'i';'[1P'l'e'
+[?2004l]133;C\]666;vte.shell.preexec!\Path: \home\user\$file
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo \e ""A"p"p"l"e"\"t"B"a"n"a"n"a"\"t"M"a"n"g"o"
+[?2004l]133;C\]666;vte.shell.preexec!\e Apple\tBanana\tMango
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo \e "Apple\tBanana\tMango"[C[1P[1@0[1P[1@-
+[?2004l]133;C\]666;vte.shell.preexec!\Apple	Banana	Mango
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo[K [Ko -ne ""D[1PD[C[K"L"o"a"d"i"n"f"[1P"g"."."."\"r"D"o"n"e"
+[?2004l]133;C\]666;vte.shell.preexec!\Loading...Done]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo -e ''[K[K""\"a"
+[?2004l]133;C\]666;vte.shell.preexec!\
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ print [Kf ""%"-"1"0"s" "%"-"1"0"s"\"n"[C """"Р"""о"""с"""т"""и"""с"""л"""а"""в""" """[1P"""[C ""[C2"0"
+[?2004l]133;C\]666;vte.shell.preexec!\Ростислав 20        
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ printf "%-10s %-10s\n" "Ростислав" "20"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kащ[K[Kfor i in 1 23[K3[K 3; do echo -ne ""$"i"\"r"[C; sleep 1; done
+[?2004l]133;C\]666;vte.shell.preexec!\123]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo "Str 1"
+[?2004l]133;C\]666;vte.shell.preexec!\Str 1
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo "Str 1" ""S"t"r" "2"[C -e ""\"0"3"3"["1"A"[1P"[1P"\"0"3"3"["K"
+[?2004l]133;C\]666;vte.shell.preexec!\Str 1 Str 2 -e \033[\033[K
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo "Str 1" "Str 2" -e "\033[\033[K"[C[1@ [1@?[1@?[1P[1P[1@&[1@&[C[1@ [1@e[1@c[1@h[1@o[C[C[C[C[C[C[C[C[C[1@ [1@&[1@&[C[1@ [1@e[1@c[1@h[1@o[C[1@ 
+[?2004l]133;C\]666;vte.shell.preexec!\Str 1
+Str 2
+[[K
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ temp =""o"l"d"
+[?2004l]133;C\]666;vte.shell.preexec!\temp: команда не найдена
+]666;vte.shell.postexec=127\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ temp ="old"[1P="old"
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo $temp
+[?2004l]133;C\]666;vte.shell.preexec!\old
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ tenp[K[Kmp=""n"e"w"
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ temp="new"echo $temp
+[?2004l]133;C\]666;vte.shell.preexec!\new
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo $temptemp="new"[1P"[1P"[1P"$"t"e"m"p" "a"n"d" "n"e"w"
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ temp="$temp and new"[10Pecho $temp
+[?2004l]133;C\]666;vte.shell.preexec!\new and new
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ unset trmep[K[K[K[Krm[K[Kemp
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ unset tempecho $temp
+[?2004l]133;C\]666;vte.shell.preexec!\
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ vect=()[)0)])=)x) )[)1)])=)y) )[)2)])=)z)
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ vect=([0]=x [1]=y [2]=z)[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kecho &[K${}v}e}c}t}[}]}[CDD[K[KD[K[C[C[C[C[C[C[C[C [7m${vect[]}[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C${vect[]} [7m${vect[]}[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C${vect[]}[1@0[C[C[C[C[C[C[C[C[C[C[C[1@1[C[C[C[C[C[C[C[C[C[C2]}
+
+[?2004l]133;C\]666;vte.shell.preexec!\x y z
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ vecto[K [K[2] = [K[K[K=w
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ 
+[?2004l]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ vect[2]=wecho ${vect[0]} ${vect[1]} ${vect[2]}
+[?2004l]133;C\]666;vte.shell.preexec!\x y w
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ for i in ${}!}c}[1P}v}e}c}t}[}@}[C}[K]}[C; do echo ${}v}e}c}t}[}$}i}]}[C; done
+[?2004l]133;C\]666;vte.shell.preexec!\x
+y
+w
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ unset vect
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ alias lr=''l's' '-'l'a' '-'-'t'i'm'e'-'s't'y'l'e'='l'o'n'm'[1P'm'[1P'g'-'i's'o'
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ alias lr
+[?2004l]133;C\]666;vte.shell.preexec!\alias lr='ls -la --time-style=long-iso'
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ alias lr='ls -la --time-style=long-iso'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ alias lr='ls -la'[K
+[?2004l]133;C\]666;vte.shell.preexec!\alias lr='ls -la'
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ alias lr='ls -la'[K='ls -la --time-style=long-iso'
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ дк
+[?2004l]133;C\]666;vte.shell.preexec!\дк: команда не найдена
+]666;vte.shell.postexec=127\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ ;r[K[Klr
+[?2004l]133;C\]666;vte.shell.preexec!\total 36
+drwxrwxr-x 2 user user  4096 2026-05-15 01:31 [0m[01;34m.[0m
+drwxrwxr-x 8 user user  4096 2026-05-15 01:28 [01;34m..[0m
+-rw-rw-r-- 1 user user 16384 2026-05-15 01:43 task1Starikov
+-rw-rw-r-- 1 user user 12288 2026-05-15 01:41 timelog1Starikov
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ notu[Kiy[Kfy-senf[Kd ""Т"е"к"у"щ"е"е" "в"р"е"м"я"[C ""$"("а"ф"[1P"[1P"в"ф"е"[1P"[1P"[1P"d"a"t"e"0"[1P"[1P"у"[1P"e")"\"n"$"("c"a"l")"[C"
+[?2004l[?2004h> 
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+]666;vte.shell.postexec=130\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ notify-send "Текущее время" "$(date)\n$(cal)""
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ cu[K[KCURRET[K[K[K[K[K[Kcurret[Knt_data=$(date +Y[K%Y-%m-%d)
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo $current_data 
+[?2004l]133;C\]666;vte.shell.preexec!\2026-05-15
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ ps1cope=$ps1
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ [s1[K''\'['e'['3'2'm'\']'\'u'@'\'h':'\'w'\'['\'e'['0'm'\']'\'['\'e'['3'1'm'\']'\'$'\'['\'e'['0'm'\']'[C[C[1P'\[e[32m\]\u@\h:\w\[\e[0m\]\[\e[31m\]\$\[\e[0m\]'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P\[e[32m\]\u@\h:\w\[\e[0m\]\[\e[31m\]\$\[\e[0m\]'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P\[e[32m\]\u@\h:\w\[\e[0m\]\[\e[31m\]\$\[\e[0m\]'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C'\[e[32m\]\u@\h:\w\[\e[0m\]\[\e[31m\]\$\[\e[0m\]'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C\[e[32m\]\u@\h:\w\[\e[0m\]\[\e[31m\]\$\[\e[0m\]'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[\[e[32m\]\u@\h:\w\[\e[0m\]\[\e[31m\]\$\[\e[0m\]'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp'\[\[e[32m\]\u@\h:\w\[\e[0m\]\[\e[31m\]\$\[\e[0m\]'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs'\[\[e[32m\]\u@\h:\w\[\e[0m\]\[\e[31m\]\$\[\e[0m\]'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1'\[\[e[32m\]\u@\h:\w\[\e[0m\]\[\e[31m\]\$\[\e[0m\]'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C='\[\[e[32m\]\u@\h:\w\[\e[0m\]\[\e[31m\]\$\[\e[0m\]'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo $ps1
+[?2004l]133;C\]666;vte.shell.preexec!\\[\[e[32m\]\u@\h:\w\[\e[0m\]\[\e[31m\]\$\[\e[0m\]
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo $ps1-$ps1e$ps1 $ps1
+[?2004l]133;C\]666;vte.shell.preexec!\\[\[e[32m\]\u@\h:\w\[[0m\]\[[31m\]\$\[[0m\]
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo -e $ps1[3P$ps1ps1='\[\[e[32m\]\u@\h:\w\[\e[0m\]\[\e[31m\]\$\[\e[0m\]'[1Pe[32m\]\u@\h:\w\[\e[0m\]\[\e[31m\]\$\[\e[0m\]'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ ps1='\[\e[32m\]\u@\h:\w\[\e[0m\]\[\e[31m\]\$\[\e[0m\]'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho -e $ps1[K
+[?2004l]133;C\]666;vte.shell.preexec!\\[[32m\]\u@\h:\w\[[0m\]\[[31m\]\$\[[0m\]
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo -e $ps1ps1='\[\e[32m\]\u@\h:\w\[\e[0m\]\[\e[31m\]\$\[\e[0m\]'[7m\[\e[32m\]\u@\h:\w\[\e[0m\]\[\e[3[27m[7m1[27m[7mm\]\$\[\e[0m\][27m]'[A]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C\[\e[32m\]\u@\h:\w\[\e[0m\]\[\e[31[1Pm\]\$\[\e[0m\]'[1P]'[1P]'[1P]'[1P]'[1P]'[1P]'[1P]'[1P]'[1P]'[1P]'[1P'[1P]'[1P]'[1P]'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C]'[K[A]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C]' [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P]'
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P]'[1P]'[1P]'[1P'[C[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[7m\[\e[32m\]\u@\h:\w\[\e[0m\]\[\e[31m\]\$\[\e[0m\][27m'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C\[\e[32m\]\u@\h:\w\[\e[0m\]\[\e[31m\]\$\[\e[0m\]'
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ ps1='\[\e[32m\]\u@\h:\w\[\e[0m\]\[\e[31m\]\$\[\e[0m\]'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho -e $ps1[K
+[?2004l]133;C\]666;vte.shell.preexec!\\[[32m\]\u@\h:\w\[[0m\]\[[31m\]\$\[[0m\]
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo -e $ps1ps1='\[\e[32m\]\u@\h:\w\[\e[0m\]\[\e[31m\]\$\[\e[0m\]'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho -e $ps1[Kps1='\[\e[32m\]\u@\h:\w\[\e[0m\]\[\e[31m\]\$\[\e[0m\]'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho -e $ps1[K[3P$ps1ps1='\[\[e[32m\]\u@\h:\w\[\e[0m\]\[\e[31m\]\$\[\e[0m\]'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccope=$ps1[Kecho $current_data [7Pps1cope=$ps1[K[K[KPS1
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ ps1cope=$PS1echo -e $ps1ps1='\[\e[32m\]\u@\h:\w\[\e[0m\]\[\e[31m\]\$\[\e[0m\]'[C[C[1P1='\[\e[32m\]\u@\h:\w\[\e[0m\]\[\e[31m\]\$\[\e[0m\]'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P1='\[\e[32m\]\u@\h:\w\[\e[0m\]\[\e[31m\]\$\[\e[0m\]'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CP1='\[\e[32m\]\u@\h:\w\[\e[0m\]\[\e[31m\]\$\[\e[0m\]'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CS1='\[\e[32m\]\u@\h:\w\[\e[0m\]\[\e[31m\]\$\[\e[0m\]'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h[32muser@user:~/linux-labs/lab6[0m[31m$[0mPS1='\[\e[32m\]\u@\h:\w\[\e[0m\]\[\e[31m\]\$\[\e[0m\]'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[KPS1 [K[K[K[KPS1='\[\e[32m\]\u@\h:\w\[\e[0m\]\[\e[31m\]\$\[\e[0m\]'[C[C[C[C[C[C[C[C[K[7mPS1='\[\e[32m\]\u\[\e[0m\]@\[\e[33m\]\h\[\e[0m\]:\[\e[34m\]\w\[\e[0m\]\$ '[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CPS1='\[\e[32m\]\u\[\e[0m\]@\[\e[33m\]\h\[\e[0m\]:\[\e[34m\]\w\[\e[0m\]\$ '
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h[32muser[0m@[33muser[0m:[34m~/linux-labs/lab6[0m$ [7mPS1='\[\e[44;37m\]\u\[\e[0m\]@\h:\w\$ '[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CPS1='\[\e[44;37m\]\u\[\e[0m\]@\h:\w\$ '
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h[44;37muser[0m@user:~/linux-labs/lab6$ [7mPS1='\[\e[32m\]✓\[\e[0m\] \[\e[32m\]\u\[\e[0m\]@\h:\w → '[27m
+[7mPS1='\[\e[31m\]✗\[\e[0m\] \[\e[32m\]\u\[\e[0m\]@\h:\w → '[27m[APS1='\[\e[32m\]✓\[\e[0m\] \[\e[32m\]\u\[\e[0m\]@\h:\w → '
+PS1='\[\e[31m\]✗\[\e[0m\] \[\e[32m\]\u\[\e[0m\]@\h:\w → '
+[?2004l]133;C\]666;vte.shell.preexec!\]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h[31m✗[0m [32muser[0m@user:~/linux-labs/lab6 → PS1=''[']'\]'t]'[C\'$'
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h[01:51:32]$
+[?2004l]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h[01:51:34]$
+[?2004l]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h[01:51:34]$
+[?2004l]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h[01:51:35]$PS1='[\t]\$'\[\e[31m\]✗\[\e[0m\] \[\e[32m\]\u\[\e[0m\]@\h:\w → '[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[\t]\$'[K[1P'[1P'[1P'[1P'[1P'[1P'\'W'\'$'
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004hlab6$PS1='\W\$'[1P'[1P'[1P'[1P'\'w' '\'t'\'n'$'
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h~/linux-labs/lab6 01:52:11
+$^C[?2004l[?2004h[?2004l
+]666;vte.shell.postexec=130\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h~/linux-labs/lab6 01:52:18
+$[7mPS1='\[\e[32m\]\u\[\e[0m\]@\[\e[33m\]\h\[\e[0m\]:\[\e[34m\]\w\[\e[0m\]$(git branch 2>/dev/null | grep "^*" | sed [27m[7m"[27m[7ms/* / (/")\$ '[27m[A[CPS1='\[\e[32m\]\u\[\e[0m\]@\[\e[33m\]\h\[\e[0m\]:\[\e[34m\]\w\[\e[0m\]$(git branch 2>/dev/null | grep "^*" | sed "s/* / (/")\$ '
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h[32muser[0m@[33muser[0m:[34m~/linux-labs/lab6[0m (lab6-branch$ [7mPS1='┌─[\[\e[34m\]\u@\h\[\e[0m\]]─[\[\e[33m\]\w\[\e[0m\]]\n└─\[\e[32m\]\[27m[7m$[27m[7m\[\e[0m\] '[27m[A[32muser[0m@[33muser[0m:[34m~/linux-labs/lab6[0m (lab6-branch$ PS1='┌─[\[\e[34m\]\u@\h\[\e[0m\]]─[\[\e[33m\]\w\[\e[0m\]]\n└─\[\e[32m\]\$\[\e[0m\] '
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h┌─[[34muser@user[0m]─[[33m~/linux-labs/lab6[0m]
+└─[32m$[0m [7mdepth=$(pwd | tr -cd '/' | wc -c)[27m
+[7mif [ $depth -eq 0 ]; then color='\e[31m'; elif [ $depth -eq 1 ]; then color='\e[33m'; else color='\e[32m'; fi[27m
+[7mPS1="\[$color\]\w\[\e[0m\]\$ "[27m[A[A[C[C[C[Cdepth=$(pwd | tr -cd '/' | wc -c)
+if [ $depth -eq 0 ]; then color='\e[31m'; elif [ $depth -eq 1 ]; then color='\e[33m'; else color='\e[32m'; fi
+PS1="\[$color\]\w\[\e[0m\]\$ "
+[?2004l]133;C\]666;vte.shell.preexec!\]133;C\]666;vte.shell.preexec!\]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h[32m~/linux-labs/lab6[0m$ 
+[?2004l]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h[32m~/linux-labs/lab6[0m$ [7mPS1='\[\e[1;42m\]\u\[\e[0m\] \[\e[3;34m\]\h\[\e[0m\] ➤ \[\e[4;33m\]\w\[\e[0m\]$(git branch 2>/d[27m[7me[27m[7mv/null | grep "^*" | sed "s/* / ⑂/") \[\e[90m\][\t]\[\e[0m\] \[\e[32m\]❯\[\e[0m\] '[27m[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CPS1='\[\e[1;42m\]\u\[\e[0m\] \[\e[3;34m\]\h\[\e[0m\] ➤ \[\e[4;33m\]\w\[\e[0m\]$(git branch 2>/dev/null | grep "^*" | sed "s/* / ⑂/") \[\e[90m\][\t]\[\e[0m\] \[\e[32m\]❯\[\e[0m\] '
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h[1;42muser[0m [3;34muser[0m ➤ [4;33m~/linux-labs/lab6[0m ⑂lab6-branch [90m[01:52:59][0m [32m❯[0m 
+[?2004l]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h[1;42muser[0m [3;34muser[0m ➤ [4;33m~/linux-labs/lab6[0m ⑂lab6-branch [90m[01:53:01][0m [32m❯[0m 
+[?2004l]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h[1;42muser[0m [3;34muser[0m ➤ [4;33m~/linux-labs/lab6[0m ⑂lab6-branch [90m[01:53:01][0m [32m❯[0m 
+[?2004l]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h[1;42muser[0m [3;34muser[0m ➤ [4;33m~/linux-labs/lab6[0m ⑂lab6-branch [90m[01:53:01][0m [32m❯[0m PSs[K1[K1=$ps1cope 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ IFS='':'[C read -r d[Kfrtui[K[K[K[Kruit1 fruit fruit3 <<<<[K ""a"p"p"l"e":"o"r"a"n"f"e"[1P"[1P"g"e":"b"a"n"a"n"a"
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo@@[K[K :[K""&"f"r"u"i"t"[1P"[1P"u"i"t"[1P"[1P"[1P"i"t"[C1"," "[7m&fruit[27m"&fruit2","[7m&fruit[27m"&fruit3"
+[?2004l]133;C\]666;vte.shell.preexec!\&fruit1, &fruit2,&fruit3
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo "&fruit1, &fruit2,&fruit3"[C[1P[1@$[C[C[C[C[C[C[C[C[C[1Pfruit2,&fruit3"$fruit2,&fruit3"[C[C[C[C[C[C[C[C[1Pfruit3"$fruit3"
+[?2004l]133;C\]666;vte.shell.preexec!\apple, ,banana
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo "$fruit1, $fruit2,$fruit3"&fruit1, &fruit2,&fruit3"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CIFS=':' read -r fruit1 fruit fruit3 <<< "apple:orange:banana"[C[1P[1@2[1P[1@t[1@2
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ IFS=':' read -r fruit1 fruit2 fruit3 <<< "apple:orange:banana"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[31Pecho "$fruit1, $fruit2,$fruit3"
+[?2004l]133;C\]666;vte.shell.preexec!\apple, orange,banana
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo $LANG
+[?2004l]133;C\]666;vte.shell.preexec!\ru_RU.UTF-8
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ ec[Kxport LANG=be_BY.UTF-8
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ locale | grep LANG
+[?2004l]133;C\]666;vte.shell.preexec!\locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_MESSAGES to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+[01;31m[KLANG[m[K=be_BY.UTF-8
+[01;31m[KLANG[m[KUAGE=
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ PS2='[7m→[27m→ '
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ wcho[K[K[K[Kecho "незавершег[Kнная
+[?2004l[?2004h→ 
+[?2004l[?2004h→ 
+[?2004l[?2004h→ 
+[?2004l[?2004h→ Э[K"
+[?2004l]133;C\]666;vte.shell.preexec!\незавершенная
+
+
+
+
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ PS2=''(')'[C>'$)>'L)>'I)>'N)>'E)>'o)>'
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ ps][K[K[K
+[?2004l]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ "[KPS2='($LINEo)>'echo "незавершенная
+
+
+
+"[K[K[A[K[A[K[A[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h()>
+[?2004l[?2004h()>
+[?2004l[?2004h()>
+[?2004l[?2004h()>^C[?2004l[?2004h[?2004l
+]666;vte.shell.postexec=130\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo "незавершенная
+
+
+[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4PPS2='($LINEo)>'
+[K
+[K
+[K[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CNo)>'
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ PS2='($LINENo)>'echo "незавершенная
+
+
+[A
+[?2004l[?2004h()>
+[?2004l[?2004h()>^C[?2004l[?2004h[?2004l
+]666;vte.shell.postexec=130\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ PS2=''.'.'.' '
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ PS2='... 'echo "незавершенная
+
+
+
+[K[A[K[A[K[A[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h... ^C[?2004l[?2004h[?2004l
+]666;vte.shell.postexec=130\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ if [ -f
+[?2004l[?2004h... 
+[?2004l[?2004h... 
+[?2004l[?2004h... ^C[?2004l[?2004h[?2004l
+]666;vte.shell.postexec=130\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ if [ -f; echo "незавершенная[9PPS2='... '[1P'[1P'[1P'[1P'
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ touch report_{}1},}2},}3},}[1P}[C request_{}1},}2},}3},}[1P}
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\report_1  report_3   request_2  task1Starikov
+report_2  request_1  request_3  timelog1Starikov
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ mkdir report
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ mv report_{}1},}2},}3}[C report][K/
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ rm request_{}1},}2},}3}[C
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;34mreport[0m  task1Starikov  timelog1Starikov
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ ls report/
+[?2004l]133;C\]666;vte.shell.preexec!\report_1  report_2  report_3
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo[K[K[K[Kls \[K/usr/share/{}d}o}c},}m}a}n}[C* 2> [K'[K/deb[Kv/b[Knull
+[?2004l]133;C\]666;vte.shell.preexec!\/usr/share/doc:
+[0m[01;34m3cpio[0m                                          [01;34mlibmbim-utils[0m
+[01;34m7zip[0m                                           [01;34mlibmd0[0m
+[01;34maccountsservice[0m                                [01;34mlibmediaart-2.0-0[0m
+[01;34macl[0m                                            [01;34mlibmhash2[0m
+[01;34madduser[0m                                        [01;34mlibmm-glib0[0m
+[01;34madwaita-icon-theme[0m                             [01;34mlibmnl0[0m
+[01;34malsa-base[0m                                      [01;34mlibmount1[0m
+[01;34malsa-topology-conf[0m                             [01;34mlibmozjs-140-0[0m
+[01;34malsa-ucm-conf[0m                                  [01;34mlibmp3lame0[0m
+[01;34malsa-utils[0m                                     [01;34mlibmpc3[0m
+[01;34mamd64-microcode[0m                                [01;34mlibmpfr6[0m
+[01;34manacron[0m                                        [01;34mlibmpg123-0t64[0m
+[01;34mapparmor[0m                                       [01;34mlibmsgraph-1-1[0m
+[01;34mapport[0m                                         [01;34mlibmtdev1t64[0m
+[01;34mapport-core-dump-handler[0m                       [01;34mlibmtp-common[0m
+[01;34mapport-gtk[0m                                     [01;34mlibmtp-runtime[0m
+[01;34mapport-symptoms[0m                                [01;34mlibmtp9t64[0m
+[01;34mappstream[0m                                      [01;34mlibmu-dbm9t64[0m
+[01;34mapt[0m                                            [01;34mlibmutter-17-0[0m
+[01;34mapt-config-icons[0m                               [01;34mlibmwaw-0.3-3[0m
+[01;34mapt-config-icons-hidpi[0m                         [01;34mlibmysqlclient24[0m
+[01;34mapt-file[0m                                       [01;34mlibmythes-1.2-0[0m
+[01;34maptdaemon[0m                                      [01;34mlibnautilus-extension4[0m
+[01;34maptdaemon-data[0m                                 [01;36mlibncurses6[0m
+[01;34maspell[0m                                         [01;36mlibncursesw6[0m
+[01;34maspell-en[0m                                      [01;34mlibndp0[0m
+[01;34mat-spi2-common[0m                                 [01;34mlibnet-dbus-perl[0m
+[01;34mat-spi2-core[0m                                   [01;34mlibnet-http-perl[0m
+[01;34mavahi-daemon[0m                                   [01;34mlibnet-smtp-ssl-perl[0m
+[01;34mbaobab[0m                                         [01;34mlibnet-ssleay-perl[0m
+[01;34mbase-files[0m                                     [01;34mlibnetfilter-conntrack3[0m
+[01;34mbase-passwd[0m                                    [01;34mlibnetplan1[0m
+[01;34mbash[0m                                           [01;34mlibnettle8t64[0m
+[01;34mbash-completion[0m                                [01;34mlibnewt0.52[0m
+[01;34mbc[0m                                             [01;34mlibnfnetlink0[0m
+[01;34mbind9-dnsutils[0m                                 [01;34mlibnfs14[0m
+[01;34mbind9-host[0m                                     [01;34mlibnfsidmap1[0m
+[01;34mbind9-libs[0m                                     [01;34mlibnftables1[0m
+[01;34mbinutils[0m                                       [01;34mlibnftnl11[0m
+[01;34mbinutils-common[0m                                [01;34mlibnghttp2-14[0m
+[01;36mbinutils-x86-64-linux-gnu[0m                      [01;34mlibnl-3-200[0m
+[01;34mbluez[0m                                          [01;34mlibnl-genl-3-200[0m
+[01;34mbluez-cups[0m                                     [01;34mlibnl-route-3-200[0m
+[01;34mbluez-obexd[0m                                    [01;34mlibnm0[0m
+[01;34mbolt[0m                                           [01;34mlibnma-common[0m
+[01;34mbpfcc-tools[0m                                    [01;34mlibnma-gtk4-0[0m
+[01;34mbpftool[0m                                        [01;34mlibnma0[0m
+[01;34mbpftrace[0m                                       [01;34mlibnotify-bin[0m
+[01;34mbrltty[0m                                         [01;34mlibnotify4[0m
+[01;34mbsdextrautils[0m                                  [01;34mlibnpth0t64[0m
+[01;34mbsdutils[0m                                       [01;34mlibnsl2[0m
+[01;34mbubblewrap[0m                                     [01;34mlibnspr4[0m
+[01;34mbusybox-initramfs[0m                              [01;34mlibnss-mdns[0m
+[01;34mbusybox-static[0m                                 [01;34mlibnss-sss[0m
+[01;34mca-certificates[0m                                [01;34mlibnss-systemd[0m
+[01;34mchrony[0m                                         [01;34mlibnss3[0m
+[01;34mcloud-guest-utils[0m                              [01;34mlibntfs-3g89t64[0m
+[01;34mcloud-init[0m                                     [01;34mlibntlm0[0m
+[01;34mcloud-init-base[0m                                [01;34mlibnuma1[0m
+[01;34mcolord[0m                                         [01;34mlibnvme1t64[0m
+[01;34mcolord-data[0m                                    [01;34mlibodfgen-0.1-1[0m
+[01;34mcommand-not-found[0m                              [01;34mlibogg0[0m
+[01;36mconsole-setup[0m                                  [01;34mlibonig5[0m
+[01;36mconsole-setup-linux[0m                            [01;34mlibopencc-data[0m
+[01;34mcoreutils[0m                                      [01;34mlibopencc1.1[0m
+[01;34mcoreutils-from-uutils[0m                          [01;34mlibopenjp2-7[0m
+[01;34mcpdb-backend-cups[0m                              [01;34mlibopus0[0m
+[01;34mcpio[0m                                           [01;34mliborc-0.4-0t64[0m
+[01;36mcpp[0m                                            [01;34mliborcus-0.20-0[0m
+[01;36mcpp-15[0m                                         [01;34mliborcus-parser-0.20-0[0m
+[01;36mcpp-15-x86-64-linux-gnu[0m                        [01;34mlibotf1[0m
+[01;34mcpp-x86-64-linux-gnu[0m                           [01;34mlibp11-kit0[0m
+[01;34mcracklib-runtime[0m                               [01;34mlibpackagekit-glib2-18[0m
+[01;34mcrash[0m                                          [01;34mlibpam-cap[0m
+[01;34mcron[0m                                           [01;34mlibpam-fprintd[0m
+[01;34mcron-daemon-common[0m                             [01;34mlibpam-gnome-keyring[0m
+[01;34mcups[0m                                           [01;34mlibpam-modules[0m
+[01;34mcups-browsed[0m                                   [01;34mlibpam-modules-bin[0m
+[01;36mcups-bsd[0m                                       [01;34mlibpam-pwquality[0m
+[01;34mcups-client[0m                                    [01;34mlibpam-runtime[0m
+[01;34mcups-common[0m                                    [01;34mlibpam-sss[0m
+[01;34mcups-core-drivers[0m                              [01;34mlibpam-systemd[0m
+[01;34mcups-daemon[0m                                    [01;34mlibpam-wtmpdb[0m
+[01;34mcups-filters[0m                                   [01;34mlibpam0g[0m
+[01;34mcups-filters-core-drivers[0m                      [01;34mlibpanel-1-1[0m
+[01;34mcups-ipp-utils[0m                                 [01;34mlibpanel-common[0m
+[01;34mcups-pk-helper[0m                                 [01;34mlibpango-1.0-0[0m
+[01;34mcups-ppdc[0m                                      [01;34mlibpangocairo-1.0-0[0m
+[01;34mcups-server-common[0m                             [01;34mlibpangoft2-1.0-0[0m
+[01;34mdash[0m                                           [01;34mlibpangomm-2.48-1t64[0m
+[01;34mdbus[0m                                           [01;34mlibpangoxft-1.0-0[0m
+[01;34mdbus-bin[0m                                       [01;34mlibpaper[0m
+[01;34mdbus-daemon[0m                                    [01;34mlibpaper-utils[0m
+[01;34mdbus-session-bus-common[0m                        [01;34mlibpaper2[0m
+[01;34mdbus-system-bus-common[0m                         [01;34mlibparted2t64[0m
+[01;34mdbus-user-session[0m                              [01;34mlibpath-utils1t64[0m
+[01;34mdc[0m                                             [01;34mlibpcap0.8t64[0m
+[01;34mdconf-cli[0m                                      [01;34mlibpcaudio0[0m
+[01;34mdconf-gsettings-backend[0m                        [01;34mlibpci3[0m
+[01;34mdconf-service[0m                                  [01;34mlibpciaccess0[0m
+[01;34mdebconf[0m                                        [01;34mlibpcre2-32-0[0m
+[01;36mdebconf-i18n[0m                                   [01;34mlibpcre2-8-0[0m
+[01;34mdebianutils[0m                                    [01;34mlibpcsclite1[0m
+[01;34mdesktop-file-utils[0m                             [01;34mlibperl5.40[0m
+[01;34mdhcpcd-base[0m                                    [01;34mlibphonenumber8[0m
+[01;34mdictionaries-common[0m                            [01;34mlibpinyin-data[0m
+[01;34mdiffutils[0m                                      [01;34mlibpinyin15[0m
+[01;34mdirmngr[0m                                        [01;34mlibpipeline1[0m
+[01;34mdistro-info[0m                                    [01;34mlibpipewire-0.3-0t64[0m
+[01;34mdistro-info-data[0m                               [01;34mlibpipewire-0.3-common[0m
+[01;34mdmidecode[0m                                      [01;34mlibpipewire-0.3-modules[0m
+[01;34mdmsetup[0m                                        [01;34mlibpixman-1-0[0m
+[01;34mdmz-cursor-theme[0m                               [01;34mlibpkcs11-helper1t64[0m
+[01;34mdns-root-data[0m                                  [01;34mlibplist-2.0-4[0m
+[01;34mdnsmasq-base[0m                                   [01;34mlibplymouth5[0m
+[01;34mdocbook-xml[0m                                    [01;34mlibpng16-16t64[0m
+[01;34mdosfstools[0m                                     [01;34mlibpolkit-agent-1-0[0m
+[01;34mdpkg[0m                                           [01;34mlibpolkit-gobject-1-0[0m
+[01;34mdracut[0m                                         [01;34mlibpoppler-cpp2[0m
+[01;34mdracut-core[0m                                    [01;34mlibpoppler-glib8t64[0m
+[01;34mdracut-install[0m                                 [01;34mlibpoppler147[0m
+[01;34me2fsprogs[0m                                      [01;34mlibpopt0[0m
+[01;34meatmydata[0m                                      [01;34mlibportal-gtk4-1[0m
+[01;34med[0m                                             [01;34mlibportal1[0m
+[01;34meject[0m                                          [01;34mlibppd2[0m
+[01;34memacsen-common[0m                                 [01;34mlibppd2-common[0m
+[01;34menchant-2[0m                                      [01;34mlibppsdocument-4.0-5[0m
+[01;34mespeak-ng-data[0m                                 [01;34mlibppsview-4.0-4[0m
+[01;34methtool[0m                                        [01;34mlibpq5[0m
+[01;34mevolution-data-server[0m                          [01;34mlibproc2-0[0m
+[01;34mevolution-data-server-common[0m                   [01;34mlibprotobuf-c1[0m
+[01;34mexfatprogs[0m                                     [01;34mlibprotobuf32t64[0m
+[01;34mfdisk[0m                                          [01;34mlibproxy1-plugin-gsettings[0m
+[01;34mfile[0m                                           [01;34mlibproxy1-plugin-networkmanager[0m
+[01;34mfindutils[0m                                      [01;34mlibproxy1v5[0m
+[01;34mfirefox[0m                                        [01;34mlibpsl5t64[0m
+[01;34mfirmware-sof-signed[0m                            [01;34mlibpulse-mainloop-glib0[0m
+[01;34mfontconfig[0m                                     [01;34mlibpulse0[0m
+[01;34mfontconfig-config[0m                              [01;34mlibpwquality-common[0m
+[01;34mfonts-dejavu-core[0m                              [01;34mlibpwquality1[0m
+[01;34mfonts-dejavu-mono[0m                              [01;34mlibpython3-stdlib[0m
+[01;34mfonts-droid-fallback[0m                           [01;36mlibpython3.13[0m
+[01;34mfonts-liberation[0m                               [01;34mlibpython3.13-minimal[0m
+[01;34mfonts-liberation-sans-narrow[0m                   [01;36mlibpython3.13-stdlib[0m
+[01;34mfonts-noto-cjk[0m                                 [01;34mlibqmi-glib5[0m
+[01;34mfonts-noto-color-emoji[0m                         [01;34mlibqmi-proxy[0m
+[01;34mfonts-noto-core[0m                                [01;34mlibqmi-utils[0m
+[01;34mfonts-noto-mono[0m                                [01;34mlibqpdf30[0m
+[01;34mfonts-opensymbol[0m                               [01;34mlibqrtr-glib0[0m
+[01;34mfonts-ubuntu[0m                                   [01;36mlibquadmath0[0m
+[01;34mfonts-urw-base35[0m                               [01;34mlibraptor2-0[0m
+[01;34mfoomatic-db-compressed-ppds[0m                    [01;34mlibraqm0[0m
+[01;34mfprintd[0m                                        [01;34mlibrasqal3t64[0m
+[01;34mfriendly-recovery[0m                              [01;34mlibraw1394-11[0m
+[01;34mftp[0m                                            [01;34mlibrdf0t64[0m
+[01;34mfuse3[0m                                          [01;34mlibreadline8t64[0m
+[01;34mfwupd[0m                                          [01;34mlibref-array1t64[0m
+[01;34mfwupd-signed[0m                                   [01;34mlibregexp-assemble-perl[0m
+[01;34mgamemode[0m                                       [01;34mlibreoffice-base-core[0m
+[01;34mgamemode-daemon[0m                                [01;34mlibreoffice-common[0m
+[01;36mgcc[0m                                            [01;34mlibreoffice-core[0m
+[01;36mgcc-15[0m                                         [01;34mlibreoffice-math[0m
+[01;34mgcc-15-base[0m                                    [01;34mlibreoffice-style-colibre[0m
+[01;36mgcc-15-x86-64-linux-gnu[0m                        [01;34mlibreoffice-uiconfig-common[0m
+[01;36mgcc-x86-64-linux-gnu[0m                           [01;34mlibreoffice-uiconfig-math[0m
+[01;34mgcr[0m                                            [01;34mlibreoffice-uiconfig-writer[0m
+[01;34mgcr4[0m                                           [01;34mlibreoffice-writer[0m
+[01;34mgdb[0m                                            [01;34mlibrest-1.0-0[0m
+[01;34mgdisk[0m                                          [01;34mlibrevenge-0.0-0[0m
+[01;34mgdm3[0m                                           [01;34mlibroc0.4[0m
+[01;34mgeoclue-2.0[0m                                    [01;34mlibrsvg2-2[0m
+[01;34mgeocode-glib-common[0m                            [01;34mlibrsvg2-common[0m
+[01;34mgettext-base[0m                                   [01;34mlibrtmp1[0m
+[01;34mghostscript[0m                                    [01;34mlibrygel-core-2.8-0[0m
+[01;34mgir1.2-accountsservice-1.0[0m                     [01;34mlibrygel-db-2.8-0[0m
+[01;34mgir1.2-adw-1[0m                                   [01;34mlibrygel-renderer-2.8-0[0m
+[01;34mgir1.2-atk-1.0[0m                                 [01;34mlibrygel-server-2.8-0[0m
+[01;34mgir1.2-atspi-2.0[0m                               [01;34mlibsamplerate0[0m
+[01;34mgir1.2-dbusmenu-glib-0.4[0m                       [01;34mlibsane-common[0m
+[01;34mgir1.2-freedesktop[0m                             [01;34mlibsane-hpaio[0m
+[01;34mgir1.2-gck-2[0m                                   [01;34mlibsane1[0m
+[01;34mgir1.2-gcr-4[0m                                   [01;34mlibsasl2-2[0m
+[01;34mgir1.2-gdesktopenums-3.0[0m                       [01;34mlibsasl2-modules[0m
+[01;34mgir1.2-gdkpixbuf-2.0[0m                           [01;34mlibsasl2-modules-db[0m
+[01;34mgir1.2-gdm-1.0[0m                                 [01;34mlibsasl2-modules-gssapi-mit[0m
+[01;34mgir1.2-geoclue-2.0[0m                             [01;34mlibsbc1[0m
+[01;34mgir1.2-girepository-2.0[0m                        [01;34mlibseccomp2[0m
+[01;34mgir1.2-girepository-3.0[0m                        [01;34mlibsecret-1-0[0m
+[01;34mgir1.2-glib-2.0[0m                                [01;34mlibsecret-common[0m
+[01;34mgir1.2-gmenu-3.0[0m                               [01;34mlibselinux1[0m
+[01;34mgir1.2-gnomeautoar-0.1[0m                         [01;34mlibsemanage-common[0m
+[01;34mgir1.2-gnomebg-4.0[0m                             [01;34mlibsemanage2[0m
+[01;34mgir1.2-gnomebluetooth-3.0[0m                      [01;34mlibsensors-config[0m
+[01;34mgir1.2-gnomedesktop-3.0[0m                        [01;34mlibsensors5[0m
+[01;34mgir1.2-gnomedesktop-4.0[0m                        [01;34mlibsepol2[0m
+[01;34mgir1.2-graphene-1.0[0m                            [01;34mlibsframe2[0m
+[01;34mgir1.2-gstreamer-1.0[0m                           [01;34mlibsharpyuv0[0m
+[01;34mgir1.2-gtk-3.0[0m                                 [01;34mlibshout3[0m
+[01;34mgir1.2-gtk-4.0[0m                                 [01;34mlibsigc++-3.0-0[0m
+[01;34mgir1.2-gweather-4.0[0m                            [01;34mlibslang2[0m
+[01;34mgir1.2-handy-1[0m                                 [01;34mlibsm6[0m
+[01;34mgir1.2-harfbuzz-0.0[0m                            [01;34mlibsmartcols1[0m
+[01;34mgir1.2-ibus-1.0[0m                                [01;34mlibsmbclient0[0m
+[01;34mgir1.2-javascriptcoregtk-4.1[0m                   [01;34mlibsnapd-glib-2-1[0m
+[01;34mgir1.2-mutter-17[0m                               [01;34mlibsnappy1v5[0m
+[01;34mgir1.2-nm-1.0[0m                                  [01;34mlibsndfile1[0m
+[01;34mgir1.2-nma4-1.0[0m                                [01;34mlibsnmp-base[0m
+[01;34mgir1.2-notify-0.7[0m                              [01;34mlibsnmp40t64[0m
+[01;34mgir1.2-packagekitglib-1.0[0m                      [01;34mlibsodium23[0m
+[01;34mgir1.2-pango-1.0[0m                               [01;34mlibsonic0[0m
+[01;34mgir1.2-polkit-1.0[0m                              [01;34mlibsoup-2.4-1[0m
+[01;34mgir1.2-rsvg-2.0[0m                                [01;34mlibsoup-3.0-0[0m
+[01;34mgir1.2-secret-1[0m                                [01;34mlibsoup-3.0-common[0m
+[01;34mgir1.2-snapd-2[0m                                 [01;34mlibsoup2.4-common[0m
+[01;34mgir1.2-soup-3.0[0m                                [01;34mlibsource-highlight-common[0m
+[01;34mgir1.2-upowerglib-1.0[0m                          [01;34mlibsource-highlight4t64[0m
+[01;34mgir1.2-vte-2.91[0m                                [01;34mlibspa-0.2-bluetooth[0m
+[01;34mgir1.2-webkit2-4.1[0m                             [01;34mlibspa-0.2-modules[0m
+[01;34mgir1.2-wnck-3.0[0m                                [01;34mlibspeechd-module0[0m
+[01;34mgit[0m                                            [01;34mlibspeechd2[0m
+[01;34mgit-man[0m                                        [01;34mlibspeex1[0m
+[01;34mgjs[0m                                            [01;34mlibspeexdsp1[0m
+[01;34mglib-networking[0m                                [01;34mlibspelling-1-2[0m
+[01;34mglib-networking-common[0m                         [01;34mlibspelling-common[0m
+[01;34mglib-networking-services[0m                       [01;34mlibsqlite3-0[0m
+[01;34mglycin-loaders[0m                                 [01;34mlibss2[0m
+[01;34mgnome-accessibility-themes[0m                     [01;34mlibssh2-1t64[0m
+[01;34mgnome-bluetooth-3-common[0m                       [01;34mlibssl3t64[0m
+[01;34mgnome-bluetooth-sendto[0m                         [01;34mlibsss-certmap0[0m
+[01;34mgnome-calculator[0m                               [01;34mlibsss-idmap0[0m
+[01;34mgnome-characters[0m                               [01;34mlibsss-nss-idmap0[0m
+[01;34mgnome-clocks[0m                                   [01;34mlibstartup-notification0[0m
+[01;34mgnome-control-center[0m                           [01;36mlibstdc++6[0m
+[01;34mgnome-control-center-data[0m                      [01;34mlibstemmer0d[0m
+[01;34mgnome-control-center-faces[0m                     [01;34mlibsysprof-6-6[0m
+[01;34mgnome-desktop3-data[0m                            [01;34mlibsysprof-6-modules[0m
+[01;34mgnome-disk-utility[0m                             [01;34mlibsystemd-shared[0m
+[01;34mgnome-font-viewer[0m                              [01;34mlibsystemd0[0m
+[01;34mgnome-initial-setup[0m                            [01;34mlibtag2[0m
+[01;34mgnome-keyring[0m                                  [01;34mlibtalloc2[0m
+[01;34mgnome-keyring-pkcs11[0m                           [01;34mlibtasn1-6[0m
+[01;34mgnome-logs[0m                                     [01;34mlibtcl8.6[0m
+[01;34mgnome-menus[0m                                    [01;34mlibtdb1[0m
+[01;34mgnome-online-accounts[0m                          [01;34mlibteamdctl0[0m
+[01;34mgnome-power-manager[0m                            [01;34mlibtevent0t64[0m
+[01;34mgnome-remote-desktop[0m                           [01;34mlibtext-charwidth-perl[0m
+[01;34mgnome-session-bin[0m                              [01;34mlibtext-iconv-perl[0m
+[01;34mgnome-session-canberra[0m                         [01;34mlibtext-wrapi18n-perl[0m
+[01;34mgnome-session-common[0m                           [01;34mlibthai-data[0m
+[01;34mgnome-settings-daemon[0m                          [01;34mlibthai0[0m
+[01;34mgnome-settings-daemon-common[0m                   [01;34mlibtheora0[0m
+[01;34mgnome-shell[0m                                    [01;34mlibtheoradec1[0m
+[01;34mgnome-shell-common[0m                             [01;34mlibtheoraenc1[0m
+[01;34mgnome-shell-extension-appindicator[0m             [01;34mlibtie-ixhash-perl[0m
+[01;34mgnome-shell-extension-desktop-icons-ng[0m         [01;34mlibtiff6[0m
+[01;34mgnome-shell-extension-ubuntu-dock[0m              [01;34mlibtimedate-perl[0m
+[01;34mgnome-shell-extension-ubuntu-tiling-assistant[0m  [01;34mlibtinfo6[0m
+[01;34mgnome-system-monitor[0m                           [01;34mlibtinysparql-3.0-0[0m
+[01;34mgnome-text-editor[0m                              [01;34mlibtirpc-common[0m
+[01;34mgnome-themes-extra[0m                             [01;34mlibtirpc3t64[0m
+[01;34mgnome-themes-extra-data[0m                        [01;34mlibtotem-plparser-common[0m
+[01;34mgnome-user-docs[0m                                [01;34mlibtotem-plparser18[0m
+[01;34mgnome-user-docs-ru[0m                             [01;34mlibtraceevent1[0m
+[01;34mgnu-coreutils[0m                                  [01;34mlibtraceevent1-plugin[0m
+[01;34mgnupg[0m                                          [01;34mlibtracefs1[0m
+[01;34mgnupg-l10n[0m                                     [01;34mlibtry-tiny-perl[0m
+[01;34mgnupg-utils[0m                                    [01;36mlibtsan2[0m
+[01;34mgpg[0m                                            [01;34mlibtss2-esys-3.0.2-0t64[0m
+[01;34mgpg-agent[0m                                      [01;34mlibtss2-mu-4.0.1-0t64[0m
+[01;34mgpg-wks-client[0m                                 [01;34mlibtss2-rc0t64[0m
+[01;34mgpgconf[0m                                        [01;34mlibtss2-sys1t64[0m
+[01;34mgpgsm[0m                                          [01;34mlibtss2-tcti-cmd0t64[0m
+[01;34mgpgv[0m                                           [01;34mlibtss2-tcti-device0t64[0m
+[01;34mgrep[0m                                           [01;34mlibtss2-tcti-libtpms0t64[0m
+[01;34mgroff-base[0m                                     [01;34mlibtss2-tcti-mssim0t64[0m
+[01;36mgrub-common[0m                                    [01;34mlibtss2-tcti-spi-helper0t64[0m
+[01;34mgrub-gfxpayload-lists[0m                          [01;34mlibtss2-tcti-swtpm0t64[0m
+[01;36mgrub-pc[0m                                        [01;34mlibtss2-tctildr0t64[0m
+[01;36mgrub-pc-bin[0m                                    [01;34mlibtwolame0[0m
+[01;34mgrub2-common[0m                                   [01;36mlibubsan1[0m
+[01;34mgsasl-common[0m                                   [01;34mlibuchardet0[0m
+[01;34mgsettings-desktop-schemas[0m                      [01;34mlibudev1[0m
+[01;34mgsettings-ubuntu-schemas[0m                       [01;34mlibudisks2-0[0m
+[01;34mgstreamer1.0-alsa[0m                              [01;34mlibunistring5[0m
+[01;34mgstreamer1.0-gl[0m                                [01;34mlibunity-protocol-private0[0m
+[01;34mgstreamer1.0-packagekit[0m                        [01;34mlibunity-scopes-json-def-desktop[0m
+[01;34mgstreamer1.0-pipewire[0m                          [01;34mlibunity9[0m
+[01;34mgstreamer1.0-plugins-base[0m                      [01;34mlibuno-cppu3t64[0m
+[01;34mgstreamer1.0-plugins-base-apps[0m                 [01;34mlibuno-cppuhelpergcc3-3t64[0m
+[01;34mgstreamer1.0-plugins-good[0m                      [01;34mlibuno-purpenvhelpergcc3-3t64[0m
+[01;34mgstreamer1.0-tools[0m                             [01;34mlibuno-sal3t64[0m
+[01;34mgstreamer1.0-x[0m                                 [01;34mlibuno-salhelpergcc3-3t64[0m
+[01;34mgtk-update-icon-cache[0m                          [01;34mlibunwind8[0m
+[01;34mgtk2-engines-murrine[0m                           [01;34mlibupower-glib3[0m
+[01;34mgtk2-engines-pixbuf[0m                            [01;34mliburcu8t64[0m
+[01;34mguile-3.0-libs[0m                                 [01;34mliburi-perl[0m
+[01;34mgvfs[0m                                           [01;34mliburing2[0m
+[01;34mgvfs-backends[0m                                  [01;34mlibusb-1.0-0[0m
+[01;34mgvfs-common[0m                                    [01;34mlibusbmuxd-2.0-7[0m
+[01;34mgvfs-daemons[0m                                   [01;34mlibuuid1[0m
+[01;34mgvfs-fuse[0m                                      [01;34mlibuv1t64[0m
+[01;34mgvfs-libs[0m                                      [01;34mlibv4l-0t64[0m
+[01;34mgzip[0m                                           [01;34mlibv4lconvert0t64[0m
+[01;34mhdparm[0m                                         [01;34mlibva-drm2[0m
+[01;34mheif-gdk-pixbuf[0m                                [01;34mlibva2[0m
+[01;34mheif-thumbnailer[0m                               [01;34mlibvisual-0.4-0[0m
+[01;34mhicolor-icon-theme[0m                             [01;34mlibvolume-key1[0m
+[01;34mhostname[0m                                       [01;34mlibvorbis0a[0m
+[01;34mhplip[0m                                          [01;34mlibvorbisenc2[0m
+[01;34mhplip-data[0m                                     [01;34mlibvorbisfile3[0m
+[01;34mhtop[0m                                           [01;34mlibvpx9[0m
+[01;34mhunspell-en-us[0m                                 [01;34mlibvte-2.91-0[0m
+[01;34mhunspell-ru[0m                                    [01;34mlibvte-2.91-common[0m
+[01;34mhwctl[0m                                          [01;34mlibvte-2.91-gtk4-0[0m
+[01;34mhwdata[0m                                         [01;34mlibvulkan1[0m
+[01;34mibus[0m                                           [01;34mlibwacom-common[0m
+[01;34mibus-data[0m                                      [01;34mlibwacom9[0m
+[01;34mibus-gtk[0m                                       [01;34mlibwavpack1[0m
+[01;34mibus-gtk3[0m                                      [01;34mlibwayland-client0[0m
+[01;34mibus-gtk4[0m                                      [01;34mlibwayland-cursor0[0m
+[01;34mibus-table[0m                                     [01;34mlibwayland-egl1[0m
+[01;34mibus-table-cangjie-big[0m                         [01;34mlibwayland-server0[0m
+[01;34mibus-table-cangjie3[0m                            [01;34mlibwbclient0[0m
+[01;34mibus-table-cangjie5[0m                            [01;34mlibwebkit2gtk-4.1-0[0m
+[01;34mibverbs-providers[0m                              [01;34mlibwebkitgtk-6.0-4[0m
+[01;34mieee-data[0m                                      [01;34mlibwebp7[0m
+[01;34miio-sensor-proxy[0m                               [01;34mlibwebpdemux2[0m
+[01;34mim-config[0m                                      [01;34mlibwebpmux3[0m
+[01;34minetutils-telnet[0m                               [01;34mlibwebrtc-audio-processing-1-3[0m
+[01;34minfo[0m                                           [01;34mlibwhoopsie-preferences0[0m
+[01;34minit[0m                                           [01;34mlibwhoopsie0[0m
+[01;34minit-system-helpers[0m                            [01;34mlibwinpr3-3[0m
+[01;34minitramfs-tools-bin[0m                            [01;34mlibwireplumber-0.5-0[0m
+[01;34minitramfs-tools-core[0m                           [01;34mlibwmf-0.2-7[0m
+[01;34minputattach[0m                                    [01;34mlibwmf-0.2-7-gtk[0m
+[01;34minstall-info[0m                                   [01;34mlibwmf0.2-7-gtk[0m
+[01;34mintel-microcode[0m                                [01;34mlibwmflite-0.2-7[0m
+[01;34mipp-usb[0m                                        [01;34mlibwnck-3-0[0m
+[01;34miproute2[0m                                       [01;34mlibwnck-3-common[0m
+[01;34miptables[0m                                       [01;34mlibwoff1[0m
+[01;34miputils-ping[0m                                   [01;34mlibwpd-0.10-10[0m
+[01;34miputils-tracepath[0m                              [01;34mlibwpg-0.3-3[0m
+[01;34miso-codes[0m                                      [01;34mlibwps-0.4-4[0m
+[01;34miucode-tool[0m                                    [01;34mlibwrap0[0m
+[01;34miw[0m                                             [01;34mlibwtmpdb0[0m
+[01;34mjq[0m                                             [01;34mlibwww-perl[0m
+[01;34mkbd[0m                                            [01;34mlibwww-robotrules-perl[0m
+[01;34mkdump-tools[0m                                    [01;34mlibx11-6[0m
+[01;34mkexec-tools[0m                                    [01;34mlibx11-data[0m
+[01;34mkeyboard-configuration[0m                         [01;34mlibx11-protocol-perl[0m
+[01;36mklibc-utils[0m                                    [01;34mlibx11-xcb1[0m
+[01;36mkmod[0m                                           [01;34mlibxau6[0m
+[01;34mkrb5-locales[0m                                   [01;34mlibxaw7[0m
+[01;34mlanguage-pack-gnome-ru[0m                         [01;34mlibxcb-dri3-0[0m
+[01;34mlanguage-pack-gnome-ru-base[0m                    [01;34mlibxcb-glx0[0m
+[01;34mlanguage-pack-ru[0m                               [01;34mlibxcb-present0[0m
+[01;34mlanguage-pack-ru-base[0m                          [01;34mlibxcb-randr0[0m
+[01;34mlanguage-selector-common[0m                       [01;34mlibxcb-render0[0m
+[01;34mlanguage-selector-gnome[0m                        [01;34mlibxcb-res0[0m
+[01;34mlaptop-detect[0m                                  [01;34mlibxcb-shape0[0m
+[01;34mldap-utils[0m                                     [01;34mlibxcb-shm0[0m
+[01;34mless[0m                                           [01;34mlibxcb-sync1[0m
+[01;34mlibaa1[0m                                         [01;34mlibxcb-util1[0m
+[01;34mlibabsl20240722[0m                                [01;34mlibxcb-xfixes0[0m
+[01;34mlibabw-0.1-1[0m                                   [01;34mlibxcb1[0m
+[01;34mlibaccountsservice0[0m                            [01;34mlibxcomposite1[0m
+[01;34mlibacl1[0m                                        [01;34mlibxcursor1[0m
+[01;34mlibadwaita-1-0[0m                                 [01;34mlibxcvt0[0m
+[01;34mlibao-common[0m                                   [01;34mlibxdamage1[0m
+[01;34mlibao4[0m                                         [01;34mlibxdmcp6[0m
+[01;34mlibaom3[0m                                        [01;34mlibxext6[0m
+[01;34mlibapparmor1[0m                                   [01;34mlibxfixes3[0m
+[01;34mlibappstream5[0m                                  [01;34mlibxfont2[0m
+[01;34mlibapt-pkg-perl[0m                                [01;34mlibxft2[0m
+[01;34mlibapt-pkg7.0[0m                                  [01;34mlibxi6[0m
+[01;34mlibarchive13t64[0m                                [01;34mlibxinerama1[0m
+[01;34mlibargon2-1[0m                                    [01;34mlibxkbcommon0[0m
+[01;36mlibasan8[0m                                       [01;34mlibxkbfile1[0m
+[01;34mlibasound2-data[0m                                [01;34mlibxkbregistry0[0m
+[01;34mlibasound2t64[0m                                  [01;34mlibxml-parser-perl[0m
+[01;34mlibaspell15[0m                                    [01;34mlibxml-twig-perl[0m
+[01;34mlibassuan9[0m                                     [01;34mlibxml-xpathengine-perl[0m
+[01;34mlibasyncns0[0m                                    [01;34mlibxml2-16[0m
+[01;34mlibatasmart4[0m                                   [01;34mlibxmlb2[0m
+[01;34mlibatk-adaptor[0m                                 [01;34mlibxmlsec1-1[0m
+[01;34mlibatk-bridge2.0-0t64[0m                          [01;34mlibxmlsec1-nss1[0m
+[01;34mlibatk1.0-0t64[0m                                 [01;34mlibxmu6[0m
+[01;36mlibatomic1[0m                                     [01;34mlibxmuu1[0m
+[01;34mlibatopology2t64[0m                               [01;34mlibxpm4[0m
+[01;34mlibatspi2.0-0t64[0m                               [01;34mlibxrandr2[0m
+[01;34mlibattr1[0m                                       [01;34mlibxrender1[0m
+[01;34mlibaudit-common[0m                                [01;34mlibxres1[0m
+[01;34mlibaudit1[0m                                      [01;34mlibxshmfence1[0m
+[01;34mlibauthen-sasl-perl[0m                            [01;34mlibxslt1.1[0m
+[01;34mlibavahi-client3[0m                               [01;34mlibxt6t64[0m
+[01;34mlibavahi-common-data[0m                           [01;34mlibxtables12[0m
+[01;34mlibavahi-common3[0m                               [01;34mlibxtst6[0m
+[01;34mlibavahi-core7[0m                                 [01;34mlibxv1[0m
+[01;34mlibavahi-glib1[0m                                 [01;34mlibxxf86dga1[0m
+[01;34mlibavc1394-0[0m                                   [01;34mlibxxf86vm1[0m
+[01;34mlibayatana-appindicator3-1[0m                     [01;34mlibxxhash0[0m
+[01;34mlibayatana-ido3-0.4-0[0m                          [01;34mlibyajl2[0m
+[01;34mlibayatana-indicator3-7[0m                        [01;34mlibyaml-0-2[0m
+[01;34mlibbabeltrace1[0m                                 [01;34mlibyelp0[0m
+[01;34mlibbasicobjects0t64[0m                            [01;34mlibzstd1[0m
+[01;36mlibbinutils[0m                                    [01;34mlinux-base[0m
+[01;34mlibblkid1[0m                                      [01;34mlinux-firmware[0m
+[01;34mlibblockdev-crypto3[0m                            [01;34mlinux-generic-hwe-24.04[0m
+[01;34mlibblockdev-fs3[0m                                [01;34mlinux-headers-6.17.0-14[0m
+[01;34mlibblockdev-loop3[0m                              [01;34mlinux-headers-6.17.0-14-generic[0m
+[01;34mlibblockdev-mdraid3[0m                            [01;34mlinux-headers-generic-hwe-24.04[0m
+[01;34mlibblockdev-nvme3[0m                              [01;34mlinux-image-6.17.0-14-generic[0m
+[01;34mlibblockdev-part3[0m                              [01;34mlinux-image-generic-hwe-24.04[0m
+[01;34mlibblockdev-swap3[0m                              [01;34mlinux-libc-dev[0m
+[01;34mlibblockdev-utils3[0m                             [01;34mlinux-modules-6.17.0-14-generic[0m
+[01;34mlibblockdev3[0m                                   [01;34mlinux-perf[0m
+[01;34mlibbluetooth3[0m                                  [01;34mlinux-sound-base[0m
+[01;34mlibboost-iostreams1.88.0[0m                       [01;34mlinux-sysctl-defaults[0m
+[01;34mlibboost-locale1.88.0[0m                          [01;34mlinux-tools-6.17.0-14[0m
+[01;34mlibboost-thread1.88.0[0m                          [01;34mlinux-tools-6.17.0-14-generic[0m
+[01;34mlibbpf1[0m                                        [01;34mlinux-tools-common[0m
+[01;34mlibbpfcc[0m                                       [01;34mlocales[0m
+[01;34mlibbrlapi0.8[0m                                   [01;34mlogin[0m
+[01;34mlibbrotli1[0m                                     [01;34mlogin.defs[0m
+[01;34mlibbsd0[0m                                        [01;34mlogrotate[0m
+[01;34mlibbytesize-common[0m                             [01;34mlogsave[0m
+[01;34mlibbytesize1[0m                                   [01;34mloupe[0m
+[01;34mlibbz2-1.0[0m                                     [01;34mlsb-release[0m
+[01;34mlibc-bin[0m                                       [01;34mlshw[0m
+[01;34mlibc-dev-bin[0m                                   [01;34mlsof[0m
+[01;34mlibc6[0m                                          [01;34mluit[0m
+[01;34mlibc6-dbg[0m                                      [01;34mm17n-db[0m
+[01;34mlibc6-dev[0m                                      [01;34mmailcap[0m
+[01;34mlibcaca0[0m                                       [01;34mmailutils[0m
+[01;34mlibcairo-gobject-perl[0m                          [01;34mmailutils-common[0m
+[01;34mlibcairo-gobject2[0m                              [01;34mmakedumpfile[0m
+[01;34mlibcairo-perl[0m                                  [01;34mman-db[0m
+[01;34mlibcairo-script-interpreter2[0m                   [01;34mmanpages[0m
+[01;34mlibcairo2[0m                                      [01;36mmanpages-dev[0m
+[01;34mlibcairomm-1.16-1[0m                              [01;34mmawk[0m
+[01;34mlibcamel-1.2-64t64[0m                             [01;34mmc[0m
+[01;34mlibcanberra-gtk3-0[0m                             [01;34mmc-data[0m
+[01;34mlibcanberra-gtk3-module[0m                        [01;34mmedia-types[0m
+[01;34mlibcanberra-pulse[0m                              [01;34mmemtest86+[0m
+[01;34mlibcanberra0[0m                                   [01;34mmesa-libgallium[0m
+[01;34mlibcap-ng0[0m                                     [01;34mmesa-vulkan-drivers[0m
+[01;34mlibcap2[0m                                        [01;34mmobile-broadband-provider-info[0m
+[01;34mlibcap2-bin[0m                                    [01;34mmodemmanager[0m
+[01;34mlibcares2[0m                                      [01;34mmount[0m
+[01;34mlibcbor0.10[0m                                    [01;34mmousetweaks[0m
+[01;36mlibcc1-0[0m                                       [01;34mmscompress[0m
+[01;34mlibcdio-cdda2t64[0m                               [01;34mmtr-tiny[0m
+[01;34mlibcdio-paranoia2t64[0m                           [01;34mmutter-common[0m
+[01;34mlibcdio19t64[0m                                   [01;34mmutter-common-bin[0m
+[01;34mlibcdparanoia0[0m                                 [01;34mmysql-common[0m
+[01;34mlibchewing3[0m                                    [01;34mnano[0m
+[01;34mlibchewing3-data[0m                               [01;34mnautilus[0m
+[01;34mlibclang-cpp20[0m                                 [01;34mnautilus-data[0m
+[01;34mlibclang1-20[0m                                   [01;34mnautilus-sendto[0m
+[01;34mlibclone-perl[0m                                  [01;34mncal[0m
+[01;34mlibclucene-contribs1t64[0m                        [01;34mncurses-base[0m
+[01;34mlibclucene-core1t64[0m                            [01;34mncurses-bin[0m
+[01;34mlibcollection4t64[0m                              [01;34mnetbase[0m
+[01;34mlibcolord-gtk4-1t64[0m                            [01;34mnetcat-openbsd[0m
+[01;34mlibcolord2[0m                                     [01;34mnetplan[0m
+[01;34mlibcolorhug2[0m                                   [01;34mnetplan-generator[0m
+[01;34mlibcom-err2[0m                                    [01;34mnetplan.io[0m
+[01;34mlibcpdb-frontend2t64[0m                           [01;34mnetwork-manager[0m
+[01;34mlibcpdb2t64[0m                                    [01;34mnetwork-manager-config-connectivity-ubuntu[0m
+[01;34mlibcrack2[0m                                      [01;34mnetwork-manager-openvpn[0m
+[01;34mlibcrypt-dev[0m                                   [01;34mnetwork-manager-openvpn-gnome[0m
+[01;34mlibcrypt1[0m                                      [01;34mnetwork-manager-pptp[0m
+[01;34mlibcryptsetup12[0m                                [01;34mnetwork-manager-pptp-gnome[0m
+[01;34mlibctf-nobfd0[0m                                  [01;34mnetworkd-dispatcher[0m
+[01;36mlibctf0[0m                                        [01;34mnftables[0m
+[01;34mlibcue2[0m                                        [01;34mnm-connection-editor[0m
+[01;34mlibcups2t64[0m                                    [01;34mntfs-3g[0m
+[01;34mlibcupsfilters2-common[0m                         [01;34mnumactl[0m
+[01;34mlibcupsfilters2t64[0m                             [01;34mopenprinting-ppds[0m
+[01;34mlibcupsimage2t64[0m                               [01;34mopenssh-client[0m
+[01;34mlibcurl3t64-gnutls[0m                             [01;34mopenssl[0m
+[01;34mlibcurl4t64[0m                                    [01;34mopenssl-provider-legacy[0m
+[01;34mlibdaemon0[0m                                     [01;34mopenvpn[0m
+[01;34mlibdata-dump-perl[0m                              [01;34morca[0m
+[01;34mlibdatrie1[0m                                     [01;34mos-prober[0m
+[01;34mlibdb5.3t64[0m                                    [01;34mp11-kit[0m
+[01;34mlibdbus-1-3[0m                                    [01;36mp11-kit-modules[0m
+[01;34mlibdbusmenu-glib4[0m                              [01;34mpackagekit[0m
+[01;34mlibdbusmenu-gtk3-4[0m                             [01;34mpackagekit-tools[0m
+[01;34mlibdconf1[0m                                      [01;34mpapers[0m
+[01;34mlibde265-0[0m                                     [01;34mpapers-common[0m
+[01;34mlibdebconfclient0[0m                              [01;36mparted[0m
+[01;34mlibdebuginfod-common[0m                           [01;34mpasswd[0m
+[01;34mlibdebuginfod1t64[0m                              [01;34mpatch[0m
+[01;34mlibdecor-0-0[0m                                   [01;34mpci.ids[0m
+[01;34mlibdecor-0-plugin-1-gtk[0m                        [01;34mpciutils[0m
+[01;34mlibdee-1.0-4[0m                                   [01;34mpcmciautils[0m
+[01;34mlibdeflate0[0m                                    [01;34mperl[0m
+[01;34mlibdevmapper1.02.1[0m                             [01;34mperl-base[0m
+[01;34mlibdex-1-1[0m                                     [01;34mperl-modules-5.40[0m
+[01;34mlibdhash1t64[0m                                   [01;34mperl-openssl-defaults[0m
+[01;34mlibdisplay-info2[0m                               [01;34mpinentry-curses[0m
+[01;34mlibdjvulibre-text[0m                              [01;34mpinentry-gnome3[0m
+[01;34mlibdjvulibre21[0m                                 [01;34mpipewire[0m
+[01;34mlibdotconf0[0m                                    [01;34mpipewire-alsa[0m
+[01;34mlibdrm-amdgpu1[0m                                 [01;34mpipewire-audio[0m
+[01;34mlibdrm-common[0m                                  [01;34mpipewire-bin[0m
+[01;34mlibdrm-intel1[0m                                  [01;34mpipewire-pulse[0m
+[01;34mlibdrm2[0m                                        [01;34mpkexec[0m
+[01;34mlibduktape207[0m                                  [01;34mplymouth[0m
+[01;34mlibdv4t64[0m                                      [01;34mplymouth-label[0m
+[01;34mlibdw1t64[0m                                      [01;34mplymouth-theme-spinner[0m
+[01;34mlibe-book-0.1-1[0m                                [01;34mplymouth-theme-ubuntu-text[0m
+[01;34mlibeatmydata1[0m                                  [01;34mpnp.ids[0m
+[01;34mlibebackend-1.2-11t64[0m                          [01;34mpolicykit-desktop-privileges[0m
+[01;34mlibebook-1.2-21t64[0m                             [01;34mpolkitd[0m
+[01;34mlibebook-contacts-1.2-4t64[0m                     [01;34mpoppler-data[0m
+[01;34mlibecal-2.0-3[0m                                  [01;34mpoppler-utils[0m
+[01;34mlibedata-book-1.2-27t64[0m                        [01;34mpostfix[0m
+[01;34mlibedata-cal-2.0-2t64[0m                          [01;34mpower-profiles-daemon[0m
+[01;34mlibedataserver-1.2-27t64[0m                       [01;34mpowermgmt-base[0m
+[01;34mlibedataserverui-1.2-4t64[0m                      [01;34mppp[0m
+[01;34mlibedit2[0m                                       [01;34mpptp-linux[0m
+[01;34mlibeditorconfig0[0m                               [01;34mprinter-driver-brlaser[0m
+[01;34mlibefiboot1t64[0m                                 [01;34mprinter-driver-c2esp[0m
+[01;34mlibefivar1t64[0m                                  [01;34mprinter-driver-foo2zjs[0m
+[01;34mlibegl-mesa0[0m                                   [01;34mprinter-driver-foo2zjs-common[0m
+[01;34mlibegl1[0m                                        [01;34mprinter-driver-hpcups[0m
+[01;34mlibei1[0m                                         [01;34mprinter-driver-m2300w[0m
+[01;34mlibeis1[0m                                        [01;34mprinter-driver-min12xxw[0m
+[01;34mlibelf1t64[0m                                     [01;34mprinter-driver-pnm2ppa[0m
+[01;34mlibenchant-2-2[0m                                 [01;34mprinter-driver-postscript-hp[0m
+[01;34mlibencode-locale-perl[0m                          [01;34mprinter-driver-ptouch[0m
+[01;34mlibeot0[0m                                        [01;34mprinter-driver-pxljr[0m
+[01;34mlibepoxy0[0m                                      [01;34mprinter-driver-sag-gdi[0m
+[01;34mlibepubgen-0.1-1[0m                               [01;34mprinter-driver-splix[0m
+[01;34mliberror-perl[0m                                  [01;34mprocps[0m
+[01;34mlibespeak-ng1[0m                                  [01;34mpsmisc[0m
+[01;34mlibestr0[0m                                       [01;34mptyxis[0m
+[01;34mlibetonyek-0.1-1[0m                               [01;34mpublicsuffix[0m
+[01;34mlibevdev2[0m                                      [01;34mpython-apt-common[0m
+[01;34mlibexempi8[0m                                     [01;34mpython-babel-localedata[0m
+[01;34mlibexif12[0m                                      [01;34mpython3[0m
+[01;34mlibexiv2-28[0m                                    [01;34mpython3-apport[0m
+[01;34mlibexiv2-data[0m                                  [01;34mpython3-apt[0m
+[01;34mlibexpat1[0m                                      [01;34mpython3-aptdaemon[0m
+[01;34mlibext2fs2t64[0m                                  [01;34mpython3-aptdaemon.gtk3widgets[0m
+[01;34mlibexttextcat-2.0-0[0m                            [01;34mpython3-attr[0m
+[01;34mlibexttextcat-data[0m                             [01;34mpython3-autocommand[0m
+[01;34mlibextutils-depends-perl[0m                       [01;34mpython3-babel[0m
+[01;34mlibfastjson4[0m                                   [01;34mpython3-bcrypt[0m
+[01;34mlibfdisk1[0m                                      [01;34mpython3-blinker[0m
+[01;34mlibffi8[0m                                        [01;34mpython3-bpfcc[0m
+[01;34mlibfftw3-single3[0m                               [01;34mpython3-brlapi[0m
+[01;34mlibfido2-1[0m                                     [01;34mpython3-cairo[0m
+[01;34mlibfile-basedir-perl[0m                           [01;34mpython3-certifi[0m
+[01;34mlibfile-desktopentry-perl[0m                      [01;34mpython3-cffi-backend[0m
+[01;34mlibfile-listing-perl[0m                           [01;34mpython3-chardet[0m
+[01;34mlibfile-mimeinfo-perl[0m                          [01;34mpython3-click[0m
+[01;34mlibflac14[0m                                      [01;34mpython3-commandnotfound[0m
+[01;34mlibflashrom1[0m                                   [01;34mpython3-configobj[0m
+[01;34mlibfont-afm-perl[0m                               [01;34mpython3-cryptography[0m
+[01;34mlibfontconfig1[0m                                 [01;34mpython3-cups[0m
+[01;34mlibfontenc1[0m                                    [01;34mpython3-cupshelpers[0m
+[01;34mlibfprint-2-2[0m                                  [01;34mpython3-dasbus[0m
+[01;34mlibfprint-2-tod1[0m                               [01;34mpython3-dateutil[0m
+[01;34mlibfreeaptx0[0m                                   [01;34mpython3-dbus[0m
+[01;34mlibfreerdp-server3-3[0m                           [01;36mpython3-debconf[0m
+[01;34mlibfreerdp3-3[0m                                  [01;34mpython3-debian[0m
+[01;34mlibfreetype6[0m                                   [01;34mpython3-defer[0m
+[01;34mlibfribidi0[0m                                    [01;34mpython3-distro[0m
+[01;34mlibftdi1-2[0m                                     [01;34mpython3-distro-info[0m
+[01;34mlibfuse3-4[0m                                     [01;34mpython3-distupgrade[0m
+[01;34mlibfwupd3[0m                                      [01;34mpython3-gdbm[0m
+[01;34mlibgail-common[0m                                 [01;34mpython3-gi[0m
+[01;34mlibgail18t64[0m                                   [01;34mpython3-httplib2[0m
+[01;34mlibgamemode0[0m                                   [01;34mpython3-ibus-1.0[0m
+[01;34mlibgamemodeauto0[0m                               [01;34mpython3-idna[0m
+[01;34mlibgbm1[0m                                        [01;34mpython3-inflect[0m
+[01;34mlibgc1[0m                                         [01;34mpython3-jaraco.context[0m
+[01;36mlibgcc-15-dev[0m                                  [01;34mpython3-jaraco.functools[0m
+[01;36mlibgcc-s1[0m                                      [01;34mpython3-jinja2[0m
+[01;34mlibgck-1-0[0m                                     [01;34mpython3-json-pointer[0m
+[01;34mlibgck-2-2[0m                                     [01;34mpython3-jsonpatch[0m
+[01;34mlibgcr-4-4[0m                                     [01;34mpython3-jsonschema[0m
+[01;34mlibgcr-base-3-1[0m                                [01;34mpython3-jsonschema-specifications[0m
+[01;34mlibgcr-ui-3-1[0m                                  [01;34mpython3-jwt[0m
+[01;34mlibgcrypt20[0m                                    [01;34mpython3-launchpadlib[0m
+[01;34mlibgd3[0m                                         [01;34mpython3-lazr.restfulclient[0m
+[01;34mlibgdata-common[0m                                [01;34mpython3-lazr.uri[0m
+[01;34mlibgdata22[0m                                     [01;34mpython3-linkify-it[0m
+[01;34mlibgdbm-compat4t64[0m                             [01;34mpython3-louis[0m
+[01;34mlibgdbm6t64[0m                                    [01;34mpython3-markdown-it[0m
+[01;34mlibgdk-pixbuf-2.0-0[0m                            [01;34mpython3-markupsafe[0m
+[01;34mlibgdk-pixbuf2.0-bin[0m                           [01;34mpython3-mdurl[0m
+[01;34mlibgdk-pixbuf2.0-common[0m                        [01;34mpython3-minimal[0m
+[01;34mlibgdm1[0m                                        [01;34mpython3-more-itertools[0m
+[01;34mlibgee-0.8-2[0m                                   [01;34mpython3-netaddr[0m
+[01;34mlibgeoclue-2-0[0m                                 [01;34mpython3-netplan[0m
+[01;34mlibgeocode-glib-2-0[0m                            [01;34mpython3-oauthlib[0m
+[01;34mlibgexiv2-2[0m                                    [01;34mpython3-olefile[0m
+[01;34mlibgif7[0m                                        [01;34mpython3-passlib[0m
+[01;34mlibgirepository-1.0-1[0m                          [01;34mpython3-pexpect[0m
+[01;34mlibgirepository-2.0-0[0m                          [01;34mpython3-pil[0m
+[01;34mlibgjs0[0m                                        [01;34mpython3-pkg-resources[0m
+[01;34mlibgl1[0m                                         [01;34mpython3-problem-report[0m
+[01;34mlibgl1-mesa-dri[0m                                [01;34mpython3-psutil[0m
+[01;34mlibgles2[0m                                       [01;34mpython3-ptyprocess[0m
+[01;34mlibglib-object-introspection-perl[0m              [01;34mpython3-pygments[0m
+[01;34mlibglib-perl[0m                                   [01;34mpython3-pyparsing[0m
+[01;34mlibglib2.0-0t64[0m                                [01;34mpython3-referencing[0m
+[01;34mlibglib2.0-bin[0m                                 [01;34mpython3-requests[0m
+[01;34mlibglib2.0-data[0m                                [01;34mpython3-rich[0m
+[01;34mlibglibmm-2.68-1t64[0m                            [01;34mpython3-rpds-py[0m
+[01;34mlibglvnd0[0m                                      [01;34mpython3-serial[0m
+[01;34mlibglx-mesa0[0m                                   [01;34mpython3-setproctitle[0m
+[01;34mlibglx0[0m                                        [01;34mpython3-software-properties[0m
+[01;34mlibglycin-2-0[0m                                  [01;34mpython3-speechd[0m
+[01;34mlibgmp10[0m                                       [01;34mpython3-sss[0m
+[01;34mlibgnome-autoar-0-0[0m                            [01;34mpython3-systemd[0m
+[01;34mlibgnome-bg-4-2t64[0m                             [01;34mpython3-typeguard[0m
+[01;34mlibgnome-bluetooth-3.0-13[0m                      [01;34mpython3-typing-extensions[0m
+[01;34mlibgnome-bluetooth-ui-3.0-13[0m                   [01;34mpython3-uc-micro[0m
+[01;34mlibgnome-desktop-3-20t64[0m                       [01;34mpython3-uno[0m
+[01;34mlibgnome-desktop-4-2t64[0m                        [01;34mpython3-update-manager[0m
+[01;34mlibgnome-menu-3-0[0m                              [01;34mpython3-urllib3[0m
+[01;34mlibgnutls30t64[0m                                 [01;34mpython3-wadllib[0m
+[01;34mlibgoa-1.0-0b[0m                                  [01;34mpython3-xdg[0m
+[01;34mlibgoa-1.0-common[0m                              [01;34mpython3-xkit[0m
+[01;34mlibgoa-backend-1.0-2[0m                           [01;34mpython3-yaml[0m
+[01;36mlibgomp1[0m                                       [01;34mpython3.13[0m
+[01;34mlibgpg-error-l10n[0m                              [01;34mpython3.13-gdbm[0m
+[01;34mlibgpg-error0[0m                                  [01;34mpython3.13-minimal[0m
+[01;34mlibgpgme11t64[0m                                  [01;34mreadline-common[0m
+[01;34mlibgpgmepp6t64[0m                                 [01;34mrename[0m
+[01;34mlibgphoto2-6[0m                                   [01;34mrfkill[0m
+[01;34mlibgphoto2-6t64[0m                                [01;34mrpcsvc-proto[0m
+[01;34mlibgphoto2-l10n[0m                                [01;34mrsync[0m
+[01;34mlibgphoto2-port12[0m                              [01;34mrsyslog[0m
+[01;34mlibgphoto2-port12t64[0m                           [01;34mrtkit[0m
+[01;34mlibgpm2[0m                                        [01;34mrust-coreutils[0m
+[01;36mlibgprofng0[0m                                    [01;34mrygel[0m
+[01;34mlibgraphene-1.0-0[0m                              [01;34msamba-libs[0m
+[01;34mlibgraphite2-3[0m                                 [01;34msane-airscan[0m
+[01;34mlibgs-common[0m                                   [01;34msane-utils[0m
+[01;34mlibgs10[0m                                        [01;34msbsigntool[0m
+[01;34mlibgs10-common[0m                                 [01;34mscreen[0m
+[01;34mlibgsasl18[0m                                     [01;34mseahorse[0m
+[01;34mlibgsf-1-114[0m                                   [01;34msecureboot-db[0m
+[01;34mlibgsf-1-common[0m                                [01;34msed[0m
+[01;34mlibgsound0t64[0m                                  [01;34msensible-utils[0m
+[01;34mlibgssapi-krb5-2[0m                               [01;34msession-migration[0m
+[01;34mlibgssdp-1.6-0[0m                                 [01;34msgml-base[0m
+[01;34mlibgssglue1[0m                                    [01;34msgml-data[0m
+[01;34mlibgstreamer-gl1.0-0[0m                           [01;34mshared-mime-info[0m
+[01;34mlibgstreamer-plugins-base1.0-0[0m                 [01;34msharutils[0m
+[01;34mlibgstreamer-plugins-good1.0-0[0m                 [01;34msnapd[0m
+[01;34mlibgstreamer1.0-0[0m                              [01;34msoftware-properties-common[0m
+[01;34mlibgtk-3-0t64[0m                                  [01;34msoftware-properties-gtk[0m
+[01;34mlibgtk-3-bin[0m                                   [01;34msound-icons[0m
+[01;34mlibgtk-3-common[0m                                [01;34msound-theme-freedesktop[0m
+[01;34mlibgtk-4-1[0m                                     [01;34mspeech-dispatcher[0m
+[01;34mlibgtk-4-bin[0m                                   [01;34mspeech-dispatcher-audio-plugins[0m
+[01;34mlibgtk-4-common[0m                                [01;34mspeech-dispatcher-espeak-ng[0m
+[01;34mlibgtk2.0-0t64[0m                                 [01;34mspice-vdagent[0m
+[01;34mlibgtk2.0-bin[0m                                  [01;34msquashfs-tools[0m
+[01;34mlibgtk2.0-common[0m                               [01;34mssl-cert[0m
+[01;34mlibgtk3-perl[0m                                   [01;34msssd[0m
+[01;34mlibgtkmm-4.0-0[0m                                 [01;34msssd-ad[0m
+[01;34mlibgtksourceview-5-0[0m                           [01;34msssd-ad-common[0m
+[01;34mlibgtksourceview-5-common[0m                      [01;34msssd-common[0m
+[01;34mlibgtop-2.0-11[0m                                 [01;34msssd-ipa[0m
+[01;34mlibgtop2-common[0m                                [01;34msssd-krb5[0m
+[01;34mlibgudev-1.0-0[0m                                 [01;34msssd-krb5-common[0m
+[01;34mlibgupnp-1.6-0[0m                                 [01;34msssd-ldap[0m
+[01;34mlibgupnp-av-1.0-3[0m                              [01;34msssd-proxy[0m
+[01;34mlibgupnp-dlna-2.0-4[0m                            [01;34mstrace[0m
+[01;34mlibgusb2[0m                                       [01;34msudo[0m
+[01;34mlibgweather-4-0t64[0m                             [01;34msudo-rs[0m
+[01;34mlibgweather-4-common[0m                           [01;34mswitcheroo-control[0m
+[01;34mlibgxps2t64[0m                                    [01;34msysprof[0m
+[01;34mlibhandy-1-0[0m                                   [01;34msysstat[0m
+[01;34mlibharfbuzz-gobject0[0m                           [01;34msystem-config-printer-common[0m
+[01;34mlibharfbuzz-icu0[0m                               [01;34msystem-config-printer-udev[0m
+[01;34mlibharfbuzz-subset0[0m                            [01;34msystemd[0m
+[01;34mlibharfbuzz0b[0m                                  [01;34msystemd-cryptsetup[0m
+[01;34mlibheif-plugin-aomdec[0m                          [01;34msystemd-hwe-hwdb[0m
+[01;34mlibheif-plugin-aomenc[0m                          [01;34msystemd-oomd[0m
+[01;34mlibheif-plugin-libde265[0m                        [01;34msystemd-resolved[0m
+[01;34mlibheif1[0m                                       [01;34msystemd-sysv[0m
+[01;34mlibhogweed6t64[0m                                 [01;34msysvbanner[0m
+[01;34mlibhpmud0[0m                                      [01;34msysvinit-utils[0m
+[01;34mlibhtml-form-perl[0m                              [01;34mtar[0m
+[01;34mlibhtml-format-perl[0m                            [01;34mtcl[0m
+[01;34mlibhtml-parser-perl[0m                            [01;34mtcl8.6[0m
+[01;34mlibhtml-tagset-perl[0m                            [01;34mtcpdump[0m
+[01;34mlibhtml-tree-perl[0m                              [01;34mtecla[0m
+[01;34mlibhttp-cookies-perl[0m                           [01;34mtelnet[0m
+[01;34mlibhttp-daemon-perl[0m                            [01;34mthermald[0m
+[01;34mlibhttp-date-perl[0m                              [01;34mtime[0m
+[01;34mlibhttp-message-perl[0m                           [01;34mtinysparql[0m
+[01;34mlibhttp-negotiate-perl[0m                         [01;34mtnftp[0m
+[01;34mlibhunspell-1.7-0[0m                              [01;34mtpm-udev[0m
+[01;36mlibhwasan0[0m                                     [01;34mtrace-cmd[0m
+[01;34mlibhwy1t64[0m                                     [01;34mtracker-extract[0m
+[01;34mlibhyphen0[0m                                     [01;34mtree[0m
+[01;34mlibibus-1.0-5[0m                                  [01;34mtzdata[0m
+[01;34mlibibverbs1[0m                                    [01;34mubuntu-advantage-desktop-daemon[0m
+[01;34mlibical3t64[0m                                    [01;34mubuntu-desktop-minimal[0m
+[01;34mlibice6[0m                                        [01;34mubuntu-docs[0m
+[01;34mlibicu76[0m                                       [01;34mubuntu-drivers-common[0m
+[01;34mlibidn12[0m                                       [01;34mubuntu-insights[0m
+[01;34mlibidn2-0[0m                                      [01;34mubuntu-kernel-accessories[0m
+[01;34mlibiec61883-0[0m                                  [01;34mubuntu-keyring[0m
+[01;34mlibieee1284-3t64[0m                               [01;34mubuntu-minimal[0m
+[01;34mlibijs-0.35[0m                                    [01;34mubuntu-pro-client[0m
+[01;34mlibimagequant0[0m                                 [01;34mubuntu-pro-client-l10n[0m
+[01;34mlibimobiledevice-1.0-6[0m                         [01;34mubuntu-release-upgrader-core[0m
+[01;34mlibimobiledevice-glue-1.0-0[0m                    [01;34mubuntu-release-upgrader-gtk[0m
+[01;34mlibini-config5t64[0m                              [01;34mubuntu-report[0m
+[01;34mlibinih1[0m                                       [01;34mubuntu-session[0m
+[01;34mlibinireader0[0m                                  [01;34mubuntu-settings[0m
+[01;34mlibinput-bin[0m                                   [01;34mubuntu-standard[0m
+[01;34mlibinput10[0m                                     [01;34mubuntu-wallpapers[0m
+[01;34mlibinsights0[0m                                   [01;34mubuntu-wallpapers-questing[0m
+[01;34mlibio-html-perl[0m                                [01;34mucf[0m
+[01;34mlibio-socket-ssl-perl[0m                          [01;34mudev[0m
+[01;34mlibio-stringy-perl[0m                             [01;34mudisks2[0m
+[01;34mlibip4tc2[0m                                      [01;34mufw[0m
+[01;34mlibip6tc2[0m                                      [01;34munattended-upgrades[0m
+[01;34mlibipa-hbac0t64[0m                                [01;34muno-libs-private[0m
+[01;34mlibipc-system-simple-perl[0m                      [01;34munzip[0m
+[01;34mlibipt2[0m                                        [01;34mupdate-inetd[0m
+[01;34mlibisl23[0m                                       [01;34mupdate-manager[0m
+[01;36mlibitm1[0m                                        [01;34mupdate-manager-core[0m
+[01;34mlibjansson4[0m                                    [01;34mupdate-notifier[0m
+[01;34mlibjavascriptcoregtk-4.1-0[0m                     [01;34mupdate-notifier-common[0m
+[01;34mlibjavascriptcoregtk-6.0-1[0m                     [01;34mupower[0m
+[01;34mlibjbig0[0m                                       [01;34mure[0m
+[01;34mlibjbig2dec0[0m                                   [01;34musb-modeswitch[0m
+[01;34mlibjcat1[0m                                       [01;34musb-modeswitch-data[0m
+[01;34mlibjemalloc2[0m                                   [01;34musb.ids[0m
+[01;34mlibjpeg-turbo8[0m                                 [01;34musbmuxd[0m
+[01;34mlibjpeg8[0m                                       [01;34musbutils[0m
+[01;34mlibjq1[0m                                         [01;34mutil-linux[0m
+[01;34mlibjson-c5[0m                                     [01;34muuid-runtime[0m
+[01;34mlibjson-glib-1.0-0[0m                             [01;34mvim-common[0m
+[01;34mlibjson-glib-1.0-common[0m                        [01;34mvim-runtime[0m
+[01;34mlibjxl-gdk-pixbuf[0m                              [01;34mvim-tiny[0m
+[01;34mlibjxl0.11[0m                                     [01;34mwamerican[0m
+[01;34mlibk5crypto3[0m                                   [01;34mwebp-pixbuf-loader[0m
+[01;34mlibkeyutils1[0m                                   [01;34mwget[0m
+[01;34mlibklibc[0m                                       [01;34mwhiptail[0m
+[01;34mlibkmod2[0m                                       [01;34mwhoopsie[0m
+[01;34mlibkrb5-3[0m                                      [01;34mwhoopsie-preferences[0m
+[01;34mlibkrb5support0[0m                                [01;34mwireless-regdb[0m
+[01;34mlibksba8[0m                                       [01;34mwireplumber[0m
+[01;34mlibkyotocabinet16v5[0m                            [01;36mwpa_supplicant[0m
+[01;34mliblangtag-common[0m                              [01;34mwpasupplicant[0m
+[01;34mliblangtag1[0m                                    [01;34mwsdd[0m
+[01;34mliblastlog2-2[0m                                  [01;34mwtmpdb[0m
+[01;34mliblc3-1[0m                                       [01;34mx11-common[0m
+[01;34mliblcms2-2[0m                                     [01;34mx11-utils[0m
+[01;34mliblcms2-utils[0m                                 [01;34mx11-xkb-utils[0m
+[01;34mlibldacbt-abr2[0m                                 [01;34mx11-xserver-utils[0m
+[01;34mlibldacbt-enc2[0m                                 [01;34mxauth[0m
+[01;34mlibldap-common[0m                                 [01;34mxbrlapi[0m
+[01;34mlibldap2[0m                                       [01;34mxcursor-themes[0m
+[01;34mlibldb2[0m                                        [01;34mxdg-dbus-proxy[0m
+[01;34mliblerc4[0m                                       [01;34mxdg-desktop-portal[0m
+[01;34mlibllvm20[0m                                      [01;34mxdg-desktop-portal-gnome[0m
+[01;34mliblmdb0[0m                                       [01;34mxdg-desktop-portal-gtk[0m
+[01;34mliblocale-gettext-perl[0m                         [01;34mxdg-terminal-exec[0m
+[01;34mliblouis-data[0m                                  [01;34mxdg-user-dirs[0m
+[01;34mliblouis20[0m                                     [01;34mxdg-user-dirs-gtk[0m
+[01;34mliblouisutdml-bin[0m                              [01;34mxdg-utils[0m
+[01;34mliblouisutdml-data[0m                             [01;34mxfonts-base[0m
+[01;34mliblouisutdml9t64[0m                              [01;34mxfonts-encodings[0m
+[01;36mliblsan0[0m                                       [01;34mxfonts-utils[0m
+[01;34mliblsof0[0m                                       [01;34mxkb-data[0m
+[01;34mlibltdl7[0m                                       [01;34mxml-core[0m
+[01;34mliblua5.4-0[0m                                    [01;34mxserver-common[0m
+[01;34mliblwp-mediatypes-perl[0m                         [01;34mxwayland[0m
+[01;34mliblwp-protocol-https-perl[0m                     [01;34mxxd[0m
+[01;34mliblz4-1[0m                                       [01;34mxz-utils[0m
+[01;34mliblzma5[0m                                       [01;34myaru-theme-gnome-shell[0m
+[01;34mliblzo2-2[0m                                      [01;34myaru-theme-gtk[0m
+[01;34mlibm17n-0[0m                                      [01;34myaru-theme-icon[0m
+[01;34mlibmagic-mgc[0m                                   [01;34myaru-theme-sound[0m
+[01;34mlibmagic1t64[0m                                   [01;34myelp[0m
+[01;34mlibmailtools-perl[0m                              [01;34myelp-xsl[0m
+[01;34mlibmailutils9t64[0m                               [01;34mzenity[0m
+[01;34mlibmarisa0[0m                                     [01;34mzenity-common[0m
+[01;34mlibmaxminddb0[0m                                  [01;34mzip[0m
+[01;34mlibmbim-glib4[0m                                  [01;34mzlib1g[0m
+[01;34mlibmbim-proxy[0m                                  [01;34mzstd[0m
+
+/usr/share/doc-base:
+base-passwd.users-and-groups           mc-data.mc-faq
+bc.bc                                  nano.nano
+cracklib-runtime.cracklib-runtime      nano.nano-faq
+cups-server-common.cups                netplan-generator.netplan-reference
+dc.dc                                  printer-driver-foo2zjs-common.foo2zjs
+findutils.findutils                    printer-driver-pnm2ppa.pnm2ppa-calibrate
+fontconfig.fontconfig-user             printer-driver-pnm2ppa.pnm2ppa-color
+gdisk.gdisk                            printer-driver-pnm2ppa.pnm2ppa-ppa-networking
+kbd.kbd-font-formats                   python3.python-policy
+libcrack2.libcrack2                    shared-mime-info.shared-mime-info
+libpng16-16t64.libpng16                sysstat.sysstat-faq
+libxml-parser-perl.libxml-parser-perl  time.time
+man-db.man-db
+
+/usr/share/man:
+[01;34mcs[0m  [01;34mde[0m  [01;34mfi[0m  [01;34mhr[0m  [01;34mid[0m  [01;34mja[0m  [01;34mman1[0m  [01;34mman3[0m  [01;34mman5[0m  [01;34mman7[0m  [01;34mnl[0m  [01;34mpt[0m     [01;34mro[0m  [01;34msl[0m  [01;34msv[0m  [01;34muk[0m     [01;34mzh_TW[0m
+[01;34mda[0m  [01;34mes[0m  [01;34mfr[0m  [01;34mhu[0m  [01;34mit[0m  [01;34mko[0m  [01;34mman2[0m  [01;34mman4[0m  [01;34mman6[0m  [01;34mman8[0m  [01;34mpl[0m  [01;34mpt_BR[0m  [01;34mru[0m  [01;34msr[0m  [01;34mtr[0m  [01;34mzh_CN[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ mkdir sh[K[Kchapr[Kter_{}1}.}.}1}0}
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;34mchapter_1[0m   [01;34mchapter_2[0m  [01;34mchapter_4[0m  [01;34mchapter_6[0m  [01;34mchapter_8[0m  [01;34mreport[0m         timelog1Starikov
+[01;34mchapter_10[0m  [01;34mchapter_3[0m  [01;34mchapter_5[0m  [01;34mchapter_7[0m  [01;34mchapter_9[0m  task1Starikov
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ touch con[Knfig_{}ls[Kdev,prod,tesr[Kt dev,prod,test{dev,prod,test[1Pdev,prod,test[1Ptouch config_{}d}e}v},}p}r}o}d},}t}e}s}t}[C.json
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;34mchapter_1[0m   [01;34mchapter_2[0m  [01;34mchapter_4[0m  [01;34mchapter_6[0m  [01;34mchapter_8[0m  config_dev.json   config_test.json  task1Starikov
+[01;34mchapter_10[0m  [01;34mchapter_3[0m  [01;34mchapter_5[0m  [01;34mchapter_7[0m  [01;34mchapter_9[0m  config_prod.json  [01;34mreport[0m            timelog1Starikov
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ touch {}n}b}[1P}[1P}b}a}c}k}u}p},}s}o}u}r}s}e}ce}[1Pe}[1Pe}ce}[C[C.{}z}i}p},}t}s}r}.}[1P}[1P}[1P}a}r}.}g}z}
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;31mbackup.tar.gz[0m  [01;34mchapter_10[0m  [01;34mchapter_4[0m  [01;34mchapter_7[0m  config_dev.json   [01;34mreport[0m         task1Starikov
+[01;31mbackup.zip[0m     [01;34mchapter_2[0m   [01;34mchapter_5[0m  [01;34mchapter_8[0m  config_prod.json  [01;31msource.tar.gz[0m  timelog1Starikov
+[01;34mchapter_1[0m      [01;34mchapter_3[0m   [01;34mchapter_6[0m  [01;34mchapter_9[0m  config_test.json  [01;31msource.zip[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ CURRENT_DATE=''d'a't'e' '+'%'Y'='[1P'-'%'m'-'%'d'
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ touch ;[Klog_&CURR &CURR[C[C[C[C[C![K[K[K[K[K[KCURR[K[K[K[K[K$CURRENT_DATE.log
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ touch log_$CURRENT_DATE.logCURRENT_DATE='date +%Y-%m-%d'
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ CURRENT_DATE='date +%Y-%m-%d'[1P[1@$[1@C[1@D[1P[1P[1@([C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K)
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ CURRENT_DATE=$(date +%Y-%m-%d)[1P'date +%Y-%m-%d'
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\+%Y-%m-%d.log  [01;34mchapter_10[0m  [01;34mchapter_5[0m  [01;34mchapter_9[0m         log_date       task1Starikov
+[0m[01;31mbackup.tar.gz[0m  [01;34mchapter_2[0m   [01;34mchapter_6[0m  config_dev.json   [01;34mreport[0m         timelog1Starikov
+[01;31mbackup.zip[0m     [01;34mchapter_3[0m   [01;34mchapter_7[0m  config_prod.json  [01;31msource.tar.gz[0m
+[01;34mchapter_1[0m      [01;34mchapter_4[0m   [01;34mchapter_8[0m  config_test.json  [01;31msource.zip[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ lsCURRENT_DATE='date +%Y-%m-%d'[1P[1@`[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K`
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ CURRENT_DATE=`date +%Y-%m-%d`ls[K
+[?2004l]133;C\]666;vte.shell.preexec!\+%Y-%m-%d.log  [01;34mchapter_10[0m  [01;34mchapter_5[0m  [01;34mchapter_9[0m         log_date       task1Starikov
+[0m[01;31mbackup.tar.gz[0m  [01;34mchapter_2[0m   [01;34mchapter_6[0m  config_dev.json   [01;34mreport[0m         timelog1Starikov
+[01;31mbackup.zip[0m     [01;34mchapter_3[0m   [01;34mchapter_7[0m  config_prod.json  [01;31msource.tar.gz[0m
+[01;34mchapter_1[0m      [01;34mchapter_4[0m   [01;34mchapter_8[0m  config_test.json  [01;31msource.zip[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ lsCURRENT_DATE=`date +%Y-%m-%d`ls[KCURRENT_DATE=`date +%Y-%m-%d`ls[KCURRENT_DATE='date +%Y-%m-%d'$(date +%Y-%m-%d)
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ CURRENT_DATE=$(date +%Y-%m-%d)ls[KCURRENT_DATE=`date +%Y-%m-%d`ls[KCURRENT_DATE='date +%Y-%m-%d'$(date +%Y-%m-%d)[1P'date +%Y-%m-%d'[2Ptouch log_$CURRENT_DATE.log
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ touch log_$CURRENT_DATE.logCURRENT_DATE=$(date +%Y-%m-%d)ls[KCURRENT_DATE=`date +%Y-%m-%d`ls[K
+[?2004l]133;C\]666;vte.shell.preexec!\+%Y-%m-%d.log  [01;34mchapter_10[0m  [01;34mchapter_5[0m  [01;34mchapter_9[0m         log_2026-05-15.log  [01;31msource.zip[0m
+[0m[01;31mbackup.tar.gz[0m  [01;34mchapter_2[0m   [01;34mchapter_6[0m  config_dev.json   log_date            task1Starikov
+[01;31mbackup.zip[0m     [01;34mchapter_3[0m   [01;34mchapter_7[0m  config_prod.json  [01;34mreport[0m              timelog1Starikov
+[01;34mchapter_1[0m      [01;34mchapter_4[0m   [01;34mchapter_8[0m  config_test.json  [01;31msource.tar.gz[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ гтыу[K[K[K[Kunset CURRENT_DATE 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ unset CURRENT_DATE ls[Ktouch log_$CURRENT_DATE.logCURRENT_DATE=$(date +%Y-%m-%d)
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ CURRENT_DATE=$(date +%Y-%m-%d)[11Punset CURRENT_DATE ls[Ktouch log_$CURRENT_DATE.log
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ touch log_$CURRENT_DATE.logCURRENT_DATE=$(date +%Y-%m-%d)[11Punset CURRENT_DATE ls[K
+[?2004l]133;C\]666;vte.shell.preexec!\+%Y-%m-%d.log  [01;34mchapter_10[0m  [01;34mchapter_5[0m  [01;34mchapter_9[0m         log_2026-05-15.log  [01;31msource.zip[0m
+[0m[01;31mbackup.tar.gz[0m  [01;34mchapter_2[0m   [01;34mchapter_6[0m  config_dev.json   log_date            task1Starikov
+[01;31mbackup.zip[0m     [01;34mchapter_3[0m   [01;34mchapter_7[0m  config_prod.json  [01;34mreport[0m              timelog1Starikov
+[01;34mchapter_1[0m      [01;34mchapter_4[0m   [01;34mchapter_8[0m  config_test.json  [01;31msource.tar.gz[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ lstouch log_$CURRENT_DATE.logls[K[K[Krm log_2026-05-15.log 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ rm log_2026-05-15.log ls[K
+[?2004l]133;C\]666;vte.shell.preexec!\+%Y-%m-%d.log  [01;34mchapter_10[0m  [01;34mchapter_5[0m  [01;34mchapter_9[0m         log_date       task1Starikov
+[0m[01;31mbackup.tar.gz[0m  [01;34mchapter_2[0m   [01;34mchapter_6[0m  config_dev.json   [01;34mreport[0m         timelog1Starikov
+[01;31mbackup.zip[0m     [01;34mchapter_3[0m   [01;34mchapter_7[0m  config_prod.json  [01;31msource.tar.gz[0m
+[01;34mchapter_1[0m      [01;34mchapter_4[0m   [01;34mchapter_8[0m  config_test.json  [01;31msource.zip[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ lsrm log_2026-05-15.log ls[Ktouch log_$CURRENT_DATE.logCURRENT_DATE=$(date +%Y-%m-%d)[11Punset CURRENT_DATE 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ unset CURRENT_DATE CU[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KCURREMT[K[KNT_DATE=`data [K[Ke +%Y-%m-%d`
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ CURRENT_DATE=`date +%Y-%m-%d`[10Punset CURRENT_DATE ls[Krm log_2026-05-15.log ls[Ktouch log_$CURRENT_DATE.log
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ touch log_$CURRENT_DATE.logCURRENT_DATE=`date +%Y-%m-%d`[10Punset CURRENT_DATE ls[K
+[?2004l]133;C\]666;vte.shell.preexec!\+%Y-%m-%d.log  [01;34mchapter_10[0m  [01;34mchapter_5[0m  [01;34mchapter_9[0m         log_2026-05-15.log  [01;31msource.zip[0m
+[0m[01;31mbackup.tar.gz[0m  [01;34mchapter_2[0m   [01;34mchapter_6[0m  config_dev.json   log_date            task1Starikov
+[01;31mbackup.zip[0m     [01;34mchapter_3[0m   [01;34mchapter_7[0m  config_prod.json  [01;34mreport[0m              timelog1Starikov
+[01;34mchapter_1[0m      [01;34mchapter_4[0m   [01;34mchapter_8[0m  config_test.json  [01;31msource.tar.gz[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ c[Kecho [K[K[K[K[Ksum=0;for io in ()[K[K[K[K[K[K[K[K [Ki in {}1}.}.}1}0}0}[C; [K do sum=$((sum+i0[K)); done; echo $sum
+[?2004l]133;C\]666;vte.shell.preexec!\5050
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ cd ~
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user\]0;user@user:~\]666;vte.shell.precmd!\[?2004h]0;user@user: ~[01;32muser@user[00m:[01;34m~[00m$ cd ~user
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user\]0;user@user:~\]666;vte.shell.precmd!\[?2004h]0;user@user: ~[01;32muser@user[00m:[01;34m~[00m$ DIR=""~"\"[1P"/"D"o"c"u"m"e"t"[1P"n"t"s"
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user\]0;user@user:~\]666;vte.shell.precmd!\[?2004h]0;user@user: ~[01;32muser@user[00m:[01;34m~[00m$ cd $DIR
+[?2004l]133;C\]666;vte.shell.preexec!\bash: cd: ~/Documents: Нет такого файла или каталога
+]666;vte.shell.postexec=1\]7;file://user/home/user\]0;user@user:~\]666;vte.shell.precmd!\[?2004h]0;user@user: ~[01;32muser@user[00m:[01;34m~[00m$ cd $DIRDIR="~/Documents"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"Д"о"к"у"м"е"н"т"ы"
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user\]0;user@user:~\]666;vte.shell.precmd!\[?2004h]0;user@user: ~[01;32muser@user[00m:[01;34m~[00m$ DIR="~/Документы"[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pcd $DIR
+[?2004l]133;C\]666;vte.shell.preexec!\bash: cd: ~/Документы: Нет такого файла или каталога
+]666;vte.shell.postexec=1\]7;file://user/home/user\]0;user@user:~\]666;vte.shell.precmd!\[?2004h]0;user@user: ~[01;32muser@user[00m:[01;34m~[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\ [0m[01;34m'Laboratory Task'[0m   [01;34mshared_folder[0m   [01;34mЗагрузки[0m         Стариков_Ростислав_ВФ5.odt
+ [01;34mStarikov[0m            [01;34msnap[0m            [01;34mИзображения[0m      Стариков_Ростислав_ВФ_Контрольная_Работа.odt
+ dead.letter         [01;32mtrap.sh[0m         [01;34mМузыка[0m           [01;34mШаблоны[0m
+ [01;34mlinux-labs[0m          [01;34mВидео[0m           [01;34mОбщедоступные[0m
+ mbox                [01;34mДокументы[0m       [01;34m'Рабочий стол'[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user\]0;user@user:~\]666;vte.shell.precmd!\[?2004h]0;user@user: ~[01;32muser@user[00m:[01;34m~[00m$ lscd $DIRDIR="~/Документы"[1PДокументы"[1PДокументы"
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user\]0;user@user:~\]666;vte.shell.precmd!\[?2004h]0;user@user: ~[01;32muser@user[00m:[01;34m~[00m$ DIR="Документы"[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K
+[?2004l]133;C\]666;vte.shell.preexec!\ [0m[01;34m'Laboratory Task'[0m   [01;34mshared_folder[0m   [01;34mЗагрузки[0m         Стариков_Ростислав_ВФ5.odt
+ [01;34mStarikov[0m            [01;34msnap[0m            [01;34mИзображения[0m      Стариков_Ростислав_ВФ_Контрольная_Работа.odt
+ dead.letter         [01;32mtrap.sh[0m         [01;34mМузыка[0m           [01;34mШаблоны[0m
+ [01;34mlinux-labs[0m          [01;34mВидео[0m           [01;34mОбщедоступные[0m
+ mbox                [01;34mДокументы[0m       [01;34m'Рабочий стол'[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user\]0;user@user:~\]666;vte.shell.precmd!\[?2004h]0;user@user: ~[01;32muser@user[00m:[01;34m~[00m$ lsDIR="Документы"[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd $DIR
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B\]0;user@user:~/Документы\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/Документы[01;32muser@user[00m:[01;34m~/Документы[00m$ св дш[K[K[K[K[Kcd linu[K[K[K[K[K[K[Kcd ..
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user\]0;user@user:~\]666;vte.shell.precmd!\[?2004h]0;user@user: ~[01;32muser@user[00m:[01;34m~[00m$ cd linux-labs/n[K
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs\]0;user@user:~/linux-labs\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs[01;32muser@user[00m:[01;34m~/linux-labs[00m$ cd lab6
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ cd[K[Kls
+[?2004l]133;C\]666;vte.shell.preexec!\+%Y-%m-%d.log  [01;34mchapter_10[0m  [01;34mchapter_5[0m  [01;34mchapter_9[0m         log_2026-05-15.log  [01;31msource.zip[0m
+[0m[01;31mbackup.tar.gz[0m  [01;34mchapter_2[0m   [01;34mchapter_6[0m  config_dev.json   log_date            task1Starikov
+[01;31mbackup.zip[0m     [01;34mchapter_3[0m   [01;34mchapter_7[0m  config_prod.json  [01;34mreport[0m              timelog1Starikov
+[01;34mchapter_1[0m      [01;34mchapter_4[0m   [01;34mchapter_8[0m  config_test.json  [01;31msource.tar.gz[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ lscd lab6inux-labs/..[K$DIR
+[?2004l]133;C\]666;vte.shell.preexec!\bash: cd: Документы: Нет такого файла или каталога
+]666;vte.shell.postexec=1\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ cd ~
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user\]0;user@user:~\]666;vte.shell.precmd!\[?2004h]0;user@user: ~[01;32muser@user[00m:[01;34m~[00m$ cd ~$DIR
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B\]0;user@user:~/Документы\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/Документы[01;32muser@user[00m:[01;34m~/Документы[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B\]0;user@user:~/Документы\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/Документы[01;32muser@user[00m:[01;34m~/Документы[00m$ lscd $DIR~[K[K[K[K[Krm temp*.{}t}m}p},}b}a}k}
+[?2004l]133;C\]666;vte.shell.preexec!\rm: cannot remove 'temp*.tmp': No such file or directory
+rm: cannot remove 'temp*.bak': No such file or directory
+]666;vte.shell.postexec=1\]7;file://user/home/user/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B\]0;user@user:~/Документы\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/Документы[01;32muser@user[00m:[01;34m~/Документы[00m$ rm temp*.{tmp,bak}ls[Kcd $DIR~[K$DIRls[Kcd lab6[K[K[K[K~
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user\]0;user@user:~\]666;vte.shell.precmd!\[?2004h]0;user@user: ~[01;32muser@user[00m:[01;34m~[00m$ cd la[Kinux-labs/
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs\]0;user@user:~/linux-labs\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs[01;32muser@user[00m:[01;34m~/linux-labs[00m$ cd lab6
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ mkdir -p project\src{}s}[1P}[1P}[1P}[1P}[1P}{}s}[1P}s}r}c},}d}s}r}[1P}[1P}i}s}t}[C\[K/{}j}s},}c}d}d}[1P}[1P}s}s}
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\+%Y-%m-%d.log  [01;34mchapter_10[0m  [01;34mchapter_5[0m  [01;34mchapter_9[0m         log_2026-05-15.log  [01;31msource.tar.gz[0m
+[0m[01;31mbackup.tar.gz[0m  [01;34mchapter_2[0m   [01;34mchapter_6[0m  config_dev.json   log_date            [01;31msource.zip[0m
+[01;31mbackup.zip[0m     [01;34mchapter_3[0m   [01;34mchapter_7[0m  config_prod.json  [01;34mproject{src,dist}[0m   task1Starikov
+[01;34mchapter_1[0m      [01;34mchapter_4[0m   [01;34mchapter_8[0m  config_test.json  [01;34mreport[0m              timelog1Starikov
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ lsmkdir -p project\{src,dist}/{js,css}[1P{src,dist}/{js,css}/{src,dist}/{js,css}
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ mkdir -p project/{src,dist}/{js,css}[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K
+[?2004l]133;C\]666;vte.shell.preexec!\+%Y-%m-%d.log  [01;34mchapter_10[0m  [01;34mchapter_5[0m  [01;34mchapter_9[0m         log_2026-05-15.log  [01;34mreport[0m         timelog1Starikov
+[0m[01;31mbackup.tar.gz[0m  [01;34mchapter_2[0m   [01;34mchapter_6[0m  config_dev.json   log_date            [01;31msource.tar.gz[0m
+[01;31mbackup.zip[0m     [01;34mchapter_3[0m   [01;34mchapter_7[0m  config_prod.json  [01;34mproject[0m             [01;31msource.zip[0m
+[01;34mchapter_1[0m      [01;34mchapter_4[0m   [01;34mchapter_8[0m  config_test.json  [01;34mproject{src,dist}[0m   task1Starikov
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ ls project
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;34mdist[0m  [01;34msrc[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ ls[K[K;s[K[Kls project\[K/dist/
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;34mcss[0m  [01;34mjs[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ ls project/dist/[K[K[K[Ks[K[Ksrc/
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;34mcss[0m  [01;34mjs[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo ''*' '{'}'a}'b}'c}'[1P}'[1P}',}'b}',}'c}'[C '$'H'O'M'E'
+[?2004l]133;C\]666;vte.shell.preexec!\* {a,b,c} $HOME
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo '* {a,b,c} $HOME'[7Pls project/src/echo '* {a,b,c} $HOME'[KЭ[1PЭ[C[KE"[1P[1@"
+[?2004l]133;C\]666;vte.shell.preexec!\* {a,b,c} /home/user
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo "* {a,b,c} $HOME"[C[K[C[C[C[C[C[C[1P
+[?2004l]133;C\]666;vte.shell.preexec!\backup.tar.gz backup.zip chapter_1 chapter_10 chapter_2 chapter_3 chapter_4 chapter_5 chapter_6 chapter_7 chapter_8 chapter_9 config_dev.json config_prod.json config_test.json log_2026-05-15.log log_date project project{src,dist} report source.tar.gz source.zip task1Starikov timelog1Starikov +%Y-%m-%d.log a b c /home/user
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ mkdir -p backup_$()d)a)t)e) )+)%)Y)-)%)m)-)%)d)[C && cp *.txt backup_&()f)a)[1P)[1P)d)a)t)e) )+)%)Y)-)%)m)-)%)d)[C/
+[?2004lbash: синтаксическая ошибка рядом с неожиданным маркером «/»
+]666;vte.shell.postexec=2\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ mkdir -p backup_$(date +%Y-%m-%d) && cp *.txt backup_&(date +%Y-%m-%d)/[1P[1@$
+[?2004l]133;C\]666;vte.shell.preexec!\cp: cannot stat '*.txt': No such file or directory
+]666;vte.shell.postexec=1\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echoi[K ~/*
+[?2004l]133;C\]666;vte.shell.preexec!\/home/user/dead.letter /home/user/Laboratory Task /home/user/linux-labs /home/user/mbox /home/user/shared_folder /home/user/snap /home/user/Starikov /home/user/trap.sh /home/user/Видео /home/user/Документы /home/user/Загрузки /home/user/Изображения /home/user/Музыка /home/user/Общедоступные /home/user/Рабочий стол /home/user/Стариков_Ростислав_ВФ5.odt /home/user/Стариков_Ростислав_ВФ_Контрольная_Работа.odt /home/user/Шаблоны
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\+%Y-%m-%d.log      [01;34mchapter_10[0m  [01;34mchapter_6[0m        config_prod.json    [01;34mproject{src,dist}[0m  timelog1Starikov
+[0m[01;31mbackup.tar.gz[0m      [01;34mchapter_2[0m   [01;34mchapter_7[0m        config_test.json    [01;34mreport[0m
+[01;31mbackup.zip[0m         [01;34mchapter_3[0m   [01;34mchapter_8[0m        log_2026-05-15.log  [01;31msource.tar.gz[0m
+[01;34mbackup_2026-05-15[0m  [01;34mchapter_4[0m   [01;34mchapter_9[0m        log_date            [01;31msource.zip[0m
+[01;34mchapter_1[0m          [01;34mchapter_5[0m   config_dev.json  [01;34mproject[0m             task1Starikov
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ lsecho ~/*mkdir -p backup_$(date +%Y-%m-%d) && cp *.txt backup_$(date +%Y-%m-%d)/&[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho * {a,b,c} $HOME[K"* {a,b,c} $HOME"'* {a,b,c} $HOME'[7Pls project/src/dist/[K[Kmkdir -p project/{src,dist}/{js,css}[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kmkdir -p project\{src,dist}/{js,css}[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd lab6[Kinux-labs/~[Krm temp*.{tmp,bak}ls[Kcd $DIR~[K$DIRls[Kcd lab6inux-labs/..[K$DIRls[KDIR="Документы"ls[Kcd $DIRDIR="~/Документы"[10Pcd $DIRDIR="~/Documents"[9Pcd ~user[Ksum=0;for i in {1..100}; do sum=$((sum+i)); done; echo $sum[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Ktouch log_$CURRENT_DATE.logls[Ksum=0;for i in {1..100}; do sum=$((sum+i)); done; echo $sum[C[C[1P[C[1P[1P[1@5[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@*[1@i
+[?2004l]133;C\]666;vte.shell.preexec!\55
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ filename=""p"r"e"f"i"x"_"d"o"c"u"m"e"n"t"."t"x"t"
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo &[K${}f}i}l}ename}}[K#}p}r}e}f}i}x}_}
+[?2004l]133;C\]666;vte.shell.preexec!\document.txt
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo \[K/tm[[Kp/*.lo[K[K{}l}o}g},}t}m}p}[C 2>deb[K[K[K/dev/nu;;[K[Kll
+[?2004l]133;C\]666;vte.shell.preexec!\/tmp/*.log /tmp/*.tmp
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo ""DВ [K[K[K[KВ катор[K[Kалоге находится $(ls /etc | wc -l) afqkj[K[K[K[K[Kфайлов"
+[?2004l]133;C\]666;vte.shell.preexec!\В каталоге находится 242 файлов
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ echo "В каталоге находится $(ls /etc | wc -l) файлов"[1@.[1@у[1@е[1@с[1P[1P[1P[1P[1@/[1@e[1@t[1@c[1@ 
+[?2004l]133;C\]666;vte.shell.preexec!\В каталоге /etc находится 242 файлов
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab6\]0;user@user:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab6[01;32muser@user[00m:[01;34m~/linux-labs/lab6[00m$ eci[K[Ki[Kxit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+
+Script done on 2026-05-15 02:17:46+03:00 [COMMAND_EXIT_CODE="0"]
