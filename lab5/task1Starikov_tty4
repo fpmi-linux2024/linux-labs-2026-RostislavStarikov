@@ -1,0 +1,98 @@
+Script started on 2026-04-26 13:30:30+03:00 [TERM="linux" TTY="/dev/tty3" COLUMNS="160" LINES="50"]
+[?2004hstudent@user:~$ tail -f ~/log
+[?2004lBSun Apr 26 13:15:55 +03 2026
+BSun Apr 26 13:15:56 +03 2026
+BSun Apr 26 13:15:57 +03 2026
+BSun Apr 26 13:15:58 +03 2026
+BSun Apr 26 13:15:59 +03 2026
+BSun Apr 26 13:16:00 +03 2026
+BSun Apr 26 13:16:01 +03 2026
+BSun Apr 26 13:16:02 +03 2026
+BSun Apr 26 13:16:03 +03 2026
+BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABABABABABACABCACBCBACCABCABABCAACBACACCAACAAA
+Script done on 2026-04-26 13:42:49+03:00 [COMMAND_EXIT_CODE="0"]
+user:~$ jobs
+[?2004l[1]+  Запущен          ( while true; do
+    echo -n A >> ~/log; sleep 5;
+done ) &
+[?2004hstudent@user:~$ ()w)h)i)l)e) )t)r)u)e);) )d)o) )e)c)h)o) )-)n) )B) )>)>) )~)/)k)o)g);)s)[1P)[1P)[1P)[1P)[1P)[1P)/)/)l)o)g);) )s)l)e)e)p)5) )[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ [C; )[Cd)o)n)e) )[1P)[C &
+[?2004l[2] 4817
+[?2004hstudent@user:~$ ^b^[K[KB^V[KC
+[?2004l(while true; do echo -n C >> ~/log; sleep 5; done) &
+[3] 4912
+[?2004hstudent@user:~$ jobs -l
+[?2004l[1]   4778 Запущен          ( while true; do
+    echo -n A >> ~/log; sleep 5;
+done ) &
+[2]-  4817 Запущен          ( while true; do
+    echo -n B >> ~/log; sleep 5;
+done ) &
+[3]+  4912 Запущен          ( while true; do
+    echo -n C >> ~/log; sleep 5;
+done ) &
+[?2004hstudent@user:~$ renice +10 -p 4778
+[?2004l4778 (process ID) старый приоритет 0, новый приоритет 10
+[?2004hstudent@user:~$ kill -19 %2
+[?2004l[?2004hstudent@user:~$ kill -19 %2renice +10 -p 4778[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pjobs -l
+[?2004l[1]   4778 Запущен          ( while true; do
+    echo -n A >> ~/log; sleep 5;
+done ) &
+[2]+  4817 Остановлено (сигнал)             ( while true; do
+    echo -n B >> ~/log; sleep 5;
+done )
+[3]-  4912 Запущен          ( while true; do
+    echo -n C >> ~/log; sleep 5;
+done ) &
+[?2004hstudent@user:~$ kill &[K%3
+[?2004l[?2004hstudent@user:~$ kill %3jobs -l
+[?2004l[1]   4778 Запущен          ( while true; do
+    echo -n A >> ~/log; sleep 5;
+done ) &
+[2]+  4817 Остановлено (сигнал)             ( while true; do
+    echo -n B >> ~/log; sleep 5;
+done )
+[3]-  4912 Завершено      ( while true; do
+    echo -n C >> ~/log; sleep 5;
+done )
+[?2004hstudent@user:~$ fg %1
+[?2004l( while true; do
+    echo -n A >> ~/log; sleep 5;
+done )
+^C
+[?2004hstudent@user:~$ pa[Ks -ep[Ko user,[i[K[K[[Kpid,%cpiu[K[Ku,%mem.[K,vsx,rss,tty,stat,tar===[K[K[K[K[K[Kstart,time,comm --sort=Y[K%mem | head -4
+[?2004lошибка: improper AIX field descriptor
+
+Использование:
+ ps [опции]
+
+ Попробуйте 'ps --help <simple|list|output|threads|misc|all>'
+  или 'ps --help <s|l|o|t|m|a>'
+ для дополнительной справки.
+
+Для дополнительных подробностей смотрите ps(1).
+[?2004hstudent@user:~$ ps aux | head -[K4[K-4
+[?2004lUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.3  0.2  25700 16436 ?        Ss   13:26   0:02 /usr/lib/systemd/systemd --switched-root --system --deserialize=48 splash
+root           2  0.0  0.0      0     0 ?        S    13:26   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    13:26   0:00 [pool_workqueue_release]
+[?2004hstudent@user:~$ ls
+[?2004l log    task5Starikov_tty3   timelog5Starikov_tty3   [01;34mВидео[0m       [01;34mЗагрузки[0m      [01;34mМузыка[0m          [01;34m'Рабочий стол'[0m
+ [0m[01;34msnap[0m   task5Starikov_tty4   timelog5Starikov_tty4   [01;34mДокументы[0m   [01;34mИзображения[0m   [01;34mОбщедоступные[0m   [01;34mШаблоны[0m
+[?2004hstudent@user:~$ mkdir arch
+[?2004l[?2004hstudent@user:~$ nani[K[K[Kine -n 18 tar -czf archive.tar,[K.gz arch/
+[?2004lКоманда «nine» не найдена. Возможно, вы имели в виду:
+  команда 'nino' из snap-пакета nino (1.3.1)
+  команда 'xine' из deb-пакета xine-ui (0.99.14+hg20240403-1)
+  команда 'wine' из deb-пакета wine (10.0~repack-6ubuntu1)
+  команда 'nice' из deb-пакета coreutils-from-gnu (0.0.0~ubuntu24)
+  команда 'nice' из deb-пакета coreutils-from-uutils (0.0.0~ubuntu24)
+  команда 'nice' из deb-пакета coreutils-from-toybox (0.0.0~ubuntu24)
+См. 'snap info <имя_snap-пакета>', чтобы просмотреть дополнительные версии.
+[?2004hstudent@user:~$ nine -n 18 tar -czf archive.tar.gz arch/[1P[1@c
+[?2004l[?2004hstudent@user:~$ ls
+[?2004l [0m[01;34march[0m             log    task5Starikov_tty3   timelog5Starikov_tty3   [01;34mВидео[0m       [01;34mЗагрузки[0m      [01;34mМузыка[0m          [01;34m'Рабочий стол'[0m
+ [01;31marchive.tar.gz[0m   [01;34msnap[0m   task5Starikov_tty4   timelog5Starikov_tty4   [01;34mДокументы[0m   [01;34mИзображения[0m   [01;34mОбщедоступные[0m   [01;34mШаблоны[0m
+[?2004hstudent@user:~$ sudo pkill -u student #d l[K[K[Kd lhe[K[K[K[K[Kd[Kd[K v drugom terminale pof[Kd root-om
+[?2004lsudo-rs: I'm sorry student. I'm afraid I can't do that
+[?2004hstudent@user:~$ 
+Script done on 2026-04-26 13:42:50+03:00 [COMMAND_EXIT_CODE="0"]
