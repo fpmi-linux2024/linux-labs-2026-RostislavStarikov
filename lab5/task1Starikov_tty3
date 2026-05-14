@@ -1,0 +1,40 @@
+Script started on 2026-04-26 13:11:41+03:00 [TERM="linux" TTY="/dev/tty3" COLUMNS="160" LINES="50"]
+[?2004hstudent@user:~$ ()w)h)i)l)e)t)r)u)e);) )[1@ [1P[C[1@ [C[C[C[C[C[Cd)o) )e)c)h)o) )-)n) )A) ).).)[1P)[1P)>)>) )`)[1P)~)[1P)~)/)l)o)g) )[1P);) )s)l)e)e)p) )1);) )d)o)n)e)
+[?2004l^Z
+[1]+  Остановлен    ( while true; do
+    echo -n A >> ~/log; sleep 1;
+done )
+[?2004hstudent@user:~$ kill 
+[?2004lkill: использование: kill [-s назв_сигнала | -n номер_сигнала | -назв_сигнала] ид_процесса | назв_задания] ... или kill -l [назв_сигнала]
+[?2004hstudent@user:~$ kill -A
+[?2004lbash: kill: A: недопустимое указание сигнала
+[?2004hstudent@user:~$ kill -A[K[K%1
+[?2004l
+[1]+  Остановлен    ( while true; do
+    echo -n A >> ~/log; sleep 1;
+done )
+[?2004hstudent@user:~$ kill %1[K2
+[?2004lbash: kill: %2: нет такого задания
+[1]+  Завершено      ( while true; do
+    echo -n A >> ~/log; sleep 1;
+done )
+[?2004hstudent@user:~$ kill %2[K3
+[?2004lbash: kill: %3: нет такого задания
+[?2004hstudent@user:~$ kill %3[K1
+[?2004lbash: kill: %1: нет такого задания
+[?2004hstudent@user:~$ kill %1
+[?2004lbash: kill: %1: нет такого задания
+[?2004hstudent@user:~$ 2kill %1
+[?2004lbash: kill: %1: нет такого задания
+[?2004hstudent@user:~$ kill %1[K2
+[?2004lbash: kill: %2: нет такого задания
+[?2004hstudent@user:~$ jobs
+[?2004l[?2004hstudent@user:~$ jobs-l
+[?2004ljobs-l: команда не найдена
+[?2004hstudent@user:~$ jobs-l -l
+[?2004l[?2004hstudent@user:~$ fg %1
+[?2004lbash: fg: %1: нет такого задания
+[?2004hstudent@user:~$ sudo pkill -u student
+[?2004lsudo-rs: I'm sorry student. I'm afraid I can't do that
+[?2004hstudent@user:~$ sudo pkill -u student[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+Script done on 2026-04-26 13:16:06+03:00 [COMMAND_EXIT_CODE="0"]

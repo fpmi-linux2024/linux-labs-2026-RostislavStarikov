@@ -1,0 +1,146 @@
+Script started on 2026-04-26 15:27:59+03:00 [TERM="linux" TTY="/dev/tty3" COLUMNS="160" LINES="50"]
+[?2004hstudent@user:~$ echo ""T"h"i"s" "i"s" "a" "s"t"r"i"n"g" "f"r"o"m" "e"c"c"h"o"[C > text.txt
+[?2004l[?2004hstudent@user:~$ cat text.txt 
+[?2004lThis is a string from eccho
+[?2004hstudent@user:~$ ls > file_list.txt
+[?2004l[?2004hstudent@user:~$ cat file_list.txt 
+[?2004larch
+archive.tar.gz
+file_list.txt
+log
+script
+snap
+task5Starikov_tty3
+task5Starikov_tty3_2
+task5Starikov_tty4
+task5Starikov_tty4_2
+text.txt
+timelog5Starikov_tty3
+timelog5Starikov_tty3_2
+timelog5Starikov_tty4
+timelog5Starikov_tty4_2
+Видео
+Документы
+Загрузки
+Изображения
+Музыка
+Общедоступные
+Рабочий стол
+Шаблоны
+[?2004hstudent@user:~$ mkdir docs 2> mkdir_log.txt
+[?2004l[?2004hstudent@user:~$ cat mkdir_log.txt
+[?2004l[?2004hstudent@user:~$ cp mkfit[K[K[Kdir_log.txt mkdir.log
+[?2004l[?2004hstudent@user:~$ ls -l *.log
+[?2004l-rw-rw-r-- 1 student student 0 Apr 26 15:29 mkdir.log
+[?2004hstudent@user:~$ who > users.txt
+[?2004l[?2004hstudent@user:~$ cat users.txt 
+[?2004l[?2004hstudent@user:~$ echo ""t"h"e"g"e"e"k"s"t"u"f"f"[C " [K[K| tr 'a-z' 'A-Z'
+[?2004lTHEGEEKSTUFF
+[?2004hstudent@user:~$ echo ""t"h"e"g"e"e"k"s"t"u"f"f"[C | tr ''t'h'[1P'g'e'[1P'[1P'h'e'g'e'e'k's't'u'f'f'[C ''t'H'E'G'E'E'k's't'u'F'F'
+[?2004ltHEGEEkstuFF
+[?2004hstudent@user:~$ echo ""m"y" "I"D" "i"s" "[1P"1"2"3"[1P"[1P"[1P" "1"2"3"4"5"[C [C[C[1P[1P[1P[1P[1P[1@7[1@3[1@5[1@3[1@5[C[C | [C t r [C - d [C ' 0 - 9 ' 
+[?2004lmy ID is 
+[?2004hstudent@user:~$ echo "my ID is 73535" | tr -d '0-9' [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cthegeekstuff" | tr 'thegeekstuff' 'tHEGEEkstuFF'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pmy ID is 73535" | tr -d '0-9' [1@c
+[?2004l73535[?2004hstudent@user:~$ mkdir example9
+[?2004l[?2004hstudent@user:~$ cd example9/
+[?2004l[?2004hstudent@user:~/example9$ touch {}a},}b},}c},}d},}e},}f},}g},}h},}i},}j}[C.txt
+[?2004l[?2004hstudent@user:~/example9$ cd==[K[K[K[Kls
+[?2004la.txt  b.txt  c.txt  d.txt  e.txt  f.txt  g.txt  h.txt  i.txt  j.txt
+[?2004hstudent@user:~/example9$ cd =[K[K[K[Kls ../
+[?2004l [0m[01;34march[0m             file_list.txt   [01;34mscript[0m                 task5Starikov_tty4      timelog5Starikov_tty3_2   [01;34mВидео[0m         [01;34mМузыка[0m
+ [01;31marchive.tar.gz[0m   log             [01;34msnap[0m                   task5Starikov_tty4_2    timelog5Starikov_tty4     [01;34mДокументы[0m     [01;34mОбщедоступные[0m
+ [01;34mdocs[0m             mkdir.log       task5Starikov_tty3     text.txt                timelog5Starikov_tty4_2   [01;34mЗагрузки[0m      [01;34m'Рабочий стол'[0m
+ [01;34mexample9[0m         mkdir_log.txt   task5Starikov_tty3_2   timelog5Starikov_tty3   users.txt                 [01;34mИзображения[0m   [01;34mШаблоны[0m
+[?2004hstudent@user:~/example9$ cd[K[Kc[Kcp *.txt ar[K[K../arch
+arch/           archive.tar.gz  
+student@user:~/example9$ cp *.txt ../arch
+arch/           archive.tar.gz  
+student@user:~/example9$ cp *.txt ../archh[Ko[Kive.tar.gz 
+[?2004lcp: цель '../archive.tar.gz': Это не каталог
+[?2004hstudent@user:~/example9$ cp *.txt ../archive.tar.gz [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls ../[Kcp *.txt ../archive.tar.gz [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls ../[K[Ktouch {a,b,c,d,e,f,g,h,i,j}.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Pcd example9/mkdir example9echo "my ID is 73535" | tr -cd '0-9' [1P[C[C[C[C[C[C[C[Cthegeekstuff" | tr 'thegeekstuff' 'tHEGEEkstuFF'[18Pa-z' 'A-Z'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Pcat users.txt echo "thegeekstuff" | tr 'a-z' 'A-Z'thegeekstuff' 'tHEGEEkstuFF'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pmy ID is 73535" | tr -d '0-9' [1@c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Pmkdir example9[2Pcd example9/touch {a,b,c,d,e,f,g,h,i,j}.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K ../cp *.txt ../archive.tar.gz [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kmkde[Kir a[Kdir
+[?2004l[?2004hstudent@user:~/example9$ mkdir dircp *.txt ../archive.tar.gz [C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K dir/
+[?2004l[?2004hstudent@user:~/example9$ cd ..[K[Kdir/
+[?2004l[?2004hstudent@user:~/example9/dir$ ls
+[?2004la.txt  b.txt  c.txt  d.txt  e.txt  f.txt  g.txt  h.txt  i.txt  j.txt
+[?2004hstudent@user:~/example9/dir$ ls | ge[Krep ''\'.'t'x't'$'[C | sed ''s'/'e'/'E'/'g'[C > ls_log/txt[K[K[K.[K[K.txt
+[?2004l[?2004hstudent@user:~/example9/dir$ ls
+[?2004la.txt  b.txt  c.txt  d.txt  e.txt  f.txt  g.txt  h.txt  i.txt  j.txt  ls_log.txt
+[?2004hstudent@user:~/example9/dir$ cat ls_log.txt 
+[?2004la.txt
+b.txt
+c.txt
+d.txt
+E.txt
+f.txt
+g.txt
+h.txt
+i.txt
+j.txt
+ls_log.txt
+[?2004hstudent@user:~/example9/dir$ ls -l | tee >{}[K[K)_[K[K()w)c) )>) )w)o)r)d)s)c)o)u)n)t).)t)x)t)
+[?2004ltotal 4
+-rw-rw-r-- 1 student student  0 Apr 26 15:34 a.txt
+-rw-rw-r-- 1 student student  0 Apr 26 15:34 b.txt
+-rw-rw-r-- 1 student student  0 Apr 26 15:34 c.txt
+-rw-rw-r-- 1 student student  0 Apr 26 15:34 d.txt
+-rw-rw-r-- 1 student student  0 Apr 26 15:34 e.txt
+-rw-rw-r-- 1 student student  0 Apr 26 15:34 f.txt
+-rw-rw-r-- 1 student student  0 Apr 26 15:34 g.txt
+-rw-rw-r-- 1 student student  0 Apr 26 15:34 h.txt
+-rw-rw-r-- 1 student student  0 Apr 26 15:34 i.txt
+-rw-rw-r-- 1 student student  0 Apr 26 15:34 j.txt
+-rw-rw-r-- 1 student student 71 Apr 26 15:34 ls_log.txt
+-rw-rw-r-- 1 student student  0 Apr 26 15:35 wordscount.txt
+[?2004hstudent@user:~/example9/dir$ shuf -i 1-100 n -50 | awk ''$'1' '>' '5'0'[C | sort -t[Krn | g[Khead -n 10
+[?2004l[31merror[0m: unexpected argument '[33m-5[0m' found
+
+  [32mtip[0m: to pass '-5' as a value, use '-- -5'
+
+Usage: shuf [OPTION]... [FILE]
+       shuf -e [OPTION]... [ARG]...
+       shuf -i LO-HI [OPTION]...
+
+For more information, try '--help'.
+[?2004hstudent@user:~/example9/dir$ shuf -i 1-100 n -50 | awk '$1 > 50' | sort -rn | head -n 10[C[C[1@-[C[C[C[C[C[C[1P
+[?2004l99
+98
+96
+95
+94
+93
+90
+89
+87
+85
+[?2004hstudent@user:~/example9/dir$ shuf -i 1-100 -n 50 | awk '$1 > 50' | sort -rn | head -n 10 > top_large_nui[Kmbers.txt
+[?2004l[?2004hstudent@user:~/example9/dir$ echo ""T"o"t"a"l" "l"i"n"e"s":"[C $)([K[K()f)i)n)d) ).) )-)n)a)m)e) )')')*').')t')x')t')[C )-)e)x)e)c) )c)a)t) ){)}) )+) )|) )w)c) )-)l)
+[?2004lTotal lines: 22
+[?2004hstudent@user:~/example9/dir$ echo "Total lines:" $(find . -name '*.txt' -exec cat {} + | wc -l)[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@F[1@i[1@l[1@e[1@ [1@w[1@i[1@i[1P[1@t[1@h[1@ [1@m[1@o[1@s[1@t[1@ [1@l[1@i[1@n[1@e[1@s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)-)e)x)e)c)[1P)c) )w)c) )-)l) ){)}) )+) )|) )s)o)r)t) )-)r)n) )|) )h)e)a)d) )-)1) )|) )a)w)k) )')'){')}')[}')p}')[1P}')[1P}')p}')r}')i}')n}')y}')[1P}')t}') }')$}')2}')
+[?2004lFile with most lines: total
+[?2004hstudent@user:~/example9/dir$ echo ""t"o"t"a"l" "l"i"n"e"s"[CFile with most lines:" $(find . -name '*.txt' -exec wc -l {} + | sort -rn | head -1 | awk '{print $2}')[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[43PTotal lines:" $(find . -name '*.txt' -exec cat {} + | wc -l)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CFile with most lines:" $(find . -name '*.txt' -exec wc -l {} + | sort -rn | head -1 | awk '{print $2}')[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctotal lines"[KFile with most lines:" $(find . -name '*.txt' -exec wc -l {} + | sort -rn | head -1 | awk '{print $2}')[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[43PTotal lines:" $(find . -name '*.txt' -exec cat {} + | wc -l)[1P[C[1P[1@^[C[1P[1@:[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"
+[?2004lTotal lines: 22
+[?2004hstudent@user:~/example9/dir$ echo "Total lines: $(find . -name '*.txt' -exec cat {} + | wc -l)"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kecho "Total lines: $(find . -name '*.txt' -exec cat {} + | wc -l)"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CFile with most lines:" $(find . -name '*.txt' -exec wc -l {} + | sort -rn | head -1 | awk '{print $2}')[K"[C[1P
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004hstudent@user:~/example9/dir$ echo "File with most lines: $(find . -name '*.txt' -exec wc -l {} + | sort -rn | head -1 | awk '{print $2}'"+"[1P")"
+[?2004lFile with most lines: total
+[?2004hstudent@user:~/example9/dir$ echo "File with most lines: $(find . -name '*.txt' -exec wc -l {} + | sort -rn | head -1 | awk '{print $2}')"[1P"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[42PTotal lines: $(find . -name '*.txt' -exec cat {} + | wc -l)"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CFile with most lines:" $(find . -name '*.txt' -exec wc -l {} + | sort -rn | head -1 | awk '{print $2}')[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[43PTotal lines: $(find . -name '*.txt' -exec cat {} + | wc -l)"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CFile with most lines: $(find . -name '*.txt' -exec wc -l {} + | sort -rn | head -1 | awk '{print $2}'")"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kecho "Total lines: $)find . -name '*.txt' -exec cat {} + [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@|[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C| wc -l); File with most lines: $()f)i)n)g)[1P)d) ).) )-)n)a)m)e) )')')*)[1P)*').')t')x')t')[C )-)e)x)e)c) )w)c) )-)l) ){)}) )+) )|) [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C )s)o)r)t) )-)r)n) )|) )h)e)a)d) )-)1) )|) )a)w)k) )'){)p)r)i)n)t) )$)2)})')[C"
+[?2004lTotal lines: $)find . -name '*.txt' -exec cat {} + | wc -l); File with most lines: total
+[?2004hstudent@user:~/example9/dir$ echo "Total lines: $)find . -name '*.txt' -exec cat {} + | wc -l); File with most lines: $(find . -name '*.txt' -exec wc -l {} + | sort -rn | head -1 | awk '{print $2}')"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22PFile with most lines: $(find . -name '*.txt' -exec wc -l {} + | sort -rn | head -1 | awk '{print $2}')"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CTotal lines: $)find . -name '*.txt' -exec cat {} + | wc -l); File with most lines: $(find . -name '*.txt' -exec wc -l {} + | sort -rn | head -1 | awk '{print $2}')"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfind . -name '*.txt' -exec cat {} + | wc -l); File with most lines: $(find . -name '*.txt' -exec wc -l {} + | so[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C(find . -name '*.txt' -exec cat {} + | wc -l); File with most lines: $(find . -name '*.txt' -exec wc -l {} + | s[1@o[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004lTotal lines: 22; File with most lines: total
+[?2004hstudent@user:~/example9/dir$ nano app.log
+[?2004l[?2004h)0[1;50r[m[4l[?7h[39;49m[?25l[?1c[39;49m[m[H[J[48;74H[0;10;7m[ Новый файл ][m[H[0;10;7m  GNU nano 8.4                                                                 app.log                                                                          [1;159H[m[49d[0;10;7m^G[m Справка[17G[0;10;7m^O[m Записать     [0;10;7m^F[m Поиск[49;49H[0;10;7m^K[m Вырезать     [0;10;7m^T[m Выполнить    [0;10;7m^C[m Позиция[97G[0;10;7mM-U[m Отмена[113G[0;10;7mM-A[m Установить м[0;10;7mM-][m На скобку   [0;10;7mM-B[m Предыдущий[50d[0;10;7m^X[m Выход[50;17H[0;10;7m^R[m ЧитФайл[33G[0;10;7m^\[m Замена[49G[0;10;7m^U[m Вставить     [0;10;7m^J[m Выровнять    [0;10;7m^/[m К строке     [0;10;7mM-E[m Повтор[113G[0;10;7mM-6[m Копировать  [0;10;7m^B[m Обр. поиск   [0;10;7mM-F[m Следующий[2d[?25h[?0c[?25l[?1c[1;88H[0;10;7m*[159G[m[?25h[?0c[2df[?25l[?1c[?25h[?0co[?25l[?1c[?25h[?0cr[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0ci[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0ci[?25l[?1c[?25h[?0cn[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c{[?25l[?1c[?25h[?0c}[?25l[?1c[?25h[?0c[?25l[?1c[?25h[?0c1}[?25l[?1c[?25h[?0c.}[?25l[?1c[?25h[?0c..}[?25l[?1c[?25h[?0c3}[?25l[?1c[?25h[?0c0}[?25l[?1c[?25h[?0c}[?25l[?1c[?25h[?0c;[?25l[?1c[48d[K[?25h[?0c[2;19H[?25l[?1c[?25h[?0cd[?25l[?1c[?25h[?0co[?25l[?1c[3d[?25h[?0c[?25l[?1c[?25h[?0c[3;9H[?25l[?1c[?25h[?0cc[?25l[?1c[?25h[?0ca[?25l[?1c[?25h[?0cs[?25l[?1c[?25h[?0ce[?25l[?1c[?25h[?0c$[?25l[?1c[?25h[?0c([?25l[?1c[?25h[?0c)[?25l[?1c[?25h[?0c([?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c$[?25l[?1c[?25h[?0c([?25l[?1c[?25h[?0c([?25l[?1c[?25h[?0cR[?25l[?1c[?25h[?0ca[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0cR[?25l[?1c[?25h[?0cA[?25l[?1c[?25h[?0cN[?25l[?1c[?25h[?0cD[?25l[?1c[?25h[?0cO[?25l[?1c[?25h[?0cM[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c%[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c4[?25l[?1c[?25h[?0c)[?25l[?1c[?25h[?0c)[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0ci[?25l[?1c[?25h[?0cn[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c[?25l[?1c[4d[?25h[?0c[?25l[?1c[?25h[?0c[4;9H[?25l[?1c[?25h[?0c[4;17H[?25l[?1c[?25h[?0c0[?25l[?1c[?25h[?0c)[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0ce[?25l[?1c[?25h[?0cc[?25l[?1c[?25h[?0ch[?25l[?1c[?25h[?0co[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c"[?25l[?1c[?25h[?0c"[?25l[?1c[?25h[?0c[?25l[?1c[?25h[?0c["[?25l[?1c[?25h[?0c]"[?25l[?1c[?25h[?0c[?25l[?1c[?25h[?0cE]"[?25l[?1c[?25h[?0cR]"[?25l[?1c[?25h[?0cRR]"[?25l[?1c[?25h[?0cO]"[?25l[?1c[?25h[?0cR]"[?25l[?1c[?25h[?0c][?25l[?1c[?25h[?0c "[?25l[?1c[?25h[?0cD"[?25l[?1c[?25h[?0ca"[?25l[?1c[?25h[?0ct"[?25l[?1c[?25h[?0ca"[?25l[?1c[?25h[?0cb"[?25l[?1c[?25h[?0cs"[?25l[?1c[?25h[?0ce"[?25l[?1c[?25h[?0c "[?25l[?1c[?25h[?0c"[K[?25l[?1c[?25h[?0c"[K[?25l[?1c[?25h[?0c"[K[?25l[?1c[?25h[?0ca"[?25l[?1c[?25h[?0cs"[?25l[?1c[?25h[?0ce"[?25l[?1c[?25h[?0c "[?25l[?1c[?25h[?0cc"[?25l[?1c[?25h[?0co"[?25l[?1c[?25h[?0cn"[?25l[?1c[?25h[?0cnn"[?25l[?1c[?25h[?0ce"[?25l[?1c[?25h[?0cc"[?25l[?1c[?25h[?0ct"[?25l[?1c[?25h[?0ci"[?25l[?1c[?25h[?0co"[?25l[?1c[?25h[?0cn"[?25l[?1c[?25h[?0c "[?25l[?1c[?25h[?0cf"[?25l[?1c[?25h[?0ca"[?25l[?1c[?25h[?0ci"[?25l[?1c[?25h[?0cl"[?25l[?1c[?25h[?0ce"[?25l[?1c[?25h[?0cd"[?25l[?1c[?25h[?0c"[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c;[?25l[?1c[?25h[?0c;[?25l[?1c[5d[?25h[?0c[?25l[?1c[?25h[?0c[5;9H[?25l[?1c[?25h[?0c[5;17H[?25l[?1c[?25h[?0c1[?25l[?1c[?25h[?0c)[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0ce[?25l[?1c[?25h[?0cc[?25l[?1c[?25h[?0ch[?25l[?1c[?25h[?0co[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c"[?25l[?1c[?25h[?0c"[?25l[?1c[?25h[?0c[?25l[?1c[?25h[?0c{"[?25l[?1c[?25h[?0c}"[?25l[?1c[?25h[?0c[?25l[?1c[?25h[?0c[6d[?25l[?1c[?25h[?0c[5;29H[?25l[?1c[?25h[?0c[?25l[?1c[?25h[?0c"[K[?25l[?1c[?25h[?0c"[K[?25l[?1c[?25h[?0c["[?25l[?1c[?25h[?0cI"[?25l[?1c[?25h[?0cN"[?25l[?1c[?25h[?0cF"[?25l[?1c[?25h[?0cO"[?25l[?1c[?25h[?0c]"[?25l[?1c[?25h[?0c "[?25l[?1c[?25h[?0cU"[?25l[?1c[?25h[?0cs"[?25l[?1c[?25h[?0ce"[?25l[?1c[?25h[?0cr"[?25l[?1c[?25h[?0c "[?25l[?1c[?25h[?0cl"[?25l[?1c[?25h[?0co"[?25l[?1c[?25h[?0cg"[?25l[?1c[?25h[?0ci"[?25l[?1c[?25h[?0cn"[?25l[?1c[?25h[?0c "[?25l[?1c[?25h[?0cs"[?25l[?1c[?25h[?0cu"[?25l[?1c[?25h[?0cc"[?25l[?1c[?25h[?0ccc"[?25l[?1c[?25h[?0ce"[?25l[?1c[?25h[?0cs"[?25l[?1c[?25h[?0css"[?25l[?1c[?25h[?0cf"[?25l[?1c[?25h[?0cu"[?25l[?1c[?25h[?0ck"[?25l[?1c[?25h[?0cl"[?25l[?1c[?25h[?0c"[K[?25l[?1c[?25h[?0c"[K[?25l[?1c[?25h[?0c;"[?25l[?1c[?25h[?0c"[K[?25l[?1c[?25h[?0cl"[?25l[?1c[?25h[?0c"[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c;[?25l[?1c[?25h[?0c;[?25l[?1c[6d[?25h[?0c[?25l[?1c[?25h[?0c[6;9H[?25l[?1c[?25h[?0c[6;17H[?25l[?1c[?25h[?0c3[?25l[?1c[?25h[?0c)[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c2[?25l[?1c[?25h[?0c)[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0ce[?25l[?1c[?25h[?0cc[?25l[?1c[?25h[?0ch[?25l[?1c[?25h[?0co[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c"[?25l[?1c[?25h[?0c"[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c;[?25l[?1c[?25h[?0c;[?25l[?1c[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[?25h[?0c[" ;;[?25l[?1c[?25h[?0c]" ;;[?25l[?1c[?25h[?0c[?25l[?1c[?25h[?0cW]" ;;[28G[?25l[?1c[?25h[?0cA]" ;;[29G[?25l[?1c[?25h[?0cR]" ;;[30G[?25l[?1c[?25h[?0cN]" ;;[31G[?25l[?1c[?25h[?0cI]" ;;[32G[?25l[?1c[?25h[?0cN]" ;;[33G[?25l[?1c[?25h[?0cG]" ;;[34G[?25l[?1c[?25h[?0c][?25l[?1c[?25h[?0c " ;;[?25l[?1c[?25h[?0cL" ;;[?25l[?1c[?25h[?0co" ;;[?25l[?1c[?25h[?0cw" ;;[?25l[?1c[?25h[?0c " ;;[?25l[?1c[?25h[?0cd" ;;[?25l[?1c[?25h[?0ci" ;;[?25l[?1c[?25h[?0cs" ;;[?25l[?1c[?25h[?0ck" ;;[?25l[?1c[?25h[?0c " ;;[?25l[?1c[?25h[?0cs" ;;[?25l[?1c[?25h[?0cp" ;;[?25l[?1c[?25h[?0ca" ;;[?25l[?1c[?25h[?0cc" ;;[?25l[?1c[?25h[?0ce" ;;[?25l[?1c[?25h[?0c"[?25l[?1c[?25h[?0c[7d[?25l[?1c[?25h[?0c[7;9H[?25l[?1c[?25h[?0c[7;17H[?25l[?1c[?25h[?0c3[?25l[?1c[?25h[?0c)[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0ce[?25l[?1c[?25h[?0cc[?25l[?1c[?25h[?0ch[?25l[?1c[?25h[?0co[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c"[?25l[?1c[?25h[?0c"[?25l[?1c[?25h[?0c[?25l[?1c[?25h[?0c["[?25l[?1c[?25h[?0c]"[?25l[?1c[?25h[?0c[?25l[?1c[?25h[?0cE]"[?25l[?1c[?25h[?0cR]"[?25l[?1c[?25h[?0cRR]"[?25l[?1c[?25h[?0cO]"[?25l[?1c[?25h[?0cR]"[?25l[?1c[?25h[?0c][?25l[?1c[?25h[?0c "[?25l[?1c[?25h[?0cT"[?25l[?1c[?25h[?0ci"[?25l[?1c[?25h[?0cm"[?25l[?1c[?25h[?0ce"[?25l[?1c[?25h[?0co"[?25l[?1c[?25h[?0cu"[?25l[?1c[?25h[?0cj"[?25l[?1c[?25h[?0ct"[?25l[?1c[?25h[?0c "[?25l[?1c[?25h[?0ce"[?25l[?1c[?25h[?0cx"[?25l[?1c[?25h[?0cc"[?25l[?1c[?25h[?0ce"[?25l[?1c[?25h[?0cee"[?25l[?1c[?25h[?0cd"[?25l[?1c[?25h[?0ce"[?25l[?1c[?25h[?0cd"[?25l[?1c[?25h[?0c"[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c;[?25l[?1c[?25h[?0c;[?25l[?1c[8d[?25h[?0c[?25l[?1c[?25h[?0c[8;9H[?25l[?1c[?25h[?0ce[?25l[?1c[?25h[?0cs[?25l[?1c[?25h[?0ca[?25l[?1c[?25h[?0cc[?25l[?1c[9d[?25h[?0c[?25l[?1c[8;13H[?25h[?0c[?25l[?1c[9d[?25h[?0c[?25l[?1c[?25h[?0cd[?25l[?1c[?25h[?0co[?25l[?1c[?25h[?0cn[?25l[?1c[?25h[?0ce[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c>[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0ca[?25l[?1c[?25h[?0cp[?25l[?1c[?25h[?0cp[?25l[?1c[?25h[?0c.[?25l[?1c[?25h[?0cl[?25l[?1c[?25h[?0co[?25l[?1c[?25h[?0cg[?25l[?1c[48d[0;10;7mСохранить изменённый буфер?                                                                                                                                     [49;1H Y[m Да[K[50d[0;10;7m N[m Нет  [50;18H[0;10;7mC[m Отмена[K[48;29H[?25h[?0c[?25l[?1c[49d[0;10;7m^G[m Справка[49;41H[0;10;7mM-D[m Формат DOS[49;81H[0;10;7mM-A[m Доп. в начало[49;121H[0;10;7mM-B[m Резерв. копия[50d[0;10;7m^C[m Отмена[17G         [50;41H[0;10;7mM-M[m Формат Mac[50;81H[0;10;7mM-P[m Доп. в конец[50;121H[0;10;7m^T[m Обзор[48d[0;10;7mWrite to File: app.log     [23G[m[?25h[?0c[?25l[?1c[48;74H[1K [0;10;7m[ Запись… ][m[K[1;88H[0;10;7m [159G[m[48;71H[0;10;7m[ Записано 8 строк ][m[J[50d[?25h[?0c[50;1H[?2004l[?2004hstudent@user:~/example9/dir$ grep ''/'\'[1P'[1P'\'[']'E]'R]'R]'P]'R]'[1P]'[1P]'O]'R]'[C\]'[C[C app.o[Klog | sed ''s'\'[1P'/'\'['E'R'R'O'R'['[1P']'/]'[C[1P]'\]'[C '/'/'[C ||[K tr ''[']'[C]'[1P'[C:]'l]'o]'w]'e]'r]'L]'[1P]':]'[C '[C'[K[1P'[C ''[']'>]':]'[1P]'[1P]':]':]'u:]'p:]'p:]'e:]'r:]'[C[C[C >>[K errors_e[Kuppercase.log
+[?2004l[?2004hstudent@user:~/example9/dir$ grep -R[KE ''\'[']'W]'A]'R]'N]'I]'N]'G]'/]'[1P]'\]'[C|'\'P'{'[1P'[1P'p'['[1P'[1P'[']'E]'R]'R]'O]'R]'\]'[C[C[C app.log | sed ''s'/'^'/'A'L'E'R'T':' '?'[1P'/'[C | tee alerts.log | wc -;[Kl
+[?2004l3
+[?2004hstudent@user:~/example9/dir$ cat a[Kerrors_uppercase.log 
+[?2004l		0) ECHO "DATABASE CONNECTION FAILED" ;;
+		3) ECHO "TIMEOUJT EXCEEDED" ;;
+[?2004hstudent@user:~/example9/dir$ cat [K[K[K[Kcat alerts.log 
+[?2004lALERT: 		0) echo "[ERROR] Database connection failed" ;;
+ALERT: 		2) echo "[WARNING] Low disk space" ;;
+ALERT: 		3) echo "[ERROR] Timeoujt exceeded" ;;
+[?2004hstudent@user:~/example9/dir$ exit
+[?2004lexit
+^[[A
+Script done on 2026-04-26 15:49:46+03:00 [COMMAND_EXIT_CODE="0"]
