@@ -1,0 +1,5 @@
+pattern
+line
+pattern
+line
+pattern
