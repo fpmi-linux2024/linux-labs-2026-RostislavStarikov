@@ -1,0 +1,1926 @@
+Script started on 2026-05-15 23:34:00+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="91" LINES="45"]
+Good Day, user!
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ mkdir re[K[Ktw[Kest_dir/subdir
+[?2004l]133;C\]666;vte.shell.preexec!\mkdir: No such file or directory
+]666;vte.shell.postexec=1\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ touch test/[K_dir/D[K[Cfile1.txt [7mtest_dir/[27mtest_dir/tets[K[Kst2.txt [7mtest_dir/[27mtest_dir/script.sh [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kh
+[?2004l]133;C\]666;vte.shell.preexec!\touch: cannot touch 'test_dir/file1.txt': No such file or directory
+touch: cannot touch 'test_dir/test2.txt': No such file or directory
+touch: cannot touch 'test_dir/script.sh': No such file or directory
+]666;vte.shell.postexec=1\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;32marchive_manager.sh[0m  [01;32miface_status.sh[0m  [01;32msplit_name.sh[0m       timelog1Starikov
+[01;32mfactorial.sh[0m        [01;32minterfaces.sh[0m    [01;32msyslog_analyzer.sh[0m  [01;32munique_names.sh[0m
+[01;32mfile_manager.sh[0m     [01;32mnotify_auth.sh[0m   [01;32mtask1.sh[0m            [01;32mwebcam.sh[0m
+[01;32mfind_755.sh[0m         [01;32mpositive.sh[0m      task1Starikov
+[01;32mfind_dublicates.sh[0m  [01;32mrename_jpeg.sh[0m   [01;34mtest[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ lstouch test_dir/file1.txt test_dir/test2.txt test_dir/script.sh [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[41Pmkdir test_dir/subdir
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pnano find_755.sh mkdir test_dir/subdir[K[K[K[K[K[K[K
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ mkdir test_dirls[Ktouch test_dir/file1.txt test_dir/test2.txt test_dir/script.sh [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[41Pmkdir test_dir/subdir
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ mkdir test_dir/subdir[Kls[Ktouch test_dir/file1.txt test_dir/test2.txt test_dir/script.sh [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kh
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ touch test_file.txt test.jpg image.jpeg photo.jpeg
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ echo ""G"H"[1P"H"[1P"[1P"H"e"l"l"o" " "W"o"r"l"s" "[1P"[1P"d" "[C[1P"[C > test_fo[Kile.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ mkdir target_dir
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./task1.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\Счётчик: 0
+Счётчик: 1
+Счётчик: 2
+Счётчик: 3
+Счётчик: 4
+Сброс счётчика
+Счётчик: 0
+Счётчик: 1
+^ZСкрипт остановлен
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./positive.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\Введите целое число: 5
+Positive
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./positive.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\Введите целое число: -5
+Negative
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./positive.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\Введите целое число: 0
+Zero
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./factorial.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\Введите число: 5
+5 ! = 120
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./factorial.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\Введите число: 7
+7 ! = 5040
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./interfaces.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\#iface
+#iface
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./interfaces.sh [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Knano interfaces.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\[?2004h[?1049h[22;0;0t[1;45r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[43;41H(B[0;7m[ Чтение… ](B[m[43;35H(B[0;7m[ Прочитано 4 строки ](B[m[H(B[0;7m  GNU nano 8.4                           interfaces.sh                                     [1;90H(B[m[44d(B[0;7m^G(B[m Справка     (B[0;7m^O(B[m Записать    (B[0;7m^F(B[m Поиск[46G(B[0;7m^K(B[m Вырезать    (B[0;7m^T(B[m Выполнить   (B[0;7m^C(B[m Позиция[45d(B[0;7m^X(B[m Выход[16G(B[0;7m^R(B[m ЧитФайл     (B[0;7m^\(B[m Замена[46G(B[0;7m^U(B[m Вставить    (B[0;7m^J(B[m Выровнять   (B[0;7m^/(B[m К строке[2d[36m#!/bin/bash[3d[32mfor[39m(B[m iface [32min[39m(B[m [32m$([39m(B[mls /sys/class/net/[32m);[39m(B[m [32mdo[4;9H(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"#iface"[5d(B[0m[32mdone[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[4;22H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;56H(B[0;7m*[90G(B[m[?12l[?25h[4;15H[1P[?25l[?12l[?25h(B[0;1m[33m$iface"[16G[39m(B[m[?25l[43d(B[0;7mСохранить изменённый буфер?                                                                [44;1H Y(B[m Да[K[45d(B[0;7m N(B[m Нет  [16G (B[0;7m^C(B[m Отмена[K[43;29H[?12l[?25h[?25l[44d(B[0;7m^G(B[m Справка[44;23H(B[0;7mM-D(B[m Формат DOS[44;45H(B[0;7mM-A(B[m Доп. в начало     (B[0;7mM-B(B[m Резерв. копия[45d(B[0;7m^C(B[m Отмена[17G      (B[0;7mM-M(B[m Формат Mac[45;45H(B[0;7mM-P(B[m Доп. в конец[67G(B[0;7m^T(B[m Обзор[43d(B[0;7mWrite to File: interfaces.sh(B[m[?12l[?25h[?25l[43;40H[1K (B[0;7m[ Запись… ](B[m[K[1;56H(B[0;7m [90G(B[m[43;36H(B[0;7m[ Записано 4 строки ](B[m[J[45d[?12l[?25h[45;1H[?1049l[23;0;0t[?1l>[?2004l]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ nano interfaces.sh [3P./[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l]133;C\]666;vte.shell.preexec!\enp0s3
+lo
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./iface_status.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\enp0s3: UP
+lo: DOWN
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./split_name.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\Enter file name: document.txt
+Name: document
+Extension: txt
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ rename[K[K[K[K[K[K./rename_jpeg.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;32marchive_manager.sh[0m  [01;32miface_status.sh[0m  [01;32mpositive.sh[0m         [01;32mtask1.sh[0m       test_file.txt
+[01;32mfactorial.sh[0m        [01;32minterfaces.sh[0m    [01;32mrename_jpeg.sh[0m      task1Starikov  timelog1Starikov
+[01;32mfile_manager.sh[0m     [01;35mnew_image.jpeg[0m   [01;32msplit_name.sh[0m       [01;34mtest[0m           [01;32munique_names.sh[0m
+[01;32mfind_755.sh[0m         [01;35mnew_photo.jpeg[0m   [01;32msyslog_analyzer.sh[0m  [01;35mtest.jpg[0m       [01;32mwebcam.sh[0m
+[01;32mfind_dublicates.sh[0m  [01;32mnotify_auth.sh[0m   [01;34mtarget_dir[0m          [01;34mtest_dir[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ls./rename_jpeg.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./rename_jpeg.sh ls[K
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;32marchive_manager.sh[0m  [01;32miface_status.sh[0m     [01;32mpositive.sh[0m         [01;32mtask1.sh[0m       test_file.txt
+[01;32mfactorial.sh[0m        [01;32minterfaces.sh[0m       [01;32mrename_jpeg.sh[0m      task1Starikov  timelog1Starikov
+[01;32mfile_manager.sh[0m     [01;35mnew_new_image.jpeg[0m  [01;32msplit_name.sh[0m       [01;34mtest[0m           [01;32munique_names.sh[0m
+[01;32mfind_755.sh[0m         [01;35mnew_new_photo.jpeg[0m  [01;32msyslog_analyzer.sh[0m  [01;35mtest.jpg[0m       [01;32mwebcam.sh[0m
+[01;32mfind_dublicates.sh[0m  [01;32mnotify_auth.sh[0m      [01;34mtarget_dir[0m          [01;34mtest_dir[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./find_755.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\./find_755.sh: используйте: ./find_755.sh <каталог>
+]666;vte.shell.postexec=1\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./find_755.sh /usr/bin
+[?2004l]133;C\]666;vte.shell.preexec!\Файлы с правами 755:
+/usr/bin/foo2hbpl2-wrapper
+/usr/bin/tput
+/usr/bin/kbdinfo
+/usr/bin/gnusplit
+/usr/bin/gnufmt
+/usr/bin/busybox
+/usr/bin/gnome-shell-test-tool
+/usr/bin/gnubasename
+/usr/bin/gdmflexiserver
+/usr/bin/scp-dbus-service
+/usr/bin/gnumktemp
+/usr/bin/x86_energy_perf_policy
+/usr/bin/x86_64-linux-gnu-cpp-15
+/usr/bin/mail.mailutils
+/usr/bin/rev
+/usr/bin/debconf
+/usr/bin/gunzip
+/usr/bin/loffice
+/usr/bin/login
+/usr/bin/firefox
+/usr/bin/unshar
+/usr/bin/readmsg.mailutils
+/usr/bin/gprofng-display-src
+/usr/bin/ntfsinfo
+/usr/bin/apt-file
+/usr/bin/mimetype
+/usr/bin/partx
+/usr/bin/oem-getlogs
+/usr/bin/tracepath
+/usr/bin/alsabat
+/usr/bin/xzmore
+/usr/bin/prezip
+/usr/bin/gnuexpr
+/usr/bin/setlogcons
+/usr/bin/dvipdf
+/usr/bin/xqxdecode
+/usr/bin/wall
+/usr/bin/gnutruncate
+/usr/bin/systemctl
+/usr/bin/uuidparse
+/usr/bin/hcitool
+/usr/bin/zenity
+/usr/bin/grub-mkrescue
+/usr/bin/mtr-packet
+/usr/bin/gnufalse
+/usr/bin/gpgparsemail
+/usr/bin/patch
+/usr/bin/install-info
+/usr/bin/im-config
+/usr/bin/pod2man
+/usr/bin/column
+/usr/bin/growpart
+/usr/bin/gnushuf
+/usr/bin/podchecker
+/usr/bin/jsonpointer
+/usr/bin/fuser
+/usr/bin/xdg-dbus-proxy
+/usr/bin/gcr-viewer-gtk4
+/usr/bin/time
+/usr/bin/grub-mkpasswd-pbkdf2
+/usr/bin/gprofng-display-html
+/usr/bin/gsdj500
+/usr/bin/select-editor
+/usr/bin/aplaymidi
+/usr/bin/xdg-desktop-menu
+/usr/bin/x86_64-linux-gnu-gcc-ranlib-15
+/usr/bin/delv
+/usr/bin/infocmp
+/usr/bin/ntfscat
+/usr/bin/lsof
+/usr/bin/deb-systemd-invoke
+/usr/bin/cvtsudoers.ws
+/usr/bin/ubuntu-insights
+/usr/bin/gtk-launch
+/usr/bin/gnumkfifo
+/usr/bin/perf
+/usr/bin/ip
+/usr/bin/gnunl
+/usr/bin/screendump
+/usr/bin/pw-reserve
+/usr/bin/ptyxis
+/usr/bin/gnuchown
+/usr/bin/pw-mon
+/usr/bin/neqn
+/usr/bin/screen
+/usr/bin/setsid
+/usr/bin/nslookup
+/usr/bin/desktop-file-validate
+/usr/bin/switcherooctl
+/usr/bin/gnucomm
+/usr/bin/msexpand
+/usr/bin/prlimit
+/usr/bin/dash
+/usr/bin/git-shell
+/usr/bin/gnuruncon
+/usr/bin/gtk4-encode-symbolic-svg
+/usr/bin/ppdmerge
+/usr/bin/gnudate
+/usr/bin/nautilus-autorun-software
+/usr/bin/ntfsusermap
+/usr/bin/gnurealpath
+/usr/bin/powerprofilesctl
+/usr/bin/gnuprintf
+/usr/bin/gnutsort
+/usr/bin/h2ph
+/usr/bin/zfgrep
+/usr/bin/dbus-cleanup-sockets
+/usr/bin/xsubpp
+/usr/bin/gnome-session-quit
+/usr/bin/c89-gcc
+/usr/bin/gnuusers
+/usr/bin/nautilus-sendto
+/usr/bin/ps2ps2
+/usr/bin/ibus-daemon
+/usr/bin/xsetroot
+/usr/bin/json_pp
+/usr/bin/pwdx
+/usr/bin/gnudu
+/usr/bin/pyserial-ports
+/usr/bin/nm-online
+/usr/bin/xdpyinfo
+/usr/bin/fc-cache
+/usr/bin/xdg-mime
+/usr/bin/ldappasswd
+/usr/bin/pdfinfo
+/usr/bin/pdf2ps
+/usr/bin/x86_64-linux-gnu-lto-dump-15
+/usr/bin/pcilmr
+/usr/bin/debian-distro-info
+/usr/bin/bdftruncate
+/usr/bin/pw-mididump
+/usr/bin/hwe-support-status
+/usr/bin/jsonpatch
+/usr/bin/dpkg-divert
+/usr/bin/foo2zjs
+/usr/bin/uudecode
+/usr/bin/gdk-pixbuf-thumbnailer
+/usr/bin/ppdhtml
+/usr/bin/xdg-screensaver
+/usr/bin/xdg-user-dir
+/usr/bin/dbus-update-activation-environment
+/usr/bin/grog
+/usr/bin/gsdj
+/usr/bin/streamzip
+/usr/bin/foo2xqx-wrapper
+/usr/bin/gnudir
+/usr/bin/troff
+/usr/bin/run-mailcap
+/usr/bin/turbostat
+/usr/bin/ncal
+/usr/bin/ldapexop
+/usr/bin/locale-check
+/usr/bin/qpdldecode
+/usr/bin/pidwait
+/usr/bin/ischroot
+/usr/bin/nautilus
+/usr/bin/foo2zjs-pstops
+/usr/bin/hipercdecode
+/usr/bin/col
+/usr/bin/mdig
+/usr/bin/piconv
+/usr/bin/grub-mkstandalone
+/usr/bin/gnuln
+/usr/bin/systemd-escape
+/usr/bin/mkfontscale
+/usr/bin/pfbtopfa
+/usr/bin/lesskey
+/usr/bin/x86_64-linux-gnu-objdump
+/usr/bin/gst-tester-1.0
+/usr/bin/systemd-id128
+/usr/bin/ul
+/usr/bin/foo2hp
+/usr/bin/xdg-email
+/usr/bin/pdfimages
+/usr/bin/zless
+/usr/bin/uptime
+/usr/bin/luit
+/usr/bin/pmap
+/usr/bin/x86_64-linux-gnu-ar
+/usr/bin/xkbwatch
+/usr/bin/unopkg
+/usr/bin/journalctl
+/usr/bin/software-properties-gtk
+/usr/bin/shasum
+/usr/bin/pdftocairo
+/usr/bin/unattended-upgrade
+/usr/bin/py3clean
+/usr/bin/rgrep
+/usr/bin/tar
+/usr/bin/gtk4-launch
+/usr/bin/funzip
+/usr/bin/whoopsie-preferences
+/usr/bin/xdriinfo
+/usr/bin/pinentry-curses
+/usr/bin/pstree
+/usr/bin/alsatplg
+/usr/bin/gnunohup
+/usr/bin/makedumpfile-R.pl
+/usr/bin/gnucksum
+/usr/bin/gapplication
+/usr/bin/tree
+/usr/bin/cpan
+/usr/bin/xdg-settings
+/usr/bin/dirmngr
+/usr/bin/mkfontdir
+/usr/bin/pw-top
+/usr/bin/3cpio
+/usr/bin/markdown-it
+/usr/bin/pw-link
+/usr/bin/xargs
+/usr/bin/pnm2ppa
+/usr/bin/pf2afm
+/usr/bin/diff
+/usr/bin/ldapwhoami
+/usr/bin/sbsign
+/usr/bin/debconf-escape
+/usr/bin/mksquashfs
+/usr/bin/ibus-setup
+/usr/bin/x86_64-linux-gnu-as
+/usr/bin/bashbug
+/usr/bin/grotty
+/usr/bin/hp-plugin-ubuntu
+/usr/bin/gnunproc
+/usr/bin/qmi-network
+/usr/bin/pdftotext
+/usr/bin/gpgsm
+/usr/bin/lp
+/usr/bin/lowriter
+/usr/bin/gzexe
+/usr/bin/perli11ndoc
+/usr/bin/gst-typefind-1.0
+/usr/bin/paper
+/usr/bin/x86_64-linux-gnu-ld.bfd
+/usr/bin/lowntfs-3g
+/usr/bin/aseqnet
+/usr/bin/systemd-vpick
+/usr/bin/gslj
+/usr/bin/lzmainfo
+/usr/bin/numastat
+/usr/bin/cd-it8
+/usr/bin/ps2pdfwr
+/usr/bin/fgconsole
+/usr/bin/qmi-firmware-update
+/usr/bin/getconf
+/usr/bin/usb_printerid
+/usr/bin/colrm
+/usr/bin/gnome-keyring-daemon
+/usr/bin/gdb
+/usr/bin/gnuhostid
+/usr/bin/chvt
+/usr/bin/ispell-wrapper
+/usr/bin/gnome-service-client
+/usr/bin/fonttosfnt
+/usr/bin/localsearch
+/usr/bin/obexctl
+/usr/bin/rygel
+/usr/bin/gnub2sum
+/usr/bin/nm-connection-editor
+/usr/bin/chronyc
+/usr/bin/setarch
+/usr/bin/tificc
+/usr/bin/gnustdbuf
+/usr/bin/appstreamcli
+/usr/bin/uclampset
+/usr/bin/bluetoothctl
+/usr/bin/enchant-2
+/usr/bin/apt-mark
+/usr/bin/pgrep
+/usr/bin/pdffonts
+/usr/bin/zmore
+/usr/bin/dumpkeys
+/usr/bin/makedumpfile
+/usr/bin/sensible-browser
+/usr/bin/frm.mailutils
+/usr/bin/pldd
+/usr/bin/pkcheck
+/usr/bin/grub-file
+/usr/bin/heif-thumbnailer
+/usr/bin/pzstd
+/usr/bin/lsb_release
+/usr/bin/aconnect
+/usr/bin/lwp-request
+/usr/bin/cautious-launcher
+/usr/bin/grdctl
+/usr/bin/fprintd-verify
+/usr/bin/xvinfo
+/usr/bin/eutp
+/usr/bin/mimeview
+/usr/bin/strace-log-merge
+/usr/bin/gtk4-builder-tool
+/usr/bin/file2brl
+/usr/bin/speaker-test
+/usr/bin/from.mailutils
+/usr/bin/umax_pp
+/usr/bin/gnusha224sum
+/usr/bin/gnunumfmt
+/usr/bin/xrdb
+/usr/bin/lshw
+/usr/bin/setmetamode
+/usr/bin/gnuuniq
+/usr/bin/spa-resample
+/usr/bin/gcore
+/usr/bin/session-migration
+/usr/bin/mtr
+/usr/bin/update-manager
+/usr/bin/encguess
+/usr/bin/grub-mklayout
+/usr/bin/slabtop
+/usr/bin/gnusha512sum
+/usr/bin/gnumv
+/usr/bin/gst-stats-1.0
+/usr/bin/gipddecode
+/usr/bin/aa-features-abi
+/usr/bin/brltty-ctb
+/usr/bin/rfcomm
+/usr/bin/ssh-add
+/usr/bin/zcmp
+/usr/bin/arm2hpdl
+/usr/bin/pdfseparate
+/usr/bin/scalar
+/usr/bin/gsettings
+/usr/bin/mc
+/usr/bin/run-parts
+/usr/bin/speech-dispatcher
+/usr/bin/xstdcmap
+/usr/bin/systemd-detect-virt
+/usr/bin/do-release-upgrade
+/usr/bin/namei
+/usr/bin/egrep
+/usr/bin/nmcli
+/usr/bin/scp
+/usr/bin/udevadm
+/usr/bin/spa-monitor
+/usr/bin/gnuid
+/usr/bin/dconf
+/usr/bin/zdiff
+/usr/bin/gzip
+/usr/bin/sftp
+/usr/bin/gamemoded
+/usr/bin/tecla
+/usr/bin/xbrlapi
+/usr/bin/ss
+/usr/bin/systemd-firstboot
+/usr/bin/lsinitrd
+/usr/bin/openssl
+/usr/bin/xdg-user-dirs-gtk-update
+/usr/bin/loadkeys
+/usr/bin/ppdc
+/usr/bin/eqn
+/usr/bin/pw-cli
+/usr/bin/envsubst
+/usr/bin/gnutimeout
+/usr/bin/trace-cmd
+/usr/bin/prezip-bin
+/usr/bin/hwctl
+/usr/bin/prtstat
+/usr/bin/wget
+/usr/bin/xkbevd
+/usr/bin/ijs_pxljr
+/usr/bin/diff3
+/usr/bin/l2test
+/usr/bin/fswebcam
+/usr/bin/gnuvdir
+/usr/bin/bluemoon
+/usr/bin/nano
+/usr/bin/libnetcfg
+/usr/bin/arecordmidi2
+/usr/bin/gnupathchk
+/usr/bin/sar.sysstat
+/usr/bin/pygmentize
+/usr/bin/appres
+/usr/bin/foo2oak
+/usr/bin/xlsatoms
+/usr/bin/ntfssecaudit
+/usr/bin/sessreg
+/usr/bin/xsetpointer
+/usr/bin/lpoptions
+/usr/bin/lpstat
+/usr/bin/foo2lava
+/usr/bin/systemd-ac-power
+/usr/bin/nhlt-dmic-info
+/usr/bin/cpan5.40-x86_64-linux-gnu
+/usr/bin/cupstestppd
+/usr/bin/foo2ddst
+/usr/bin/watch
+/usr/bin/airscan-discover
+/usr/bin/nroff
+/usr/bin/py3compile
+/usr/bin/fc-match
+/usr/bin/pw-metadata
+/usr/bin/systemd-sysusers
+/usr/bin/udisksctl
+/usr/bin/ntfstruncate
+/usr/bin/ntfswipe
+/usr/bin/sdptool
+/usr/bin/gnome-shell-extension-tool
+/usr/bin/cloud-id
+/usr/bin/migrate-pubring-from-classic-gpg
+/usr/bin/gnusum
+/usr/bin/apt
+/usr/bin/monitor-sensor
+/usr/bin/sbverify
+/usr/bin/snap
+/usr/bin/ubuntu-advantage
+/usr/bin/lesspipe
+/usr/bin/foo2qpdl-wrapper
+/usr/bin/gst-device-monitor-1.0
+/usr/bin/update-desktop-database
+/usr/bin/pdftohtml
+/usr/bin/foo2hbpl2
+/usr/bin/znew
+/usr/bin/messages.mailutils
+/usr/bin/lsusb
+/usr/bin/hex2hcd
+/usr/bin/debconf-show
+/usr/bin/lspower
+/usr/bin/pkcon
+/usr/bin/poff
+/usr/bin/gnucut
+/usr/bin/gnutouch
+/usr/bin/setpriv
+/usr/bin/gnome-clocks
+/usr/bin/vstp
+/usr/bin/gnubase64
+/usr/bin/gnuenv
+/usr/bin/brltty-ktb
+/usr/bin/gst-inspect-1.0
+/usr/bin/x86_64-linux-gnu-objcopy
+/usr/bin/gnome-power-statistics
+/usr/bin/ldapsearch
+/usr/bin/eps2eps
+/usr/bin/aa-exec
+/usr/bin/mawk
+/usr/bin/scanimage
+/usr/bin/gnurm
+/usr/bin/ps2ascii
+/usr/bin/chattr
+/usr/bin/bluetooth-sendto
+/usr/bin/lofromtemplate
+/usr/bin/zipnote
+/usr/bin/linux-run-hooks
+/usr/bin/gnuarch
+/usr/bin/pw-loopback
+/usr/bin/gnuseq
+/usr/bin/corelist
+/usr/bin/aplay
+/usr/bin/mk_modmap
+/usr/bin/fc-scan
+/usr/bin/vimtutor
+/usr/bin/localectl
+/usr/bin/spd-conf
+/usr/bin/networkctl
+/usr/bin/unicode_stop
+/usr/bin/x86_64-linux-gnu-readelf
+/usr/bin/debconf-copydb
+/usr/bin/mousetweaks
+/usr/bin/gnuls
+/usr/bin/gtk4-image-tool
+/usr/bin/printafm
+/usr/bin/ptargrep
+/usr/bin/zipinfo
+/usr/bin/gnutee
+/usr/bin/tclsh8.6
+/usr/bin/mesa-overlay-control.py
+/usr/bin/x86_64-linux-gnu-gcov-dump-15
+/usr/bin/foo2qpdl
+/usr/bin/gpg
+/usr/bin/ucs2any
+/usr/bin/ciptool
+/usr/bin/sss_ssh_knownhostsproxy
+/usr/bin/catman
+/usr/bin/xdg-icon-resource
+/usr/bin/ntfsfix
+/usr/bin/btattach
+/usr/bin/systemd-notify
+/usr/bin/enc2xs
+/usr/bin/gprofng-display-text
+/usr/bin/gnuchmod
+/usr/bin/uuencode
+/usr/bin/dbus-run-session
+/usr/bin/perl5.40-x86_64-linux-gnu
+/usr/bin/ptardiff
+/usr/bin/pdfdetach
+/usr/bin/xkbcomp
+/usr/bin/fc-query
+/usr/bin/aseqsend
+/usr/bin/rename.ul
+/usr/bin/resizecons
+/usr/bin/xzdiff
+/usr/bin/xzgrep
+/usr/bin/linkicc
+/usr/bin/dracut-catimages
+/usr/bin/pdfunite
+/usr/bin/lslogins
+/usr/bin/inputattach
+/usr/bin/debconf-communicate
+/usr/bin/whatis
+/usr/bin/notify-send
+/usr/bin/gtk-query-settings
+/usr/bin/pygettext3.13
+/usr/bin/findmnt
+/usr/bin/alsamixer
+/usr/bin/gnome-shell
+/usr/bin/pinentry-gnome3
+/usr/bin/ssh
+/usr/bin/mimeopen
+/usr/bin/bc
+/usr/bin/splitfont
+/usr/bin/gdk-pixbuf-csource
+/usr/bin/pphs
+/usr/bin/timedatectl
+/usr/bin/bdftopcf
+/usr/bin/baobab
+/usr/bin/wdctl
+/usr/bin/arecordmidi
+/usr/bin/dpkg-maintscript-helper
+/usr/bin/foo2hiperc-wrapper
+/usr/bin/unicode_start
+/usr/bin/fprintd-list
+/usr/bin/brltty-tune
+/usr/bin/ibus
+/usr/bin/lpq
+/usr/bin/whoopsie
+/usr/bin/gnujoin
+/usr/bin/lwp-dump
+/usr/bin/aplaymidi2
+/usr/bin/gpg-mail-tube
+/usr/bin/red
+/usr/bin/killall
+/usr/bin/apport-unpack
+/usr/bin/gnu[
+/usr/bin/ubuntu-report
+/usr/bin/foo2zjs-wrapper
+/usr/bin/grub-syslinux2cfg
+/usr/bin/ntfs-3g.probe
+/usr/bin/grub-script-check
+/usr/bin/gnudirname
+/usr/bin/dh_bash-completion
+/usr/bin/alsaucm
+/usr/bin/precat
+/usr/bin/sadf
+/usr/bin/lomath
+/usr/bin/ldapmodify
+/usr/bin/cd-iccdump
+/usr/bin/foo2oak-wrapper
+/usr/bin/papers
+/usr/bin/dbxtool
+/usr/bin/movemail.mailutils
+/usr/bin/tzselect
+/usr/bin/x86_64-linux-gnu-size
+/usr/bin/ssh-copy-id
+/usr/bin/chardetect
+/usr/bin/pybabel-python3
+/usr/bin/colormgr
+/usr/bin/pic
+/usr/bin/ldd
+/usr/bin/fallocate
+/usr/bin/gnuwc
+/usr/bin/lprm
+/usr/bin/less
+/usr/bin/xgamma
+/usr/bin/psfxtable
+/usr/bin/gnome-extensions
+/usr/bin/sdiff
+/usr/bin/spdsend
+/usr/bin/regexp-assemble
+/usr/bin/systemd-machine-id-setup
+/usr/bin/psicc
+/usr/bin/gatttool
+/usr/bin/m2300w
+/usr/bin/helpztags
+/usr/bin/cd-create-profile
+/usr/bin/ldapcompare
+/usr/bin/gnutest
+/usr/bin/opldecode
+/usr/bin/xauth
+/usr/bin/p7zip
+/usr/bin/dirmngr-client
+/usr/bin/zipgrep
+/usr/bin/gdb-add-index
+/usr/bin/preunzip
+/usr/bin/zipdetails
+/usr/bin/hciconfig
+/usr/bin/gnuwho
+/usr/bin/lslocks
+/usr/bin/iceauth
+/usr/bin/ubuntu-drivers
+/usr/bin/zstdless
+/usr/bin/dc
+/usr/bin/sysprof-cli
+/usr/bin/pyserial-miniterm
+/usr/bin/gnulink
+/usr/bin/gprofng
+/usr/bin/gtk4-broadwayd
+/usr/bin/gnutac
+/usr/bin/mbimcli
+/usr/bin/gs
+/usr/bin/x86_64-linux-gnu-gprof
+/usr/bin/foo2hiperc
+/usr/bin/systemd-delta
+/usr/bin/esc-m
+/usr/bin/pod2text
+/usr/bin/aa-enabled
+/usr/bin/systemd-path
+/usr/bin/amixer
+/usr/bin/nc.openbsd
+/usr/bin/unsquashfs
+/usr/bin/grub-mkfont
+/usr/bin/ntfsfallocate
+/usr/bin/file
+/usr/bin/vcs-run
+/usr/bin/x86_64-linux-gnu-elfedit
+/usr/bin/pkttyagent
+/usr/bin/strace
+/usr/bin/foo2slx-wrapper
+/usr/bin/gtk4-path-tool
+/usr/bin/gamma4scanimage
+/usr/bin/tcpdump
+/usr/bin/kmodsign
+/usr/bin/gtk-builder-tool
+/usr/bin/vmstat
+/usr/bin/varlinkctl
+/usr/bin/gnucsplit
+/usr/bin/tinysparql
+/usr/bin/gnupaste
+/usr/bin/linux-update-symlinks
+/usr/bin/gnusync
+/usr/bin/pl2pm
+/usr/bin/ptar
+/usr/bin/gnusha384sum
+/usr/bin/perlthanks
+/usr/bin/gnutty
+/usr/bin/sbsiglist
+/usr/bin/xzless
+/usr/bin/lwp-mirror
+/usr/bin/wpexec
+/usr/bin/listres
+/usr/bin/apport-bug
+/usr/bin/xcmsdb
+/usr/bin/brltty-ttb
+/usr/bin/gnome-calculator
+/usr/bin/loupe
+/usr/bin/dh_installxmlcatalogs
+/usr/bin/jq
+/usr/bin/jsonschema
+/usr/bin/gpgv
+/usr/bin/gjs-console
+/usr/bin/zstd
+/usr/bin/kbxutil
+/usr/bin/tabs
+/usr/bin/lnstat
+/usr/bin/bpftrace-aotrt
+/usr/bin/ppdi
+/usr/bin/grep
+/usr/bin/dmesg
+/usr/bin/fwupdmgr
+/usr/bin/ssh-keygen
+/usr/bin/qmicli
+/usr/bin/systemd-cgtop
+/usr/bin/tic
+/usr/bin/lspgpot
+/usr/bin/grub-kbdcomp
+/usr/bin/systemd-cryptsetup
+/usr/bin/preconv
+/usr/bin/hostnamectl
+/usr/bin/deallocvt
+/usr/bin/busctl
+/usr/bin/systemd-analyze
+/usr/bin/gpg-wks-client
+/usr/bin/gnumkdir
+/usr/bin/wsdd
+/usr/bin/tload
+/usr/bin/lsns
+/usr/bin/usbreset
+/usr/bin/unzip
+/usr/bin/man
+/usr/bin/amidi
+/usr/bin/ubuntu-distro-info
+/usr/bin/fc-pattern
+/usr/bin/x86_64-linux-gnu-strip
+/usr/bin/systemd-socket-activate
+/usr/bin/xvidtune
+/usr/bin/ubuntu-security-status
+/usr/bin/dpkg-split
+/usr/bin/gpgconf
+/usr/bin/tnftp
+/usr/bin/gdbtui
+/usr/bin/gnusort
+/usr/bin/mt-gnu
+/usr/bin/colcrt
+/usr/bin/ucfr
+/usr/bin/gnuecho
+/usr/bin/xkbbell
+/usr/bin/python3.13
+/usr/bin/brltty
+/usr/bin/gdbus
+/usr/bin/zipcloak
+/usr/bin/memhog
+/usr/bin/fgrep
+/usr/bin/grub-mknetdir
+/usr/bin/dracut
+/usr/bin/gnome-text-editor
+/usr/bin/gcr-viewer
+/usr/bin/unmkinitramfs
+/usr/bin/gnuptx
+/usr/bin/perl
+/usr/bin/ckbcomp
+/usr/bin/renice
+/usr/bin/apt-cache
+/usr/bin/mpris-proxy
+/usr/bin/xdg-desktop-icon
+/usr/bin/mbim-network
+/usr/bin/pw-profiler
+/usr/bin/gnutr
+/usr/bin/btmon
+/usr/bin/soelim
+/usr/bin/groff
+/usr/bin/rdma
+/usr/bin/gnuod
+/usr/bin/boltctl
+/usr/bin/Xwayland
+/usr/bin/getfacl
+/usr/bin/sensible-terminal
+/usr/bin/aspell
+/usr/bin/gst-play-1.0
+/usr/bin/xlsfonts
+/usr/bin/l2ping
+/usr/bin/vim.tiny
+/usr/bin/foo2lava-wrapper
+/usr/bin/systemd-cryptenroll
+/usr/bin/systemd-sysext
+/usr/bin/add-apt-repository
+/usr/bin/dpkg-trigger
+/usr/bin/x86_64-linux-gnu-gcc-15
+/usr/bin/xkeystone
+/usr/bin/apport-cli
+/usr/bin/ps2ps
+/usr/bin/ntfscluster
+/usr/bin/pod2usage
+/usr/bin/loginctl
+/usr/bin/gnome-control-center
+/usr/bin/ps2pdf12
+/usr/bin/locale
+/usr/bin/mandb
+/usr/bin/ssh-argv0
+/usr/bin/host
+/usr/bin/kill
+/usr/bin/cloud-init-per
+/usr/bin/quirks-handler
+/usr/bin/7za
+/usr/bin/zforce
+/usr/bin/gsbj
+/usr/bin/pw-cat
+/usr/bin/kernel-install
+/usr/bin/im-launch
+/usr/bin/h2xs
+/usr/bin/systemd-cgls
+/usr/bin/flock
+/usr/bin/m2400w
+/usr/bin/dbus-send
+/usr/bin/zgrep
+/usr/bin/usbipd
+/usr/bin/dpkg-statoverride
+/usr/bin/getent
+/usr/bin/nsupdate
+/usr/bin/x86_64-linux-gnu-gcc-nm-15
+/usr/bin/pkaction
+/usr/bin/xfd
+/usr/bin/xhost
+/usr/bin/dbus-monitor
+/usr/bin/lsmem
+/usr/bin/x86_64-linux-gnu-ranlib
+/usr/bin/zip
+/usr/bin/trust
+/usr/bin/gnutrue
+/usr/bin/nsenter
+/usr/bin/cloud-init
+/usr/bin/ec2metadata
+/usr/bin/taskset
+/usr/bin/top
+/usr/bin/coreutils
+/usr/bin/xset
+/usr/bin/grub-editenv
+/usr/bin/whereis
+/usr/bin/foo2hp2600-wrapper
+/usr/bin/gnutail
+/usr/bin/unshare
+/usr/bin/zdump
+/usr/bin/brltty-trtxt
+/usr/bin/rsync
+/usr/bin/cpupower
+/usr/bin/x86_64-linux-gnu-c++filt
+/usr/bin/setleds
+/usr/bin/gnushred
+/usr/bin/x86_64-linux-gnu-gcov-tool-15
+/usr/bin/whiptail
+/usr/bin/oakdecode
+/usr/bin/ddstdecode
+/usr/bin/brltty-lscmds
+/usr/bin/lwp-download
+/usr/bin/fprintd-delete
+/usr/bin/linux-check-removal
+/usr/bin/watchgnupg
+/usr/bin/xlsclients
+/usr/bin/sysprof
+/usr/bin/hciattach
+/usr/bin/usbhid-dump
+/usr/bin/cd-fix-profile
+/usr/bin/systemd-hwdb
+/usr/bin/lsblk
+/usr/bin/unity-scope-loader
+/usr/bin/setpci
+/usr/bin/codepage
+/usr/bin/inetutils-telnet
+/usr/bin/x86_64-linux-gnu-nm
+/usr/bin/select-default-iwrap
+/usr/bin/ssh-keyscan
+/usr/bin/mpstat
+/usr/bin/x86_64-linux-gnu-addr2line
+/usr/bin/xkbprint
+/usr/bin/lessecho
+/usr/bin/orca-dm-wrapper
+/usr/bin/showconsolefont
+/usr/bin/gnubasenc
+/usr/bin/which.debianutils
+/usr/bin/ps2pdf14
+/usr/bin/hardlink
+/usr/bin/sed
+/usr/bin/more
+/usr/bin/fc-validate
+/usr/bin/pod2html
+/usr/bin/xrandr
+/usr/bin/papers-thumbnailer
+/usr/bin/rpcgen
+/usr/bin/gtk4-update-icon-cache
+/usr/bin/gdctl
+/usr/bin/sbkeysync
+/usr/bin/skill
+/usr/bin/pdfattach
+/usr/bin/gnupinky
+/usr/bin/wireplumber
+/usr/bin/clear_console
+/usr/bin/gst-discoverer-1.0
+/usr/bin/spa-acp-tool
+/usr/bin/logger
+/usr/bin/mmcli
+/usr/bin/gnufactor
+/usr/bin/uuidgen
+/usr/bin/showrgb
+/usr/bin/editres
+/usr/bin/gpg-agent
+/usr/bin/gnusleep
+/usr/bin/setterm
+/usr/bin/gnucat
+/usr/bin/wpa_passphrase
+/usr/bin/perl5.40.1
+/usr/bin/xdg-terminal-exec
+/usr/bin/ucf
+/usr/bin/tbl
+/usr/bin/nmtui
+/usr/bin/ipptool
+/usr/bin/sysprof-cat
+/usr/bin/apt-get
+/usr/bin/iecset
+/usr/bin/xmodmap
+/usr/bin/gnureadlink
+/usr/bin/grub-fstest
+/usr/bin/pw-config
+/usr/bin/git
+/usr/bin/ipcmk
+/usr/bin/xsetmode
+/usr/bin/ps2pdf
+/usr/bin/iostat
+/usr/bin/hostname
+/usr/bin/gnuexpand
+/usr/bin/p11-kit
+/usr/bin/xdg-user-dirs-update
+/usr/bin/gnuchgrp
+/usr/bin/zipsplit
+/usr/bin/dpkg-query
+/usr/bin/gnome-logs
+/usr/bin/cancel
+/usr/bin/openvt
+/usr/bin/ping
+/usr/bin/gtk4-query-settings
+/usr/bin/lpr
+/usr/bin/min12xxw
+/usr/bin/acpidbg
+/usr/bin/gnome-keyring-3
+/usr/bin/gst-launch-1.0
+/usr/bin/dbus-uuidgen
+/usr/bin/rrsync
+/usr/bin/aseqdump
+/usr/bin/enchant-lsmod-2
+/usr/bin/file-rename
+/usr/bin/free
+/usr/bin/grops
+/usr/bin/paperconf
+/usr/bin/plymouth
+/usr/bin/ipcrm
+/usr/bin/gnucp
+/usr/bin/setfont
+/usr/bin/bwrap
+/usr/bin/setfacl
+/usr/bin/gnome-language-selector
+/usr/bin/info
+/usr/bin/gtk-encode-symbolic-svg
+/usr/bin/gnuchcon
+/usr/bin/dig
+/usr/bin/sbvarsign
+/usr/bin/mapscrn
+/usr/bin/setupcon
+/usr/bin/xwininfo
+/usr/bin/sysprof-agent
+/usr/bin/clear
+/usr/bin/gnome-thumbnail-font
+/usr/bin/lsattr
+/usr/bin/gnupr
+/usr/bin/pw-container
+/usr/bin/gnunice
+/usr/bin/gnome-font-viewer
+/usr/bin/brltty-atb
+/usr/bin/setxkbmap
+/usr/bin/xprop
+/usr/bin/numactl
+/usr/bin/grub-mkimage
+/usr/bin/brltty-clip
+/usr/bin/gnome-session-inhibit
+/usr/bin/rctest
+/usr/bin/gnuunexpand
+/usr/bin/spa-inspect
+/usr/bin/crash
+/usr/bin/kmod
+/usr/bin/mscompress
+/usr/bin/systemd-mount
+/usr/bin/zegrep
+/usr/bin/dbus-daemon
+/usr/bin/sensible-pager
+/usr/bin/spd-say
+/usr/bin/sieve
+/usr/bin/shar
+/usr/bin/x86_64-linux-gnu-strings
+/usr/bin/routel
+/usr/bin/os-prober
+/usr/bin/decodemail
+/usr/bin/mountpoint
+/usr/bin/pw-dot
+/usr/bin/xz
+/usr/bin/canberra-gtk-play
+/usr/bin/lexgrog
+/usr/bin/grub-menulst2cfg
+/usr/bin/systemd-creds
+/usr/bin/lscpu
+/usr/bin/update-alternatives
+/usr/bin/gslp
+/usr/bin/slxdecode
+/usr/bin/gnuuname
+/usr/bin/bpftrace
+/usr/bin/alsaloop
+/usr/bin/tset
+/usr/bin/gnuhead
+/usr/bin/setkeycodes
+/usr/bin/update-notifier
+/usr/bin/gnuinstall
+/usr/bin/debconf-apt-progress
+/usr/bin/x86_64-linux-gnu-gcov-15
+/usr/bin/aptdcon
+/usr/bin/rsync-ssl
+/usr/bin/orca
+/usr/bin/ldapurl
+/usr/bin/cpio
+/usr/bin/systemd-ask-password
+/usr/bin/eatmydata
+/usr/bin/ngettext
+/usr/bin/script
+/usr/bin/7zr
+/usr/bin/gnome-system-monitor
+/usr/bin/transicc
+/usr/bin/plog
+/usr/bin/netaddr
+/usr/bin/broadwayd
+/usr/bin/zstdgrep
+/usr/bin/dh_perl_openssl
+/usr/bin/printer-profile
+/usr/bin/lavadecode
+/usr/bin/ps
+/usr/bin/systemd-inhibit
+/usr/bin/systemd-run
+/usr/bin/gnustty
+/usr/bin/desktop-file-install
+/usr/bin/zjsdecode
+/usr/bin/ps2pdf13
+/usr/bin/usb-devices
+/usr/bin/xmessage
+/usr/bin/chrt
+/usr/bin/gnubase32
+/usr/bin/7z
+/usr/bin/getopt
+/usr/bin/gpg-connect-agent
+/usr/bin/find
+/usr/bin/oomctl
+/usr/bin/ntfsdecrypt
+/usr/bin/brltty-hid
+/usr/bin/pydoc3.13
+/usr/bin/gpu-manager
+/usr/bin/papers-previewer
+/usr/bin/viewres
+/usr/bin/getkeycodes
+/usr/bin/networkd-dispatcher
+/usr/bin/manpath
+/usr/bin/fprintd-enroll
+/usr/bin/ippfind
+/usr/bin/json-patch-jsondiff
+/usr/bin/gnome-disk-image-mounter
+/usr/bin/systemd-tmpfiles
+/usr/bin/gnustat
+/usr/bin/choom
+/usr/bin/cmp
+/usr/bin/ucfq
+/usr/bin/resolvectl
+/usr/bin/systemd-tty-ask-password-agent
+/usr/bin/hbpldecode
+/usr/bin/gnulogname
+/usr/bin/savelog
+/usr/bin/zcat
+/usr/bin/migratepages
+/usr/bin/gnumd5sum
+/usr/bin/hexdump
+/usr/bin/m2300w-wrapper
+/usr/bin/jpgicc
+/usr/bin/sss_ssh_authorizedkeys
+/usr/bin/gnupwd
+/usr/bin/sensible-editor
+/usr/bin/ldapmodrdn
+/usr/bin/linux-version
+/usr/bin/gresource
+/usr/bin/perldoc
+/usr/bin/upower
+/usr/bin/fwupdtool
+/usr/bin/prove
+/usr/bin/unzipsfx
+/usr/bin/calibrate_ppa
+/usr/bin/ionice
+/usr/bin/c99-gcc
+/usr/bin/perlivp
+/usr/bin/banner
+/usr/bin/scriptreplay
+/usr/bin/peekfd
+/usr/bin/axfer
+/usr/bin/bash
+/usr/bin/chacl
+/usr/bin/pon
+/usr/bin/gprofng-archive
+/usr/bin/lsinitramfs
+/usr/bin/foo2slx
+/usr/bin/linux-boot-prober
+/usr/bin/gnuwhoami
+/usr/bin/xkbvleds
+/usr/bin/pdftops
+/usr/bin/pkmon
+/usr/bin/apt-cdrom
+/usr/bin/aspell-import
+/usr/bin/gnugroups
+/usr/bin/perlbug
+/usr/bin/ppdpo
+/usr/bin/pidstat
+/usr/bin/ibus-table-createdb
+/usr/bin/gstack
+/usr/bin/gtk4-rendernode-tool
+/usr/bin/migspeed
+/usr/bin/gnusha1sum
+/usr/bin/scriptlive
+/usr/bin/gnusha256sum
+/usr/bin/grub-render-label
+/usr/bin/cifsiostat
+/usr/bin/dpkg-realpath
+/usr/bin/brltty-morse
+/usr/bin/seahorse
+/usr/bin/xdg-open
+/usr/bin/ntfsls
+/usr/bin/systemd-stdio-bridge
+/usr/bin/xkill
+/usr/bin/sbattach
+/usr/bin/lspci
+/usr/bin/dpkg
+/usr/bin/xxd
+/usr/bin/loweb
+/usr/bin/ldapdelete
+/usr/bin/rtla
+/usr/bin/gio
+/usr/bin/gdk-pixbuf-pixdata
+/usr/bin/gnurmdir
+/usr/bin/apt-config
+/usr/bin/fc-conflist
+/usr/bin/gnuprintenv
+/usr/bin/gnumknod
+/usr/bin/sane-find-scanner
+/usr/bin/splain
+/usr/bin/gnufold
+/usr/bin/instmodsh
+/usr/bin/check-language-support
+/usr/bin/localedef
+/usr/bin/gdm-config
+/usr/bin/fc-cat
+/usr/bin/xev
+/usr/bin/gnome-session
+/usr/bin/tempfile
+/usr/bin/gencat
+/usr/bin/pipewire
+/usr/bin/grub-mount
+/usr/bin/mcookie
+/usr/bin/eject
+/usr/bin/dpkg-deb
+/usr/bin/gnome-disks
+/usr/bin/tapestat
+/usr/bin/w
+/usr/bin/wtmpdb
+/usr/bin/spice-vdagent
+/usr/bin/gpgtar
+/usr/bin/yelp
+/usr/bin/gcalccmd
+/usr/bin/foo2ddst-wrapper
+/usr/bin/spa-json-dump
+/usr/bin/update-mime-database
+/usr/bin/word-list-compress
+/usr/bin/ntfscmp
+/usr/bin/htop
+/usr/bin/x86_64-linux-gnu-gcc-ar-15
+/usr/bin/ntfsrecover
+/usr/bin/pw-dump
+/usr/bin/gnudircolors
+/usr/bin/toe
+/usr/bin/btmgmt
+/usr/bin/iconv
+/usr/bin/man-recode
+/usr/bin/lsipc
+/usr/bin/gettext
+/usr/bin/systemd-cat
+/usr/bin/run-with-aspell
+/usr/bin/usbip
+/usr/bin/gettext.sh
+/usr/bin/ipcs
+/usr/bin/snapfuse
+/usr/bin/ed
+/usr/bin/nstat
+/usr/bin/kbd_mode
+/usr/bin/grub-glue-efi
+/usr/bin/gpgsplit
+/usr/bin/ps2epsi
+/usr/bin/foo2xqx
+/usr/bin/gnuunlink
+/usr/bin/debconf-set-selections
+/usr/bin/m17n-db
+/usr/bin/gnuyes
+/usr/bin/xfontsel
+/usr/bin/gnudd
+/usr/bin/gsnd
+/usr/bin/laptop-detect
+/usr/bin/gnudf
+/usr/bin/pslog
+/usr/bin/ntfsmove
+/usr/bin/showkey
+/usr/bin/gprofng-collect-app
+/usr/bin/wpctl
+/usr/bin/pdfsig
+/usr/bin/pdftoppm
+/usr/bin/look
+/usr/bin/c_rehash
+/usr/bin/fc-list
+/usr/bin/deb-systemd-helper
+/usr/bin/loadunimap
+/usr/bin/sss_ssh_knownhosts
+/usr/bin/xrefresh
+/usr/bin/grub-mkrelpath
+/usr/bin/sudoreplay.ws
+Всего найдено: 1175
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./unique_names.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\Name file1 = "file1.ce1b9e62496b1276"
+Name file2 = "file2.dbde20570f11e9aa"
+Name file3 = "file3.95983efcf090705c"
+Name file4 = "file4.4e434f6c41844dba"
+Name file5 = "file5.ef73b4af8f7d2ce4"
+Name file6 = "file6.4b3bb66b3adbac13"
+Name file7 = "file7.f22ac5787e4fb914"
+Name file8 = "file8.fcdc684943b30f99"
+Name file9 = "file9.2394e41dcfaed25d"
+Name file10 = "file10.2f67b4fc5ce20652"
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./unique_names.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\Name file1 = "file1.7ffd6bfd3fcfa6c5"
+Name file2 = "file2.eedc50b35fd59843"
+Name file3 = "file3.c61c3a80c23bb0cb"
+Name file4 = "file4.f25b283fbc388a07"
+Name file5 = "file5.7e757d6ee0216a0f"
+Name file6 = "file6.97aceef4c58a1f94"
+Name file7 = "file7.f105c94dc01b4fcb"
+Name file8 = "file8.51f974425f54c967"
+Name file9 = "file9.9f1e22787c106543"
+Name file10 = "file10.cdc72517654c2fe6"
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ls /def[Kbv[Kv[K[Kv/video*
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;33;40m/dev/video0[0m  [01;33;40m/dev/video1[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./webcam.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\[1m--- Opening /dev/video0...
+[0m[0mTrying source module v4l2...
+[0m[0m/dev/video0 opened.
+[0m[0mNo input was specified, using the first.
+[0m[1m--- Capturing frame...
+[0m[0mCaptured frame in 0.00 seconds.
+[0m[1m--- Processing captured image...
+[0m[0mWriting JPEG image to '/home/user/Photos/photo_20260515_234006.jpg'.
+[0m]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./webcam.sh ls /dev/video*[K[K[K[K[K[K[K[K[K[K[K~\[K/Pictures/webcam[Km
+[?2004l]133;C\]666;vte.shell.preexec!\ls: cannot access '/home/user/Pictures/webcam': No such file or directory
+]666;vte.shell.postexec=2\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ls ~/Pictures/webcam[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls /home/user/Photos/
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;35mphoto_20260515_234006.jpg[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./notify_auth.sh &
+[?2004l]133;C\]666;vte.shell.preexec!\[1] 10899
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./notify_auth.sh: строка 12: синтаксическая ошибка рядом с неожиданным маркером «then»
+./notify_auth.sh: строка 12: `If ! command -v notify-send >/dev/null 2>&1; then'
+
+[?2004l]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[1]+  Выход 2            ./notify_auth.sh
+[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./notify_auth.sh &
+[?2004l]133;C\]666;vte.shell.preexec!\[1] 10903
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./notify_auth.sh: строка 12: синтаксическая ошибка рядом с неожиданным маркером «then»
+./notify_auth.sh: строка 12: `If ! command -v notify-send >/dev/null 2>&1; then'
+./notify_auth.sh &[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K^C[?2004l[?2004h[?2004l
+]666;vte.shell.postexec=130\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[1]+  Выход 2            ./notify_auth.sh
+[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./notify_auth.sh &[K[K
+[?2004l]133;C\]666;vte.shell.preexec!\./notify_auth.sh: строка 12: синтаксическая ошибка рядом с неожиданным маркером «then»
+./notify_auth.sh: строка 12: `If ! command -v notify-send >/dev/null 2>&1; then'
+]666;vte.shell.postexec=2\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ nao[Kno notify_auth.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\[?2004h[?1049h[22;0;0t[1;45r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[43;41H(B[0;7m[ Чтение… ](B[m[43;35H(B[0;7m[ Прочитано 30 строк ](B[m[H(B[0;7m  GNU nano 8.4                           notify_auth.sh                                    [1;90H(B[m[44d(B[0;7m^G(B[m Справка     (B[0;7m^O(B[m Записать    (B[0;7m^F(B[m Поиск[46G(B[0;7m^K(B[m Вырезать    (B[0;7m^T(B[m Выполнить   (B[0;7m^C(B[m Позиция[45d(B[0;7m^X(B[m Выход[16G(B[0;7m^R(B[m ЧитФайл     (B[0;7m^\(B[m Замена[46G(B[0;7m^U(B[m Вставить    (B[0;7m^J(B[m Выровнять   (B[0;7m^/(B[m К строке[2d[36m#!/bin/bash[3d[39m(B[muser_name[32m=(B[0;1m[33m"${PAM_USER:-$(id -un)}"[4d(B[0m[32mif[39m(B[m [32m[(B[0;1m[35m -z[39m(B[m (B[0;1m[33m"$user_name"[39m(B[m [32m];[39m(B[m [32mthen[5d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"$0: my user could not be identified"[39m(B[m [32m>&[39m(B[m2[6;9H[32mexit[7d[39m(B[m1[8d. user ID[32m=$([39m(B[mid(B[0;1m[35m -u[39m(B[m (B[0;1m[33m"$user_name"[39m(B[m 2[32m>[39m(B[m/dev/null[32m)[9dif[39m(B[m [32m[(B[0;1m[35m -z[39m(B[m (B[0;1m[33m"$user_id"[39m(B[m [32m];[39m(B[m [32mthen[10d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"$0: user $user_name not found"[39m(B[m [32m>&[39m(B[m2[11;9H[32mexit[39m(B[m 1.[13dIf [32m![39m(B[m command(B[0;1m[35m -v[39m(B[m notify-send [32m>[39m(B[m/dev/null 2[32m>&[39m(B[m1[32m;[39m(B[m [32mthen[14d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"$0: send notification-send not installed"[39m(B[m [32m>&[39m(B[m2[15d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"$0: install the libnotify-bin package"[39m(B[m [32m>&[39m(B[m2[16;9H[32mexit[39m(B[m 1[18d. [32mexport[39m(B[m DISPLAY[32m=(B[0;1m[33m"${DISPLAY:-:0}"[19d(B[0m[32mexport[39m(B[m XDG_RUNTIME_DIR[32m=(B[0;1m[33m"/run/user/$user ID"[20d(B[0m[32mexport[39m(B[m DBUS_SESSION_BUS_ADDRESS[32m=(B[0;1m[33m"unix:path=/run/user/$user_id/bus"[21d[39m(B[mmessage header[32m=(B[0;1m[33m"I am logged in"[22d[39m(B[mmessage_text[32m=(B[0;1m[33m"User $username for authorization"[23d(B[0m[32mif[39m(B[m [32m[(B[0;1m[33m"$(id -u)"[39m(B[m [32m-eq[39m(B[m 0 [32m][39m(B[m [32m&&[39m(B[m [32m[[39m(B[m (B[0;1m[33m"$user_name"[39m(B[m [32m!=[39m(B[m (B[0;1m[33m"root"[39m(B[m [32m];[39m(B[m [32mthen[24d[39m(B[msudo(B[0;1m[35m -u[39m(B[m (B[0;1m[33m"$user_name"[39m(B[m (B[0;1m[34menv[39m(B[m [32m\[25;9H[39m(B[mDISPLAY[32m=(B[0;1m[33m"$DISPLAY"[39m(B[m [32m\[26d[39m(B[mXDG_RUNTIME_DIR[32m=(B[0;1m[33m"$XDG_RUNTIME_DIR"[39m(B[m [32m\[27d[39m(B[mDBUS_SESSION_BUS_ADDRESS[32m=(B[0;1m[33m"$DBUS_SESSION_BUS_ADDRESS"[39m(B[m [32m\[28d[39m(B[mnotify-send (B[0;1m[33m"$message_title"[39m(B[m (B[0;1m[33m"$message_text"[30d[39m(B[motherwise notify-send (B[0;1m[33m"$message_title"[39m(B[m (B[0;1m[33m"$message_text"[31d(B[0m[32mfi[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25hu[?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25h_[?25l[?12l[?25hn[?25l[?12l[?25ha[?25l[?12l[?25hm[?25l[?12l[?25he[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[43d[K[?12l[?25h[3;20H[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[?25l[?12l[?25h[C[?25l[?12l[?25h[4d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[5d[?25l[1;57H(B[0;7m*[90G(B[m[?12l[?25h[5;8H[1K (B[0;1m[34mecho[39m(B[m (B[0;1m[33m"$0: my user could not be identified"[39m(B[m [32m>&[39m(B[m2[5;9H[?25l[?12l[?25h[6d[?25l[?12l[?25h[?25l[?12l[?25h[5;55H[?25l[?12l[?25h[?25l[?12l[?25h2[?25l[?12l[?25h[6;13H[?25l[7;43r[43;1H
+[1;45r[6;9Hexit1[?12l[?25h[?25l[?12l[?25h[32mexit[39m(B[m 1[?25l[?12l[?25h1[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l7[7;43r8M[1;45r[8;1H[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25hf[?25l[?12l[?25h[32mfi[39m(B[m[?25l7[8;43r8[8dM[1;45r[8;1H[?12l[?25h[?25l[?12l[?25h[9d[?25l[?12l[?25hu[?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25h [?25l[?12l[?25h[1P[?25l[?12l[?25h_ID[32m=$([39m(B[mid(B[0;1m[35m -u[39m(B[m (B[0;1m[33m"$user_name"[39m(B[m 2[32m>[39m(B[m/dev/null[32m)[6G[39m(B[m[?25l[?12l[?25hI[?25l[?12l[?25hD[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25hi[32m=$([39m(B[mid(B[0;1m[35m -u[39m(B[m (B[0;1m[33m"$user_name"[39m(B[m 2[32m>[39m(B[m/dev/null[32m)[7G[39m(B[m[?25l[?12l[?25hd[32m=$([39m(B[mid(B[0;1m[35m -u[39m(B[m (B[0;1m[33m"$user_name"[39m(B[m 2[32m>[39m(B[m/dev/null[32m)[8G[39m(B[m[?25l[?12l[?25h[C[?25l[?12l[?25h[10d[?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[11d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[8G[1K (B[0;1m[34mecho[39m(B[m (B[0;1m[33m"$0: user $user_name not found"[39m(B[m [32m>&[39m(B[m2[11;9H[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14;9H[?25l[?12l[?25h[15d[?25l[?12l[?25h[A[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[1P[?25l[?12l[?25h[32mif[39m(B[m [32m![39m(B[m command(B[0;1m[35m -v[39m(B[m notify-send [32m>[39m(B[m/dev/null 2[32m>&[39m(B[m1[32m;[39m(B[m [32mtheni[39m(B[m[?25l[?12l[?25h[15d[?25l[?12l[?25h[?25l[?12l[?25h[16d[?25l[?12l[?25h[8G[1K (B[0;1m[34mecho[39m(B[m (B[0;1m[33m"$0: install the libnotify-bin package"[39m(B[m [32m>&[39m(B[m2[16;9H[?25l[?12l[?25h[17d[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[8G[1K (B[0;1m[34mecho[39m(B[m (B[0;1m[33m"$0: send notification-send not installed"[39m(B[m [32m>&[39m(B[m2[15;9H[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25hf[?25l[?12l[?25h[32mfi[39m(B[m[?25l[?12l[?25h[19d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[14;3H[?25l[?12l[?25h[A[?25l[?12l[?25hf[?25l[?12l[?25h[32mfi[39m(B[m[?25l7[14;43r8[14dM[1;45r[14;1H[?12l[?25h[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[?12l[?25h[A[?25l[?12l[?25h.[?25l[?12l[?25h [?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[21d[?25l[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l7[25;43r8M[1;45r[26;1H[?12l[?25h[?25l[?12l[?25h[27d[?25l[?12l[?25h[A[?25l[?12l[?25h[27d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h[28d[?25l[?12l[?25h[A[?25l[?12l[?25h[8G[1K sudo(B[0;1m[35m -u[39m(B[m (B[0;1m[33m"$user_name"[39m(B[m (B[0;1m[34menv[39m(B[m [32m\[27;9H[39m(B[m[?25l[?12l[?25h[28d[?25l[?12l[?25h[?25l[?12l[?25h[27;35H[?25l[?12l[?25h[?25l[?12l[?25h[C[?25l[?12l[?25h[28;29H[?25l[?12l[?25h[27;35H[?25l[?12l[?25h[28d[?25l[?12l[?25h[28;16H[1K DISPLAY[32m=(B[0;1m[33m"$DISPLAY"[39m(B[m [32m\[28;9H[39m(B[m[?25l[?12l[?25h[29d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[28;37H[?25l[?12l[?25h[29d[?25l[?12l[?25h[8G[1K XDG_RUNTIME_DIR[32m=(B[0;1m[33m"$XDG_RUNTIME_DIR"[39m(B[m [32m\[29;9H[39m(B[m[?25l[?12l[?25h[16G[1K XDG_RUNTIME_DIR[32m=(B[0;1m[33m"$XDG_RUNTIME_DIR"[39m(B[m [32m\[29;17H[39m(B[m[?25l[?12l[?25h[29;9H[?25l[?12l[?25h[?25l[?12l[?25h[30d[?25l[?12l[?25h[8G[1K DBUS_SESSION_BUS_ADDRESS[32m=(B[0;1m[33m"$DBUS_SESSION_BUS_ADDRESS"[39m(B[m [32m\[30;9H[39m(B[m[?25l[?12l[?25h[16G[1K DBUS_SESSION_BUS_ADDRESS[32m=(B[0;1m[33m"$DBUS_SESSION_BUS_ADDRESS"[39m(B[m [32m\[30;17H[39m(B[m[?25l[?12l[?25h[30;9H[?25l[?12l[?25h[?25l[?12l[?25h[29;53H[?25l[?12l[?25h[30d[?25l[?12l[?25h[31d[?25l[?12l[?25h[8G[1K notify-send (B[0;1m[33m"$message_title"[39m(B[m (B[0;1m[33m"$message_text"[31;9H[39m(B[m[?25l[?12l[?25h[16G[1K notify-send (B[0;1m[33m"$message_title"[39m(B[m (B[0;1m[33m"$message_text"[31;17H[39m(B[m[?25l[?12l[?25h[32d[?25l[?12l[?25he[?25l[?12l[?25hl[?25l[?12l[?25hs[?25l[?12l[?25h[32melse[39m(B[m[?25l[?12l[?25h[33d[?25l[?12l[?25h[A[?25l[?12l[?25h[33d[?25l[?12l[?25h[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25hw[?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25hn[?25l[?12l[?25h[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[8G[1K notify-send (B[0;1m[33m"$message_title"[39m(B[m (B[0;1m[33m"$message_text"[33;9H[39m(B[m[?25l[43;41H(B[0;7m[ Запись… ](B[m[1;57H(B[0;7m [90G(B[m[43;35H(B[0;7m[ Записано 33 строки ](B[m[?12l[?25h[33;9H[?25l[43d[J[45d[?12l[?25h[45;1H[?1049l[23;0;0t[?1l>[?2004l]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ nano notify_auth.sh [4P./notify_auth.sh &
+[?2004l]133;C\]666;vte.shell.preexec!\[1] 11020
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./notify_auth.sh: строка 22: message: команда не найдена
+./notify_auth.sh: строка 25: [1000: команда не найдена
+^C[?2004l[?2004h[?2004l
+]666;vte.shell.postexec=130\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[1]+  Завершён        ./notify_auth.sh
+[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./notify_auth.sh &[K
+[?2004l]133;C\]666;vte.shell.preexec!\./notify_auth.sh: строка 22: message: команда не найдена
+./notify_auth.sh: строка 25: [1000: команда не найдена
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./notify_auth.sh &nano notify_auth.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\[?2004h[?1049h[22;0;0t[1;45r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[43;41H(B[0;7m[ Чтение… ](B[m[43;35H(B[0;7m[ Прочитано 33 строки ](B[m[H(B[0;7m  GNU nano 8.4                           notify_auth.sh                                    [1;90H(B[m[44d(B[0;7m^G(B[m Справка     (B[0;7m^O(B[m Записать    (B[0;7m^F(B[m Поиск[46G(B[0;7m^K(B[m Вырезать    (B[0;7m^T(B[m Выполнить   (B[0;7m^C(B[m Позиция[45d(B[0;7m^X(B[m Выход[16G(B[0;7m^R(B[m ЧитФайл     (B[0;7m^\(B[m Замена[46G(B[0;7m^U(B[m Вставить    (B[0;7m^J(B[m Выровнять   (B[0;7m^/(B[m К строке[2d[36m#!/bin/bash[3d[39m(B[muser_name[32m=(B[0;1m[33m"${PAM_USER:-$(id -un)}"[4d(B[0m[32mif[39m(B[m [32m[(B[0;1m[35m -z[39m(B[m (B[0;1m[33m"$user_name"[39m(B[m [32m];[39m(B[m [32mthen[5;9H(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"$0: my user could not be identified"[39m(B[m [32m>&[39m(B[m2[6;9H[32mexit[39m(B[m 1[7d[32mfi[9d[39m(B[muser_id[32m=$([39m(B[mid(B[0;1m[35m -u[39m(B[m (B[0;1m[33m"$user_name"[39m(B[m 2[32m>[39m(B[m/dev/null[32m)[10dif[39m(B[m [32m[(B[0;1m[35m -z[39m(B[m (B[0;1m[33m"$user_id"[39m(B[m [32m];[39m(B[m [32mthen[11;9H(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"$0: user $user_name not found"[39m(B[m [32m>&[39m(B[m2[12;9H[32mexit[39m(B[m 1.[13d[32mfi[15dif[39m(B[m [32m![39m(B[m command(B[0;1m[35m -v[39m(B[m notify-send [32m>[39m(B[m/dev/null 2[32m>&[39m(B[m1[32m;[39m(B[m [32mthen[16;9H(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"$0: send notification-send not installed"[39m(B[m [32m>&[39m(B[m2[17;9H(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"$0: install the libnotify-bin package"[39m(B[m [32m>&[39m(B[m2[18;9H[32mexit[39m(B[m 1[19d[32mfi[20dexport[39m(B[m DISPLAY[32m=(B[0;1m[33m"${DISPLAY:-:0}"[21d(B[0m[32mexport[39m(B[m XDG_RUNTIME_DIR[32m=(B[0;1m[33m"/run/user/$user ID"[22d(B[0m[32mexport[39m(B[m DBUS_SESSION_BUS_ADDRESS[32m=(B[0;1m[33m"unix:path=/run/user/$user_id/bus"[23d[39m(B[mmessage header[32m=(B[0;1m[33m"I am logged in"[24d[39m(B[mmessage_text[32m=(B[0;1m[33m"User $username for authorization"[26d(B[0m[32mif[39m(B[m [32m[(B[0;1m[33m"$(id -u)"[39m(B[m [32m-eq[39m(B[m 0 [32m][39m(B[m [32m&&[39m(B[m [32m[[39m(B[m (B[0;1m[33m"$user_name"[39m(B[m [32m!=[39m(B[m (B[0;1m[33m"root"[39m(B[m [32m];[39m(B[m [32mthen[27;9H[39m(B[msudo(B[0;1m[35m -u[39m(B[m (B[0;1m[33m"$user_name"[39m(B[m (B[0;1m[34menv[39m(B[m [32m\[28;17H[39m(B[mDISPLAY[32m=(B[0;1m[33m"$DISPLAY"[39m(B[m [32m\[29;17H[39m(B[mXDG_RUNTIME_DIR[32m=(B[0;1m[33m"$XDG_RUNTIME_DIR"[39m(B[m [32m\[30;17H[39m(B[mDBUS_SESSION_BUS_ADDRESS[32m=(B[0;1m[33m"$DBUS_SESSION_BUS_ADDRESS"[39m(B[m [32m\[31;17H[39m(B[mnotify-send (B[0;1m[33m"$message_title"[39m(B[m (B[0;1m[33m"$message_text"[32d(B[0m[32melse[33;9H[39m(B[mnotify-send (B[0;1m[33m"$message_title"[39m(B[m (B[0;1m[33m"$message_text"[34d(B[0m[32mfi[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[12;16H[?25l[1;57H(B[0;7m*[90G(B[m[?12l[?25h[12;15H [?25l[?12l[?25h[13;3H[?25l[?12l[?25h[14d[?25l[?12l[?25h[15;15H[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[43d[K[?12l[?25h[19;3H[?25l[?12l[?25h[20;15H[?25l[?12l[?25h[21d[?25l[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[43d(B[0;7mСохранить изменённый буфер?                                                                [44;1H Y(B[m Да[K[45d(B[0;7m N(B[m Нет  [16G (B[0;7m^C(B[m Отмена[K[43;29H[?12l[?25h[?25l[44d(B[0;7m^G(B[m Справка[44;23H(B[0;7mM-D(B[m Формат DOS[44;45H(B[0;7mM-A(B[m Доп. в начало     (B[0;7mM-B(B[m Резерв. копия[45d(B[0;7m^C(B[m Отмена[17G      (B[0;7mM-M(B[m Формат Mac[45;45H(B[0;7mM-P(B[m Доп. в конец[67G(B[0;7m^T(B[m Обзор[43d(B[0;7mWrite to File: notify_auth.sh(B[m[?12l[?25h[?25l[43;40H[1K (B[0;7m[ Запись… ](B[m[K[1;57H(B[0;7m [90G(B[m[43;35H(B[0;7m[ Записано 33 строки ](B[m[J[45d[?12l[?25h[45;1H[?1049l[23;0;0t[?1l>[?2004l]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ nano notify_auth.sh [3P./[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C&
+[?2004l]133;C\]666;vte.shell.preexec!\[1] 11130
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./notify_auth.sh &[K
+[?2004l]133;C\]666;vte.shell.preexec!\[1]+  Завершён        ./notify_auth.sh
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;32marchive_manager.sh[0m  [01;32miface_status.sh[0m     [01;32mpositive.sh[0m         [01;32mtask1.sh[0m       test_file.txt
+[01;32mfactorial.sh[0m        [01;32minterfaces.sh[0m       [01;32mrename_jpeg.sh[0m      task1Starikov  timelog1Starikov
+[01;32mfile_manager.sh[0m     [01;35mnew_new_image.jpeg[0m  [01;32msplit_name.sh[0m       [01;34mtest[0m           [01;32munique_names.sh[0m
+[01;32mfind_755.sh[0m         [01;35mnew_new_photo.jpeg[0m  [01;32msyslog_analyzer.sh[0m  [01;35mtest.jpg[0m       [01;32mwebcam.sh[0m
+[01;32mfind_dublicates.sh[0m  [01;32mnotify_auth.sh[0m      [01;34mtarget_dir[0m          [01;34mtest_dir[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./archive_manager.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\Select an action:
+1 - Archive
+2 - Unzip
+1
+Enter the archive directory: tes	t_dit r
+Enter the archive name: myas rchoi  ive
+Archive myarchive.tar.gz created by 
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;32marchive_manager.sh[0m  [01;32miface_status.sh[0m     [01;32mnotify_auth.sh[0m      [01;34mtarget_dir[0m     [01;34mtest_dir[0m
+[01;32mfactorial.sh[0m        [01;32minterfaces.sh[0m       [01;32mpositive.sh[0m         [01;32mtask1.sh[0m       test_file.txt
+[01;32mfile_manager.sh[0m     [01;31mmyarchive.tar.gz[0m    [01;32mrename_jpeg.sh[0m      task1Starikov  timelog1Starikov
+[01;32mfind_755.sh[0m         [01;35mnew_new_image.jpeg[0m  [01;32msplit_name.sh[0m       [01;34mtest[0m           [01;32munique_names.sh[0m
+[01;32mfind_dublicates.sh[0m  [01;35mnew_new_photo.jpeg[0m  [01;32msyslog_analyzer.sh[0m  [01;35mtest.jpg[0m       [01;32mwebcam.sh[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ l[Kmkdir ec[Kxtract_dir
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ mkdir extract_dirls[K./archive_manager.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\Select an action:
+1 - Archive
+2 - Unzip
+2
+Enter the archive name: mya	rchhive    ve  ive
+Archive unpacked
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ rm [Kdir -r extract_dir/
+[?2004l]133;C\]666;vte.shell.preexec!\[31merror[0m: unexpected argument '[33m-r[0m' found
+
+  [32mtip[0m: to pass '-r' as a value, use '-- -r'
+
+Usage: rmdir [OPTION]... DIRECTORY...
+
+For more information, try '--help'.
+]666;vte.shell.postexec=1\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ rmdir -r extract_dir/[1P extract_dir/[1P extract_dir/[1Pextract_dir/
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;32marchive_manager.sh[0m  [01;32miface_status.sh[0m     [01;32mnotify_auth.sh[0m      [01;34mtarget_dir[0m     [01;34mtest_dir[0m
+[01;32mfactorial.sh[0m        [01;32minterfaces.sh[0m       [01;32mpositive.sh[0m         [01;32mtask1.sh[0m       test_file.txt
+[01;32mfile_manager.sh[0m     [01;31mmyarchive.tar.gz[0m    [01;32mrename_jpeg.sh[0m      task1Starikov  timelog1Starikov
+[01;32mfind_755.sh[0m         [01;35mnew_new_image.jpeg[0m  [01;32msplit_name.sh[0m       [01;34mtest[0m           [01;32munique_names.sh[0m
+[01;32mfind_dublicates.sh[0m  [01;35mnew_new_photo.jpeg[0m  [01;32msyslog_analyzer.sh[0m  [01;35mtest.jpg[0m       [01;32mwebcam.sh[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ lsrmdir extract_dir/-r extract_dir/[3Pextract_dir/ls[Krmdir extract_dir/-r extract_dir/./archive_manager.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\Select an action:
+1 - Archive
+2 - Unzip
+2
+Enter the archive name: my^[[A^[[A        archive.tar.gz
+./archive_manager.sh: error: archive myarchive.tar.gz.tar.gz not found
+]666;vte.shell.postexec=1\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./archive_manager.sh ls[K./archive_manager.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\Select an action:
+1 - Archive
+2 - Unzip
+2
+Enter the archive name: myarchi       rm te    mdir    te	   te	 est          
+./archive_manager.sh: error: archive name cannot be empty
+]666;vte.shell.postexec=1\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ rmdir test_dir/
+[?2004l]133;C\]666;vte.shell.preexec!\rmdir: failed to remove 'test_dir/': Directory not empty
+]666;vte.shell.postexec=1\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ rmdir test_dir/./archive_manager.sh [6Prmdir test_dir/[1P test_dir/[1P test_dir/[1P test_dir/[C test_dir/- test_dir/r test_dir/
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ rm -r test_dir/di[C[C[C[C[C[C[C[C[C[C[C./archive_manager.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\Select an action:
+1 - Archive
+2 - Unzip
+2
+Enter the archive name: myarchive
+Archive unpacked
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;32marchive_manager.sh[0m  [01;32miface_status.sh[0m     [01;32mnotify_auth.sh[0m      [01;34mtarget_dir[0m     [01;34mtest_dir[0m
+[01;32mfactorial.sh[0m        [01;32minterfaces.sh[0m       [01;32mpositive.sh[0m         [01;32mtask1.sh[0m       test_file.txt
+[01;32mfile_manager.sh[0m     [01;31mmyarchive.tar.gz[0m    [01;32mrename_jpeg.sh[0m      task1Starikov  timelog1Starikov
+[01;32mfind_755.sh[0m         [01;35mnew_new_image.jpeg[0m  [01;32msplit_name.sh[0m       [01;34mtest[0m           [01;32munique_names.sh[0m
+[01;32mfind_dublicates.sh[0m  [01;35mnew_new_photo.jpeg[0m  [01;32msyslog_analyzer.sh[0m  [01;35mtest.jpg[0m       [01;32mwebcam.sh[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./t[Kfile_manager.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\Выберите действие: 1) Удалить файл, 2) переименовать файл, 3) переместить файл, 4) создать файл
+1
+Enter name file to delete: test_file.txt    .txt
+rm: удалить обычный файл 'test_file.txt'? y
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;32marchive_manager.sh[0m  [01;32miface_status.sh[0m     [01;32mnotify_auth.sh[0m      [01;34mtarget_dir[0m     [01;34mtest_dir[0m
+[01;32mfactorial.sh[0m        [01;32minterfaces.sh[0m       [01;32mpositive.sh[0m         [01;32mtask1.sh[0m       timelog1Starikov
+[01;32mfile_manager.sh[0m     [01;31mmyarchive.tar.gz[0m    [01;32mrename_jpeg.sh[0m      task1Starikov  [01;32munique_names.sh[0m
+[01;32mfind_755.sh[0m         [01;35mnew_new_image.jpeg[0m  [01;32msplit_name.sh[0m       [01;34mtest[0m           [01;32mwebcam.sh[0m
+[01;32mfind_dublicates.sh[0m  [01;35mnew_new_photo.jpeg[0m  [01;32msyslog_analyzer.sh[0m  [01;35mtest.jpg[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ls./file_manager.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\Выберите действие: 1) Удалить файл, 2) переименовать файл, 3) переместить файл, 4) создать файл
+4
+Enter file name: test_file.txt
+File test_file.txt is created
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./file_manager.sh ls[K./file_manager.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\Выберите действие: 1) Удалить файл, 2) переименовать файл, 3) переместить файл, 4) создать файл
+2
+Enter current file name: test_file.txt
+Enter new file name: move_test.txt
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;32marchive_manager.sh[0m  move_test.txt       [01;32msplit_name.sh[0m       [01;34mtest_dir[0m
+[01;32mfactorial.sh[0m        [01;31mmyarchive.tar.gz[0m    [01;32msyslog_analyzer.sh[0m  timelog1Starikov
+[01;32mfile_manager.sh[0m     [01;35mnew_new_image.jpeg[0m  [01;34mtarget_dir[0m          [01;32munique_names.sh[0m
+[01;32mfind_755.sh[0m         [01;35mnew_new_photo.jpeg[0m  [01;32mtask1.sh[0m            [01;32mwebcam.sh[0m
+[01;32mfind_dublicates.sh[0m  [01;32mnotify_auth.sh[0m      task1Starikov
+[01;32miface_status.sh[0m     [01;32mpositive.sh[0m         [01;34mtest[0m
+[01;32minterfaces.sh[0m       [01;32mrename_jpeg.sh[0m      [01;35mtest.jpg[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ls./file_manager.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\Выберите действие: 1) Удалить файл, 2) переименовать файл, 3) переместить файл, 4) создать файл
+3
+Enter file name: move_tetst   st.txt
+Enter destination directorytest     tst     test_dit r
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;32marchive_manager.sh[0m  [01;32miface_status.sh[0m     [01;32mnotify_auth.sh[0m      [01;34mtarget_dir[0m     [01;34mtest_dir[0m
+[01;32mfactorial.sh[0m        [01;32minterfaces.sh[0m       [01;32mpositive.sh[0m         [01;32mtask1.sh[0m       timelog1Starikov
+[01;32mfile_manager.sh[0m     [01;31mmyarchive.tar.gz[0m    [01;32mrename_jpeg.sh[0m      task1Starikov  [01;32munique_names.sh[0m
+[01;32mfind_755.sh[0m         [01;35mnew_new_image.jpeg[0m  [01;32msplit_name.sh[0m       [01;34mtest[0m           [01;32mwebcam.sh[0m
+[01;32mfind_dublicates.sh[0m  [01;35mnew_new_photo.jpeg[0m  [01;32msyslog_analyzer.sh[0m  [01;35mtest.jpg[0m
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ls test_dir/
+[?2004l]133;C\]666;vte.shell.preexec!\file1.txt  move_test.txt  script.sh  [0m[01;34msubdir[0m  test2.txt
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ls test_dir/[K[K[K./find_f[Kdublicates.sh /usr /home
+[?2004l]133;C\]666;vte.shell.preexec!\Просмотрено файлов: 0
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./find_dublicates.sh /usr /home[K[K[K[K[K[K[Kr/ [K
+bin/     games/   include/ lib/     lib64/   libexec/ local/   sbin/    share/   src/
+]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./find_dublicates.sh /usr/[K[K[K[Khome/ /home/
+backupadm/ student/   student1/  test4/     testuser/  user/      visitor/   
+]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./find_dublicates.sh /home/ /home/[K[K[K[K[K[K[K[K/user/
+.bash_history
+.bash_logout
+.bashrc
+.cache/
+.cloud-locale-test.skip
+.config/
+dead.letter
+.git/
+.gitconfig
+.gnupg/
+Laboratory Task/
+linux-labs/
+.local/
+mbox
+Photos/
+.pki/
+.profile
+shared_folder/
+snap/
+.ssh/
+Starikov/
+trap.sh
+.vscode/
+.vscode-shared/
+Видео/
+Документы/
+Загрузки/
+Изображения/
+Музыка/
+Общедоступные/
+Рабочий стол/
+Стариков_Ростислав_ВФ5.odt
+Стариков_Ростислав_ВФ6.odt
+Стариков_Ростислав_ВФ_Контрольная_Работа.odt
+Шаблоны/
+]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./find_dublicates.sh /home/user/ /home/user/Зф[Kагрузки/
+[?2004l]133;C\]666;vte.shell.preexec!\Одинаковые файлы: Стариков_Ростислав_ВФ_Контрольная_Работа.odt
+Просмотрено файлов: 6
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ ./syslog_analyzer.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\grep: /var/log/syslog: двоичный файл совпадает
+grep: /var/log/syslog: двоичный файл совпадает
+grep: /var/log/syslog: двоичный файл совпадает
+grep: /var/log/syslog: двоичный файл совпадает
+grep: /var/log/syslog: двоичный файл совпадает
+grep: /var/log/syslog: двоичный файл совпадает
+grep: /var/log/syslog: двоичный файл совпадает
+grep: /var/log/syslog: двоичный файл совпадает
+grep: /var/log/syslog: двоичный файл совпадает
+grep: /var/log/syslog: двоичный файл совпадает
+Отчёт сохранён в services_report_20260515.txt
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ cat services_report_20260515.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\=== Отчёт о работе сервисов ===
+Дата: Fri May 15 23:53:06 +03 2026
+
+Запущенные сервисы:
+app-gnome-libreoffice\x2dstartcenter-5751.scope
+app-gnome-libreoffice\x2dwriter-12426.scope
+app-gnome-libreoffice\x2dwriter-12456.scope
+app-gnome-libreoffice\x2dwriter-5450.scope
+app-gnome-xdg\x2dterminal\x2dexec-13099.scope
+fprintd.service
+fwupd.service
+packagekit.service
+ptyxis-spawn-5f69da7d-95d2-4302-a046-5b27cd9bcb78.scope
+ptyxis-spawn-76a1ea30-3c3c-411f-ae1e-dace2f18c0de.scope
+snap.firefox.firefox-0c00cf12-5fd5-4c63-8626-19f4faec86ea.scope.
+snap.firefox.firefox-13df2fc6-ce19-413e-aebf-8d3b276fda54.scope.
+snap.firefox.firefox-2bcdf2e8-c78d-4d70-8fb2-bb0c0e7df656.scope.
+snap.firefox.firefox-5c722de6-e91f-4d0f-bb45-9cf4aa0a340a.scope.
+snap.firefox.firefox-608e770c-afee-4912-b51f-c75a0a9b6603.scope.
+snap.firmware-updater.firmware-notifier.service
+snap.snapd-desktop-integration.hook.configure-83ab6b84-a3b4-45c5-8589-8e9d1cd68240.scope.
+snap.snapd-desktop-integration.snapd-desktop-integration.service
+snapd.session-agent.service
+systemd-hostnamed.service
+systemd-timedated.service
+whoopsie.service
+
+Сервисы, завершившиеся с ошибкой:
+00:15:53
+00:18:55
+00:19:08
+00:19:25
+00:19:40
+00:19:48
+00:21:00
+00:21:07
+00:23:39
+00:24:45
+00:26:59
+00:27:44
+00:34:53
+00:35:32
+00:42:10
+01:00:09
+01:11:56
+01:12:12
+01:16:53
+01:37:04
+01:39:48
+01:40:39
+01:50:37
+01:52:39
+01:53:13
+02:05:54
+02:18:15
+02:27:40
+02:44:45
+02:49:36
+03:05:41
+03:09:15
+Failed
+FuEngine
+URI
+assertion
+error:
+in
+not
+to
+type=1400
+update
+update-notifier-download.service
+upload
+warning:
+whoopsie.service
+
+Время последнего запуска сервисов:
+app-gnome-libreoffice\x2dstartcenter-5751.scope: 
+app-gnome-libreoffice\x2dwriter-12426.scope: 
+app-gnome-libreoffice\x2dwriter-12456.scope: 
+app-gnome-libreoffice\x2dwriter-5450.scope: 
+app-gnome-xdg\x2dterminal\x2dexec-13099.scope: 
+fprintd.service: 2026-05-15T03:27:29.606112+03:00 user systemd[1]:
+fwupd.service: 2026-05-15T00:17:16.662747+03:00 user systemd[1]:
+packagekit.service: 2026-05-15T02:18:00.680313+03:00 user systemd[1]:
+ptyxis-spawn-5f69da7d-95d2-4302-a046-5b27cd9bcb78.scope: 2026-05-15T02:28:13.887044+03:00 user systemd[1708]:
+ptyxis-spawn-76a1ea30-3c3c-411f-ae1e-dace2f18c0de.scope: 2026-05-15T03:19:26.518331+03:00 user systemd[1708]:
+snap.firefox.firefox-0c00cf12-5fd5-4c63-8626-19f4faec86ea.scope.: 2026-05-15T00:18:04.586658+03:00 user systemd[1708]:
+snap.firefox.firefox-13df2fc6-ce19-413e-aebf-8d3b276fda54.scope.: 2026-05-15T00:57:24.420966+03:00 user systemd[1708]:
+snap.firefox.firefox-2bcdf2e8-c78d-4d70-8fb2-bb0c0e7df656.scope.: 2026-05-15T03:18:54.502223+03:00 user systemd[1708]:
+snap.firefox.firefox-5c722de6-e91f-4d0f-bb45-9cf4aa0a340a.scope.: 2026-05-15T03:04:41.339532+03:00 user systemd[1708]:
+snap.firefox.firefox-608e770c-afee-4912-b51f-c75a0a9b6603.scope.: 2026-05-15T03:06:41.594126+03:00 user systemd[1708]:
+snap.firmware-updater.firmware-notifier.service: 2026-05-15T03:00:08.114702+03:00 user systemd[1708]:
+snap.snapd-desktop-integration.hook.configure-83ab6b84-a3b4-45c5-8589-8e9d1cd68240.scope.: 2026-05-15T00:21:20.874070+03:00 user systemd[1]:
+snap.snapd-desktop-integration.snapd-desktop-integration.service: 2026-05-15T00:21:20.387943+03:00 user systemd[1708]:
+snapd.session-agent.service: 2026-05-15T00:21:16.538209+03:00 user systemd[1708]:
+systemd-hostnamed.service: 2026-05-15T03:19:24.041495+03:00 user systemd[1]:
+systemd-timedated.service: 2026-05-15T03:18:55.128553+03:00 user systemd[1]:
+whoopsie.service: 2026-05-15T00:15:52.418166+03:00 user systemd[1]:
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ 
+[?2004l]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ 
+[?2004l]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ 
+[?2004l]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ screem [K[Kbn [K[K[Kb [K[Kn -s lab7_task2
+[?2004l]133;C\]666;vte.shell.preexec!\[!p[?3;4l[4l>[?1049h[22;0;0t[4l[?1h=[0m(B[1;45r[H[2J]0;/etc/screenrc: unknown command 'deflogin']0;]0;/etc/screenrc: bind: unknown command 'login']0;[H[2J[44B[7mCannot exec 'lab7_task2': ÐÐµÑ ÑÐ°ÐºÐ¾Ð³Ð¾ ÑÐ°Ð¹Ð»Ð° Ð¸Ð»Ð¸ ÐºÐ°ÑÐ°Ð»Ð¾Ð³Ð°[27m                                                                                    [H./[?1l>[45;1H
+[?1049l[23;0;0t[screen is terminating]
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ screen -s lab7_task2
+[?2004l]133;C\]666;vte.shell.preexec!\[!p[?3;4l[4l>[?1049h[22;0;0t[4l[?1h=[0m(B[1;45r[H[2J]0;/etc/screenrc: unknown command 'deflogin']0;]0;/etc/screenrc: bind: unknown command 'login']0;[H[2J[44B[7mCannot exec 'lab7_task2': ÐÐµÑ ÑÐ°ÐºÐ¾Ð³Ð¾ ÑÐ°Ð¹Ð»Ð° Ð¸Ð»Ð¸ ÐºÐ°ÑÐ°Ð»Ð¾Ð³Ð°[27m                                                                                    [H[?1l>[45;1H
+[?1049l[23;0;0t[screen is terminating]
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ screen -s lab7_task2
+[?2004l]133;C\]666;vte.shell.preexec!\[!p[?3;4l[4l>[?1049h[22;0;0t[4l[?1h=[0m(B[1;45r[H[2J]0;/etc/screenrc: unknown command 'deflogin']0;]0;/etc/screenrc: bind: unknown command 'login']0;[H[2J[44B[7mCannot exec 'lab7_task2': ÐÐµÑ ÑÐ°ÐºÐ¾Ð³Ð¾ ÑÐ°Ð¹Ð»Ð° Ð¸Ð»Ð¸ ÐºÐ°ÑÐ°Ð»Ð¾Ð³Ð°[27m                                                                                    [H^C[?1l>[45;1H
+[?1049l[23;0;0t[screen is terminating]
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ screen -s lab7_task2
+[?2004l]133;C\]666;vte.shell.preexec!\[!p[?3;4l[4l>[?1049h[22;0;0t[4l[?1h=[0m(B[1;45r[H[2J]0;/etc/screenrc: unknown command 'deflogin']0;]0;/etc/screenrc: bind: unknown command 'login']0;[H[2J[44B[7mCannot exec 'lab7_task2': ÐÐµÑ ÑÐ°ÐºÐ¾Ð³Ð¾ ÑÐ°Ð¹Ð»Ð° Ð¸Ð»Ð¸ ÐºÐ°ÑÐ°Ð»Ð¾Ð³Ð°[27m                                                                                    [H[?1l>[45;1H
+[?1049l[23;0;0t[screen is terminating]
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ screen -s lab7_task2
+[?2004l]133;C\]666;vte.shell.preexec!\[!p[?3;4l[4l>[?1049h[22;0;0t[4l[?1h=[0m(B[1;45r[H[2J]0;/etc/screenrc: unknown command 'deflogin']0;]0;/etc/screenrc: bind: unknown command 'login']0;[H[2J[44B[7mCannot exec 'lab7_task2': ÐÐµÑ ÑÐ°ÐºÐ¾Ð³Ð¾ ÑÐ°Ð¹Ð»Ð° Ð¸Ð»Ð¸ ÐºÐ°ÑÐ°Ð»Ð¾Ð³Ð°[27m                                                                                    [H[?1l>[45;1H
+[?1049l[23;0;0t[screen is terminating]
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ sudo apt install tmux
+[?2004l]133;C\]666;vte.shell.preexec!\[sudo: authenticate] Password: 
+Чтение списков пакетов… 0%Чтение списков пакетов… 100%                                                   Построение дерева зависимостей… 0%Построение дерева зависимостей… 0%Построение дерева зависимостей… 50%Построение дерева зависимостей… 50%                                                                  Чтение информации о состоянии… 0%Чтение информации о состоянии… 0%                                                              Разрешение зависимостей… 0%Разрешение зависимостей… 10%                                                     Установка:
+[32m  tmux
+[0m
+Установка зависимостей:
+[32m  libevent-core-2.1-7t64
+[0m
+Сводка:
+  Обновление: 0, Установка: 2, Удаление: 0, Пропуск обновления: 150
+  Объём загрузки: 605 kB
+  Требуемое пространство: 1 556 kB / 7 608 MB доступно
+
+Продолжить? [Д/н] д
+[33m0% [Обработка][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m                                               Игн:1 http://archive.ubuntu.com/ubuntu questing/main amd64 libevent-core-2.1-7t64 amd64 2.1.12-stable-10build1
+[33m                                               0% [Обработка][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m0% [Соединение с archive.ubuntu.com][0m[33m                                               0% [Ожидание заголовков][0m                                          Пол:2 http://archive.ubuntu.com/ubuntu questing/main amd64 tmux amd64 3.5a-3build1 [507 kB]
+[33m                                          3% [2 tmux 22,7 kB/507 kB 4%][0m[33m54% [2 tmux 410 kB/507 kB 81%]                                               67,9 kB/s 2с[0m[33m77% [Обработка]                                                     67,9 kB/s 1с[0m                                                                                          Пол:1 http://archive.ubuntu.com/ubuntu questing/main amd64 libevent-core-2.1-7t64 amd64 2.1.12-stable-10build1 [98,8 kB]
+[33m78% [1 libevent-core-2.1-7t64 10,9 kB/98,8 kB 11%]                           67,9 kB/s 1с[0m[33m100% [Обработка]                                                    67,9 kB/s 0с[0m                                                                                          Получено 605 kB за 37с (16,6 kB/s)
+
+7[0;44r8[1AВыбор ранее не выбранного пакета libevent-core-2.1-7t64:amd64.
+(Чтение базы данных … (Чтение базы данных … 5%(Чтение базы данных … 10%(Чтение базы данных … 15%(Чтение базы данных … 20%(Чтение базы данных … 25%(Чтение базы данных … 30%(Чтение базы данных … 35%(Чтение базы данных … 40%(Чтение базы данных … 45%(Чтение базы данных … 50%(Чтение базы данных … 55%(Чтение базы данных … 60%(Чтение базы данных … 65%(Чтение базы данных … 70%(Чтение базы данных … 75%(Чтение базы данных … 80%(Чтение базы данных … 85%(Чтение базы данных … 90%(Чтение базы данных … 95%(Чтение базы данных … 100%(Чтение базы данных … на данный момент установлено 191867 файлов и каталогов.)
+Подготовка к распаковке …/libevent-core-2.1-7t64_2.1.12-stable-10build1_amd64.deb …
+7[45;0f[42m[30mХод выполнения: [  0%][49m[39m [                                                               ] 87[45;0f[42m[30mХод выполнения: [ 11%][49m[39m [██████▉                                                        ] 8Распаковывается libevent-core-2.1-7t64:amd64 (2.1.12-stable-10build1) …
+7[45;0f[42m[30mХод выполнения: [ 22%][49m[39m [█████████████▉                                                 ] 8Выбор ранее не выбранного пакета tmux.
+Подготовка к распаковке …/tmux_3.5a-3build1_amd64.deb …
+7[45;0f[42m[30mХод выполнения: [ 33%][49m[39m [████████████████████▉                                          ] 8Распаковывается tmux (3.5a-3build1) …
+7[45;0f[42m[30mХод выполнения: [ 44%][49m[39m [███████████████████████████▉                                   ] 8Настраивается пакет libevent-core-2.1-7t64:amd64 (2.1.12-stable-10build1) …
+7[45;0f[42m[30mХод выполнения: [ 56%][49m[39m [███████████████████████████████████                            ] 87[45;0f[42m[30mХод выполнения: [ 67%][49m[39m [█████████████████████████████████████████▉                     ] 8Настраивается пакет tmux (3.5a-3build1) …
+7[45;0f[42m[30mХод выполнения: [ 78%][49m[39m [█████████████████████████████████████████████████              ] 87[45;0f[42m[30mХод выполнения: [ 89%][49m[39m [███████████████████████████████████████████████████████▉       ] 8Обрабатываются триггеры для man-db (2.13.1-1) …
+Обрабатываются триггеры для debianutils (5.23.2) …
+Обрабатываются триггеры для libc-bin (2.42-0ubuntu3.1) …
+
+7[0;45r8[1A[J]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ tmux new -s lab7_task2
+[?2004l]133;C\]666;vte.shell.preexec!\[?1049h[22;0;0t[?1h=[H[2J[?12l[?25h[?1000l[?1002l[?1003l[?1006l[?1005l[?2004h(B[m[?12l[?25h[?1006l[?1000l[?1002l[?1003l[1;1H[1;45r[c[>c[>q]10;?\]11;?\[1;1H[?25l[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[30m[42m
+[lab7_task0:bash*                                                    "user" 23:56 15-мая-26(B[m[?12l[?25h[1;1H(B[m[?12l[?25h[?1006l[?1000l[?1002l[?1003l[1;1H[1;45r[1;1H[?25l[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[30m[42m
+[lab7_task0:bash*                                                    "user" 23:56 15-мая-26(B[m[?12l[?25h[1;1H[?69h[?7727h[?69h(B[m[?12l[?25h[?1006l[?1000l[?1002l[?1003l[1;1H[1;45r[1;45r[s[?69h[?7727h[?69h(B[m[?12l[?25h[?1006l[?1000l[?1002l[?1003l[1;1H[1;45r[1;45r[s[?69h[?7727h[?69h(B[m[?12l[?25h[?1006l[?1000l[?1002l[?1003l[1;1H[1;45r[1;45r[s[1;1H[?25l[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[30m[42m
+[lab7_task0:bash*                                                    "user" 23:56 15-мая-26(B[m[?12l[?25h[1;1HGood Day, user!
+[32m[1muser@user(B[m:[34m[1m~/linux-labs/lab7(B[m$ ./file_manager.sh 
+Выберите действие: 1) Удалить файл, 2) переименовать файл, 3) переместить файл, 4) создать [4;1Hфайл
+1 Ctrl+B D        [1;45r(B[m[?1l>[H[2J[?12l[?25h[?1000l[?1002l[?1003l[?1006l[?1005l[?2004l[?7727l[?1004l[?69l[?1049l[23;0;0t[detached (from session lab7_task2)]
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ tmi[Kux ls
+[?2004l]133;C\]666;vte.shell.preexec!\lab7_task2: 1 windows (created Fri May 15 23:56:13 2026)
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ tmux ls[K[Kattach -t lab7_task72[K[K2
+[?2004l]133;C\]666;vte.shell.preexec!\[?1049h[22;0;0t[?1h=[H[2J[?12l[?25h[?1000l[?1002l[?1003l[?1006l[?1005l[?2004h(B[m[?12l[?25h[?1006l[?1000l[?1002l[?1003l[1;1H[1;45r[c[>c[>q]10;?\]11;?\[5;1H[?25l[HGood Day, user![K[32m[1m
+user@user(B[m:[34m[1m~/linux-labs/lab7(B[m$ ./file_manager.sh [K
+Выберите действие: 1) Удалить файл, 2) переименовать файл, 3) переместить файл, 4) создать файл[K
+        [K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[30m[42m
+[lab7_task0:bash*                                                    "user" 23:56 15-мая-26(B[m[?12l[?25h[5;1H(B[m[?12l[?25h[?1006l[?1000l[?1002l[?1003l[1;1H[1;45r[5;1H[?25l[HGood Day, user![K[32m[1m
+user@user(B[m:[34m[1m~/linux-labs/lab7(B[m$ ./file_manager.sh [K
+Выберите действие: 1) Удалить файл, 2) переименовать файл, 3) переместить файл, 4) создать файл[K
+        [K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[30m[42m
+[lab7_task0:bash*                                                    "user" 23:56 15-мая-26(B[m[?12l[?25h[5;1H[?69h[?7727h[?69h(B[m[?12l[?25h[?1006l[?1000l[?1002l[?1003l[1;1H[1;45r[1;45r[s[?69h[?7727h[?69h(B[m[?12l[?25h[?1006l[?1000l[?1002l[?1003l[1;1H[1;45r[1;45r[s[?69h[?7727h[?69h(B[m[?12l[?25h[?1006l[?1000l[?1002l[?1003l[1;1H[1;45r[1;45r[s[5;1H[?25l[HGood Day, user![K[32m[1m
+user@user(B[m:[34m[1m~/linux-labs/lab7(B[m$ ./file_manager.sh [K
+Выберите действие: 1) Удалить файл, 2) переименовать файл, 3) переместить файл, 4) создать файл[K
+        [K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[30m[42m
+[lab7_task0:bash*                                                    "user" 23:56 15-мая-26(B[m[?12l[?25h[5;1He Z ^[  exu i[?25l[30m[42m[45;1H[lab7_task0:bash*                                                    "user" 23:57 15-мая-26(B[m[?12l[?25h[5;4Ht
+./file_manager.sh: error: bad request: exit
+[32m[1muser@user(B[m:[34m[1m~/linux-labs/lab7(B[m$ ./file_manager.sh [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kц[Kexit
+выход
+[1;45r(B[m[?1l>[H[2J[?12l[?25h[?1000l[?1002l[?1003l[?1006l[?1005l[?2004l[?7727l[?1004l[?69l[?1049l[23;0;0t[exited]
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ tmux klll-server
+[?2004l]133;C\]666;vte.shell.preexec!\no server running on /tmp/tmux-1000/default
+]666;vte.shell.postexec=1\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ tmux klll-serverattach -t lab7_task2ls[K
+[?2004l]133;C\]666;vte.shell.preexec!\no server running on /tmp/tmux-1000/default
+]666;vte.shell.postexec=1\]7;file://user/home/user/linux-labs/lab7\]0;user@user:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab7[01;32muser@user[00m:[01;34m~/linux-labs/lab7[00m$ exit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+
+Script done on 2026-05-15 23:58:17+03:00 [COMMAND_EXIT_CODE="1"]
