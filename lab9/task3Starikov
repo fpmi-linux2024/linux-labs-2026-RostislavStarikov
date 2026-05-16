@@ -1,0 +1,137 @@
+Script started on 2026-05-16 13:06:35+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+Good Day, user!
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task3[00m$ sudo apt updatr[Ke
+[?2004l[sudo] пароль для user: 
+[33m0% [Обработка][0m                       Сущ:1 http://by.archive.ubuntu.com/ubuntu noble InRelease
+[33m0% [Соединение с download.docker.com (108.138.51.126)] [Ожидан[0m                                                                               Пол:2 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+[33m0% [Соединено с download.docker.com (108.138.51.126)] [Ожидани[0m                                                                               Сущ:3 http://by.archive.ubuntu.com/ubuntu noble-updates InRelease
+[33m0% [Соединено с download.docker.com (108.138.51.126)] [2 InRelease 66[0m[33m0% [Соединено с download.docker.com (108.138.51.126)] [Ожидани[0m                                                                               Сущ:4 http://by.archive.ubuntu.com/ubuntu noble-backports InRelease
+[33m0% [Соединено с download.docker.com (108.138.51.126)] [2 InRelease 12[0m[33m                                                                               0% [Соединено с download.docker.com (108.138.51.126)][0m[33m                                                               0% [Ожидание заголовков][0m[33m0% [Ожидание заголовков][0m[33m0% [Ожидание заголовков][0m                                          Пол:5 https://download.docker.com/linux/ubuntu noble InRelease [48,5 kB]
+[33m0% [5 InRelease 15,9 kB/48,5 kB 33%] [Ожидание заголовков][0m                                                                            Пол:6 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [21,9 kB]
+[33m0% [5 InRelease 32,3 kB/48,5 kB 67%] [6 Components-amd64 3 482 B/21,9 kB 16%][0m[33m                                                                               0% [6 Components-amd64 21,9 kB/21,9 kB 100%][0m[33m                                            0% [Обработка][0m[33m0% [6 Components-amd64 store 0 B][0m[33m0% [Ожидание заголовков][0m                                          Пол:7 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [74,3 kB]
+[33m                                          0% [7 Components-amd64 0 B/74,3 kB 0%][0m[33m82% [7 Components-amd64 14,5 kB/74,3 kB 20%][0m[33m                                            100% [Обработка][0m[33m100% [7 Components-amd64 store 0 B][0m[33m                                   100% [Обработка][0m                         Получено 271 kB за 1с (284 kB/s)
+Чтение списков пакетов… 0%Чтение списков пакетов… 0%Чтение списков пакетов… 0%Чтение списков пакетов… 0%Чтение списков пакетов… 0%Чтение списков пакетов… 3%Чтение списков пакетов… 3%Чтение списков пакетов… 4%Чтение списков пакетов… 4%Чтение списков пакетов… 5%Чтение списков пакетов… 5%Чтение списков пакетов… 5%Чтение списков пакетов… 5%Чтение списков пакетов… 5%Чтение списков пакетов… 5%Чтение списков пакетов… 5%Чтение списков пакетов… 5%Чтение списков пакетов… 34%Чтение списков пакетов… 34%Чтение списков пакетов… 38%Чтение списков пакетов… 38%Чтение списков пакетов… 51%Чтение списков пакетов… 51%Чтение списков пакетов… 52%Чтение списков пакетов… 52%Чтение списков пакетов… 52%Чтение списков пакетов… 52%Чтение списков пакетов… 52%Чтение списков пакетов… 52%Чтение списков пакетов… 56%Чтение списков пакетов… 56%Чтение списков пакетов… 59%Чтение списков пакетов… 59%Чтение списков пакетов… 65%Чтение списков пакетов… 65%Чтение списков пакетов… 70%Чтение списков пакетов… 70%Чтение списков пакетов… 74%Чтение списков пакетов… 74%Чтение списков пакетов… 74%Чтение списков пакетов… 76%Чтение списков пакетов… 76%Чтение списков пакетов… 76%Чтение списков пакетов… 76%Чтение списков пакетов… 76%Чтение списков пакетов… 76%Чтение списков пакетов… 76%Чтение списков пакетов… 76%Чтение списков пакетов… 76%Чтение списков пакетов… 76%Чтение списков пакетов… 76%Чтение списков пакетов… 76%Чтение списков пакетов… 76%Чтение списков пакетов… 76%Чтение списков пакетов… 80%Чтение списков пакетов… 80%Чтение списков пакетов… 82%Чтение списков пакетов… 82%Чтение списков пакетов… 89%Чтение списков пакетов… 89%Чтение списков пакетов… 95%Чтение списков пакетов… 95%Чтение списков пакетов… 98%Чтение списков пакетов… 98%Чтение списков пакетов… 99%Чтение списков пакетов… 99%Чтение списков пакетов… 99%Чтение списков пакетов… 99%Чтение списков пакетов… 99%Чтение списков пакетов… 99%Чтение списков пакетов… Готово
+Построение дерева зависимостей… 0%Построение дерева зависимостей… 0%Построение дерева зависимостей… 0%Построение дерева зависимостей… 50%Построение дерева зависимостей… 50%Построение дерева зависимостей… Готово
+Чтение информации о состоянии… 0%             Чтение информации о состоянии… 0%Чтение информации о состоянии… Готово
+Может быть обновлён 21 пакет. Запустите «apt list --upgradable» для показа.
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task3[00m$ sudo apt install -y xfsprogs btrfs-progs
+[?2004lЧтение списков пакетов… 0%Чтение списков пакетов… 100%Чтение списков пакетов… Готово
+Построение дерева зависимостей… 0%Построение дерева зависимостей… 0%Построение дерева зависимостей… 50%Построение дерева зависимостей… 50%Построение дерева зависимостей… Готово
+Чтение информации о состоянии… 0%             Чтение информации о состоянии… 0%Чтение информации о состоянии… Готово
+Уже установлен пакет xfsprogs самой новой версии (6.6.0-1ubuntu2.1).
+Уже установлен пакет btrfs-progs самой новой версии (6.6.3-1.1build2).
+Обновлено 0 пакетов, установлено 0 новых пакетов, для удаления отмечено 0 пакетов, и 21 пакетов не обновлено.
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task3[00m$ sudo mkfs.xfs -L newdisk1 /dex[Kv/sdb5
+[?2004lmeta-data=/dev/sdb5              isize=512    agcount=4, agsize=98304 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=1, sparse=1, rmapbt=1
+         =                       reflink=1    bigtime=1 inobtcount=1 nrext64=0
+data     =                       bsize=4096   blocks=393216, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0, ftype=1
+log      =internal log           bsize=4096   blocks=16384, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =пусто             extsz=4096   blocks=0, rtextents=0
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task3[00m$ sudo mkfs.xfs -L newdisk1 /dev/sdb5[C[1P /dev/sdb52 /dev/sdb5[C[C[C[C[C[C[C[C[C[C[K6
+[?2004lmeta-data=/dev/sdb6              isize=512    agcount=4, agsize=98304 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=1, sparse=1, rmapbt=1
+         =                       reflink=1    bigtime=1 inobtcount=1 nrext64=0
+data     =                       bsize=4096   blocks=393216, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0, ftype=1
+log      =internal log           bsize=4096   blocks=16384, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =пусто             extsz=4096   blocks=0, rtextents=0
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task3[00m$ sudo mkdir -p /media/disk1
+[?2004l[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task3[00m$ sudo mkdir -p /media/disk1[K2
+[?2004l[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task3[00m$ sudo mount /dev/sdb5 /media/disk1
+[?2004l[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task3[00m$ sudo mount /dev/sdb5 /media/disk1[K2[1P /media/disk26 /media/disk2
+[?2004l[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task3[00m$ sudo xfs_info /media/disk1
+[?2004lmeta-data=/dev/sdb5              isize=512    agcount=4, agsize=98304 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=1, sparse=1, rmapbt=1
+         =                       reflink=1    bigtime=1 inobtcount=1 nrext64=0
+data     =                       bsize=4096   blocks=393216, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0, ftype=1
+log      =internal log           bsize=4096   blocks=16384, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =пусто             extsz=4096   blocks=0, rtextents=0
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task3[00m$ sudo btrfs filesystem show /media/disk2
+[?2004lERROR: not a valid btrfs filesystem: /media/disk2
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task3[00m$ sudo umount /media/disk2
+[?2004l[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task3[00m$ sudo mkfs.btrfs -L newdisk2 /dev/sdb6
+[?2004lbtrfs-progs v6.6.3
+See https://btrfs.readthedocs.io for more information.
+
+ERROR: /dev/sdb6 appears to contain an existing filesystem (xfs)
+ERROR: use the -f option to force overwrite of /dev/sdb6
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task3[00m$ sudo mkfs.btrfs -L newdisk2 /dev/sdb6[C[1@-[1@f[1@ 
+[?2004lbtrfs-progs v6.6.3
+See https://btrfs.readthedocs.io for more information.
+
+NOTE: several default settings have changed in version 5.15, please make sure
+      this does not affect your deployments:
+      - DUP for metadata (-m dup)
+      - enabled no-holes (-O no-holes)
+      - enabled free-space-tree (-R free-space-tree)
+
+Label:              newdisk2
+UUID:               83b02043-cdae-4ea6-a7e5-2d8fe1cf87fb
+Node size:          16384
+Sector size:        4096
+Filesystem size:    1.50GiB
+Block group profiles:
+  Data:             single            8.00MiB
+  Metadata:         DUP              76.75MiB
+  System:           DUP               8.00MiB
+SSD detected:       no
+Zoned device:       no
+Incompat features:  extref, skinny-metadata, no-holes, free-space-tree
+Runtime features:   free-space-tree
+Checksum:           crc32c
+Number of devices:  1
+Devices:
+   ID        SIZE  PATH     
+    1     1.50GiB  /dev/sdb6
+
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task3[00m$ sudo mount /dev/sdb6 /medo[Kia/disk2
+[?2004l[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task3[00m$ sudo xfs_infi[Ki /media/disk1
+[?2004lsudo: xfs_infi: команда не найдена
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task3[00m$ sudo xfs_infi /media/disk1[1P /media/disk1o /media/disk1
+[?2004lmeta-data=/dev/sdb5              isize=512    agcount=4, agsize=98304 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=1, sparse=1, rmapbt=1
+         =                       reflink=1    bigtime=1 inobtcount=1 nrext64=0
+data     =                       bsize=4096   blocks=393216, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0, ftype=1
+log      =internal log           bsize=4096   blocks=16384, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =пусто             extsz=4096   blocks=0, rtextents=0
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task3[00m$ sudo btrfs filesystem show /media/disk2
+[?2004lLabel: 'newdisk2'  uuid: 83b02043-cdae-4ea6-a7e5-2d8fe1cf87fb
+	Total devices 1 FS bytes used 144.00KiB
+	devid    1 size 1.50GiB used 177.50MiB path /dev/sdb6
+
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task3[00m$ df -Th
+[?2004lФайл.система   Тип     Размер Использовано  Дост Использовано% Cмонтировано в
+tmpfs          tmpfs     387M         3,0M  384M            1% /run
+/dev/sda2      ext4       20G          18G  727M           97% /
+tmpfs          tmpfs     1,9G            0  1,9G            0% /dev/shm
+tmpfs          tmpfs     5,0M         8,0K  5,0M            1% /run/lock
+tmpfs          tmpfs     387M         144K  387M            1% /run/user/5001
+/dev/sr0       iso9660   100M         100M     0          100% /media/user/CDROM
+tmpfs          tmpfs     387M         120K  387M            1% /run/user/1000
+/dev/sdb5      xfs       1,5G          61M  1,4G            5% /media/disk1
+/dev/sdb6      btrfs     1,5G         5,8M  1,4G            1% /media/disk2
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task3[00m$ mount | grep /media
+[?2004l/dev/sr0 on [01;31m[K/media[m[K/user/CDROM type iso9660 (ro,nosuid,nodev,relatime,nojoliet,check=s,map=n,blocksize=2048,uid=5001,gid=1005,dmode=500,fmode=400,iocharset=utf8,uhelper=udisks2)
+/dev/sdb5 on [01;31m[K/media[m[K/disk1 type xfs (rw,relatime,attr2,inode64,logbufs=8,logbsize=32k,noquota)
+/dev/sdb6 on [01;31m[K/media[m[K/disk2 type btrfs (rw,relatime,space_cache=v2,subvolid=5,subvol=/)
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task3[00m$ sudo umount /media/disk1 /media/disk2
+[?2004l[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task3[00m$ у[Kexit
+[?2004lexit
+
+Script done on 2026-05-16 13:15:05+03:00 [COMMAND_EXIT_CODE="0"]

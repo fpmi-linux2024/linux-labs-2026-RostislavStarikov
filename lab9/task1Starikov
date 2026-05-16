@@ -1,0 +1,165 @@
+Script started on 2026-05-16 12:45:40+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+Good Day, user!
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task1[00m$ df -ht[KT
+[?2004lФайл.система   Тип     Размер Использовано  Дост Использовано% Cмонтировано в
+tmpfs          tmpfs     387M         2,9M  384M            1% /run
+/dev/sda2      ext4       20G          18G  743M           97% /
+tmpfs          tmpfs     1,9G            0  1,9G            0% /dev/shm
+tmpfs          tmpfs     5,0M         8,0K  5,0M            1% /run/lock
+tmpfs          tmpfs     387M         160K  387M            1% /run/user/5001
+/dev/sr0       iso9660   100M         100M     0          100% /media/user/CDROM
+tmpfs          tmpfs     387M         120K  387M            1% /run/user/1000
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task1[00m$ du -sh /home/user/
+[?2004l187M	/home/user/
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task1[00m$ sudo hdparm -I /dev/sda
+sda   sda1  sda2  
+[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task1[00m$ sudo hdparm -I /dev/sda
+sda   sda1  sda2  
+[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task1[00m$ sudo hdparm -I /dev/sda
+[?2004l[sudo] пароль для user: 
+
+/dev/sda:
+
+ATA device, with non-removable media
+Standards:
+	Likely used: 1
+Configuration:
+	Logical		max	current
+	cylinders	0	0
+	heads		0	0
+	sectors/track	0	0
+	--
+	Logical/Physical Sector size:           512 bytes
+	device size with M = 1024*1024:           0 MBytes
+	device size with M = 1000*1000:           0 MBytes 
+	cache/buffer size  = unknown
+Capabilities:
+	IORDY not likely
+	Cannot perform double-word IO
+	R/W multiple sector transfer: not supported
+	DMA: not supported
+	PIO: pio0 
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task1[00m$ sudo blkid
+[?2004l/dev/sr0: BLOCK_SIZE="2048" UUID="2026-02-14-19-37-50-00" LABEL="CDROM" TYPE="iso9660"
+/dev/fd0: SEC_TYPE="msdos" UUID="5C4E-9CD1" BLOCK_SIZE="512" TYPE="vfat"
+/dev/sda2: UUID="33943216-5985-44e2-b4cb-4310238a7cd3" BLOCK_SIZE="4096" TYPE="ext4" PARTUUID="be50728d-f065-4a7a-9e8d-dbe2f2aaea70"
+/dev/loop1: BLOCK_SIZE="131072" TYPE="squashfs"
+/dev/loop17: BLOCK_SIZE="131072" TYPE="squashfs"
+/dev/loop8: BLOCK_SIZE="131072" TYPE="squashfs"
+/dev/loop15: BLOCK_SIZE="131072" TYPE="squashfs"
+/dev/loop6: BLOCK_SIZE="131072" TYPE="squashfs"
+/dev/loop13: BLOCK_SIZE="131072" TYPE="squashfs"
+/dev/loop4: BLOCK_SIZE="131072" TYPE="squashfs"
+/dev/loop11: BLOCK_SIZE="131072" TYPE="squashfs"
+/dev/loop2: BLOCK_SIZE="131072" TYPE="squashfs"
+/dev/loop0: BLOCK_SIZE="131072" TYPE="squashfs"
+/dev/loop9: BLOCK_SIZE="131072" TYPE="squashfs"
+/dev/loop16: BLOCK_SIZE="131072" TYPE="squashfs"
+/dev/loop7: BLOCK_SIZE="131072" TYPE="squashfs"
+/dev/sda1: PARTUUID="e8aa7679-a22f-4516-850a-e477094b16e7"
+/dev/loop14: BLOCK_SIZE="131072" TYPE="squashfs"
+/dev/loop5: BLOCK_SIZE="131072" TYPE="squashfs"
+/dev/loop12: BLOCK_SIZE="131072" TYPE="squashfs"
+/dev/loop3: BLOCK_SIZE="131072" TYPE="squashfs"
+/dev/loop10: BLOCK_SIZE="131072" TYPE="squashfs"
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task1[00m$ df -h
+[?2004lФайл.система   Размер Использовано  Дост Использовано% Cмонтировано в
+tmpfs            387M         2,9M  384M            1% /run
+/dev/sda2         20G          18G  743M           97% /
+tmpfs            1,9G            0  1,9G            0% /dev/shm
+tmpfs            5,0M         8,0K  5,0M            1% /run/lock
+tmpfs            387M         160K  387M            1% /run/user/5001
+/dev/sr0         100M         100M     0          100% /media/user/CDROM
+tmpfs            387M         120K  387M            1% /run/user/1000
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task1[00m$ fuleflag[K[K[Krag -v /etc/passwd
+passwd   passwd-  
+[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task1[00m$ fulefrag -v /etc/passwd
+[?2004lКоманда «fulefrag» не найдена. Возможно, вы имели в виду:
+  команда 'filefrag' из deb-пакета e2fsprogs (1.47.0-2.4~exp1ubuntu4.1)
+Попробуйте: sudo apt install <имя_deb-пакета>
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task1[00m$ fulefrag -v /etc/passwd[1P[1@i
+[?2004lFilesystem type is: ef53
+File size of /etc/passwd is 3561 (1 block of 4096 bytes)
+ ext:     logical_offset:        physical_offset: length:   expected: flags:
+   0:        0..       0:    5043676..   5043676:      1:             last,eof
+/etc/passwd: 1 extent found
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task1[00m$ lsattr /etc/passwd
+[?2004l--------------e------- /etc/passwd
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task1[00m$ sudo partprobe -s
+[?2004l/dev/sda: gpt partitions 1 2
+/dev/sdb: msdos partitions
+Warning: Не удалось открыть /dev/sr0 на чтение-запись (Файловая система доступна только для чтения).  /dev/sr0 открыт только для чтения.
+/dev/sr0: msdos partitions
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task1[00m$ sudo fdisk -l /dev/sdb
+[?2004l[1mДиск /dev/sdb: 10 GiB, 10737418240 байт, 20971520 секторов
+[0mDisk model: VMware Virtual S
+Единицы: секторов по 1 * 512 = 512 байт
+Размер сектора (логический/физический): 512 байт / 512 байт
+Размер I/O (минимальный/оптимальный): 512 байт / 512 байт
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task1[00m$ sudo fdisk -l /dev/sdb[1P /dev/sdb[1P /dev/sdb[1P/dev/sdb
+[?2004l[32m
+Добро пожаловать в fdisk (util-linux 2.39.3).
+[0mИзменения останутся только в памяти до тех пор, пока вы не решите записать их.
+Будьте внимательны, используя команду write.
+
+Устройство не содержит стандартной таблицы разделов.
+Created a new DOS (MBR) disklabel with disk identifier 0x375b13cc.
+
+[?2004hКоманда (m для справки): m
+[?2004l
+Справка:
+[1m
+  DOS (MBR)
+[0m   a   переключение флага загрузки
+   b   редактирование вложенной метки диска BSD
+   c   переключение флага dos-совместимости
+[1m
+  Общие
+[0m   d   удалить раздел
+   F   показать свободное неразмеченное пространство
+   l   список известных типов разделов
+   n   добавление нового раздела
+   p   вывести таблицу разделов
+   t   изменение типа раздела
+   v   проверка таблицы разделов
+   i   вывести информацию о разделе
+[1m
+  Разное
+[0m   m   вывод этого меню
+   u   изменение единиц измерения экрана/содержимого
+   x   дополнительная функциональность (только для экспертов)
+[1m
+  Сценарий
+[0m   I   загрузить разметку из файла сценария sfdisk
+   O   записать разметку в файл сценария sfdisk
+[1m
+  Записать и выйти
+[0m   w   запись таблицы разделов на диск и выход
+   q   выход без сохранения изменений
+[1m
+  Создать новую метку
+[0m   g   создание новой пустой таблицы разделов GPT
+   G   создание новой пустой таблицы разделов SGI (IRIX)
+   o   create a new empty MBR (DOS) partition table
+   s   создание новой пустой таблицы разделов Sun
+
+
+[?2004hКоманда (m для справки): ww[K[Kw
+[?2004lТаблица разделов была изменена.
+Вызывается ioctl() для перечитывания таблицы разделов.
+Синхронизируются диски.
+
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task1[00m$ sudo apt install gparted -y
+[?2004lЧтение списков пакетов… 0%Чтение списков пакетов… 100%Чтение списков пакетов… Готово
+Построение дерева зависимостей… 0%Построение дерева зависимостей… 0%Построение дерева зависимостей… 50%Построение дерева зависимостей… 50%Построение дерева зависимостей… Готово
+Чтение информации о состоянии… 0%             Чтение информации о состоянии… 0%Чтение информации о состоянии… Готово
+Уже установлен пакет gparted самой новой версии (1.5.0-1build4).
+Обновлено 0 пакетов, установлено 0 новых пакетов, для удаления отмечено 0 пакетов, и 21 пакетов не обновлено.
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task1[00m$ gparted /dev/sdb
+[?2004lGParted 1.5.0
+configuration --enable-libparted-dmraid --enable-online-resize
+libparted 3.6
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task1[00m$ exit
+[?2004lexit
+
+Script done on 2026-05-16 12:50:11+03:00 [COMMAND_EXIT_CODE="0"]

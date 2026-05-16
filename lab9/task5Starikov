@@ -1,0 +1,145 @@
+Script started on 2026-05-16 14:01:21+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+Good Day, user!
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ sudo d[Kfdisk -l /dev/sdb
+[?2004l[sudo] пароль для user: 
+[1mДиск /dev/sdb: 10 GiB, 10737418240 байт, 20971520 секторов
+[0mDisk model: VMware Virtual S
+Единицы: секторов по 1 * 512 = 512 байт
+Размер сектора (логический/физический): 512 байт / 512 байт
+Размер I/O (минимальный/оптимальный): 512 байт / 512 байт
+Тип метки диска: dos
+Идентификатор диска: 0x1b0e819c
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ lsd[Kblk /dev/sdb
+[?2004lNAME
+    MAJ:MIN RM SIZE RO TYPE MOUNTPOINTS
+sdb   8:16   0  10G  0 disk 
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ ыгвщ [K[K[K[K[Kua[K[Ksudo apt update
+[?2004l[33m0% [Обработка][0m[33m0% [Обработка][0m                       Сущ:1 http://by.archive.ubuntu.com/ubuntu noble InRelease
+[33m0% [Соединение с download.docker.com] [Ожидание заголо[0m                                                                               Сущ:2 http://by.archive.ubuntu.com/ubuntu noble-updates InRelease
+[33m0% [Соединение с download.docker.com (108.138.51.126)] [Ожидан[0m[33m0% [Соединение с download.docker.com (108.138.51.126)] [Ожидан[0m                                                                               Сущ:3 http://by.archive.ubuntu.com/ubuntu noble-backports InRelease
+[33m0% [Соединение с download.docker.com (108.138.51.126)] [Ожидан[0m                                                                               Сущ:4 http://security.ubuntu.com/ubuntu noble-security InRelease
+[33m                                                                               0% [Соединение с download.docker.com (108.138.51.126)][0m[33m                                                                 0% [Соединено с download.docker.com (108.138.51.126)][0m[33m0% [Соединено с download.docker.com (108.138.51.126)][0m[33m                                                               0% [Ожидание заголовков][0m                                          Сущ:5 https://download.docker.com/linux/ubuntu noble InRelease
+[33m                                          0% [Обработка][0m[33m20% [Обработка][0m                        Чтение списков пакетов… 0%Чтение списков пакетов… 0%Чтение списков пакетов… 0%Чтение списков пакетов… 0%Чтение списков пакетов… 0%Чтение списков пакетов… 3%Чтение списков пакетов… 3%Чтение списков пакетов… 4%Чтение списков пакетов… 4%Чтение списков пакетов… 5%Чтение списков пакетов… 5%Чтение списков пакетов… 5%Чтение списков пакетов… 5%Чтение списков пакетов… 5%Чтение списков пакетов… 5%Чтение списков пакетов… 5%Чтение списков пакетов… 5%Чтение списков пакетов… 34%Чтение списков пакетов… 34%Чтение списков пакетов… 38%Чтение списков пакетов… 38%Чтение списков пакетов… 51%Чтение списков пакетов… 51%Чтение списков пакетов… 52%Чтение списков пакетов… 52%Чтение списков пакетов… 52%Чтение списков пакетов… 52%Чтение списков пакетов… 52%Чтение списков пакетов… 52%Чтение списков пакетов… 54%Чтение списков пакетов… 56%Чтение списков пакетов… 56%Чтение списков пакетов… 59%Чтение списков пакетов… 59%Чтение списков пакетов… 65%Чтение списков пакетов… 65%Чтение списков пакетов… 70%Чтение списков пакетов… 70%Чтение списков пакетов… 74%Чтение списков пакетов… 74%Чтение списков пакетов… 76%Чтение списков пакетов… 76%Чтение списков пакетов… 76%Чтение списков пакетов… 76%Чтение списков пакетов… 76%Чтение списков пакетов… 76%Чтение списков пакетов… 76%Чтение списков пакетов… 76%Чтение списков пакетов… 76%Чтение списков пакетов… 76%Чтение списков пакетов… 76%Чтение списков пакетов… 76%Чтение списков пакетов… 76%Чтение списков пакетов… 76%Чтение списков пакетов… 80%Чтение списков пакетов… 80%Чтение списков пакетов… 82%Чтение списков пакетов… 82%Чтение списков пакетов… 89%Чтение списков пакетов… 89%Чтение списков пакетов… 95%Чтение списков пакетов… 95%Чтение списков пакетов… 98%Чтение списков пакетов… 98%Чтение списков пакетов… 99%Чтение списков пакетов… 99%Чтение списков пакетов… 99%Чтение списков пакетов… 99%Чтение списков пакетов… 99%Чтение списков пакетов… 99%Чтение списков пакетов… Готово
+Построение дерева зависимостей… 0%Построение дерева зависимостей… 0%Построение дерева зависимостей… 0%Построение дерева зависимостей… 50%Построение дерева зависимостей… 50%Построение дерева зависимостей… Готово
+Чтение информации о состоянии… 0%             Чтение информации о состоянии… 0%Чтение информации о состоянии… Готово
+Может быть обновлён 21 пакет. Запустите «apt list --upgradable» для показа.
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ sudo pat install lvm2 -y
+[?2004lsudo: pat: команда не найдена
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ sudo pat install lvm2 -y[1P[C[1@p
+[?2004lЧтение списков пакетов… 0%Чтение списков пакетов… 100%Чтение списков пакетов… Готово
+Построение дерева зависимостей… 0%Построение дерева зависимостей… 0%Построение дерева зависимостей… 50%Построение дерева зависимостей… 50%Построение дерева зависимостей… Готово
+Чтение информации о состоянии… 0%             Чтение информации о состоянии… 0%Чтение информации о состоянии… Готово
+Уже установлен пакет lvm2 самой новой версии (2.03.16-3ubuntu3.2).
+Обновлено 0 пакетов, установлено 0 новых пакетов, для удаления отмечено 0 пакетов, и 21 пакетов не обновлено.
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ sudo pvcreate /dev/sdb
+[?2004lWARNING: dos signature detected on /dev/sdb at offset 510. Wipe it? [y/n]: y
+  Wiping dos signature on /dev/sdb.
+  Physical volume "/dev/sdb" successfully created.
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ sudo pvdisplay
+[?2004l  "/dev/sdb" is a new physical volume of "10,00 GiB"
+  --- NEW Physical volume ---
+  PV Name               /dev/sdb
+  VG Name               
+  PV Size               10,00 GiB
+  Allocatable           NO
+  PE Size               0   
+  Total PE              0
+  Free PE               0
+  Allocated PE          0
+  PV UUID               eFzqPw-D1gB-SEd5-ogcV-T2cQ-9Fa8-yKkGYF
+   
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ sudo vgcreate vg_date[Ka /dev/sdb
+[?2004l  Volume group "vg_data" successfully created
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ sudo vgdispaly
+[?2004lsudo: vgdispaly: команда не найдена
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ sudo vgdispaly[Kay
+[?2004lsudo: vgdispalay: команда не найдена
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ sudo vgdispalay[K[K[K[K[K[K[K[Ks
+[?2004l  VG      #PV #LV #SN Attr   VSize   VFree  
+  vg_data   1   0   0 wz--n- <10,00g <10,00g
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ sudo lvcreate -L 5G -n lv_storage vg_data
+[?2004lWARNING: swap signature detected on /dev/vg_data/lv_storage at offset 4086. Wipe it? [y/n]: y
+  Wiping swap signature on /dev/vg_data/lv_storage.
+  Logical volume "lv_storage" created.
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ sudo lvdisplay
+[?2004l  --- Logical volume ---
+  LV Path                /dev/vg_data/lv_storage
+  LV Name                lv_storage
+  VG Name                vg_data
+  LV UUID                2FDkL6-KRjA-X50k-7Yu0-Eqbp-zPlg-2djU1U
+  LV Write Access        read/write
+  LV Creation host, time Vadim, 2026-05-16 14:04:50 +0300
+  LV Status              available
+  # open                 0
+  LV Size                5,00 GiB
+  Current LE             1280
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     16384
+  Block device           252:0
+   
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ sudo mkfs.ext4 /f[Kdev/vd_data/lv_storage
+[?2004lmke2fs 1.47.0 (5-Feb-2023)
+Файл /dev/vd_data/lv_storage не существует, и его размер не был указан.
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ sudo mkfs.ext4 /dev/vd_data/lv_storage[C[1P_data/lv_storageg_data/lv_storage
+[?2004lmke2fs 1.47.0 (5-Feb-2023)
+Creating filesystem with 1310720 4k blocks and 327680 inodes
+UUID файловой системы: ca461c70-e182-4e8a-a676-3b2fbcfd1467
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376, 294912, 819200, 884736
+
+Распределение групповых таблиц:  0/40     готово                            
+Сохранение таблицы inod'ов:  0/40     готово                            
+Создание журнала (16384 блоков): готово
+Writing superblocks and filesystem accounting information:  0/40     готово
+
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ sudo mkdir -p /mnt/lvm_storage
+[?2004l[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ sudo mount /dev/vg_data/lv_storage /mnt/lvm_s torage/
+[?2004l[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ df -h | grep lvm_storage
+[?2004l/dev/mapper/vg_data-lv_storage   4,9G          24K  4,6G            1% /mnt/[01;31m[Klvm_storage[m[K
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ echo [7m'[27m'/dev/vg_dat[Kat[K[Kta/lv_storage /mnt/lvm_storag e ext64 defaults 0 0 [K[7m'[27m' | sudo tee-[K -a /etc/fstab
+[?2004l/dev/vg_data/lv_storage /mnt/lvm_storage ext64 defaults 0 0
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ sudo mount -a
+[?2004l[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ sudo lvextend -L 8G /dev/vg_s[Kdata/lv_storage
+[?2004l  Size of logical volume vg_data/lv_storage changed from 5,00 GiB (1280 extents) to 8,00 GiB (2048 extents).
+  Logical volume vg_data/lv_storage successfully resized.
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ sudo lvextend -L 8G /dev/vg_data/lv_storage[C[C[1P /dev/vg_data/lv_storage[1P /dev/vg_data/lv_storage[1P/dev/vg_data/lv_storage[1P /dev/vg_data/lv_storage[1P /dev/vg_data/lv_storage[1P/dev/vg_data/lv_storage[1P /dev/vg_data/lv_storage[1P /dev/vg_data/lv_storage[1P /dev/vg_data/lv_storage[1P /dev/vg_data/lv_storage[1P /dev/vg_data/lv_storage[1P /dev/vg_data/lv_storage[1P /dev/vg_data/lv_storage[1P /dev/vg_data/lv_storager /dev/vg_data/lv_storagee /dev/vg_data/lv_storages /dev/vg_data/lv_storagei /dev/vg_data/lv_storagez /dev/vg_data/lv_storagee /dev/vg_data/lv_storage2 /dev/vg_data/lv_storagef /dev/vg_data/lv_storages /dev/vg_data/lv_storage
+[?2004lresize2fs 1.47.0 (5-Feb-2023)
+Файловая система по адресу /dev/vg_data/lv_storage подключена к /mnt/lvm_storage; требуется оперативное изменение размера
+old_desc_blocks = 1, new_desc_blocks = 1
+Файловая система на /dev/vg_data/lv_storage теперь длинной 2097152 (4k) блоков.
+
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ df -h /mnt/lvm_storage/
+[?2004lФайл.система                   Размер Использовано  Дост Использовано% Cмонтировано в
+/dev/mapper/vg_data-lv_storage   7,8G          24K  7,4G            1% /mnt/lvm_storage
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ echo [7m"[27m"Test LVN[KM[7m"[27m" | sudo tee /mnt/lvm_storage/t est.txt
+[?2004lTest LVM
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ echo "Test LVM" | sudo tee /mnt/lvm_storage/test.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /mnt/lvm_storage/tes[1Pt.txt[A[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /mnt/lvm_storage/test[1P.txt[A[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /mnt/lvm_storage/test.[1Ptxt[A[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc /mnt/lvm_storage/test.txt[A[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca /mnt/lvm_storage/test.txt[A[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct /mnt/lvm_storage/test.txt[A[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo cat /mnt/lvm_storage/tes[1Pt.txt[A[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo cat /mnt/lvm_storage/test[1P.txt[A[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo cat /mnt/lvm_storage/test.[1Ptxt[A[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo cat /mnt/lvm_storage/test.t[1Pxt[A[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo cat /mnt/lvm_storage/test.tx[1Pt[A[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Csudo cat /mnt/lvm_storage/test.txt[K[A[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ [C[C[C[C[C[C[C[C[C[C[C[Csudo cat /mnt/lvm_storage/test.txt [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P
+[?2004lTest LVM
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ lsblk /dev/sdb
+[?2004lNAME                 MAJ:MIN RM SIZE RO TYPE MOUNTPOINTS
+sdb                    8:16   0  10G  0 disk 
+└─vg_data-lv_storage 252:0    0   8G  0 lvm  /mnt/lvm_storage
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ pvs
+[?2004l  WARNING: Running as a non-root user. Functionality may be unavailable.
+  /run/lock/lvm/P_global:aux: open failed: Отказано в доступе
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ vgs[K[K[Ksudo pvs
+[?2004l  PV         VG      Fmt  Attr PSize   PFree 
+  /dev/sdb   vg_data lvm2 a--  <10,00g <2,00g
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ sudo vgs
+[?2004l  VG      #PV #LV #SN Attr   VSize   VFree 
+  vg_data   1   1   0 wz--n- <10,00g <2,00g
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ sudo lvs
+[?2004l  LV         VG      Attr       LSize Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert
+  lv_storage vg_data -wi-ao---- 8,00g                                                    
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ df -h /mnt/lvm_storage/
+[?2004lФайл.система                   Размер Использовано  Дост Использовано% Cмонтировано в
+/dev/mapper/vg_data-lv_storage   7,8G          28K  7,4G            1% /mnt/lvm_storage
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ ыгвщ тфтщ /уес/аыефи[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksudo nano /etc/fstab
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ Чтение… ](B[m[22;30H(B[0;7m[ Прочитано 12 строк ](B[m[H(B[0;7m  GNU nano 7.2                       /etc/fstab                                 [1;79H(B[m[23d(B[0;7m^G(B[m Справка   (B[0;7m^O(B[m Записать  (B[0;7m^W(B[m Поиск     (B[0;7m^K(B[m Вырезать  (B[0;7m^T(B[m Выполнить (B[0;7m^C(B[m Позиция[24d(B[0;7m^X(B[m Выход     (B[0;7m^R(B[m ЧитФайл   (B[0;7m^\(B[m Замена    (B[0;7m^U(B[m Вставить  (B[0;7m^J(B[m Выровнять (B[0;7m^/(B[m К строке[2d[36m# /etc/fstab: static file system information.[3d#[4d# Use 'blkid' to print the universally unique identifier for a[5d# device; this may be used with UUID= as a more robust way to name devices[6d# that works even if disks are added and removed. See fstab(5).[7d#[8d# <file system> <mount point>   <type>  <options>       <dump>  <pass>[9d# / was on /dev/sda2 during curtin installation[10d[39m(B[m/dev/disk/by-uuid/33943216-5985-44e2-b4cb-4310238a7cd3 / ext4 defaults 0 1[11d/swap.img[38;5;208m       [39m(B[mnone[38;5;208m    [39m(B[mswap[38;5;208m    [39m(B[msw[38;5;208m      [39m(B[m0[38;5;208m       [39m(B[m0[12d/dev/vg_data/lv_storage /mnt/lvm_storage ext4 defaults 0 0[13d/dev/vg_data/lv_storage /mnt/lvm_storage ext64 defaults 0 0[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[1;49H(B[0;7m*[79G(B[m[?12l[?25h[13d[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[22d[K[?12l[?25h[13d[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25hs 0 0[K[?25l[?12l[?25h 0 0[K[?25l[?12l[?25h0 0[K[?25l[?12l[?25h 0[K[?25l[?12l[?25h0[K[?25l[?12l[?25h[K[?25l[?12l[?25h[A[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25hs 0 0[K[?25l[?12l[?25h 0 0[K[?25l[?12l[?25h0 0[K[?25l[?12l[?25h 0[K[?25l[?12l[?25h0[K[?25l[?12l[?25h[K[?25l/dev/vg_data/lv_storage /mnt/lvm_storage ext4 defaults 0 0[?12l[?25h[?25l[23;14H       (B[0;7mM-D(B[m Формат DOS      (B[0;7mM-A(B[m Доп. в начало   (B[0;7mM-B(B[m Резерв. копия[24;2H(B[0;7mC(B[m Отмена           (B[0;7mM-M(B[m Формат Mac      (B[0;7mM-P(B[m Доп. в конец    (B[0;7m^T(B[m Обзор[K[22d(B[0;7mИмя файла для записи: /etc/fstab                                                [22;33H(B[m[?12l[?25h[?25l [1K (B[0;7m[ Запись… ](B[m[K[1;49H(B[0;7m [79G(B[m[22;30H(B[0;7m[ Записано 12 строк ](B[m[23;14H(B[0;7m^O(B[m Записать  (B[0;7m^W(B[m Поиск     (B[0;7m^K(B[m Вырезать  (B[0;7m^T(B[m Выполнить (B[0;7m^C(B[m Позиция[K[24;2H(B[0;7mX(B[m Выход     (B[0;7m^R(B[m ЧитФайл   (B[0;7m^\(B[m Замена    (B[0;7m^U(B[m Вставить  (B[0;7m^J(B[m Выровнять (B[0;7m^/(B[m К строке[?12l[?25h[12;59H[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ sudo mount -a
+[?2004l[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task5[00m$ exit
+[?2004lexit
+
+Script done on 2026-05-16 14:13:59+03:00 [COMMAND_EXIT_CODE="0"]

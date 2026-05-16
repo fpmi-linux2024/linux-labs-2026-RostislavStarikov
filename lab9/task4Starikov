@@ -1,0 +1,162 @@
+Script started on 2026-05-16 13:17:03+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+Good Day, user!
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task4[00m$ sudo swapoff /dev/sdb1 2>/dev/null
+[?2004l[sudo] пароль для user: 
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task4[00m$ sudo umount /media/disk1 /media/disk2 2>/dev/ null
+[?2004l[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task4[00m$ sudo fdisk[K[K[K[K[Kparted /dev/sdb mklabel msdos
+[?2004lПредупреждение: Существующая метка диска на  /dev/sdb будет уничтожена и все
+данные на этом диске будут потеряны. Действительно продолжить?
+                                                                                                                                                    [?2004hДа/Yes/Нет/No? Yes
+[?2004lИнформация: Не забудьте обновить /etc/fstab.
+
+                                                                          [?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task4[00m$ sudo parted /dev/sdb mklabel gpt
+[?2004lПредупреждение: Существующая метка диска на  /dev/sdb будет уничтожена и все
+данные на этом диске будут потеряны. Действительно продолжить?
+                                                                                                                                                    [?2004hДа/Yes/Нет/No? Yes1[K
+[?2004lИнформация: Не забудьте обновить /etc/fstab.
+
+                                                                          [?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task4[00m$ sudo parted /dev/sdb mkpart primary 0% 1G
+[?2004lИнформация: Не забудьте обновить /etc/fstab.
+
+                                                                          [?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task4[00m$ sudo parted /dev/sdb mkpart primary 0% 1G[1P1G[1P1G[1P1G[C[C 3 G[1PG
+[?2004lИнформация: Не забудьте обновить /etc/fstab.
+
+                                                                          [?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task4[00m$ sudo parted /dev/sdb mkpart primary 1G 3G[K[K[K[K[K3G 100%
+[?2004lИнформация: Не забудьте обновить /etc/fstab.
+
+                                                                          [?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task4[00m$ sudo parted /dev/sdb set 1 swap on
+[?2004lИнформация: Не забудьте обновить /etc/fstab.
+
+                                                                          [?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task4[00m$ sudo parted /dev/sdb print
+[?2004lМодель: VMware, VMware Virtual S (scsi)
+Диск /dev/sdb: 10,7GB
+Размер сектора (логич./физич.): 512B/512B
+Таблица разделов: gpt
+Флаги диска: 
+
+Номер  Начало  Конец   Размер  Файловая система  Имя      Флаги
+ 1     1049kB  1000MB  999MB   linux-swap(v1)    primary  подкачка
+ 2     1000MB  3000MB  2000MB                    primary
+ 3     3000MB  10,7GB  7736MB                    primary
+
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task4[00m$ sudo mkswap /dev/sdb1
+[?2004lmkswap: /dev/sdb1: предупреждение: очистка старой сигнатуры swap.
+Setting up swapspace version 1, size = 953 MiB (999288832 bytes)
+без метки, UUID=36e00190-8c1a-4b0f-bbbd-3c287727cb8e
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task4[00m$ sudo swapon /dev/sdb1
+[?2004l[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task4[00m$ sudo mkfs.xfs -L gdisk1 /dev/sdb2
+[?2004lmeta-data=/dev/sdb2              isize=512    agcount=4, agsize=122048 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=1, sparse=1, rmapbt=1
+         =                       reflink=1    bigtime=1 inobtcount=1 nrext64=0
+data     =                       bsize=4096   blocks=488192, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0, ftype=1
+log      =internal log           bsize=4096   blocks=16384, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =пусто             extsz=4096   blocks=0, rtextents=0
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task4[00m$ sudo zpool create -f gdiskpool /dev/sdb3
+[?2004l[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task4[00m$ sudo zpool create -f gdiskpool /dev/sdb3[K[K[K[K[K[K[K[K[K[K/volume
+[?2004lmissing vdev specification
+usage:
+	create [-fnd] [-o property=value] ... 
+	    [-O file-system-property=value] ... 
+	    [-m mountpoint] [-R root] <pool> <vdev> ...
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task4[00m$ sudo zfd[Ks set mountpoint [K=/media/gdisk2 gdiskpo ol/volume
+[?2004lcannot open 'gdiskpool/volume': dataset does not exist
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task4[00m$ ыгвщ яаы[K[K[K[K[K[K[K[Ksudo zfs create gdiskpool/volume
+[?2004l[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task4[00m$ sudo zfs set mountpoint=/media/gdi[Kisk2 gdiskpo ol/volume
+[?2004l[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task4[00m$ sudo mkdir -p /media/gdisk
+gdisk1/ gdisk2/ 
+[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task4[00m$ sudo mkdir -p /media/gdisk
+gdisk1/ gdisk2/ 
+[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task4[00m$ sudo mkdir -p /media/gdisk1
+[?2004l[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task4[00m$ sudo mount /dev/sdb2 /media/gdisk1
+[?2004l[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task4[00m$ df -Th | grep -E @@[K[K¨¨s¨d¨b¨2¨|¨g¨d¨i¨s¨k¨
+[?2004lКоманда «gdisk¨» не найдена. Возможно, вы имели в виду:
+  команда 'gdisk' из deb-пакета gdisk (1.0.9-2.1)
+Попробуйте: sudo apt install <имя_deb-пакета>
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task4[00m$ df -Th | grep -E ¨sdb2|gdisk¨[K[7m"[27m"[1Psdb2|gdisk"[7m"[27msdb2|gdisk""sdb2|gdisk"
+[?2004l[01;31m[Kgdisk[m[Kpool        zfs       6,8G         128K  6,8G            1% /[01;31m[Kgdisk[m[Kpool
+[01;31m[Kgdisk[m[Kpool/volume zfs       6,8G         128K  6,8G            1% /media/[01;31m[Kgdisk[m[K2
+/dev/[01;31m[Ksdb2[m[K        xfs       1,8G          68M  1,8G            4% /media/[01;31m[Kgdisk[m[K1
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task4[00m$ zfs get mountpoint gdiskpool/volume
+[?2004lNAME              PROPERTY    VALUE          SOURCE
+gdiskpool/volume  mountpoint  /media/gdisk2  local
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task4[00m$ ыгвщ чаы[K[K[K[K[K[K[K[Ki[Kudo [K[K[K[Ksudo xfs_info /media/gdisk1
+[?2004lmeta-data=/dev/sdb2              isize=512    agcount=4, agsize=122048 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=1, sparse=1, rmapbt=1
+         =                       reflink=1    bigtime=1 inobtcount=1 nrext64=0
+data     =                       bsize=4096   blocks=488192, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0, ftype=1
+log      =internal log           bsize=4096   blocks=16384, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =пусто             extsz=4096   blocks=0, rtextents=0
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task4[00m$ sudo zfs get all gdiskpool
+gdiskpool         gdiskpool@        gdiskpool/volume  
+[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task4[00m$ sudo zfs get all gdiskpool/volume | head -30
+[?2004lNAME              PROPERTY              VALUE                      SOURCE
+gdiskpool/volume  type                  filesystem                 -
+gdiskpool/volume  creation              Сб мая 16 13:24 2026  -
+gdiskpool/volume  used                  24K                        -
+gdiskpool/volume  available             6.78G                      -
+gdiskpool/volume  referenced            24K                        -
+gdiskpool/volume  compressratio         1.00x                      -
+gdiskpool/volume  mounted               yes                        -
+gdiskpool/volume  quota                 none                       default
+gdiskpool/volume  reservation           none                       default
+gdiskpool/volume  recordsize            128K                       default
+gdiskpool/volume  mountpoint            /media/gdisk2              local
+gdiskpool/volume  sharenfs              off                        default
+gdiskpool/volume  checksum              on                         default
+gdiskpool/volume  compression           on                         default
+gdiskpool/volume  atime                 on                         default
+gdiskpool/volume  devices               on                         default
+gdiskpool/volume  exec                  on                         default
+gdiskpool/volume  setuid                on                         default
+gdiskpool/volume  readonly              off                        default
+gdiskpool/volume  zoned                 off                        default
+gdiskpool/volume  snapdir               hidden                     default
+gdiskpool/volume  aclmode               discard                    default
+gdiskpool/volume  aclinherit            restricted                 default
+gdiskpool/volume  createtxg             35                         -
+gdiskpool/volume  canmount              on                         default
+gdiskpool/volume  xattr                 on                         default
+gdiskpool/volume  copies                1                          default
+gdiskpool/volume  version               5                          -
+gdiskpool/volume  utf8only              off                        -
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task4[00m$ df -TH[Kh
+[?2004lФайл.система     Тип     Размер Использовано  Дост Использовано% Cмонтировано в
+tmpfs            tmpfs     387M         3,0M  384M            1% /run
+/dev/sda2        ext4       20G          18G  727M           97% /
+tmpfs            tmpfs     1,9G            0  1,9G            0% /dev/shm
+tmpfs            tmpfs     5,0M         8,0K  5,0M            1% /run/lock
+tmpfs            tmpfs     387M         160K  387M            1% /run/user/5001
+/dev/sr0         iso9660   100M         100M     0          100% /media/user/CDROM
+tmpfs            tmpfs     387M         120K  387M            1% /run/user/1000
+gdiskpool        zfs       6,8G         128K  6,8G            1% /gdiskpool
+gdiskpool/volume zfs       6,8G         128K  6,8G            1% /media/gdisk2
+/dev/sdb2        xfs       1,8G          68M  1,8G            4% /media/gdisk1
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task4[00m$ df -Th | grep -E [7m"[27m"gdisk|sdb2[7m"[27m"
+[?2004l[01;31m[Kgdisk[m[Kpool        zfs       6,8G         128K  6,8G            1% /[01;31m[Kgdisk[m[Kpool
+[01;31m[Kgdisk[m[Kpool/volume zfs       6,8G         128K  6,8G            1% /media/[01;31m[Kgdisk[m[K2
+/dev/[01;31m[Ksdb2[m[K        xfs       1,8G          68M  1,8G            4% /media/[01;31m[Kgdisk[m[K1
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task4[00m$ mount | grep -E ¨gdisk|[K[K[K[K[K[K[K[7m"[27m"gdisk|sdb2[7m"[27m"
+[?2004l[01;31m[Kgdisk[m[Kpool on /[01;31m[Kgdisk[m[Kpool type zfs (rw,relatime,xattr,noacl,casesensitive)
+[01;31m[Kgdisk[m[Kpool/volume on /media/[01;31m[Kgdisk[m[K2 type zfs (rw,relatime,xattr,noacl,casesensitive)
+/dev/[01;31m[Ksdb2[m[K on /media/[01;31m[Kgdisk[m[K1 type xfs (rw,relatime,attr2,inode64,logbufs=8,logbsize=32k,noquota)
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task4[00m$ lsblk -f /dev/sdb
+[?2004lNAME FSTYPE FSVER LABEL     UUID                                 FSAVAIL FSUSE% MOUNTPOINTS
+sdb                                                                             
+├─sdb1
+│    swap   1               36e00190-8c1a-4b0f-bbbd-3c287727cb8e                [SWAP]
+├─sdb2
+│    xfs          gdisk1    3c5e711e-33b4-4b90-857f-0ee76cb02cf4    1,7G     4% /media/gdisk1
+└─sdb3
+     zfs_me 5000  gdiskpool 12811952206212792745                                
+[?2004h[01;32muser@user[00m:[01;34m~/linux-labs/lab9/task4[00m$ у[Kexit
+[?2004lexit
+
+Script done on 2026-05-16 13:31:53+03:00 [COMMAND_EXIT_CODE="0"]
