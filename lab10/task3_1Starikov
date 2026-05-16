@@ -1,0 +1,594 @@
+Script started on 2026-05-16 23:36:14+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="91" LINES="37"]
+Good Day, user!
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ ssh-copy [K-id s[K[K[K[K[K[K[K[K[K[K[K[K[Kssh-copy-id student@192.168.56.101
+[?2004l]133;C\]666;vte.shell.preexec!\/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: ssh-add -L
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+/usr/bin/ssh-copy-id: INFO: 2 key(s) remain to be installed -- if you are prompted now it is to install the new keys
+student@192.168.56.101's password: 
+
+Number of key(s) added: 2
+
+Now try logging into the machine, with: "ssh 'student@192.168.56.101'"
+and check to make sure that only the key(s) you wanted were added.
+
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ ssh-copy-id student@192.168.56.101[1Pstudent@192.168.56.101[1Pstudent@192.168.56.101[1Pstudent@192.168.56.101[1Pstudent@192.168.56.101[1Pstudent@192.168.56.101[1Pstudent@192.168.56.101[1Pstudent@192.168.56.101[1Pstudent@192.168.56.101[1Pstudent@192.168.56.101 student@192.168.56.101
+[?2004l]133;C\]666;vte.shell.preexec!\Welcome to Ubuntu 26.04 LTS (GNU/Linux 7.0.0-15-generic x86_64)
+
+ * Documentation:  https://docs.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of сб 16 май 2026 20:38:08 UTC
+
+  System load:             0.18
+  Usage of /:              70.3% of 9.75GB
+  Memory usage:            45%
+  Swap usage:              6%
+  Processes:               147
+  Users logged in:         0
+  IPv4 address for enp0s3: 10.0.2.15
+  IPv6 address for enp0s3: fd17:625c:f037:2:a00:27ff:fec0:c91d
+
+
+Расширенное поддержание безопасности (ESM) для Applications выключено.
+
+3 обновления может быть применено немедленно.
+Чтобы просмотреть дополнительные обновления выполните: apt list --upgradable
+
+Включите ESM Apps для получения дополнительных будущих обновлений безопасности.
+Смотрите https://ubuntu.com/esm или выполните: sudo pro status
+
+
+]3008;start=675f6862-c600-4968-b60f-7d09929a2eff;machineid=8453f82a85364ef0a0455e46c7ae2309;user=student;hostname=ubuntuserver;bootid=71c8f8d0-07c0-46c6-871d-2157bdaed315;pid=00000000000000068754;type=shell;cwd=/home/student\[?2004h]0;student@ubuntuserver: ~[01;32mstudent@ubuntuserver[00m:[01;34m~[00m$ pwd
+[?2004l]3008;start=8f002fdd-5af6-4497-b6cc-2f8a1019bab0;machineid=8453f82a85364ef0a0455e46c7ae2309;user=student;hostname=ubuntuserver;bootid=71c8f8d0-07c0-46c6-871d-2157bdaed315;pid=00000000000000068754;type=command;cwd=/home/student\/home/student
+]3008;end=8f002fdd-5af6-4497-b6cc-2f8a1019bab0;exit=success\]3008;start=675f6862-c600-4968-b60f-7d09929a2eff;machineid=8453f82a85364ef0a0455e46c7ae2309;user=student;hostname=ubuntuserver;bootid=71c8f8d0-07c0-46c6-871d-2157bdaed315;pid=00000000000000068754;type=shell;cwd=/home/student\[?2004h]0;student@ubuntuserver: ~[01;32mstudent@ubuntuserver[00m:[01;34m~[00m$ mkdir  [Kremote_dit[Kr
+[?2004l]3008;start=199b155d-534c-4c92-ae77-225c355d00f2;machineid=8453f82a85364ef0a0455e46c7ae2309;user=student;hostname=ubuntuserver;bootid=71c8f8d0-07c0-46c6-871d-2157bdaed315;pid=00000000000000068754;type=command;cwd=/home/student\]3008;end=199b155d-534c-4c92-ae77-225c355d00f2;exit=success\]3008;start=675f6862-c600-4968-b60f-7d09929a2eff;machineid=8453f82a85364ef0a0455e46c7ae2309;user=student;hostname=ubuntuserver;bootid=71c8f8d0-07c0-46c6-871d-2157bdaed315;pid=00000000000000068754;type=shell;cwd=/home/student\[?2004h]0;student@ubuntuserver: ~[01;32mstudent@ubuntuserver[00m:[01;34m~[00m$ echo ""H"ell"o" "fr"o"m" "r"emot"e"[C > remote_file
+[?2004l]3008;start=0556227b-91b3-4085-92de-79bcd2d0990a;machineid=8453f82a85364ef0a0455e46c7ae2309;user=student;hostname=ubuntuserver;bootid=71c8f8d0-07c0-46c6-871d-2157bdaed315;pid=00000000000000068754;type=command;cwd=/home/student\]3008;end=0556227b-91b3-4085-92de-79bcd2d0990a;exit=success\]3008;start=675f6862-c600-4968-b60f-7d09929a2eff;machineid=8453f82a85364ef0a0455e46c7ae2309;user=student;hostname=ubuntuserver;bootid=71c8f8d0-07c0-46c6-871d-2157bdaed315;pid=00000000000000068754;type=shell;cwd=/home/student\[?2004h]0;student@ubuntuserver: ~[01;32mstudent@ubuntuserver[00m:[01;34m~[00m$ ec[Kxit
+[?2004l]3008;start=963979d1-8da2-474f-bf54-4a583cd22ff5;machineid=8453f82a85364ef0a0455e46c7ae2309;user=student;hostname=ubuntuserver;bootid=71c8f8d0-07c0-46c6-871d-2157bdaed315;pid=00000000000000068754;type=command;cwd=/home/student\logout
+Connection to 192.168.56.101 closed.
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ scp studen[K[K[K[K[K[K[K report[K[K[K[K[K[Kstudent@192.168.56.101:~/remote_file .
+[?2004l]133;C\]666;vte.shell.preexec!\remote_file                                                0%    0     0.0KB/s   --:-- ETAremote_file                                              100%   18    41.3KB/s   00:00    
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\remote_file      task2_1Starikov  timelog1_1Starikov  timelog3_1Starikov
+task1_1Starikov  task3_1Starikov  timelog2_1Starikov
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ echo ""r"e"p"o"r"t" "c"o"n"t"e"n"t"[C > report.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ scp report.txt student@192.168.56,[K.101 [K:~/remote_dir?[K/
+[?2004l]133;C\]666;vte.shell.preexec!\report.txt                                                 0%    0     0.0KB/s   --:-- ETAreport.txt                                               100%   15    55.7KB/s   00:00    
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ opem[Km[Kns [K[Kssl ciphers -v | head -5
+[?2004l]133;C\]666;vte.shell.preexec!\TLS_AES_256_GCM_SHA384         TLSv1.3 Kx=any      Au=any   Enc=AESGCM(256)            Mac=AEAD
+TLS_CHACHA20_POLY1305_SHA256   TLSv1.3 Kx=any      Au=any   Enc=CHACHA20/POLY1305(256) Mac=AEAD
+TLS_AES_128_GCM_SHA256         TLSv1.3 Kx=any      Au=any   Enc=AESGCM(128)            Mac=AEAD
+ECDHE-ECDSA-AES256-GCM-SHA384  TLSv1.2 Kx=ECDH     Au=ECDSA Enc=AESGCM(256)            Mac=AEAD
+ECDHE-RSA-AES256-GCM-SHA384    TLSv1.2 Kx=ECDH     Au=RSA   Enc=AESGCM(256)            Mac=AEAD
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ [7mopenssl ciphers -v [27mopenssl ciphers -v [C'HIGH' | | head -5[1@'[1@'[1@H[1@I[1@G[1@H[C[1@ 
+[?2004l]133;C\]666;vte.shell.preexec!\TLS_AES_256_GCM_SHA384         TLSv1.3 Kx=any      Au=any   Enc=AESGCM(256)            Mac=AEAD
+TLS_CHACHA20_POLY1305_SHA256   TLSv1.3 Kx=any      Au=any   Enc=CHACHA20/POLY1305(256) Mac=AEAD
+TLS_AES_128_GCM_SHA256         TLSv1.3 Kx=any      Au=any   Enc=AESGCM(128)            Mac=AEAD
+ECDHE-ECDSA-AES256-GCM-SHA384  TLSv1.2 Kx=ECDH     Au=ECDSA Enc=AESGCM(256)            Mac=AEAD
+ECDHE-RSA-AES256-GCM-SHA384    TLSv1.2 Kx=ECDH     Au=RSA   Enc=AESGCM(256)            Mac=AEAD
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ openssl ciphers -v 'HIGH' | head -5[1P[1P[1P[1P[1@M[1@E[1@D[1@I[1@U[1@M[1P[1@<[1P[1@M
+[?2004l]133;C\]666;vte.shell.preexec!\TLS_AES_256_GCM_SHA384         TLSv1.3 Kx=any      Au=any   Enc=AESGCM(256)            Mac=AEAD
+TLS_CHACHA20_POLY1305_SHA256   TLSv1.3 Kx=any      Au=any   Enc=CHACHA20/POLY1305(256) Mac=AEAD
+TLS_AES_128_GCM_SHA256         TLSv1.3 Kx=any      Au=any   Enc=AESGCM(128)            Mac=AEAD
+ECDHE-ECDSA-AES256-CCM8        TLSv1.2 Kx=ECDH     Au=ECDSA Enc=AESCCM8(256)           Mac=AEAD
+ECDHE-ECDSA-AES128-CCM8        TLSv1.2 Kx=ECDH     Au=ECDSA Enc=AESCCM8(128)           Mac=AEAD
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ openssl ciphers -v 'MEDIUM' | head -5[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1@L[1@O[1@W
+[?2004l]133;C\]666;vte.shell.preexec!\Error in cipher list
+4027917DE77B0000:error:0A0000B9:SSL routines:SSL_CTX_set_cipher_list:no cipher match:../ssl/ssl_lib.c:3409:
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ openssl ciphers -v 'LOW' | head -5[1P[1P[1P[1@E[1@X[1@P
+[?2004l]133;C\]666;vte.shell.preexec!\Error in cipher list
+4017CE4CA7720000:error:0A0000B9:SSL routines:SSL_CTX_set_cipher_list:no cipher match:../ssl/ssl_lib.c:3409:
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ open [Kssl speed rsa
+[?2004l]133;C\]666;vte.shell.preexec!\Doing 512 bits private rsa sign ops for 10s: 
+332311 512 bits private RSA sign ops in 10.00s
+Doing 512 bits public rsa verify ops for 10s: 5990407 512 bits public RSA verify ops in 10.01s
+Doing 512 bits public rsa encrypt ops for 10s: 4619440 512 bits public RSA encrypt ops in 9.70s
+Doing 512 bits private rsa decrypt ops for 10s: 304551 512 bits private RSA decrypt ops in 9.97s
+Doing 1024 bits private rsa sign ops for 10s: 151928 1024 bits private RSA sign ops in 9.97s
+Doing 1024 bits public rsa verify ops for 10s: 2363479 1024 bits public RSA verify ops in 9.99s
+Doing 1024 bits public rsa encrypt ops for 10s: 2071687 1024 bits public RSA encrypt ops in 9.87s
+Doing 1024 bits private rsa decrypt ops for 10s: 139949 1024 bits private RSA decrypt ops in 9.97s
+Doing 2048 bits private rsa sign ops for 10s: 21661 2048 bits private RSA sign ops in 10.00s
+Doing 2048 bits public rsa verify ops for 10s: 742562 2048 bits public RSA verify ops in 10.00s
+Doing 2048 bits public rsa encrypt ops for 10s: 694423 2048 bits public RSA encrypt ops in 9.87s
+Doing 2048 bits private rsa decrypt ops for 10s: 21755 2048 bits private RSA decrypt ops in 10.00s
+Doing 3072 bits private rsa sign ops for 10s: 7229 3072 bits private RSA sign ops in 9.98s
+Doing 3072 bits public rsa verify ops for 10s: 353611 3072 bits public RSA verify ops in 9.97s
+Doing 3072 bits public rsa encrypt ops for 10s: 341647 3072 bits public RSA encrypt ops in 9.96s
+Doing 3072 bits private rsa decrypt ops for 10s: 7218 3072 bits private RSA decrypt ops in 10.01s
+Doing 4096 bits private rsa sign ops for 10s: 3171 4096 bits private RSA sign ops in 10.01s
+Doing 4096 bits public rsa verify ops for 10s: 205184 4096 bits public RSA verify ops in 10.00s
+Doing 4096 bits public rsa encrypt ops for 10s: 194459 4096 bits public RSA encrypt ops in 9.94s
+Doing 4096 bits private rsa decrypt ops for 10s: 3129 4096 bits private RSA decrypt ops in 10.00s
+Doing 7680 bits private rsa sign ops for 10s: ^C
+]666;vte.shell.postexec=130\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ ssh student@192.168.56.101 ""d"d" "i"f"="d"e"v"/dev"[C[C[C/"z"e"r"o" "b"s" "[1P"="1"M" "c"o"u"n"t"-"[1P"="1"0"0"[C  | dd of=/dev/null
+[?2004l]133;C\]666;vte.shell.preexec!\100+0 records in
+100+0 records out
+104857600 bytes (105 MB, 100 MiB) copied, 0.476905 s, 220 MB/s
+204800+0 records in
+204800+0 records out
+104857600 bytes (105 MB, 100 MiB) copied, 1.09837 s, 95 MB/s
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ nano test_ssl.bs
+[?2004l]133;C\]666;vte.shell.preexec!\[?2004h[?1049h[22;0;0t[1;37r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[35;39H(B[0;7m[ Новый файл ](B[m[H(B[0;7m  GNU nano 8.4                            test_ssl.bs                                      [1;90H(B[m[36d(B[0;7m^G(B[m Справка     (B[0;7m^O(B[m Записать    (B[0;7m^F(B[m Поиск[46G(B[0;7m^K(B[m Вырезать    (B[0;7m^T(B[m Выполнить   (B[0;7m^C(B[m Позиция[37d(B[0;7m^X(B[m Выход[16G(B[0;7m^R(B[m ЧитФайл     (B[0;7m^\(B[m Замена[46G(B[0;7m^U(B[m Вставить    (B[0;7m^J(B[m Выровнять   (B[0;7m^/(B[m К строке[2d[?12l[?25h[?25l[1;55H(B[0;7m*[90G(B[m[?12l[?25h[2d[36m#[39m(B[m[?25l[?12l[?25h[36m![39m(B[m[?25l[?12l[?25h[36m/[39m(B[m[?25l[?12l[?25h[36mb[39m(B[m[?25l[?12l[?25h[36mi[39m(B[m[?25l[?12l[?25h[36mn[39m(B[m[?25l[?12l[?25h[36m/[39m(B[m[?25l[?12l[?25h[36mb[39m(B[m[?25l[?12l[?25h[36ma[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[?12l[?25h[36mh[39m(B[m[?25l[3d[?12l[?25h[?25l[?12l[?25hc[?25l[?12l[?25hu[?25l[?12l[?25hr[?25l[?12l[?25hl[?25l[?12l[?25h [?25l[?12l[?25h-[?25l[?12l[?25hs[?25l[35d[K[?12l[?25h[3;9H[?25l[?12l[?25hh[?25l[?12l[?25ht[?25l[?12l[?25ht[?25l[?12l[?25h [?25l[?12l[?25ht[?25l[?12l[?25hp[?25l[?12l[?25hs[?25l[?12l[?25h:[?25l[?12l[?25h:[?25l[?12l[?25h/[?25l[?12l[?25h/[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h/[?25l[?12l[?25h/[?25l[?12l[?25he[?25l[?12l[?25hx[?25l[?12l[?25ha[?25l[?12l[?25hp[?25l[?12l[?25hl[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25hm[?25l[?12l[?25hp[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[?12l[?25h.[?25l[?12l[?25hi[?25l[?12l[?25h [?25l[?12l[?25hc[?25l[?12l[?25h[3;9H[94mhttps://example.co[39m(B[m[?25l[?12l[?25h[94mm[39m(B[m[?25l[?12l[?25h [?25l[?12l[?25h>[?25l[?12l[?25h [?25l[?12l[?25h/[?25l[?12l[?25hd[?25l[?12l[?25he[?25l[?12l[?25hv[?25l[?12l[?25h/[?25l[?12l[?25hn[?25l[?12l[?25hu[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[4d[?12l[?25h[?25l[?12l[?25ho[?25l[?12l[?25hp[?25l[?12l[?25he[?25l[?12l[?25hn[?25l[?12l[?25hs[?25l[?12l[?25hs[?25l[?12l[?25hl[?25l[?12l[?25h [?25l[?12l[?25hs[?25l[?12l[?25h_[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25hc[?25l[?12l[?25hl[?25l[?12l[?25hi[?25l[?12l[?25he[?25l[?12l[?25hn[?25l[?12l[?25ht[?25l[?12l[?25h [?25l[?12l[?25h-[?25l[?12l[?25hc[?25l[?12l[?25ho[?25l[?12l[?25hn[?25l[?12l[?25hn[?25l[?12l[?25he[?25l[?12l[?25hc[?25l[?12l[?25ht[?25l[?12l[?25h [?25l[?12l[?25he[?25l[?12l[?25hx[?25l[?12l[?25ha[?25l[?12l[?25hm[?25l[?12l[?25hp[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[?12l[?25h.[?25l[?12l[?25hc[?25l[?12l[?25ho[?25l[?12l[?25hm[?25l[?12l[?25h:[?25l[?12l[?25h4[?25l[?12l[?25h4[?25l[?12l[?25h3[?25l[?12l[?25h [?25l[?12l[?25h-[?25l[?12l[?25hs[?25l[?12l[?25hs[?25l[?12l[?25hl[?25l[?12l[?25h4[?25l[?12l[?25h [?25l[?12l[?25h3[?25l[?12l[?25h [?25l[?12l[?25h-[?25l[?12l[?25hc[?25l[?12l[?25hi[?25l[?12l[?25hp[?25l[?12l[?25hh[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25h [?25l[?12l[?25h'[?25l[?12l[?25hH[?25l[?12l[?25hI[?25l[?12l[?25hG[?25l[?12l[?25hH[?25l[?12l[?25h'[?25l[?12l[?25h [?25l[?12l[?25h<[?25l[?12l[?25h [?25l[?12l[?25h/[?25l[?12l[?25hd[?25l[?12l[?25he[?25l[?12l[?25hv[?25l[?12l[?25h/[?25l[?12l[?25hn[?25l[?12l[?25hu[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[5d[?12l[?25h[?25l[?12l[?25ht[?25l[?12l[?25hi[?25l[?12l[?25hm[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25ho[?25l[?12l[?25hp[?25l[?12l[?25he[?25l[?12l[?25hn[?25l[?12l[?25hm[?25l[?12l[?25h [?25l[?12l[?25hs[?25l[?12l[?25hs[?25l[?12l[?25hl[?25l[?12l[?25h [?25l[?12l[?25hs[?25l[?12l[?25h_[?25l[?12l[?25hc[?25l[?12l[?25hl[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25h [?25l[?12l[?25he[?25l[?12l[?25hn[?25l[?12l[?25ht[?25l[?12l[?25h [?25l[?12l[?25h-[?25l[?12l[?25hc[?25l[?12l[?25ho[?25l[?12l[?25hn[?25l[?12l[?25hn[?25l[?12l[?25he[?25l[?12l[?25hc[?25l[?12l[?25ht[?25l[?12l[?25h [?25l[?12l[?25he[?25l[?12l[?25hx[?25l[?12l[?25ha[?25l[?12l[?25hm[?25l[?12l[?25hp[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[?12l[?25h.[?25l[?12l[?25hc[?25l[?12l[?25ho[?25l[?12l[?25hm[?25l[?12l[?25h:[?25l[?12l[?25h4[?25l[?12l[?25h4[?25l[?12l[?25h3[?25l[?12l[?25h [?25l[?12l[?25h-[?25l[?12l[?25hc[?25l[?12l[?25hi[?25l[?12l[?25hp[?25l[?12l[?25hh[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25h [?25l[?12l[?25hA[?25l[?12l[?25hE[?25l[?12l[?25hS[?25l[?12l[?25h1[?25l[?12l[?25h2[?25l[?12l[?25h8[?25l[?12l[?25h-[?25l[?12l[?25hG[?25l[?12l[?25hC[?25l[?12l[?25hM[?25l[?12l[?25h-[?25l[?12l[?25hS[?25l[?12l[?25hH[?25l[?12l[?25hA[?25l[?12l[?25h2[?25l[?12l[?25h5[?25l[?12l[?25h6[?25l[?12l[?25h [?25l[?12l[?25h<[?25l[?12l[?25h [?25l[?12l[?25h/[?25l[?12l[?25hd[?25l[?12l[?25he[?25l[?12l[?25hv[?25l[?12l[?25h/[?25l[?12l[?25hn[?25l[?12l[?25hu[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[6d[?12l[?25h[?25l[?12l[?25ht[?25l[?12l[?25hi[?25l[?12l[?25hm[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25ho[?25l[?12l[?25hp[?25l[?12l[?25he[?25l[?12l[?25hn[?25l[?12l[?25hs[?25l[?12l[?25hs[?25l[?12l[?25hl[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25hs[?25l[?12l[?25h_[?25l[?12l[?25hc[?25l[?12l[?25hl[?25l[?12l[?25hi[?25l[?12l[?25he[?25l[?12l[?25hn[?25l[?12l[?25ht[?25l[?12l[?25h [?25l[?12l[?25h-[?25l[?12l[?25hc[?25l[?12l[?25ho[?25l[?12l[?25hn[?25l[?12l[?25hn[?25l[?12l[?25he[?25l[?12l[?25hx[?25l[?12l[?25h [?25l[?12l[?25hc[?25l[?12l[?25ht[?25l[?12l[?25h [?25l[?12l[?25he[?25l[?12l[?25hx[?25l[?12l[?25ha[?25l[?12l[?25hm[?25l[?12l[?25hp[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[?12l[?25h.[?25l[?12l[?25hc[?25l[?12l[?25ho[?25l[?12l[?25hm[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h:[?25l[?12l[?25h4[?25l[?12l[?25h4[?25l[?12l[?25h3[?25l[?12l[?25h [?25l[?12l[?25h-[?25l[?12l[?25hc[?25l[?12l[?25hi[?25l[?12l[?25hp[?25l[?12l[?25hh[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25h [?25l[?12l[?25hC[?25l[?12l[?25hH[?25l[?12l[?25hA[?25l[?12l[?25hC[?25l[?12l[?25hH[?25l[?12l[?25hA[?25l[?12l[?25h2[?25l[?12l[?25h0[?25l[?12l[?25h-[?25l[?12l[?25hP[?25l[?12l[?25hO[?25l[?12l[?25hL[?25l[?12l[?25hY[?25l[?12l[?25h1[?25l[?12l[?25h3[?25l[?12l[?25h0[?25l[?12l[?25h5[?25l[?12l[?25h [?25l[?12l[?25h<[?25l[?12l[?25h [?25l[?12l[?25h/[?25l[?12l[?25hd[?25l[?12l[?25he[?25l[?12l[?25hv[?25l[?12l[?25h/[?25l[?12l[?25hn[?25l[?12l[?25hi[?25l[?12l[?25h [?25l[?12l[?25hu[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[7d[?12l[?25h[?25l[35d(B[0;7mСохранить изменённый буфер?                                                                [36;1H Y(B[m Да[K[37d(B[0;7m N(B[m Нет  [16G (B[0;7m^C(B[m Отмена[K[35;29H[?12l[?25h[?25l[36d(B[0;7m^G(B[m Справка[36;23H(B[0;7mM-D(B[m Формат DOS[36;45H(B[0;7mM-A(B[m Доп. в начало     (B[0;7mM-B(B[m Резерв. копия[37d(B[0;7m^C(B[m Отмена[17G      (B[0;7mM-M(B[m Формат Mac[37;45H(B[0;7mM-P(B[m Доп. в конец[67G(B[0;7m^T(B[m Обзор[35d(B[0;7mWrite to File: test_ssl.bs (B[m[?12l[?25h[?25l[35;40H[1K (B[0;7m[ Запись… ](B[m[K[1;55H(B[0;7m [90G(B[m[35;36H(B[0;7m[ Записано 6 строк ](B[m[J[37d[?12l[?25h[37;1H[?1049l[23;0;0t[?1l>[?2004l]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ 
+[?2004l]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ chmod +x test_ssl.bs 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ sudo apt install curl -y
+[?2004l]133;C\]666;vte.shell.preexec!\[sudo: authenticate] Password: 
+Чтение списков пакетов… 0%Чтение списков пакетов… 100%                                                   Построение дерева зависимостей… 0%Построение дерева зависимостей… 0%Построение дерева зависимостей… 50%Построение дерева зависимостей… 50%                                                                  Чтение информации о состоянии… 0%Чтение информации о состоянии… 0%                                                              Разрешение зависимостей… 0%Разрешение зависимостей… 10%                                                     Установка:
+[32m  curl
+[0m
+Сводка:
+  Обновление: 0, Установка: 1, Удаление: 0, Пропуск обновления: 150
+  Объём загрузки: 259 kB
+  Требуемое пространство: 506 kB / 7 433 MB доступно
+
+[33m0% [Обработка][0m[33m0% [Обработка][0m                       Пол:1 http://archive.ubuntu.com/ubuntu questing-updates/main amd64 curl amd64 8.14.1-2ubuntu1.3 [259 kB]
+[33m0% [1 curl 0 B/259 kB 0%][0m[33m100% [Обработка][0m                         Получено 259 kB за 2с (127 kB/s)
+./
+7[0;36r8[1AВыбор ранее не выбранного пакета curl.
+(Чтение базы данных … (Чтение базы данных … 5%(Чтение базы данных … 10%(Чтение базы данных … 15%(Чтение базы данных … 20%(Чтение базы данных … 25%(Чтение базы данных … 30%(Чтение базы данных … 35%(Чтение базы данных … 40%(Чтение базы данных … 45%(Чтение базы данных … 50%(Чтение базы данных … 55%(Чтение базы данных … 60%(Чтение базы данных … 65%(Чтение базы данных … 70%(Чтение базы данных … 75%(Чтение базы данных … 80%(Чтение базы данных … 85%(Чтение базы данных … 90%(Чтение базы данных … 95%(Чтение базы данных … 100%(Чтение базы данных … на данный момент установлено 196586 файлов и каталогов.)
+Подготовка к распаковке …/curl_8.14.1-2ubuntu1.3_amd64.deb …
+7[37;0f[42m[30mХод выполнения: [  0%][49m[39m [                                                               ] 87[37;0f[42m[30mХод выполнения: [ 20%][49m[39m [████████████▌                                                  ] 8Распаковывается curl (8.14.1-2ubuntu1.3) …
+7[37;0f[42m[30mХод выполнения: [ 40%][49m[39m [█████████████████████████▏                                     ] 8Настраивается пакет curl (8.14.1-2ubuntu1.3) …
+7[37;0f[42m[30mХод выполнения: [ 60%][49m[39m [█████████████████████████████████████▊                         ] 87[37;0f[42m[30mХод выполнения: [ 80%][49m[39m [██████████████████████████████████████████████████▍            ] 8Обрабатываются триггеры для man-db (2.13.1-1) …
+
+7[0;37r8[1A[J]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ ./test_ssl.bs 
+[?2004l]133;C\]666;vte.shell.preexec!\s_client: Unknown option: -ssl3
+s_client: Use -help for summary.
+Connecting to 8.6.112.8
+CONNECTED(00000003)
+depth=3 C=US, O=SSL Corporation, CN=SSL.com TLS ECC Root CA 2022
+verify return:1
+depth=2 C=US, O=SSL Corporation, CN=SSL.com TLS Transit ECC CA R2
+verify return:1
+depth=1 C=US, O=CLOUDFLARE, INC., CN=Cloudflare TLS Issuing ECC CA 1
+verify return:1
+depth=0 CN=example.com
+verify return:1
+---
+Certificate chain
+ 0 s:CN=example.com
+   i:C=US, O=CLOUDFLARE, INC., CN=Cloudflare TLS Issuing ECC CA 1
+   a:PKEY: EC, (prime256v1); sigalg: ecdsa-with-SHA256
+   v:NotBefore: Apr  2 21:18:57 2026 GMT; NotAfter: Jul  1 21:24:46 2026 GMT
+ 1 s:C=US, O=CLOUDFLARE, INC., CN=Cloudflare TLS Issuing ECC CA 1
+   i:C=US, O=SSL Corporation, CN=SSL.com TLS Transit ECC CA R2
+   a:PKEY: EC, (prime256v1); sigalg: ecdsa-with-SHA384
+   v:NotBefore: Oct 31 17:17:49 2023 GMT; NotAfter: Oct 28 17:17:48 2033 GMT
+ 2 s:C=US, O=SSL Corporation, CN=SSL.com TLS Transit ECC CA R2
+   i:C=US, O=SSL Corporation, CN=SSL.com TLS ECC Root CA 2022
+   a:PKEY: EC, (secp384r1); sigalg: ecdsa-with-SHA384
+   v:NotBefore: Oct 21 17:02:23 2022 GMT; NotAfter: Oct 17 17:02:22 2037 GMT
+ 3 s:C=US, O=SSL Corporation, CN=SSL.com TLS ECC Root CA 2022
+   i:C=GB, ST=Greater Manchester, L=Salford, O=Comodo CA Limited, CN=AAA Certificate Services
+   a:PKEY: EC, (secp384r1); sigalg: sha256WithRSAEncryption
+   v:NotBefore: Aug  1 00:00:00 2025 GMT; NotAfter: Dec 31 23:59:59 2028 GMT
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIID0jCCA3mgAwIBAgIQZSBYnvF+tVxmRDPyny5oSjAKBggqhkjOPQQDAjBSMQsw
+CQYDVQQGEwJVUzEZMBcGA1UECgwQQ0xPVURGTEFSRSwgSU5DLjEoMCYGA1UEAwwf
+Q2xvdWRmbGFyZSBUTFMgSXNzdWluZyBFQ0MgQ0EgMTAeFw0yNjA0MDIyMTE4NTda
+Fw0yNjA3MDEyMTI0NDZaMBYxFDASBgNVBAMMC2V4YW1wbGUuY29tMFkwEwYHKoZI
+zj0CAQYIKoZIzj0DAQcDQgAE6Iftpk9Hl1u+tKgOvUFy8V3hSE4MNpwN2wXYtLt8
+cUe8Ih2Nvzv6ejX+8cFwk+1SezvPlnoSR/PZmiA26sxVXKOCAmswggJnMAwGA1Ud
+EwEB/wQCMAAwHwYDVR0jBBgwFoAUnMQJckcYF3unGomzkjXV4QOM/pIwbAYIKwYB
+BQUHAQEEYDBeMDkGCCsGAQUFBzAChi1odHRwOi8vaS5jZi1iLnNzbC5jb20vQ2xv
+dWRmbGFyZS1UTFMtSS1FMS5jZXIwIQYIKwYBBQUHMAGGFWh0dHA6Ly9vLmNmLWIu
+c3NsLmNvbTAlBgNVHREEHjAcggtleGFtcGxlLmNvbYINKi5leGFtcGxlLmNvbTAj
+BgNVHSAEHDAaMAgGBmeBDAECATAOBgwrBgEEAYKpMAEDAQEwEwYDVR0lBAwwCgYI
+KwYBBQUHAwEwPgYDVR0fBDcwNTAzoDGgL4YtaHR0cDovL2MuY2YtYi5zc2wuY29t
+L0Nsb3VkZmxhcmUtVExTLUktRTEuY3JsMA4GA1UdDwEB/wQEAwIHgDAPBgkrBgEE
+AYLaSywEAgUAMIIBBAYKKwYBBAHWeQIEAgSB9QSB8gDwAHYAyKPEf8ezrbk1awE/
+anoSbeM6TkOlxkb5l605dZkdz5oAAAGdUBlyrwAABAMARzBFAiB/1tzdXGNf67TC
+SzLFxka7y1mz2gEpXmO3uk2SVPNANQIhAPw/Quf0YeOh7aK6BaalgoisAB8t/Fbp
+QP/W7EMfRDhPAHYAlE5Dh/rswe+B8xkkJqgYZQHH0184AgE/cmd9VTcuGdgAAAGd
+UBlykAAABAMARzBFAiABZgcvMVAZLISG7fvc5NYPDvJD97noT6GthzaZI1phEQIh
+AJFKuSjsdurepc2e2QBrSdghAGQzMYVaSomJ++/1bbnIMAoGCCqGSM49BAMCA0cA
+MEQCIHY8XBGm9RDpvUkDnmTADfe/IJrDV/vwKB5oNEKb2x4xAiB8OS8DiJ2H6pc/
+zKbrdX+gLU4C15Dsggh/2v2xSoPdIA==
+-----END CERTIFICATE-----
+subject=CN=example.com
+issuer=C=US, O=CLOUDFLARE, INC., CN=Cloudflare TLS Issuing ECC CA 1
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: ecdsa_secp256r1_sha256
+Negotiated TLS1.3 group: X25519MLKEM768
+---
+SSL handshake has read 5052 bytes and written 1581 bytes
+Verification: OK
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Protocol: TLSv1.3
+Server public key is 256 bit
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---
+DONE
+
+real	0m0,063s
+user	0m0,014s
+sys	0m0,000s
+Call to SSL_CONF_cmd(-cipher, CHACHA20-POLY1305) failed
+4067F16FC6720000:error:0A0000B9:SSL routines:SSL_CTX_set_cipher_list:no cipher match:../ssl/ssl_lib.c:3409:
+
+real	0m0,004s
+user	0m0,002s
+sys	0m0,002s
+]666;vte.shell.postexec=1\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ curl -k https://myweblocal.[K[K[K[K[K[K[Kb.local
+[?2004l]133;C\]666;vte.shell.preexec!\curl: (6) Could not resolve host: myweb.local
+]666;vte.shell.postexec=6\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ echo ""1"9"2"."1"6"8"."5"6"."1"0"1" "m"y"w"e"b"."l"o"a"[1P"c"a"l"[C | sudo tee -a /etc/hosts
+[?2004l]133;C\]666;vte.shell.preexec!\[sudo: authenticate] Password: 
+192.168.56.101 myweb.local
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ echo "192.168.56.101 myweb.local" | sudo tee -a /etc/hosts[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[31Pcurl -k https://myweb.local
+[?2004l]133;C\]666;vte.shell.preexec!\<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <!--
+    Modified from the Debian original for Ubuntu
+    Last updated: 2022-03-22
+    See: https://launchpad.net/bugs/1966004
+  -->
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Apache2 Ubuntu Default Page: It works</title>
+    <style type="text/css" media="screen">
+  * {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  body, html {
+    padding: 3px 3px 3px 3px;
+
+    background-color: #D8DBE2;
+
+    font-family: Ubuntu, Verdana, sans-serif;
+    font-size: 11pt;
+    text-align: center;
+  }
+
+  div.main_page {
+    position: relative;
+    display: table;
+
+    width: 800px;
+
+    margin-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px 0px 0px;
+
+    border-width: 2px;
+    border-color: #212738;
+    border-style: solid;
+
+    background-color: #FFFFFF;
+
+    text-align: center;
+  }
+
+  div.page_header {
+    height: 180px;
+    width: 100%;
+
+    background-color: #F5F6F7;
+  }
+
+  div.page_header span {
+    margin: 15px 0px 0px 50px;
+
+    font-size: 180%;
+    font-weight: bold;
+  }
+
+  div.page_header img {
+    margin: 3px 0px 0px 40px;
+
+    border: 0px 0px 0px;
+  }
+
+  div.banner {
+    padding: 9px 6px 9px 6px;
+    background-color: #E9510E;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 112%;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+    bottom: 30px;
+    width: 20%;
+  }
+
+  div.table_of_contents {
+    clear: left;
+
+    min-width: 200px;
+
+    margin: 3px 3px 3px 3px;
+
+    background-color: #FFFFFF;
+
+    text-align: left;
+  }
+
+  div.table_of_contents_item {
+    clear: left;
+
+    width: 100%;
+
+    margin: 4px 0px 0px 0px;
+
+    background-color: #FFFFFF;
+
+    color: #000000;
+    text-align: left;
+  }
+
+  div.table_of_contents_item a {
+    margin: 6px 0px 0px 6px;
+  }
+
+  div.content_section {
+    margin: 3px 3px 3px 3px;
+
+    background-color: #FFFFFF;
+
+    text-align: left;
+  }
+
+  div.content_section_text {
+    padding: 4px 8px 4px 8px;
+
+    color: #000000;
+    font-size: 100%;
+  }
+
+  div.content_section_text pre {
+    margin: 8px 0px 8px 0px;
+    padding: 8px 8px 8px 8px;
+
+    border-width: 1px;
+    border-style: dotted;
+    border-color: #000000;
+
+    background-color: #F5F6F7;
+
+    font-style: italic;
+  }
+
+  div.content_section_text p {
+    margin-bottom: 6px;
+  }
+
+  div.content_section_text ul, div.content_section_text li {
+    padding: 4px 8px 4px 16px;
+  }
+
+  div.section_header {
+    padding: 3px 6px 3px 6px;
+
+    background-color: #8E9CB2;
+
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 112%;
+    text-align: center;
+  }
+
+  div.section_header_grey {
+    background-color: #9F9386;
+  }
+
+  .floating_element {
+    position: relative;
+    float: left;
+  }
+
+  div.table_of_contents_item a,
+  div.content_section_text a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  div.table_of_contents_item a:link,
+  div.table_of_contents_item a:visited,
+  div.table_of_contents_item a:active {
+    color: #000000;
+  }
+
+  div.table_of_contents_item a:hover {
+    background-color: #000000;
+
+    color: #FFFFFF;
+  }
+
+  div.content_section_text a:link,
+  div.content_section_text a:visited,
+   div.content_section_text a:active {
+    background-color: #DCDFE6;
+
+    color: #000000;
+  }
+
+  div.content_section_text a:hover {
+    background-color: #000000;
+
+    color: #DCDFE6;
+  }
+
+  div.validator {
+  }
+    </style>
+  </head>
+  <body>
+    <div class="main_page">
+      <div class="page_header floating_element">
+        <img src="icons/ubuntu-logo.png" alt="Ubuntu Logo"
+             style="width:184px;height:146px;" class="floating_element" />
+        <div>
+          <span style="margin-top: 1.5em;" class="floating_element">
+            Apache2 Default Page
+          </span>
+        </div>
+        <div class="banner">
+          <div id="about"></div>
+          It works!
+        </div>
+
+      </div>
+      <div class="content_section floating_element">
+        <div class="content_section_text">
+          <p>
+                This is the default welcome page used to test the correct 
+                operation of the Apache2 server after installation on Ubuntu systems.
+                It is based on the equivalent page on Debian, from which the Ubuntu Apache
+                packaging is derived.
+                If you can read this page, it means that the Apache HTTP server installed at
+                this site is working properly. You should <b>replace this file</b> (located at
+                <tt>/var/www/html/index.html</tt>) before continuing to operate your HTTP server.
+          </p>
+
+          <p>
+                If you are a normal user of this web site and don't know what this page is
+                about, this probably means that the site is currently unavailable due to
+                maintenance.
+                If the problem persists, please contact the site's administrator.
+          </p>
+
+        </div>
+        <div class="section_header">
+          <div id="changes"></div>
+                Configuration Overview
+        </div>
+        <div class="content_section_text">
+          <p>
+                Ubuntu's Apache2 default configuration is different from the
+                upstream default configuration, and split into several files optimized for
+                interaction with Ubuntu tools. The configuration system is
+                <b>fully documented in
+                /usr/share/doc/apache2/README.Debian.gz</b>. Refer to this for the full
+                documentation. Documentation for the web server itself can be
+                found by accessing the <a href="/manual">manual</a> if the <tt>apache2-doc</tt>
+                package was installed on this server.
+          </p>
+          <p>
+                The configuration layout for an Apache2 web server installation on Ubuntu systems is as follows:
+          </p>
+          <pre>
+/etc/apache2/
+|-- apache2.conf
+|       `--  ports.conf
+|-- mods-enabled
+|       |-- *.load
+|       `-- *.conf
+|-- conf-enabled
+|       `-- *.conf
+|-- sites-enabled
+|       `-- *.conf
+          </pre>
+          <ul>
+                        <li>
+                           <tt>apache2.conf</tt> is the main configuration
+                           file. It puts the pieces together by including all remaining configuration
+                           files when starting up the web server.
+                        </li>
+
+                        <li>
+                           <tt>ports.conf</tt> is always included from the
+                           main configuration file. It is used to determine the listening ports for
+                           incoming connections, and this file can be customized anytime.
+                        </li>
+
+                        <li>
+                           Configuration files in the <tt>mods-enabled/</tt>,
+                           <tt>conf-enabled/</tt> and <tt>sites-enabled/</tt> directories contain
+                           particular configuration snippets which manage modules, global configuration
+                           fragments, or virtual host configurations, respectively.
+                        </li>
+
+                        <li>
+                           They are activated by symlinking available
+                           configuration files from their respective
+                           *-available/ counterparts. These should be managed
+                           by using our helpers
+                           <tt>
+                                a2enmod,
+                                a2dismod,
+                           </tt>
+                           <tt>
+                                a2ensite,
+                                a2dissite,
+                            </tt>
+                                and
+                           <tt>
+                                a2enconf,
+                                a2disconf
+                           </tt>. See their respective man pages for detailed information.
+                        </li>
+
+                        <li>
+                           The binary is called apache2 and is managed using systemd, so to
+                           start/stop the service use <tt>systemctl start apache2</tt> and
+                           <tt>systemctl stop apache2</tt>, and use <tt>systemctl status apache2</tt>
+                           and <tt>journalctl -u apache2</tt> to check status.  <tt>system</tt>
+                           and <tt>apache2ctl</tt> can also be used for service management if
+                           desired.
+                           <b>Calling <tt>/usr/bin/apache2</tt> directly will not work</b> with the
+                           default configuration.
+                        </li>
+          </ul>
+        </div>
+
+        <div class="section_header">
+            <div id="docroot"></div>
+                Document Roots
+        </div>
+
+        <div class="content_section_text">
+            <p>
+                By default, Ubuntu does not allow access through the web browser to
+                <em>any</em> file apart from those located in <tt>/var/www</tt>,
+                <a href="https://httpd.apache.org/docs/2.4/mod/mod_userdir.html" rel="nofollow">public_html</a>
+                directories (when enabled) and <tt>/usr/share</tt> (for web
+                applications). If your site is using a web document root
+                located elsewhere (such as in <tt>/srv</tt>) you may need to whitelist your
+                document root directory in <tt>/etc/apache2/apache2.conf</tt>.
+            </p>
+            <p>
+                The default Ubuntu document root is <tt>/var/www/html</tt>. You
+                can make your own virtual hosts under /var/www.
+            </p>
+        </div>
+
+        <div class="section_header">
+          <div id="bugs"></div>
+                Reporting Problems
+        </div>
+        <div class="content_section_text">
+          <p>
+                Please use the <tt>ubuntu-bug</tt> tool to report bugs in the
+                Apache2 package with Ubuntu. However, check <a
+                href="https://bugs.launchpad.net/ubuntu/+source/apache2"
+                rel="nofollow">existing bug reports</a> before reporting a new bug.
+          </p>
+          <p>
+                Please report bugs specific to modules (such as PHP and others)
+                to their respective packages, not to the web server itself.
+          </p>
+        </div>
+
+      </div>
+    </div>
+    <div class="validator">
+    </div>
+  </body>
+</html>
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ exit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+
+Script done on 2026-05-17 00:26:58+03:00 [COMMAND_EXIT_CODE="0"]
