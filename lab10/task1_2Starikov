@@ -1,0 +1,118 @@
+Script started on 2026-05-16 20:14:07+00:00 [TERM="linux" TTY="/dev/tty1" COLUMNS="160" LINES="50"]
+[?2004huser@ubuntuserver:~$ ip addr show
+[?2004l1: [1;36mlo: [0m<LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback [1;33m00:00:00:00:00:00[0m brd [1;33m00:00:00:00:00:00[0m
+    inet [1;35m127.0.0.1[0m/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 [1;94m::1[0m/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: [1;36menp0s3: [0m<BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state [1;32mUP [0mgroup default qlen 1000
+    link/ether [1;33m08:00:27:c0:c9:1d[0m brd [1;33mff:ff:ff:ff:ff:ff[0m
+    altname enx080027c0c91d
+    inet [1;35m10.0.2.15[0m/24 metric 100 brd [1;35m10.0.2.255 [0mscope global dynamic enp0s3
+       valid_lft 85282sec preferred_lft 85282sec
+    inet6 [1;94mfd17:625c:f037:2:a00:27ff:fec0:c91d[0m/64 scope global dynamic mngtmpaddr noprefixroute 
+       valid_lft 86234sec preferred_lft 14234sec
+    inet6 [1;94mfe80::a00:27ff:fec0:c91d[0m/64 scope link proto kernel_ll 
+       valid_lft forever preferred_lft forever
+3: [1;36menp0s8: [0m<BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state [1;32mUP [0mgroup default qlen 1000
+    link/ether [1;33m08:00:27:a1:df:b0[0m brd [1;33mff:ff:ff:ff:ff:ff[0m
+    altname enx080027a1dfb0
+    inet [1;35m192.168.56.101[0m/24 metric 1024 brd [1;35m192.168.56.255 [0mscope global dynamic enp0s8
+       valid_lft 382sec preferred_lft 382sec
+    inet6 [1;94mfe80::a00:27ff:fea1:dfb0[0m/64 scope link proto kernel_ll 
+       valid_lft forever preferred_lft forever
+4: [1;36mvxlan.calico: [0m<BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1450 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/ether [1;33m66:ed:89:74:ba:67[0m brd [1;33mff:ff:ff:ff:ff:ff[0m
+    inet [1;35m10.1.87.64[0m/32 scope global vxlan.calico
+       valid_lft forever preferred_lft forever
+    inet6 [1;94mfe80::64ed:89ff:fe74:ba67[0m/64 scope link proto kernel_ll 
+       valid_lft forever preferred_lft forever
+7: [1;36mcali907c4b3487c@if2: [0m<BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1450 qdisc noqueue state [1;32mUP [0mgroup default qlen 1000
+    link/ether [1;33mee:ee:ee:ee:ee:ee[0m brd [1;33mff:ff:ff:ff:ff:ff[0m link-netns cni-be987879-df90-3cf4-c280-abe507b08d35
+    inet6 [1;94mfe80::ecee:eeff:feee:eeee[0m/64 scope link proto kernel_ll 
+       valid_lft forever preferred_lft forever
+8: [1;36mcali79eae41a8ea@if2: [0m<BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1450 qdisc noqueue state [1;32mUP [0mgroup default qlen 1000
+    link/ether [1;33mee:ee:ee:ee:ee:ee[0m brd [1;33mff:ff:ff:ff:ff:ff[0m link-netns cni-d5c3d7de-7932-b0ad-18bb-62f77f97f941
+    inet6 [1;94mfe80::ecee:eeff:feee:eeee[0m/64 scope link proto kernel_ll 
+       valid_lft forever preferred_lft forever
+[?2004huser@ubuntuserver:~$ ip addr show[C[C[C[C[C[1P[1P[1P[1P[1@l[1@i[1@n[1@k
+[?2004l1: [1;36mlo: [0m<LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback [1;33m00:00:00:00:00:00[0m brd [1;33m00:00:00:00:00:00[0m
+2: [1;36menp0s3: [0m<BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state [1;32mUP [0mmode DEFAULT group default qlen 1000
+    link/ether [1;33m08:00:27:c0:c9:1d[0m brd [1;33mff:ff:ff:ff:ff:ff[0m
+    altname enx080027c0c91d
+3: [1;36menp0s8: [0m<BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state [1;32mUP [0mmode DEFAULT group default qlen 1000
+    link/ether [1;33m08:00:27:a1:df:b0[0m brd [1;33mff:ff:ff:ff:ff:ff[0m
+    altname enx080027a1dfb0
+4: [1;36mvxlan.calico: [0m<BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1450 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/ether [1;33m66:ed:89:74:ba:67[0m brd [1;33mff:ff:ff:ff:ff:ff[0m
+7: [1;36mcali907c4b3487c@if2: [0m<BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1450 qdisc noqueue state [1;32mUP [0mmode DEFAULT group default qlen 1000
+    link/ether [1;33mee:ee:ee:ee:ee:ee[0m brd [1;33mff:ff:ff:ff:ff:ff[0m link-netns cni-be987879-df90-3cf4-c280-abe507b08d35
+8: [1;36mcali79eae41a8ea@if2: [0m<BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1450 qdisc noqueue state [1;32mUP [0mmode DEFAULT group default qlen 1000
+    link/ether [1;33mee:ee:ee:ee:ee:ee[0m brd [1;33mff:ff:ff:ff:ff:ff[0m link-netns cni-d5c3d7de-7932-b0ad-18bb-62f77f97f941
+[?2004huser@ubuntuserver:~$ ip link showaddr[C[C[C[C[C[C[1@ [1@-[1@4[C[1@ [1P
+[?2004l1: [1;36mlo: [0m<LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    inet [1;35m127.0.0.1[0m/8 scope host lo
+       valid_lft forever preferred_lft forever
+2: [1;36menp0s3: [0m<BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state [1;32mUP [0mgroup default qlen 1000
+    altname enx080027c0c91d
+    inet [1;35m10.0.2.15[0m/24 metric 100 brd [1;35m10.0.2.255 [0mscope global dynamic enp0s3
+       valid_lft 85272sec preferred_lft 85272sec
+3: [1;36menp0s8: [0m<BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state [1;32mUP [0mgroup default qlen 1000
+    altname enx080027a1dfb0
+    inet [1;35m192.168.56.101[0m/24 metric 1024 brd [1;35m192.168.56.255 [0mscope global dynamic enp0s8
+       valid_lft 372sec preferred_lft 372sec
+4: [1;36mvxlan.calico: [0m<BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1450 qdisc noqueue state UNKNOWN group default qlen 1000
+    inet [1;35m10.1.87.64[0m/32 scope global vxlan.calico
+       valid_lft forever preferred_lft forever
+[?2004huser@ubuntuserver:~$ ip -4 addr show[C[1P[1@5[1P[1@6
+[?2004l1: [1;36mlo: [0m<LOOPBACK,UP,LOWER_UP> mtu 65536 state UNKNOWN qlen 1000
+    inet6 [1;94m::1[0m/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: [1;36menp0s3: [0m<BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 state [1;32mUP [0mqlen 1000
+    inet6 [1;94mfd17:625c:f037:2:a00:27ff:fec0:c91d[0m/64 scope global dynamic mngtmpaddr noprefixroute 
+       valid_lft 86222sec preferred_lft 14222sec
+    inet6 [1;94mfe80::a00:27ff:fec0:c91d[0m/64 scope link proto kernel_ll 
+       valid_lft forever preferred_lft forever
+3: [1;36menp0s8: [0m<BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 state [1;32mUP [0mqlen 1000
+    inet6 [1;94mfe80::a00:27ff:fea1:dfb0[0m/64 scope link proto kernel_ll 
+       valid_lft forever preferred_lft forever
+4: [1;36mvxlan.calico: [0m<BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1450 state UNKNOWN qlen 1000
+    inet6 [1;94mfe80::64ed:89ff:fe74:ba67[0m/64 scope link proto kernel_ll 
+       valid_lft forever preferred_lft forever
+7: [1;36mcali907c4b3487c@enp0s3: [0m<BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1450 state [1;32mUP [0mqlen 1000
+    inet6 [1;94mfe80::ecee:eeff:feee:eeee[0m/64 scope link proto kernel_ll 
+       valid_lft forever preferred_lft forever
+8: [1;36mcali79eae41a8ea@enp0s3: [0m<BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1450 state [1;32mUP [0mqlen 1000
+    inet6 [1;94mfe80::ecee:eeff:feee:eeee[0m/64 scope link proto kernel_ll 
+       valid_lft forever preferred_lft forever
+[?2004huser@ubuntuserver:~$ ip -6 addr show4[C[C[C[C[C[C[C[C[C[C[3Plink[C[C[C[C[Caddr[C[C[C[C[C | grep -E "inet | [K [Kinet "
+[?2004l    [01;31m[Kinet [m[K127.0.0.1/8 scope host lo
+    [01;31m[Kinet [m[K10.0.2.15/24 metric 100 brd 10.0.2.255 scope global dynamic enp0s3
+    [01;31m[Kinet [m[K192.168.56.101/24 metric 1024 brd 192.168.56.255 scope global dynamic enp0s8
+    [01;31m[Kinet [m[K10.1.87.64/32 scope global vxlan.calico
+[?2004huser@ubuntuserver:~$ sudo apt install nma[K[K[Kapache2 -y
+[?2004l[sudo: authenticate] Password: ****    
+Чтение списков пакетов… 0%Чтение списков пакетов… 100%                                                   Построение дерева зависимостей… 0%Построение дерева зависимостей… 0%Построение дерева зависимостей… 50%Построение дерева зависимостей… 50%                                                                  Чтение информации о состоянии… 0%Чтение информации о состоянии… 0%                                                              Уже установлен пакет apache2 самой новой версии (2.4.66-2ubuntu2.1).
+Разрешение зависимостей… 0%Разрешение зависимостей… 10%                                                     Следующие пакеты устанавливались автоматически и больше не требуются:
+  linux-headers-7.0.0-14          linux-image-unsigned-7.0.0-14-generic    linux-modules-7.0.0-14-generic  linux-tools-7.0.0-14-generic
+  linux-headers-7.0.0-14-generic  linux-main-modules-zfs-7.0.0-14-generic  linux-tools-7.0.0-14
+Для их удаления используйте «sudo apt autoremove».
+
+Сводка:
+  Обновление: 0, Установка: 0, Удаление: 0, Пропуск обновления: 3
+[?2004huser@ubuntuserver:~$ ping -c 4 192.168.56.102
+[?2004lPING 192.168.56.102 (192.168.56.102) 56(84) bytes of data.
+64 bytes from 192.168.56.102: icmp_seq=1 ttl=64 time=0.217 ms
+64 bytes from 192.168.56.102: icmp_seq=2 ttl=64 time=0.171 ms
+64 bytes from 192.168.56.102: icmp_seq=3 ttl=64 time=0.170 ms
+64 bytes from 192.168.56.102: icmp_seq=4 ttl=64 time=0.163 ms
+
+--- 192.168.56.102 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3078ms
+rtt min/avg/max/mdev = 0.163/0.180/0.217/0.021 ms
+[?2004huser@ubuntuserver:~$ exir[Kt
+[?2004lexit
+
+Script done on 2026-05-16 20:21:33+00:00 [COMMAND_EXIT_CODE="0"]

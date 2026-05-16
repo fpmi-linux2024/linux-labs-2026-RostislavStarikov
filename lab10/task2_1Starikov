@@ -1,0 +1,40 @@
+Script started on 2026-05-16 23:27:36+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="91" LINES="37"]
+Good Day, user!
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ ssh-keygen -t r[Ks[Krsa
+[?2004l]133;C\]666;vte.shell.preexec!\Generating public/private rsa key pair.
+Enter file in which to save the key (/home/user/.ssh/id_rsa): 
+/home/user/.ssh/id_rsa already exists.
+Overwrite (y/n)? 
+]666;vte.shell.postexec=1\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ ssh-keygen -t rsa
+[?2004l]133;C\]666;vte.shell.preexec!\Generating public/private rsa key pair.
+
+Enter file in which to save the key (/home/user/.ssh/id_rsa): /home/user/.ssh/id_rsa already exists.
+Overwrite (y/n)? y
+Enter passphrase for "/home/user/.ssh/id_rsa" (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/user/.ssh/id_rsa
+Your public key has been saved in /home/user/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:yanLAm42r4g4wPgq3DvwKpoKxGXLeZN69jNP5T9OU84 user@user
+The key's randomart image is:
++---[RSA 3072]----+
+|                 |
+|                 |
+|   o             |
+|. + o .. o       |
+|oo + +  S  .   . |
+|+o. o ..  o   +  |
+|+o+o o.  . . o E |
+|B+*++..+.   o..  |
+|&*o=+.o.+.  .o.  |
++----[SHA256]-----+
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ ssh-keygen -t rsa1 -f ~/.ssh/identify[K[Kty[1Pitytity
+[?2004l]133;C\]666;vte.shell.preexec!\unknown key type rsa1
+]666;vte.shell.postexec=255\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ ssh-keygen -t rsa1 -f ~/.ssh/identity[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kdsa
+[?2004l]133;C\]666;vte.shell.preexec!\unknown key type dsa
+]666;vte.shell.postexec=255\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ chmod 07[K[K7--[K[K00 ~./[K[K.s[K[K/.ssh/[K
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ chmod 700 ~/.ssh[1P[1@6[C[C[C[C[C[C[C[C[C [K/id_rsa
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ chmod 600 ~/.ssh/id_rsa[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+
+Script done on 2026-05-16 23:29:03+03:00 [COMMAND_EXIT_CODE="0"]

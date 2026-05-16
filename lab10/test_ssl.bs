@@ -1,0 +1,6 @@
+#!/bin/bash
+curl -s https://example.com > /dev/null
+openssl s_client -connect example.com:443 -ssl3 -cipher 'HIGH' < /dev/null
+time openssl s_client -connect example.com:443 -cipher AES128-GCM-SHA256 < /dev/null
+time openssl s_client -connect example.com:443 -cipher CHACHA20-POLY1305 < /dev/null
+

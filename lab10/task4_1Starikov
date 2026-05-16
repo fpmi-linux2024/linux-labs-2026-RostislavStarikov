@@ -1,0 +1,77 @@
+Script started on 2026-05-17 01:06:50+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="91" LINES="37"]
+Good Day, user!
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ echo[Kp [K[Ko ""2"0"0" "b"s"u" "[1P"[C | sudo tee -a /etc/iproute2/rt_tables
+[?2004l]133;C\]666;vte.shell.preexec!\[sudo: authenticate] Password: 
+200 bsu
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ sudo ip route add 217.21.43.0/24 dev enp0s9 table bsu
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ sudo ip route add default via 10.0.4.1 dfe[K[Kev enp0s9 table bsy[Kuyy [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ sudo ip rule add to 217.21.43.0/24 lookup bsu priority 100
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ ip route show table ns=[K[K[Kbsu
+[?2004l]133;C\]666;vte.shell.preexec!\default via [35m10.0.4.1 [0mdev [36menp0s9 [0m
+[35m217.21.43.0/24 [0mdev [36menp0s9 [0mscope link 
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ ip ri=[K[Kule show
+[?2004l]133;C\]666;vte.shell.preexec!\0:	from all lookup local
+100:	from all to [35m217.21.43.0[0m/24 lookup bsu
+32766:	from all lookup main
+32767:	from all lookup default
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ sudo apt install traceroute -y
+[?2004l]133;C\]666;vte.shell.preexec!\Чтение списков пакетов… 0%Чтение списков пакетов… 100%                                                   Построение дерева зависимостей… 0%Построение дерева зависимостей… 0%Построение дерева зависимостей… 50%Построение дерева зависимостей… 50%                                                                  Чтение информации о состоянии… 0%Чтение информации о состоянии… 0%                                                              Разрешение зависимостей… 0%Разрешение зависимостей… 10%                                                     Установка:
+[32m  traceroute
+[0m
+Сводка:
+  Обновление: 0, Установка: 1, Удаление: 0, Пропуск обновления: 150
+  Объём загрузки: 59,2 kB
+  Требуемое пространство: 180 kB / 7 431 MB доступно
+
+[33m0% [Обработка][0m                       Пол:1 http://archive.ubuntu.com/ubuntu questing/universe amd64 traceroute amd64 1:2.1.6-1 [59,2 kB]
+[33m33% [1 traceroute 24,6 kB/59,2 kB 42%][0m[33m                                      100% [Обработка][0m                         Получено 59,2 kB за 0с (705 kB/s)
+
+7[0;36r8[1AВыбор ранее не выбранного пакета traceroute.
+(Чтение базы данных … (Чтение базы данных … 5%(Чтение базы данных … 10%(Чтение базы данных … 15%(Чтение базы данных … 20%(Чтение базы данных … 25%(Чтение базы данных … 30%(Чтение базы данных … 35%(Чтение базы данных … 40%(Чтение базы данных … 45%(Чтение базы данных … 50%(Чтение базы данных … 55%(Чтение базы данных … 60%(Чтение базы данных … 65%(Чтение базы данных … 70%(Чтение базы данных … 75%(Чтение базы данных … 80%(Чтение базы данных … 85%(Чтение базы данных … 90%(Чтение базы данных … 95%(Чтение базы данных … 100%(Чтение базы данных … на данный момент установлено 196597 файлов и каталогов.)
+Подготовка к распаковке …/traceroute_1%3a2.1.6-1_amd64.deb …
+7[37;0f[42m[30mХод выполнения: [  0%][49m[39m [                                                               ] 87[37;0f[42m[30mХод выполнения: [ 20%][49m[39m [████████████▌                                                  ] 8Распаковывается traceroute (1:2.1.6-1) …
+7[37;0f[42m[30mХод выполнения: [ 40%][49m[39m [█████████████████████████▏                                     ] 8Настраивается пакет traceroute (1:2.1.6-1) …
+7[37;0f[42m[30mХод выполнения: [ 60%][49m[39m [█████████████████████████████████████▊                         ] 8update-alternatives: используется /usr/bin/traceroute.db для предоставления /usr/bin/traceroute (traceroute) в автоматическом режиме
+update-alternatives: используется /usr/bin/traceroute6.db для предоставления /usr/bin/traceroute6 (traceroute6) в автоматическом режиме
+update-alternatives: используется /usr/bin/lft.db для предоставления /usr/bin/lft (lft) в автоматическом режиме
+update-alternatives: используется /usr/bin/traceproto.db для предоставления /usr/bin/traceproto (traceproto) в автоматическом режиме
+update-alternatives: используется /usr/sbin/tcptraceroute.db для предоставления /usr/sbin/tcptraceroute (tcptraceroute) в автоматическом режиме
+7[37;0f[42m[30mХод выполнения: [ 80%][49m[39m [██████████████████████████████████████████████████▍            ] 8Обрабатываются триггеры для man-db (2.13.1-1) …
+
+7[0;37r8[1A[J]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ traceroute -n -i en[[Kp-[K0sy[K9 217..[K21.43.1
+[?2004l]133;C\]666;vte.shell.preexec!\traceroute to 217.21.43.1 (217.21.43.1), 30 hops max, 60 byte packets
+ 1  * * *
+ 2  * * *
+ 3  * * *
+ 4  * * *
+ 5  * * *
+ 6  * * *
+ 7  * * *
+ 8  * * *
+ 9  * * *
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ ecit[K[K[Kxit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+
+Script done on 2026-05-17 01:10:34+03:00 [COMMAND_EXIT_CODE="0"]

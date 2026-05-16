@@ -1,0 +1,319 @@
+Script started on 2026-05-16 23:12:58+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="91" LINES="37"]
+Good Day, user!
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ ip link show
+[?2004l]133;C\]666;vte.shell.preexec!\1: [36mlo: [0m<LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback [33m00:00:00:00:00:00[0m brd [33m00:00:00:00:00:00[0m
+2: [36menp0s3: [0m<BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state [32mUP [0mmode DEFAULT group default qlen 1000
+    link/ether [33m08:00:27:32:42:13[0m brd [33mff:ff:ff:ff:ff:ff[0m
+3: [36menp0s8: [0m<BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state [32mUP [0mmode DEFAULT group default qlen 1000
+    link/ether [33m08:00:27:2e:40:5e[0m brd [33mff:ff:ff:ff:ff:ff[0m
+    altname enx0800272e405e
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ ip addr show
+[?2004l]133;C\]666;vte.shell.preexec!\1: [36mlo: [0m<LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback [33m00:00:00:00:00:00[0m brd [33m00:00:00:00:00:00[0m
+    inet [35m127.0.0.1[0m/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 [34m::1[0m/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: [36menp0s3: [0m<BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state [32mUP [0mgroup default qlen 1000
+    link/ether [33m08:00:27:32:42:13[0m brd [33mff:ff:ff:ff:ff:ff[0m
+    inet [35m10.0.2.15[0m/24 brd [35m10.0.2.255 [0mscope global dynamic noprefixroute enp0s3
+       valid_lft 85348sec preferred_lft 85348sec
+    inet6 [34mfd17:625c:f037:2:a00:27ff:fe32:4213[0m/64 scope global dynamic noprefixroute 
+       valid_lft 86117sec preferred_lft 14117sec
+    inet6 [34mfe80::a00:27ff:fe32:4213[0m/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+3: [36menp0s8: [0m<BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state [32mUP [0mgroup default qlen 1000
+    link/ether [33m08:00:27:2e:40:5e[0m brd [33mff:ff:ff:ff:ff:ff[0m
+    altname enx0800272e405e
+    inet [35m192.168.56.102[0m/24 brd [35m192.168.56.255 [0mscope global dynamic noprefixroute enp0s8
+       valid_lft 448sec preferred_lft 448sec
+    inet6 [34mfe80::c1db:95b6:63dd:be8d[0m/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ ip addr show[1@-[1@4[1@ 
+[?2004l]133;C\]666;vte.shell.preexec!\1: [36mlo: [0m<LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    inet [35m127.0.0.1[0m/8 scope host lo
+       valid_lft forever preferred_lft forever
+2: [36menp0s3: [0m<BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state [32mUP [0mgroup default qlen 1000
+    inet [35m10.0.2.15[0m/24 brd [35m10.0.2.255 [0mscope global dynamic noprefixroute enp0s3
+       valid_lft 85343sec preferred_lft 85343sec
+3: [36menp0s8: [0m<BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state [32mUP [0mgroup default qlen 1000
+    altname enx0800272e405e
+    inet [35m192.168.56.102[0m/24 brd [35m192.168.56.255 [0mscope global dynamic noprefixroute enp0s8
+       valid_lft 444sec preferred_lft 444sec
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ ip -4 addr show[1P[1@5[1P[1@6
+[?2004l]133;C\]666;vte.shell.preexec!\1: [36mlo: [0m<LOOPBACK,UP,LOWER_UP> mtu 65536 state UNKNOWN qlen 1000
+    inet6 [34m::1[0m/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: [36menp0s3: [0m<BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 state [32mUP [0mqlen 1000
+    inet6 [34mfd17:625c:f037:2:a00:27ff:fe32:4213[0m/64 scope global dynamic noprefixroute 
+       valid_lft 86110sec preferred_lft 14110sec
+    inet6 [34mfe80::a00:27ff:fe32:4213[0m/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+3: [36menp0s8: [0m<BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 state [32mUP [0mqlen 1000
+    inet6 [34mfe80::c1db:95b6:63dd:be8d[0m/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ ip -6 addr show4[C[C[C[C[C[C[C[C[C[C[3P[C[C[C[C[C[C[C[C[C | grep -E ""i"n"e"t" "|" "[1P"i"n"e"t"6" "
+[?2004l]133;C\]666;vte.shell.preexec!\    [01;31m[Kinet [m[K127.0.0.1/8 scope host lo
+    [01;31m[Kinet6 [m[K::1/128 scope host noprefixroute 
+    [01;31m[Kinet [m[K10.0.2.15/24 brd 10.0.2.255 scope global dynamic noprefixroute enp0s3
+    [01;31m[Kinet6 [m[Kfd17:625c:f037:2:a00:27ff:fe32:4213/64 scope global dynamic noprefixroute 
+    [01;31m[Kinet6 [m[Kfe80::a00:27ff:fe32:4213/64 scope link noprefixroute 
+    [01;31m[Kinet [m[K192.168.56.102/24 brd 192.168.56.255 scope global dynamic noprefixroute enp0s8
+    [01;31m[Kinet6 [m[Kfe80::c1db:95b6:63dd:be8d/64 scope link noprefixroute 
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ audo atp [K[K[Kpt install nmap -y
+[?2004l]133;C\]666;vte.shell.preexec!\Команда «audo» не найдена. Возможно, вы имели в виду:
+  команда 'aldo' из snap-пакета aldo (0.7.7)
+  команда 'ludo' из snap-пакета ludo (0.17.1)
+  команда 'aldo' из deb-пакета aldo (0.7.8-2)
+  команда 'sudo' из deb-пакета sudo (1.9.17p2-1ubuntu1.1)
+  команда 'sudo' из deb-пакета sudo-rs (0.2.8-1ubuntu5.3)
+  команда 'udo' из deb-пакета udo (6.4.1-8)
+См. 'snap info <имя_snap-пакета>', чтобы просмотреть дополнительные версии.
+]666;vte.shell.postexec=127\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ audo apt install nmap -y[1P[1@s
+[?2004l]133;C\]666;vte.shell.preexec!\[sudo: authenticate] Password: 
+Чтение списков пакетов… 0%Чтение списков пакетов… 100%                                                   Построение дерева зависимостей… 0%Построение дерева зависимостей… 0%Построение дерева зависимостей… 50%Построение дерева зависимостей… 50%                                                                  Чтение информации о состоянии… 0%Чтение информации о состоянии… 0%                                                              Уже установлен пакет nmap самой новой версии (7.95+dfsg-3).
+Разрешение зависимостей… 0%Разрешение зависимостей… 10%                                                     Сводка:
+  Обновление: 0, Установка: 0, Удаление: 0, Пропуск обновления: 150
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ ping -c 10[K92.168.56.101
+[?2004l]133;C\]666;vte.shell.preexec!\ping: invalid argument: '192.168.56.101'
+]666;vte.shell.postexec=1\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ ping -c 192.168.56.101[C[C[C[Kping -c 192.168.56.101[C[C[C[C[C[C[C4192.168.56.101 192.168.56.101
+[?2004l]133;C\]666;vte.shell.preexec!\PING 192.168.56.101 (192.168.56.101) 56(84) bytes of data.
+64 bytes from 192.168.56.101: icmp_seq=1 ttl=64 time=0.293 ms
+64 bytes from 192.168.56.101: icmp_seq=2 ttl=64 time=0.143 ms
+64 bytes from 192.168.56.101: icmp_seq=3 ttl=64 time=0.159 ms
+64 bytes from 192.168.56.101: icmp_seq=4 ttl=64 time=0.149 ms
+
+--- 192.168.56.101 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 7296ms
+rtt min/avg/max/mdev = 0.143/0.186/0.293/0.062 ms
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ nmap -s[KsT 192.168.56.101
+[?2004l]133;C\]666;vte.shell.preexec!\Starting Nmap 7.95 ( https://nmap.org ) at 2026-05-16 23:17 +03
+Nmap scan report for 192.168.56.101
+Host is up (0.00015s latency).
+Not shown: 997 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+9090/tcp open  zeus-admin
+
+Nmap done: 1 IP address (1 host up) scanned in 0.05 seconds
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ nmap -sT 192.168.56.101[1P 192.168.56.101S 192.168.56.101
+[?2004l]133;C\]666;vte.shell.preexec!\You requested a scan type which requires root privileges.
+QUITTING!
+]666;vte.shell.postexec=1\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ nmap -sS 192.168.56.101[1@s[1@u[1@d[1@o[1@ 
+[?2004l]133;C\]666;vte.shell.preexec!\Starting Nmap 7.95 ( https://nmap.org ) at 2026-05-16 23:17 +03
+Nmap scan report for 192.168.56.101
+Host is up (0.000076s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+9090/tcp open  zeus-admin
+MAC Address: 08:00:27:A1:DF:B0 (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.19 seconds
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ nmap -sF 192.168.56.101
+[?2004l]133;C\]666;vte.shell.preexec!\You requested a scan type which requires root privileges.
+QUITTING!
+]666;vte.shell.postexec=1\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ nmap -sF 192.168.56.101[1@s[1@u[1@d[1@o[1@ 
+[?2004l]133;C\]666;vte.shell.preexec!\Starting Nmap 7.95 ( https://nmap.org ) at 2026-05-16 23:18 +03
+Nmap scan report for 192.168.56.101
+Host is up (0.00019s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE         SERVICE
+22/tcp   open|filtered ssh
+80/tcp   open|filtered http
+9090/tcp open|filtered zeus-admin
+MAC Address: 08:00:27:A1:DF:B0 (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+
+Nmap done: 1 IP address (1 host up) scanned in 1.73 seconds
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ sudo nmap -sF 192.168.56.101[1P 192.168.56.101X 192.168.56.101
+[?2004l]133;C\]666;vte.shell.preexec!\Starting Nmap 7.95 ( https://nmap.org ) at 2026-05-16 23:18 +03
+Nmap scan report for 192.168.56.101
+Host is up (0.00033s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE         SERVICE
+22/tcp   open|filtered ssh
+80/tcp   open|filtered http
+9090/tcp open|filtered zeus-admin
+MAC Address: 08:00:27:A1:DF:B0 (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+
+Nmap done: 1 IP address (1 host up) scanned in 13.71 seconds
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ sudo nmap -sX 192.168.56.101[C[1P 192.168.56.101N 192.168.56.101
+[?2004l]133;C\]666;vte.shell.preexec!\Starting Nmap 7.95 ( https://nmap.org ) at 2026-05-16 23:18 +03
+Nmap scan report for 192.168.56.101
+Host is up (0.0011s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE         SERVICE
+22/tcp   open|filtered ssh
+80/tcp   open|filtered http
+9090/tcp open|filtered zeus-admin
+MAC Address: 08:00:27:A1:DF:B0 (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+
+Nmap done: 1 IP address (1 host up) scanned in 2.45 seconds
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ sudo nmap -sN 192.168.56.101[C[C[C[1P 192.168.56.101o 192.168.56.101[C 192.168.56.101[1P192.168.56.101[1P 192.168.56.101O 192.168.56.101[C 192.168.56.101- 192.168.56.101T 192.168.56.1015 192.168.56.101
+[?2004l]133;C\]666;vte.shell.preexec!\Starting Nmap 7.95 ( https://nmap.org ) at 2026-05-16 23:18 +03
+Warning: 192.168.56.101 giving up on port because retransmission cap hit (2).
+Nmap scan report for 192.168.56.101
+Host is up (0.00040s latency).
+Not shown: 235 open|filtered n/a protocols (no-response)
+PROTOCOL STATE  SERVICE
+1        open   icmp
+6        open   tcp
+11       closed nvp-ii
+17       open   udp
+20       closed hmp
+61       closed anyhost
+79       closed wb-expak
+91       closed larp
+93       closed ax.25
+96       closed scc-sp
+100      closed gmtp
+106      closed qnx
+107      closed a/n
+131      closed pipe
+153      closed unknown
+156      closed unknown
+179      closed unknown
+188      closed unknown
+193      closed unknown
+205      closed unknown
+231      closed unknown
+MAC Address: 08:00:27:A1:DF:B0 (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+
+Nmap done: 1 IP address (1 host up) scanned in 15.99 seconds
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ nmap -a[KsA 192.168.56.101
+[?2004l]133;C\]666;vte.shell.preexec!\You requested a scan type which requires root privileges.
+QUITTING!
+]666;vte.shell.postexec=1\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ nmap -sA 192.168.56.101[1@s[1@u[1@d[1@o[1@ 
+[?2004l]133;C\]666;vte.shell.preexec!\Starting Nmap 7.95 ( https://nmap.org ) at 2026-05-16 23:19 +03
+Nmap scan report for 192.168.56.101
+Host is up (0.00015s latency).
+All 1000 scanned ports on 192.168.56.101 are in ignored states.
+Not shown: 1000 unfiltered tcp ports (reset)
+MAC Address: 08:00:27:A1:DF:B0 (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.14 seconds
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ sudo nmap -sA 192.168.56.101[1P 192.168.56.101W 192.168.56.101
+[?2004l]133;C\]666;vte.shell.preexec!\Starting Nmap 7.95 ( https://nmap.org ) at 2026-05-16 23:19 +03
+Nmap scan report for 192.168.56.101
+Host is up (0.000084s latency).
+All 1000 scanned ports on 192.168.56.101 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 08:00:27:A1:DF:B0 (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.11 seconds
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ sudo nmap -sW 192.168.56.101[1P 192.168.56.101R 192.168.56.101
+[?2004l]133;C\]666;vte.shell.preexec!\WARNING: -sR is now an alias for -sV and activates version detection as well as RPC scan.
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-05-16 23:19 +03
+
+]666;vte.shell.postexec=130\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ sudo nmap -sR 192.168.56.101[1P 192.168.56.101V 192.168.56.101
+[?2004l]133;C\]666;vte.shell.preexec!\Starting Nmap 7.95 ( https://nmap.org ) at 2026-05-16 23:21 +03
+Nmap scan report for 192.168.56.101
+Host is up (0.000058s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 10.2p1 Ubuntu 2ubuntu3.2 (Ubuntu Linux; protocol 2.0)
+80/tcp   open  http    Apache httpd 2.4.66 ((Ubuntu))
+9090/tcp open  http    Golang net/http server (Go-IPFS json-rpc or InfluxDB API)
+MAC Address: 08:00:27:A1:DF:B0 (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 79.67 seconds
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ exit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+
+Script done on 2026-05-16 23:22:45+03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-05-16 23:24:00+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="91" LINES="37"]
+Good Day, user!
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ sudo m[Knmal[Kp -O 192.168.56.011[K[K[K101
+[?2004l]133;C\]666;vte.shell.preexec!\[sudo: authenticate] Password: 
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-05-16 23:24 +03
+Nmap scan report for 192.168.56.101
+Host is up (0.00017s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+9090/tcp open  zeus-admin
+MAC Address: 08:00:27:A1:DF:B0 (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+Aggressive OS guesses: Linux 4.15 - 5.19 (97%), Android 5 - 10 (Linux 3.4 - 3.18) (93%), Linux 2.6.32 (93%), Linux 3.2 - 4.14 (93%), Linux 2.6.32 - 3.10 (93%), Google Chromecast with Google TV (Android 10, Linux 4.9) (93%), Android 10 - 12 (Linux 4.14 - 4.19) (93%), Linux 5.10 - 5.19 (93%), Linux 5.4 - 5.10 (92%), OpenWrt 21.02 (Linux 5.4) (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 26.57 seconds
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ openssl n[K[Ksi[K[K[K [Kl si[[K[K[Kciphers -v | column -t
+[?2004l]133;C\]666;vte.shell.preexec!\TLS_AES_256_GCM_SHA384         TLSv1.3  Kx=any       Au=any    Enc=AESGCM(256)             Mac=AEAD
+TLS_CHACHA20_POLY1305_SHA256   TLSv1.3  Kx=any       Au=any    Enc=CHACHA20/POLY1305(256)  Mac=AEAD
+TLS_AES_128_GCM_SHA256         TLSv1.3  Kx=any       Au=any    Enc=AESGCM(128)             Mac=AEAD
+ECDHE-ECDSA-AES256-GCM-SHA384  TLSv1.2  Kx=ECDH      Au=ECDSA  Enc=AESGCM(256)             Mac=AEAD
+ECDHE-RSA-AES256-GCM-SHA384    TLSv1.2  Kx=ECDH      Au=RSA    Enc=AESGCM(256)             Mac=AEAD
+DHE-RSA-AES256-GCM-SHA384      TLSv1.2  Kx=DH        Au=RSA    Enc=AESGCM(256)             Mac=AEAD
+ECDHE-ECDSA-CHACHA20-POLY1305  TLSv1.2  Kx=ECDH      Au=ECDSA  Enc=CHACHA20/POLY1305(256)  Mac=AEAD
+ECDHE-RSA-CHACHA20-POLY1305    TLSv1.2  Kx=ECDH      Au=RSA    Enc=CHACHA20/POLY1305(256)  Mac=AEAD
+DHE-RSA-CHACHA20-POLY1305      TLSv1.2  Kx=DH        Au=RSA    Enc=CHACHA20/POLY1305(256)  Mac=AEAD
+ECDHE-ECDSA-AES128-GCM-SHA256  TLSv1.2  Kx=ECDH      Au=ECDSA  Enc=AESGCM(128)             Mac=AEAD
+ECDHE-RSA-AES128-GCM-SHA256    TLSv1.2  Kx=ECDH      Au=RSA    Enc=AESGCM(128)             Mac=AEAD
+DHE-RSA-AES128-GCM-SHA256      TLSv1.2  Kx=DH        Au=RSA    Enc=AESGCM(128)             Mac=AEAD
+ECDHE-ECDSA-AES256-SHA384      TLSv1.2  Kx=ECDH      Au=ECDSA  Enc=AES(256)                Mac=SHA384
+ECDHE-RSA-AES256-SHA384        TLSv1.2  Kx=ECDH      Au=RSA    Enc=AES(256)                Mac=SHA384
+DHE-RSA-AES256-SHA256          TLSv1.2  Kx=DH        Au=RSA    Enc=AES(256)                Mac=SHA256
+ECDHE-ECDSA-AES128-SHA256      TLSv1.2  Kx=ECDH      Au=ECDSA  Enc=AES(128)                Mac=SHA256
+ECDHE-RSA-AES128-SHA256        TLSv1.2  Kx=ECDH      Au=RSA    Enc=AES(128)                Mac=SHA256
+DHE-RSA-AES128-SHA256          TLSv1.2  Kx=DH        Au=RSA    Enc=AES(128)                Mac=SHA256
+ECDHE-ECDSA-AES256-SHA         TLSv1    Kx=ECDH      Au=ECDSA  Enc=AES(256)                Mac=SHA1
+ECDHE-RSA-AES256-SHA           TLSv1    Kx=ECDH      Au=RSA    Enc=AES(256)                Mac=SHA1
+DHE-RSA-AES256-SHA             SSLv3    Kx=DH        Au=RSA    Enc=AES(256)                Mac=SHA1
+ECDHE-ECDSA-AES128-SHA         TLSv1    Kx=ECDH      Au=ECDSA  Enc=AES(128)                Mac=SHA1
+ECDHE-RSA-AES128-SHA           TLSv1    Kx=ECDH      Au=RSA    Enc=AES(128)                Mac=SHA1
+DHE-RSA-AES128-SHA             SSLv3    Kx=DH        Au=RSA    Enc=AES(128)                Mac=SHA1
+RSA-PSK-AES256-GCM-SHA384      TLSv1.2  Kx=RSAPSK    Au=RSA    Enc=AESGCM(256)             Mac=AEAD
+DHE-PSK-AES256-GCM-SHA384      TLSv1.2  Kx=DHEPSK    Au=PSK    Enc=AESGCM(256)             Mac=AEAD
+RSA-PSK-CHACHA20-POLY1305      TLSv1.2  Kx=RSAPSK    Au=RSA    Enc=CHACHA20/POLY1305(256)  Mac=AEAD
+DHE-PSK-CHACHA20-POLY1305      TLSv1.2  Kx=DHEPSK    Au=PSK    Enc=CHACHA20/POLY1305(256)  Mac=AEAD
+ECDHE-PSK-CHACHA20-POLY1305    TLSv1.2  Kx=ECDHEPSK  Au=PSK    Enc=CHACHA20/POLY1305(256)  Mac=AEAD
+AES256-GCM-SHA384              TLSv1.2  Kx=RSA       Au=RSA    Enc=AESGCM(256)             Mac=AEAD
+PSK-AES256-GCM-SHA384          TLSv1.2  Kx=PSK       Au=PSK    Enc=AESGCM(256)             Mac=AEAD
+PSK-CHACHA20-POLY1305          TLSv1.2  Kx=PSK       Au=PSK    Enc=CHACHA20/POLY1305(256)  Mac=AEAD
+RSA-PSK-AES128-GCM-SHA256      TLSv1.2  Kx=RSAPSK    Au=RSA    Enc=AESGCM(128)             Mac=AEAD
+DHE-PSK-AES128-GCM-SHA256      TLSv1.2  Kx=DHEPSK    Au=PSK    Enc=AESGCM(128)             Mac=AEAD
+AES128-GCM-SHA256              TLSv1.2  Kx=RSA       Au=RSA    Enc=AESGCM(128)             Mac=AEAD
+PSK-AES128-GCM-SHA256          TLSv1.2  Kx=PSK       Au=PSK    Enc=AESGCM(128)             Mac=AEAD
+AES256-SHA256                  TLSv1.2  Kx=RSA       Au=RSA    Enc=AES(256)                Mac=SHA256
+AES128-SHA256                  TLSv1.2  Kx=RSA       Au=RSA    Enc=AES(128)                Mac=SHA256
+ECDHE-PSK-AES256-CBC-SHA384    TLSv1    Kx=ECDHEPSK  Au=PSK    Enc=AES(256)                Mac=SHA384
+ECDHE-PSK-AES256-CBC-SHA       TLSv1    Kx=ECDHEPSK  Au=PSK    Enc=AES(256)                Mac=SHA1
+SRP-RSA-AES-256-CBC-SHA        SSLv3    Kx=SRP       Au=RSA    Enc=AES(256)                Mac=SHA1
+SRP-AES-256-CBC-SHA            SSLv3    Kx=SRP       Au=SRP    Enc=AES(256)                Mac=SHA1
+RSA-PSK-AES256-CBC-SHA384      TLSv1    Kx=RSAPSK    Au=RSA    Enc=AES(256)                Mac=SHA384
+DHE-PSK-AES256-CBC-SHA384      TLSv1    Kx=DHEPSK    Au=PSK    Enc=AES(256)                Mac=SHA384
+RSA-PSK-AES256-CBC-SHA         SSLv3    Kx=RSAPSK    Au=RSA    Enc=AES(256)                Mac=SHA1
+DHE-PSK-AES256-CBC-SHA         SSLv3    Kx=DHEPSK    Au=PSK    Enc=AES(256)                Mac=SHA1
+AES256-SHA                     SSLv3    Kx=RSA       Au=RSA    Enc=AES(256)                Mac=SHA1
+PSK-AES256-CBC-SHA384          TLSv1    Kx=PSK       Au=PSK    Enc=AES(256)                Mac=SHA384
+PSK-AES256-CBC-SHA             SSLv3    Kx=PSK       Au=PSK    Enc=AES(256)                Mac=SHA1
+ECDHE-PSK-AES128-CBC-SHA256    TLSv1    Kx=ECDHEPSK  Au=PSK    Enc=AES(128)                Mac=SHA256
+ECDHE-PSK-AES128-CBC-SHA       TLSv1    Kx=ECDHEPSK  Au=PSK    Enc=AES(128)                Mac=SHA1
+SRP-RSA-AES-128-CBC-SHA        SSLv3    Kx=SRP       Au=RSA    Enc=AES(128)                Mac=SHA1
+SRP-AES-128-CBC-SHA            SSLv3    Kx=SRP       Au=SRP    Enc=AES(128)                Mac=SHA1
+RSA-PSK-AES128-CBC-SHA256      TLSv1    Kx=RSAPSK    Au=RSA    Enc=AES(128)                Mac=SHA256
+DHE-PSK-AES128-CBC-SHA256      TLSv1    Kx=DHEPSK    Au=PSK    Enc=AES(128)                Mac=SHA256
+RSA-PSK-AES128-CBC-SHA         SSLv3    Kx=RSAPSK    Au=RSA    Enc=AES(128)                Mac=SHA1
+DHE-PSK-AES128-CBC-SHA         SSLv3    Kx=DHEPSK    Au=PSK    Enc=AES(128)                Mac=SHA1
+AES128-SHA                     SSLv3    Kx=RSA       Au=RSA    Enc=AES(128)                Mac=SHA1
+PSK-AES128-CBC-SHA256          TLSv1    Kx=PSK       Au=PSK    Enc=AES(128)                Mac=SHA256
+PSK-AES128-CBC-SHA             SSLv3    Kx=PSK       Au=PSK    Enc=AES(128)                Mac=SHA1
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ openssl cipher -v | awk {}'}'}p'}r'}i'}n'}t'} '}$'}2'}[C[C | sort |u[K uniq
+[?2004l]133;C\]666;vte.shell.preexec!\Invalid command 'cipher'; type "help" for a list.
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ openssl cipher -v | awk {'print $2'} | sort | uniq[C[1@s
+[?2004l]133;C\]666;vte.shell.preexec!\SSLv3
+TLSv1
+TLSv1.2
+TLSv1.3
+]666;vte.shell.postexec=0\]7;file://user/home/user/linux-labs/lab10\]0;user@user:~/linux-labs/lab10\]666;vte.shell.precmd!\[?2004h]0;user@user: ~/linux-labs/lab10[01;32muser@user[00m:[01;34m~/linux-labs/lab10[00m$ exit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+
+Script done on 2026-05-16 23:25:40+03:00 [COMMAND_EXIT_CODE="0"]
