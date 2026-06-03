@@ -1,0 +1,15 @@
+lion 73 house 181 apple 364 elephant
+apple 123 flower 387 mountain 823 night
+ice 631 night 544 kite 750 lion
+kite 725 flower 717 elephant 569 green
+jungle 409 dog 243 flower 958 green
+flower 131 ocean 919 lion 246 elephant
+elephant 902 ice 511 ocean 591 green
+night 658 green 463 apple 187 dog
+house 522 night 882 apple 180 banana
+cherry 919 cherry 604 house 274 elephant
+kite 678 green 663 dog 804 apple
+house 811 flower 400 banana 258 house
+cherry 175 cherry 145 dog 417 mountain
+cherry 942 ice 979 jungle 382 house
+dog 488 lion 200 house 460 jungle
